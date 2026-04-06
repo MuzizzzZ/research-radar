@@ -1,0 +1,93 @@
+{% extends "base.html.j2" %}
+{% block content %}
+<section class="hero-grid">
+  <article class="summary-card accent">
+    <p class="card-label">Today's new scope discoveries</p>
+    <h2>{{ summary.today_new_total }}</h2>
+    <p>{{ summary.today_new_global }} papers were first seen globally.</p>
+  </article>
+  <article class="summary-card">
+    <p class="card-label">Tracked topics</p>
+    <h2>{{ summary.topics|length }}</h2>
+    <p>Across multi-query topic monitors and baseline anchors.</p>
+  </article>
+  <article class="summary-card">
+    <p class="card-label">Tracked baselines</p>
+    <h2>{{ summary.baselines|length }}</h2>
+    <p>Citation and related-work deltas are grouped separately.</p>
+  </article>
+</section>
+
+<section class="content-section">
+  <div class="section-heading">
+    <h2>Topic Overview</h2>
+    <p>Counts are based on incremental discoveries retained in repository state.</p>
+  </div>
+  <div class="grid two-up">
+    {% for topic in summary.topics %}
+    <article class="panel">
+      <h3>{{ topic.name }}</h3>
+      <p class="metric">{{ topic.today_count }} new today</p>
+      <p>{{ topic.total_papers }} total tracked papers.</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="section-heading">
+    <h2>Baseline Snapshot</h2>
+    <p>Baseline deltas distinguish direct citing papers from high-similarity related work.</p>
+  </div>
+  <div class="grid two-up">
+    {% for baseline in summary.baselines %}
+    <article class="panel">
+      <h3>{{ baseline.title }}</h3>
+      <p class="muted">Topic: {{ baseline.topic_id }}</p>
+      <p>{{ baseline.today_citations }} new citations, {{ baseline.today_related }} new related papers today.</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="section-heading">
+    <h2>Recent Papers</h2>
+    <p>A compact view of the latest accepted papers from the most recent run.</p>
+  </div>
+  <div class="paper-list">
+    {% for paper in summary.recent_papers %}
+    <article class="paper-card" data-search="{{ paper.title }} {{ paper.authors|join(' ') }}">
+      <div class="paper-header">
+        <h3>{{ paper.title }}</h3>
+        <span class="badge">{{ paper.label }}</span>
+      </div>
+      <p class="muted">{{ paper.authors|join(', ') if paper.authors else 'Unknown authors' }}</p>
+      <p>{{ paper.publication_date or paper.year or 'Unknown date' }}{% if paper.venue %} · {{ paper.venue }}{% endif %}</p>
+      <p>{{ paper.reason or 'Reason unavailable.' }}</p>
+      {% if paper.best_url %}
+      <p><a href="{{ paper.best_url }}" target="_blank" rel="noopener noreferrer">Open paper</a></p>
+      {% endif %}
+    </article>
+    {% else %}
+    <article class="empty-state">Run `python -m src.main run` to generate the first report and site snapshot.</article>
+    {% endfor %}
+  </div>
+</section>
+
+{% if summary.issues %}
+<section class="content-section">
+  <div class="section-heading">
+    <h2>Latest Run Issues</h2>
+    <p>Source failures are recorded so the run can degrade gracefully instead of crashing.</p>
+  </div>
+  <div class="panel">
+    <ul class="issue-list">
+      {% for issue in summary.issues %}
+      <li>{{ issue }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}
+{% endblock %}

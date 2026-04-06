@@ -1,0 +1,96 @@
+{
+  "room-to-room": {
+    "paper": {
+      "abstract": "A robot that can carry out a natural-language instruction has been a dream since before the Jetsons cartoon series imagined a life of leisure mediated by a fleet of attentive robot helpers. It is a dream that remains stubbornly distant. However, recent advances in vision and language methods have made incredible progress in closely related areas. This is significant because a robot interpreting a natural-language navigation instruction on the basis of what it sees is carrying out a vision and language process that is similar to Visual Question Answering. Both tasks can be interpreted as visually grounded sequence-to-sequence translation problems, and many of the same methods are applicable. To enable and encourage the application of vision and language methods to the problem of interpreting visually-grounded navigation instructions, we present the Matter-port3D Simulator - a large-scale reinforcement learning environment based on real imagery [11]. Using this simulator, which can in future support a range of embodied vision and language tasks, we provide the first benchmark dataset for visually-grounded natural language navigation in real buildings - the Room-to-Room (R2R) dataset1.",
+      "arxiv_id": "1711.07280",
+      "authors": [
+        "Peter Anderson",
+        "Qi Wu",
+        "Damien Teney",
+        "Jake Bruce",
+        "Mark Johnson",
+        "Niko Sünderhauf",
+        "Ian Reid",
+        "Stephen Jay Gould",
+        "Anton van den Hengel"
+      ],
+      "canonical_id": null,
+      "citations_count": null,
+      "discovered_date": null,
+      "doi": "10.1109/cvpr.2018.00387",
+      "external_ids": {
+        "doi": "https://doi.org/10.1109/cvpr.2018.00387",
+        "mag": "2770387316",
+        "openalex": "https://openalex.org/W2770387316"
+      },
+      "label": "candidate",
+      "last_updated": null,
+      "normalized_title": "vision and language navigation interpreting visually grounded navigation instructions in real environments",
+      "openalex_id": "https://openalex.org/W2770387316",
+      "pdf_url": null,
+      "primary_reason": null,
+      "publication_date": "2018-06-01",
+      "reasons": [],
+      "references_count": null,
+      "scopes": [],
+      "score": 0.0,
+      "semanticscholar_id": null,
+      "source_names": [
+        "openalex"
+      ],
+      "source_tags": [],
+      "title": "Vision-and-Language Navigation: Interpreting Visually-Grounded Navigation Instructions in Real Environments",
+      "title_hash": "2cb7ac5c5baaefeb2d2f362f3ec1dd74924bf129",
+      "url": "https://doi.org/10.1109/cvpr.2018.00387",
+      "venue": null,
+      "year": 2018
+    },
+    "strategy": "openalex_title_search",
+    "updated_at": "2026-04-06T16:32:28.878760+00:00"
+  },
+  "secure-uav-ris": {
+    "paper": {
+      "abstract": "This paper investigates a novel unmanned aerial vehicles (UAVs) secure communication system with the assistance of reconfigurable intelligent surfaces (RISs), where a UAV and a ground user communicate with each other, while an eavesdropper tends to wiretap their information. Due to the limited capacity of UAVs, an RIS is applied to further improve the quality of the secure communication. The time division multiple access (TDMA) protocol is applied for the communications between the UAV and the ground user, namely, the downlink (DL) and the uplink (UL) communications. In particular, the channel state information (CSI) of the eavesdropping channels is assumed to be imperfect. We aim to maximize the average worst-case secrecy rate by the robust joint design of the UAV’s trajectory, RIS’s passive beamforming, and transmit power of the legitimate transmitters. However, it is challenging to solve the joint UL/DL optimization problem due to its non-convexity. Therefore, we develop an efficient algorithm based on the alternating optimization (AO) technique. Specifically, the formulated problem is divided into three sub-problems, and the successive convex approximation (SCA), <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$\\mathcal {S}$ </tex-math></inline-formula> -Procedure, and semidefinite relaxation (SDR) are applied to tackle these non-convex sub-problems. Numerical results demonstrate that the proposed algorithm can considerably improve the average secrecy rate compared with the benchmark algorithms, and also confirm the robustness of the proposed algorithm.",
+      "arxiv_id": null,
+      "authors": [
+        "Sixian Li",
+        "Bin Duo",
+        "Marco Di Renzo",
+        "Meixia Tao",
+        "Xiaojun Yuan"
+      ],
+      "canonical_id": null,
+      "citations_count": null,
+      "discovered_date": null,
+      "doi": "10.1109/twc.2021.3073746",
+      "external_ids": {
+        "doi": "https://doi.org/10.1109/twc.2021.3073746",
+        "mag": "3157217691",
+        "openalex": "https://openalex.org/W3157217691"
+      },
+      "label": "candidate",
+      "last_updated": null,
+      "normalized_title": "robust secure uav communications with the aid of reconfigurable intelligent surfaces",
+      "openalex_id": "https://openalex.org/W3157217691",
+      "pdf_url": null,
+      "primary_reason": null,
+      "publication_date": "2021-04-26",
+      "reasons": [],
+      "references_count": null,
+      "scopes": [],
+      "score": 0.0,
+      "semanticscholar_id": null,
+      "source_names": [
+        "openalex"
+      ],
+      "source_tags": [],
+      "title": "Robust Secure UAV Communications With the Aid of Reconfigurable Intelligent Surfaces",
+      "title_hash": "0bde4139d0e7c6446e53cf0a987c22325d2be4de",
+      "url": "https://doi.org/10.1109/twc.2021.3073746",
+      "venue": "IEEE Transactions on Wireless Communications",
+      "year": 2021
+    },
+    "strategy": "openalex_title_search",
+    "updated_at": "2026-04-06T16:32:27.333452+00:00"
+  }
+}

@@ -1,0 +1,20 @@
+{% extends "base.html.j2" %}
+{% block content %}
+<section class="content-section">
+  <div class="section-heading">
+    <h2>Reports</h2>
+    <p>Daily markdown reports are committed to the repository and linked here.</p>
+  </div>
+  <div class="grid">
+    {% for report in reports %}
+    <article class="panel">
+      <h3>{{ report.date }}</h3>
+      <p class="muted">{{ report.preview or 'Daily report archive entry.' }}</p>
+      <p><a href="{{ report.path }}">Open markdown report</a></p>
+    </article>
+    {% else %}
+    <article class="empty-state">No reports have been generated yet.</article>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

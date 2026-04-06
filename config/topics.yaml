@@ -1,0 +1,37 @@
+topics:
+  - id: uav-ris
+    name: UAV / RIS Communications
+    queries:
+      - "uav reconfigurable intelligent surface"
+      - "drone ris wireless communication"
+      - "aerial intelligent reflecting surface"
+    exclude:
+      - "patent"
+      - "underwater"
+    preferred_venues:
+      - "IEEE Transactions on Wireless Communications"
+      - "IEEE Journal on Selected Areas in Communications"
+    preferred_authors:
+      - "Yong Zeng"
+      - "Qingqing Wu"
+    min_score: 8
+    enabled: true
+
+  - id: vln
+    name: Vision-Language Navigation
+    queries:
+      - "vision language navigation"
+      - "embodied navigation language grounding"
+      - "vln instruction following"
+    exclude:
+      - "survey"
+      - "game"
+    preferred_venues:
+      - "CVPR"
+      - "ICCV"
+      - "NeurIPS"
+    preferred_authors:
+      - "Dhruv Batra"
+      - "Peter Anderson"
+    min_score: 8
+    enabled: true

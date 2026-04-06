@@ -1,0 +1,12 @@
+{
+  "vln": [
+    {
+      "canonical_id": "arxiv:2604.02318",
+      "date": "2026-04-07",
+      "label": "candidate",
+      "reason": "title hit x1, abstract hit x1",
+      "relation_type": "topic",
+      "score": 4.5
+    }
+  ]
+}

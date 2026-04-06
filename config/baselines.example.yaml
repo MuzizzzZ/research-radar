@@ -1,0 +1,24 @@
+# Baseline papers can be resolved with Semantic Scholar ids, DOI, arXiv id, or OpenAlex id.
+# When ids are omitted, research-radar falls back to title-based resolution.
+baselines:
+  - id: secure-uav-ris
+    title: "Joint Trajectory and Passive Beamforming Design for Secure UAV-RIS Communication Systems"
+    topic_id: uav-ris
+    doi: null
+    arxiv_id: null
+    openalex_id: null
+    semanticscholar_id: null
+    track_new_citations: true
+    track_related: true
+    enabled: true
+
+  - id: room-to-room
+    title: "Vision-and-Language Navigation: Interpreting visually-grounded navigation instructions in real environments"
+    topic_id: vln
+    doi: null
+    arxiv_id: null
+    openalex_id: null
+    semanticscholar_id: null
+    track_new_citations: true
+    track_related: true
+    enabled: true

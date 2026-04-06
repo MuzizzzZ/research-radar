@@ -1,0 +1,370 @@
+{
+  "baselines": [
+    {
+      "id": "secure-uav-ris",
+      "title": "Joint Trajectory and Passive Beamforming Design for Secure UAV-RIS Communication Systems",
+      "today_citations": 14,
+      "today_related": 0,
+      "topic_id": "uav-ris"
+    },
+    {
+      "id": "room-to-room",
+      "title": "Vision-and-Language Navigation: Interpreting visually-grounded navigation instructions in real environments",
+      "today_citations": 0,
+      "today_related": 0,
+      "topic_id": "vln"
+    }
+  ],
+  "generated_at": "2026-04-07",
+  "issues": [
+    "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
+  ],
+  "latest_report_date": "2026-04-07",
+  "project_name": "research-radar",
+  "recent_papers": [
+    {
+      "abstract": "Training-free Vision-Language Navigation (VLN) agents powered by foundation models can follow instructions and explore 3D environments. However, existing approaches rely on greedy frontier selection and passive spatial memory, leading to inefficient behaviors such as local oscillation and redundant revisiting. We argue that this stems from a lack of metacognitive capabilities: the agent cannot monitor its exploration progress, diagnose strategy failures, or adapt accordingly. To address this, we propose MetaNav, a metacognitive navigation agent integrating spatial memory, history-aware planning, and reflective correction. Spatial memory builds a persistent 3D semantic map. History-aware planning penalizes revisiting to improve efficiency. Reflective correction detects stagnation and uses an LLM to generate corrective rules that guide future frontier selection. Experiments on GOAT-Bench, HM3D-OVON, and A-EQA show that MetaNav achieves state-of-the-art performance while reducing VLM queries by 20.7%, demonstrating that metacognitive reasoning significantly improves robustness and efficiency.",
+      "arxiv_id": "2604.02318",
+      "authors": [
+        "Xueying Li",
+        "Feng Lyu",
+        "Hao Wu",
+        "Mingliu Liu",
+        "Jia-Nan Liu"
+      ],
+      "baseline_ids": [],
+      "best_url": "http://arxiv.org/abs/2604.02318",
+      "canonical_id": "arxiv:2604.02318",
+      "doi": null,
+      "label": "candidate",
+      "openalex_id": "https://openalex.org/W7149873923",
+      "publication_date": "2026-04-02",
+      "reason": "title hit x1, abstract hit x1",
+      "relation_type": null,
+      "score": 4.5,
+      "semanticscholar_id": null,
+      "title": "Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning",
+      "topic_ids": [
+        "vln"
+      ],
+      "venue": "ArXiv.org",
+      "year": 2026
+    },
+    {
+      "abstract": "Enabled by 6G wireless technologies, Simultaneously Transmitting And Reflecting Reconfigurable Intelligent Surfaces (STAR-RISs) create a new dimension for optimizing performance in Uncrewed Aerial Vehicle (UAV) communications through full-space signal coverage. However, existing research on STAR-RIS-assisted UAV secure communications still faces critical challenges, including the reliance on ideal Channel State Information (CSI) assumptions, amplitude optimization complexity under mode switching protocols, and limited scalability to meet multi-user communication demands. To address these challenges, we propose a robust and secure STAR-RIS-assisted UAV communication approach for a multi-user and multi-eavesdropper scenario. By jointly optimizing user scheduling, transmitting and reflecting coefficients of STAR-RIS, transmit power and flight trajectory of UAV, we aim to maximize the average worst-case achievable secrecy rate. To tackle the non-convexity and coupled decision variables of the formulated problem, we propose an alternating optimization framework, with a Lagrange multiplier method for power allocation, a deterministic model reformulated via S-procedure for CSI uncertainty quantification and robust handling, and a penalty-based double-loop iterative algorithm forcing the phase-shift matrix toward a rank-one solution. Finally, theoretical analysis and simulation results validate the superior secrecy performance of the proposed algorithm over other representative algorithms.",
+      "arxiv_id": null,
+      "authors": [
+        "Xiaojie Wang",
+        "Jiaxin Ren",
+        "Zhaolong Ning",
+        "Yihang Huang",
+        "Xiao-ming Tao"
+      ],
+      "baseline_ids": [
+        "secure-uav-ris"
+      ],
+      "best_url": "https://www.semanticscholar.org/paper/e07079dcad64664760b996eb530021f0ce336af5",
+      "canonical_id": "doi:10.1109/jsac.2026.3669466",
+      "doi": "10.1109/jsac.2026.3669466",
+      "label": "candidate",
+      "openalex_id": null,
+      "publication_date": null,
+      "reason": "direct citation to baseline",
+      "relation_type": null,
+      "score": 7.5,
+      "semanticscholar_id": "e07079dcad64664760b996eb530021f0ce336af5",
+      "title": "Robust and Secure STAR-RIS-Assisted UAV Communications for Multi-User and Multi-Eavesdropper",
+      "topic_ids": [],
+      "venue": "IEEE Journal on Selected Areas in Communications",
+      "year": 2026
+    },
+    {
+      "abstract": "This paper investigates an uplink secure communication system where an uncrewed aerial vehicle (UAV) equipped with an intelligent reflecting surface (IRS) assists transmissions between ground users (GUs) and a base station (BS). The system faces a critical challenge from a mobile UAV eavesdropper (UAE) that adaptively adjusts its trajectory to maximize eavesdropping. To counter this threat, the legitimate UAV is designed with a dual role: carrying the IRS to enhance legitimate links while simultaneously acting as an active jammer to disrupt the UAE. We formulate the problem as maximizing the secrecy energy efficiency (SEE) of the legitimate UAV through joint optimization of its trajectory, jamming power, GU transmit power and scheduling, and IRS phase shifts, while the UAE optimizes its trajectory to maximize its eavesdropping rate. This adversarial interaction is modeled as a non-cooperative game, for which we define and prove the existence of a Nash Equilibrium (NE). To solve the resulting high-dimensional, coupled optimization problem, we develop a multi-agent deep reinforcement learning (MADRL) framework where the UAV and UAE act as independent agents. Simulation results validate the convergence of the proposed scheme to the NE and demonstrate that the dual-role UAV design significantly improves secrecy performance by effectively suppressing eavesdropping.",
+      "arxiv_id": null,
+      "authors": [
+        "Tingting Li",
+        "Yanjun Li",
+        "Yuzhe Chen",
+        "Chung Shue Chen",
+        "Jianji Shao"
+      ],
+      "baseline_ids": [
+        "secure-uav-ris"
+      ],
+      "best_url": "https://www.semanticscholar.org/paper/ffcb38a266b301bdb922ad588fecd8f8da38758d",
+      "canonical_id": "doi:10.1109/tnse.2025.3648816",
+      "doi": "10.1109/tnse.2025.3648816",
+      "label": "candidate",
+      "openalex_id": null,
+      "publication_date": null,
+      "reason": "direct citation to baseline",
+      "relation_type": null,
+      "score": 7.5,
+      "semanticscholar_id": "ffcb38a266b301bdb922ad588fecd8f8da38758d",
+      "title": "Countering Intelligent UAV Eavesdroppers via IRS-Assisted UAV: A Game-Theoretic Approach",
+      "topic_ids": [],
+      "venue": "IEEE Transactions on Network Science and Engineering",
+      "year": 2026
+    },
+    {
+      "abstract": "In this paper, we study simultaneous transmitting and reflecting reconfigurable intelligent surface (STAR-RIS)-assisted secure ground-air communications. Ground nodes upload data to an unmanned aerial vehicle (UAV) with the assistance of a STAR-RIS, while facing eavesdropping threats targeting confidential information from a secure node. Planning UAV trajectories in a full space instead of only on the single side of a STAR-RIS is helpful to make the most of UAV flexibility. However, the transmission rates of ground nodes is hard to express because cascaded channels vary with the UAV’s location relative to the STAR-RIS. To address this issue, we propose a unified expression of the rate incorporating the UAV-location-dependent cascaded channels. Based on the proposed expression, we maximize the average secrecy rate (ASR) of a secure node while ensuring the rate requirements of a regular node via robust optimization of STAR-RIS coefficients and UAV trajectory. Specifically, we consider the imperfect eavesdropping channel state information. Due to the non-convex structure, the original mixed integer nonlinear programming problem is decomposed into two subproblems. Semidefinite relaxation, $\\mathcal {S}$ -Procedure, and successive convex approximation techniques are used to tackle the non-convex objective function and constraints. Finally, the two subproblems are solved iteratively. Numerical simulations reveal that the proposed scheme achieves the full-space flight of the UAV and outperforms the benchmark schemes in terms of ASR.",
+      "arxiv_id": null,
+      "authors": [
+        "Xiangyun Meng",
+        "Xuanli Wu"
+      ],
+      "baseline_ids": [
+        "secure-uav-ris"
+      ],
+      "best_url": "https://www.semanticscholar.org/paper/e14f73f00d7d87993361864277b1ae64a566978b",
+      "canonical_id": "doi:10.1109/tgcn.2025.3581390",
+      "doi": "10.1109/tgcn.2025.3581390",
+      "label": "candidate",
+      "openalex_id": null,
+      "publication_date": null,
+      "reason": "direct citation to baseline",
+      "relation_type": null,
+      "score": 7.5,
+      "semanticscholar_id": "e14f73f00d7d87993361864277b1ae64a566978b",
+      "title": "Full-Space UAV Trajectory Design for STAR-RIS-Assisted Secure Ground–Air Communications",
+      "topic_ids": [],
+      "venue": "IEEE Transactions on Green Communications and Networking",
+      "year": 2026
+    },
+    {
+      "abstract": "A novel intelligent reflecting surface (IRS)-assisted multi-antenna uncrewed aerial vehicle (UAV) covert communication (IRS-UAVCC) with a finite blocklength is studied, in which the IRS is exploited to enhance the covert transmission capability of moving multi-antenna UAV and weaken the detection capability of a warden. Our goal is to maximize the UAV covert transmission rate by jointly optimizing the multi-antenna UAV’s trajectory (UAVTR) and transmit beamforming (UAVTB), and the IRS’s phase shift matrix (PSM). To tackle this non-convex problem, we decompose it into three sub-problems. Firstly, the semidefinite relaxation (SDR) technique is employed to solve the two sub-problems of UAVTB and IRS’s PSM. Secondly, by applying the successive convex approximation (SCA) technique, the non-convex multi-antenna UAVTR optimization sub-problem is reformulated into a convex one. Finally, an efficient block coordinate descent (BCD) structure is proposed to obtain a suboptimal solution for the original optimization problem. To further reduce the complexity, a low complexity penalty dual decomposition with gradient projection (PDDGP) method is developed to obtain the optimal moving multi-antenna UAVTB and the IRS’s PSM. Numerical results demonstrate the effectiveness and superiority of the proposed algorithm in IRS-UAVCC with a finite blocklength.",
+      "arxiv_id": null,
+      "authors": [
+        "Wei Zhang",
+        "Xiaopeng Liang",
+        "Qian Deng",
+        "Feng Shu",
+        "Zhi Zhang"
+      ],
+      "baseline_ids": [
+        "secure-uav-ris"
+      ],
+      "best_url": "https://www.semanticscholar.org/paper/85bf61f77234d18e5e8e9179e38c9ce050943a61",
+      "canonical_id": "doi:10.1109/tgcn.2025.3585891",
+      "doi": "10.1109/tgcn.2025.3585891",
+      "label": "candidate",
+      "openalex_id": null,
+      "publication_date": null,
+      "reason": "direct citation to baseline",
+      "relation_type": null,
+      "score": 7.5,
+      "semanticscholar_id": "85bf61f77234d18e5e8e9179e38c9ce050943a61",
+      "title": "Joint Trajectory and Beamforming Optimization for IRS-Assisted Multi-Antenna UAV Covert Communications With a Finite Blocklength",
+      "topic_ids": [],
+      "venue": "IEEE Transactions on Green Communications and Networking",
+      "year": 2026
+    },
+    {
+      "abstract": "This paper investigates a fluid antenna system (FAS)/movable antenna (MA) and active reconfigurable intelligent surface (RIS)-aided integrated sensing and communication (ISAC) system. Specifically, we maximize the radar signal-to-noise-ratio (SNR) by jointly optimizing the beamforming matrix at the base station (BS), the reflecting coefficients of active RIS and port selection of FAS, subject to the transmit power constraints and the communication requirements of users. To tackle the problem, we propose an effective algorithm to decompose the main problem into three subproblems. For each subproblem, we first utilize semidefinite relaxation (SDR), successive convex approximation (SCA) and penalty function to reformulate the subproblem, then the majorization-minimization (MM) method is applied to solve the subproblem iteratively. Numerical results validate the superiority of the proposed system. In addition, FAS can reduce the resource consumption and active RIS can overcome the severe path loss effectively.",
+      "arxiv_id": null,
+      "authors": [
+        "Jiajun Zhu",
+        "Haisu Wu",
+        "Hongxiang Ren",
+        "Cunhua Pan",
+        "Rui Shi"
+      ],
+      "baseline_ids": [
+        "secure-uav-ris"
+      ],
+      "best_url": "https://www.semanticscholar.org/paper/54a7b8b634b76c11a1e96ff6182f77994961e9ed",
+      "canonical_id": "doi:10.1109/tnse.2025.3626520",
+      "doi": "10.1109/tnse.2025.3626520",
+      "label": "candidate",
+      "openalex_id": null,
+      "publication_date": null,
+      "reason": "direct citation to baseline",
+      "relation_type": null,
+      "score": 7.5,
+      "semanticscholar_id": "54a7b8b634b76c11a1e96ff6182f77994961e9ed",
+      "title": "Fluid/Movable Antenna Meets Active RIS: A Next Generation ISAC System Design",
+      "topic_ids": [],
+      "venue": "IEEE Transactions on Network Science and Engineering",
+      "year": 2026
+    },
+    {
+      "abstract": "In this paper, an energy-efficient intelligent reflecting surface-assisted cognitive uncrewed aerial vehicle communication system (IRS-CUAVCS) is studied, where the moving CUAV acts as a bidirectional sensing-transmission (BST) node, while IRS is arranged to enhance the BST capability of CUAV and suppress the interference between CUAV and primary networks. The sensing-transmission-energy trade-off problem is formulated to maximize the energy efficiency of IRS-CUAVCS by jointly optimizing the CUAV’s sensing duration, transmitted power, trajectory, and the IRS’s BST phase shift matrices (PSMs) under imperfect channel state information. To solve the complicated non-convex optimization problem, the original problem is decoupled into five subproblems, and S-Procedure is adopted to tackle the channels uncertainties. For sensing duration and transmitted power subproblems, their optimal solutions can be obtained through golden section search and quadratic transformation methods, respectively. For IRS’s PSMs subproblems, the suboptimal solutions can be obtained via sequential rank-one constraint relaxation and Cholesky decomposition. For non-convex fractional programming CUAV’s trajectory subproblem, the suboptimal solution can be obtained via successive convex approximation technique. Finally, an offline-online based framework is designed to optimize these variables alternate iteratively under the two-stage BST capability enhanced mode. Simulation results show that the proposed scheme outperforms the existing schemes significantly.",
+      "arxiv_id": null,
+      "authors": [
+        "Qian Deng",
+        "Guangchen Yu",
+        "Xiaopeng Liang",
+        "Zhuang Zhang",
+        "Feng Shu"
+      ],
+      "baseline_ids": [
+        "secure-uav-ris"
+      ],
+      "best_url": "https://www.semanticscholar.org/paper/8f54b957af3af2bd1fac292ef21187d2ab6da2cf",
+      "canonical_id": "doi:10.1109/tccn.2025.3613521",
+      "doi": "10.1109/tccn.2025.3613521",
+      "label": "candidate",
+      "openalex_id": null,
+      "publication_date": null,
+      "reason": "direct citation to baseline",
+      "relation_type": null,
+      "score": 7.5,
+      "semanticscholar_id": "8f54b957af3af2bd1fac292ef21187d2ab6da2cf",
+      "title": "Sensing-Transmission-Energy Trade-Off for IRS-Assisted Cognitive UAV Communication Systems",
+      "topic_ids": [],
+      "venue": "IEEE Transactions on Cognitive Communications and Networking",
+      "year": 2026
+    },
+    {
+      "abstract": "The use of unmanned aerial vehicles (UAVs) for collecting data from sensors has garnered considerable attention in both academic and industrial fields in recent years. To assess the freshness of the information gathered, the age of information (AoI) metric has emerged as an important tool, particularly in time-sensitive applications such as traffic management or monitoring critical issues like fire hazards. This study explores a scenario where a UAV, supported by multiple intelligent reflecting surfaces (IRSs), periodically gathers data from distributed internet of things devices (IoTDs). To minimize the average AoI across all devices, a comprehensive optimization approach is employed. Key elements such as the UAV’s trajectory, device transmission scheduling, timeslot duration, IRS selection factor, and the phase shift matrix of the selected IRS are jointly optimized. However, the problem’s complexity arises from its mixed-integer nature—IRS selection and device scheduling coefficients require integer values—and the strong interdependence of channel conditions with the UAV’s flight path and IRS phase shifts. These challenges make the problem difficult to solve. To address this, the primary optimization problem is framed as a Markov decision process (MDP). A deep reinforcement learning (DRL)-based approach is then adopted to determine the optimal UAV’s trajectory, device scheduling, and timeslot duration. Additionally, a location-based method is employed for selecting the suitable IRS, while a closed-form solution is used to design the phase shift matrix of the selected IRS. Results evidence improvements in successful transmission and fairness selection of devices when using multiple IRSs and variable timeslots.",
+      "arxiv_id": null,
+      "authors": [
+        "M. Kamali",
+        "Mehdi Chehel Amirani",
+        "Vahid Solouk",
+        "Saleh Yousefi"
+      ],
+      "baseline_ids": [
+        "secure-uav-ris"
+      ],
+      "best_url": "https://www.semanticscholar.org/paper/10d7ad387e5cf2a70771298826110f9c1c0fe645",
+      "canonical_id": "doi:10.1109/access.2026.3651489",
+      "doi": "10.1109/access.2026.3651489",
+      "label": "candidate",
+      "openalex_id": null,
+      "publication_date": null,
+      "reason": "direct citation to baseline",
+      "relation_type": null,
+      "score": 7.5,
+      "semanticscholar_id": "10d7ad387e5cf2a70771298826110f9c1c0fe645",
+      "title": "Age of Information-Aware Data Collection for Multi IRS-Assisted UAV Networks: A Deep Reinforcement Learning Approach",
+      "topic_ids": [],
+      "venue": "IEEE Access",
+      "year": 2026
+    },
+    {
+      "abstract": "In response to the problems in uncrewed aerial vehicle (UAV) communications such as limited antenna number, exposure of the line-of-sight (LoS) for eavesdroppers, and limited onboard energy, this paper proposes a secure UAV communication scheme based on movable antennas (MAs). This scheme jointly designs the user scheduling factors, the UAV beamforming, the small-scale adjustment of MA positions, and the large-scale planning of UAV trajectories to maximize the system’s minimum secrecy rate under uncertain eavesdropper regions. To solve the non-convex optimization problem, a block coordinate descent (BCD) algorithm is used to decompose the original problem into four subproblems for iterative solving, followed by an analysis of the algorithm’s convergence and computational complexity. Simulation results reveal that the UAV follows the strategy of “maximum-speed-flight-and-then-low-speed-hovering” to serve each user in sequence. In this way, it can quickly pass through the uncertain region of the eavesdroppers and minimize the distance to the served user during the flight period. The proposed scheme leverages millimeter-level MA position reconstruction and wide-range UAV trajectory design. When the system’s minimum secrecy rate is maintained at 3.5 bps/Hz, the proposed scheme can securely support approximately 20% more users than the fixed-position antenna (FPA) scheme, while achieving more than 40% reductions in both transmit power and antenna count.",
+      "arxiv_id": null,
+      "authors": [
+        "Liangsen Zhai",
+        "Xiapu Luo"
+      ],
+      "baseline_ids": [
+        "secure-uav-ris"
+      ],
+      "best_url": "https://www.semanticscholar.org/paper/eb07748e202719f9e372f7710f40d8c07f20c9e2",
+      "canonical_id": "doi:10.1109/twc.2026.3651300",
+      "doi": "10.1109/twc.2026.3651300",
+      "label": "candidate",
+      "openalex_id": null,
+      "publication_date": null,
+      "reason": "direct citation to baseline",
+      "relation_type": null,
+      "score": 7.5,
+      "semanticscholar_id": "eb07748e202719f9e372f7710f40d8c07f20c9e2",
+      "title": "Minimum Secrecy Rate Maximization for UAV-Mounted Movable Antenna Empowered Wireless Networks",
+      "topic_ids": [],
+      "venue": "IEEE Transactions on Wireless Communications",
+      "year": 2026
+    },
+    {
+      "abstract": "Ensuring secure and energy-efficient connectivity in wireless networks aided by a low-altitude autonomous aerial vehicle (AAV)-mounted active reconfigurable intelligent surface (ARIS) is a major challenge, owing to rapid channel variations, mobility-induced uncertainty, and the heightened risk of adversarial eavesdropping inherent to open-air communication. To address these challenges, we propose a digital twin (DT)-empowered Transformer-based policy learning framework that combines accurate real-time virtual modeling with attention-driven sequential decision-making for AAV–ARIS-assisted communications. The DT enables efficient synchronization with physical channels in dynamic environments, significantly improving data-efficient training. Meanwhile, a Transformer-based actor–critic architecture captures long-range temporal dependencies to jointly optimize ARIS configuration and AAV mobility control across diverse scenarios. A multi-objective reward function is formulated to maximize both secrecy rate and energy efficiency while ensuring robustness against channel uncertainty and adversarial threats. The formulated problem is solved using reinforcement learning with Transformer-enhanced policy optimization. Simulation results demonstrate consistent performance gains over strong baselines, including DT-deep deterministic policy gradient (DDPG), DT-twin delayed DDPG (TD3), and RIS-soft actor-critic (SAC). The proposed framework achieves up to a 12.5% improvement in secrecy rate, a 14.8% enhancement in energy efficiency, and a 33% faster convergence rate. Furthermore, ablation studies and complexity analyses confirm the contribution of each component and demonstrate the scalability of the framework with acceptable latency. These findings highlight the potential of integrating DT technology with Transformer-based reinforcement learning to enable secure, adaptive, and resource-efficient ARIS-assisted communications in next-generation wireless networks.",
+      "arxiv_id": null,
+      "authors": [
+        "Akram Y. Sarhan",
+        "Osama Abdullah",
+        "Khalid T. Mursi",
+        "H. Al-Hraishawi"
+      ],
+      "baseline_ids": [
+        "secure-uav-ris"
+      ],
+      "best_url": "https://www.semanticscholar.org/paper/a65231c22ddbdbacbcccb9c35e884d041c03cd32",
+      "canonical_id": "doi:10.1109/access.2026.3652482",
+      "doi": "10.1109/access.2026.3652482",
+      "label": "candidate",
+      "openalex_id": null,
+      "publication_date": null,
+      "reason": "direct citation to baseline",
+      "relation_type": null,
+      "score": 7.5,
+      "semanticscholar_id": "a65231c22ddbdbacbcccb9c35e884d041c03cd32",
+      "title": "Digital Twin and Transformer-Based Learning for Secure and Energy-Efficient Active RIS-Assisted Communications",
+      "topic_ids": [],
+      "venue": "IEEE Access",
+      "year": 2026
+    },
+    {
+      "abstract": "Energy efficiency (EE) is a critical requirement for next-generation wireless networks, motivating the use of rate-splitting multiple access (RSMA) and intelligent reflecting surfaces (IRSs) as low-power, interference-resilient technologies. This paper studies EE maximization in a UAV-mounted IRS-assisted multi-user MISO downlink under practical hardware impairments. A communication-centric EE metric is adopted, and the optimization of RSMA precoders, common-rate allocation, IRS phase shifts, and UAV placement is formulated as a non-convex problem. To solve it efficiently, we develop an alternating optimization framework based on successive convex approximation (SCA) and rank-one relaxation. Simulation results reveal that the proposed aerial IRS-assisted RSMA design achieves substantial EE gains over NOMA and SDMA baselines and remains robust to distortion, IRS size variations, and dynamic user conditions, highlighting its suitability for energy-constrained 6G deployments.",
+      "arxiv_id": null,
+      "authors": [
+        "Habtamu Demeke Mihertie",
+        "Zhengqiang Wang",
+        "M. Ouamri",
+        "Elhadj Moustapha Diallo",
+        "Xingwang Li"
+      ],
+      "baseline_ids": [
+        "secure-uav-ris"
+      ],
+      "best_url": "https://www.semanticscholar.org/paper/ce78770c9ef3b31df9b3dcbc436aafb018a4f718",
+      "canonical_id": "doi:10.1109/tgcn.2026.3653184",
+      "doi": "10.1109/tgcn.2026.3653184",
+      "label": "candidate",
+      "openalex_id": null,
+      "publication_date": null,
+      "reason": "direct citation to baseline",
+      "relation_type": null,
+      "score": 7.5,
+      "semanticscholar_id": "ce78770c9ef3b31df9b3dcbc436aafb018a4f718",
+      "title": "Energy Efficiency Maximization for Aerial Intelligent Reflecting Surface-Assisted MISO Systems",
+      "topic_ids": [],
+      "venue": "IEEE Transactions on Green Communications and Networking",
+      "year": 2026
+    },
+    {
+      "abstract": "Cooperated with simultaneously transmitting and reflecting reconfigurable intelligent surface (STAR-RIS) and autonomous aerial vehicle (AAV), a non-orthogonal multiple access (NOMA) covert communication network is conceived. However, open channels are more vulnerable to eavesdropping by Wardens, overlying that the channel state information (CSI) may be unstable with AAV’s time-varying deployments. In this paper, a deep reinforcement learning (DRL)-based and instantaneous channel-deducted framework is investigated for resolving the cutting-edge maximization problem of covert communication rate, subjected to the AAV flight, QoS requirement, and communication covertness. Given the channels instability caused by time-varying AAV flight, we design a channel deduction network by integrating complex-domain multi-layer perceptron (CMixer) and recurrence-based bidirectional long-short term memory (BiLSTM) to exploit the nonlinear correlations of channels in time, spatial location, and antenna domains. Relying on the states with deducted channels, the Twin Delayed Deep Deterministic policy gradient (TD3) as a proactive and policy-based DRL algorithm is used to iteratively train an agent responsible for adaptive adjusting AAV deployment and STAR-RIS beamforming. Simulation results demonstrate the effectiveness of the proposed channel deduction scheme, covert communication mechanism, and their synthesis.",
+      "arxiv_id": null,
+      "authors": [
+        "Minghao Chen",
+        "Feng Shu",
+        "Min Zhu",
+        "Xiaobo Zhou",
+        "Jiajia Liu"
+      ],
+      "baseline_ids": [
+        "secure-uav-ris"
+      ],
+      "best_url": "https://www.semanticscholar.org/paper/85c9bf9ac1833950b6f7d978f7274f3afd9ad905",
+      "canonical_id": "doi:10.1109/twc.2026.3669534",
+      "doi": "10.1109/twc.2026.3669534",
+      "label": "candidate",
+      "openalex_id": null,
+      "publication_date": null,
+      "reason": "direct citation to baseline",
+      "relation_type": null,
+      "score": 7.5,
+      "semanticscholar_id": "85c9bf9ac1833950b6f7d978f7274f3afd9ad905",
+      "title": "Hybrid Learning for Joint Channel Deduction, AAV Deployment, and Beamforming Design in a STAR-RIS-Assisted Covert Communication",
+      "topic_ids": [],
+      "venue": "IEEE Transactions on Wireless Communications",
+      "year": 2026
+    }
+  ],
+  "today_new_global": 0,
+  "today_new_total": 0,
+  "topics": [
+    {
+      "id": "uav-ris",
+      "name": "UAV / RIS Communications",
+      "today_count": 0,
+      "total_papers": 0
+    },
+    {
+      "id": "vln",
+      "name": "Vision-Language Navigation",
+      "today_count": 1,
+      "total_papers": 1
+    }
+  ]
+}

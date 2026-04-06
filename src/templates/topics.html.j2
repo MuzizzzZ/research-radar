@@ -1,0 +1,41 @@
+{% extends "base.html.j2" %}
+{% block content %}
+<section class="content-section">
+  <div class="section-heading split">
+    <div>
+      <h2>Topics</h2>
+      <p>Browse historical incremental discoveries grouped by topic.</p>
+    </div>
+    <input class="filter-input" data-filter-input="topic-papers" type="search" placeholder="Filter papers by title or author">
+  </div>
+  {% for topic in topics %}
+  <article class="panel topic-block">
+    <div class="panel-head">
+      <div>
+        <h3>{{ topic.name }}</h3>
+        <p class="muted">Queries: {{ topic.queries|join(' · ') }}</p>
+      </div>
+      <div class="pill">{{ topic.total_papers }} tracked</div>
+    </div>
+    <div class="paper-list" data-filter-group="topic-papers">
+      {% for paper in topic.papers %}
+      <article class="paper-card" data-search="{{ paper.title }} {{ paper.authors|join(' ') }}">
+        <div class="paper-header">
+          <h4>{{ paper.title }}</h4>
+          <span class="badge">{{ paper.label }}</span>
+        </div>
+        <p class="muted">{{ paper.authors|join(', ') if paper.authors else 'Unknown authors' }}</p>
+        <p>{{ paper.publication_date or paper.year or 'Unknown date' }}{% if paper.venue %} · {{ paper.venue }}{% endif %}</p>
+        <p>{{ paper.reason }}</p>
+        {% if paper.best_url %}
+        <p><a href="{{ paper.best_url }}" target="_blank" rel="noopener noreferrer">Open paper</a></p>
+        {% endif %}
+      </article>
+      {% else %}
+      <article class="empty-state">No topic-level papers have been recorded yet.</article>
+      {% endfor %}
+    </div>
+  </article>
+  {% endfor %}
+</section>
+{% endblock %}

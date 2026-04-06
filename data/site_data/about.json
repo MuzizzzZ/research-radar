@@ -1,0 +1,13 @@
+{
+  "architecture": "GitHub Actions + repository-backed JSON/Markdown state + GitHub Pages static site",
+  "data_sources": [
+    "OpenAlex",
+    "Semantic Scholar"
+  ],
+  "limitations": [
+    "The system relies on public metadata availability and API uptime.",
+    "Title-based fallback resolution can miss or over-match some baseline papers.",
+    "Rule-based relevance scoring is intentionally transparent but not exhaustive."
+  ],
+  "project_name": "research-radar"
+}

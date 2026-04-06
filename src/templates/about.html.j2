@@ -1,0 +1,32 @@
+{% extends "base.html.j2" %}
+{% block content %}
+<section class="content-section">
+  <div class="section-heading">
+    <h2>About</h2>
+    <p>research-radar is an incremental literature tracking system designed for repository-only deployment.</p>
+  </div>
+  <div class="grid two-up">
+    <article class="panel">
+      <h3>Architecture</h3>
+      <p>{{ about.architecture }}</p>
+      <p>The project avoids long-running servers, online databases, and custom backend hosting.</p>
+    </article>
+    <article class="panel">
+      <h3>Data Sources</h3>
+      <ul class="issue-list">
+        {% for source in about.data_sources %}
+        <li>{{ source }}</li>
+        {% endfor %}
+      </ul>
+    </article>
+  </div>
+  <article class="panel">
+    <h3>Limitations</h3>
+    <ul class="issue-list">
+      {% for limitation in about.limitations %}
+      <li>{{ limitation }}</li>
+      {% endfor %}
+    </ul>
+  </article>
+</section>
+{% endblock %}

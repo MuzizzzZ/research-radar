@@ -1,0 +1,12 @@
+settings:
+  lookback_days: 7
+  timezone: Asia/Shanghai
+  output_dir: data
+  site_dir: docs
+  reports_dir: reports
+  log_level: INFO
+  openalex_email: null
+  semanticscholar_api_key_env: SEMANTIC_SCHOLAR_API_KEY
+  max_results_per_topic: 40
+  request_timeout_seconds: 30
+  user_agent: research-radar/0.1

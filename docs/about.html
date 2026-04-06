@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Research Radar</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="shell">
+        <div class="brand-row">
+          <div>
+            <p class="eyebrow">Research Intel Radar</p>
+            <h1 class="brand-title">research-radar</h1>
+            <p class="brand-subtitle">Incremental literature tracking for topics, baseline citations, and related work.</p>
+          </div>
+          <div class="meta-card">
+            <p class="meta-label">Latest report</p>
+            <p class="meta-value">2026-04-07</p>
+          </div>
+        </div>
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="topics.html">Topics</a>
+          <a href="baselines.html">Baselines</a>
+          <a href="reports.html">Reports</a>
+          <a href="about.html">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="shell">
+      
+<section class="content-section">
+  <div class="section-heading">
+    <h2>About</h2>
+    <p>research-radar is an incremental literature tracking system designed for repository-only deployment.</p>
+  </div>
+  <div class="grid two-up">
+    <article class="panel">
+      <h3>Architecture</h3>
+      <p>GitHub Actions + repository-backed JSON/Markdown state + GitHub Pages static site</p>
+      <p>The project avoids long-running servers, online databases, and custom backend hosting.</p>
+    </article>
+    <article class="panel">
+      <h3>Data Sources</h3>
+      <ul class="issue-list">
+        
+        <li>OpenAlex</li>
+        
+        <li>Semantic Scholar</li>
+        
+      </ul>
+    </article>
+  </div>
+  <article class="panel">
+    <h3>Limitations</h3>
+    <ul class="issue-list">
+      
+      <li>The system relies on public metadata availability and API uptime.</li>
+      
+      <li>Title-based fallback resolution can miss or over-match some baseline papers.</li>
+      
+      <li>Rule-based relevance scoring is intentionally transparent but not exhaustive.</li>
+      
+    </ul>
+  </article>
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-row">
+        <span>Generated from repository state and published with GitHub Pages.</span>
+        <span>Data: OpenAlex + Semantic Scholar</span>
+      </div>
+    </footer>
+    <script src="assets/app.js"></script>
+  </body>
+</html>

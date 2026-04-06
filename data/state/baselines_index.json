@@ -1,0 +1,116 @@
+{
+  "secure-uav-ris": [
+    {
+      "canonical_id": "doi:10.1109/jsac.2026.3669466",
+      "date": "2026-04-07",
+      "label": "candidate",
+      "reason": "direct citation to baseline",
+      "relation_type": "citation",
+      "score": 7.5
+    },
+    {
+      "canonical_id": "doi:10.1109/tnse.2025.3648816",
+      "date": "2026-04-07",
+      "label": "candidate",
+      "reason": "direct citation to baseline",
+      "relation_type": "citation",
+      "score": 7.5
+    },
+    {
+      "canonical_id": "doi:10.1109/tgcn.2025.3581390",
+      "date": "2026-04-07",
+      "label": "candidate",
+      "reason": "direct citation to baseline",
+      "relation_type": "citation",
+      "score": 7.5
+    },
+    {
+      "canonical_id": "doi:10.1109/tgcn.2025.3585891",
+      "date": "2026-04-07",
+      "label": "candidate",
+      "reason": "direct citation to baseline",
+      "relation_type": "citation",
+      "score": 7.5
+    },
+    {
+      "canonical_id": "doi:10.1109/tnse.2025.3626520",
+      "date": "2026-04-07",
+      "label": "candidate",
+      "reason": "direct citation to baseline",
+      "relation_type": "citation",
+      "score": 7.5
+    },
+    {
+      "canonical_id": "doi:10.1109/tccn.2025.3613521",
+      "date": "2026-04-07",
+      "label": "candidate",
+      "reason": "direct citation to baseline",
+      "relation_type": "citation",
+      "score": 7.5
+    },
+    {
+      "canonical_id": "doi:10.1109/access.2026.3651489",
+      "date": "2026-04-07",
+      "label": "candidate",
+      "reason": "direct citation to baseline",
+      "relation_type": "citation",
+      "score": 7.5
+    },
+    {
+      "canonical_id": "doi:10.1109/twc.2026.3651300",
+      "date": "2026-04-07",
+      "label": "candidate",
+      "reason": "direct citation to baseline",
+      "relation_type": "citation",
+      "score": 7.5
+    },
+    {
+      "canonical_id": "doi:10.1109/access.2026.3652482",
+      "date": "2026-04-07",
+      "label": "candidate",
+      "reason": "direct citation to baseline",
+      "relation_type": "citation",
+      "score": 7.5
+    },
+    {
+      "canonical_id": "doi:10.1109/tgcn.2026.3653184",
+      "date": "2026-04-07",
+      "label": "candidate",
+      "reason": "direct citation to baseline",
+      "relation_type": "citation",
+      "score": 7.5
+    },
+    {
+      "canonical_id": "doi:10.1109/twc.2026.3669534",
+      "date": "2026-04-07",
+      "label": "candidate",
+      "reason": "direct citation to baseline",
+      "relation_type": "citation",
+      "score": 7.5
+    },
+    {
+      "canonical_id": "doi:10.1109/twc.2026.3670412",
+      "date": "2026-04-07",
+      "label": "high_confidence",
+      "reason": "direct citation to baseline, shared author",
+      "relation_type": "citation",
+      "score": 8.5
+    },
+    {
+      "canonical_id": "s2:1e011dcf368ee33ac649098c0e7bbe3f7345faf5",
+      "date": "2026-04-07",
+      "label": "candidate",
+      "reason": "direct citation to baseline",
+      "relation_type": "citation",
+      "score": 7.5
+    },
+    {
+      "canonical_id": "s2:08ba2877828708ace87d13acded59d47864d6659",
+      "date": "2026-04-07",
+      "label": "candidate",
+      "reason": "direct citation to baseline",
+      "relation_type": "citation",
+      "score": 7.5
+    }
+  ]
+}
