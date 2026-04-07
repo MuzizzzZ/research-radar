@@ -2,17 +2,17 @@
 {% block content %}
 <section class="content-section">
   <div class="section-heading">
-    <h2>About</h2>
-    <p>research-radar is an incremental literature tracking system designed for repository-only deployment.</p>
+    <h2 data-i18n="about.title">About</h2>
+    <p data-i18n="about.description">research-radar is an incremental literature tracking system designed for repository-only deployment.</p>
   </div>
   <div class="grid two-up">
     <article class="panel">
-      <h3>Architecture</h3>
-      <p>{{ about.architecture }}</p>
-      <p>The project avoids long-running servers, online databases, and custom backend hosting.</p>
+      <h3 data-i18n="about.architecture_title">Architecture</h3>
+      <p data-i18n="about.architecture_value">{{ about.architecture }}</p>
+      <p data-i18n="about.architecture_note">The project avoids long-running servers, online databases, and custom backend hosting.</p>
     </article>
     <article class="panel">
-      <h3>Data Sources</h3>
+      <h3 data-i18n="about.data_sources_title">Data Sources</h3>
       <ul class="issue-list">
         {% for source in about.data_sources %}
         <li>{{ source }}</li>
@@ -21,10 +21,10 @@
     </article>
   </div>
   <article class="panel">
-    <h3>Limitations</h3>
+    <h3 data-i18n="about.limitations_title">Limitations</h3>
     <ul class="issue-list">
       {% for limitation in about.limitations %}
-      <li>{{ limitation }}</li>
+      <li data-i18n="about.limitations.{{ loop.index0 }}">{{ limitation }}</li>
       {% endfor %}
     </ul>
   </article>

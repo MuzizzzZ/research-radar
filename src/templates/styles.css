@@ -51,6 +51,13 @@ a:hover {
   align-items: end;
 }
 
+.header-tools {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: stretch;
+}
+
 .eyebrow {
   margin: 0 0 6px;
   letter-spacing: 0.12em;
@@ -85,6 +92,40 @@ a:hover {
 .meta-card {
   padding: 18px 22px;
   min-width: 220px;
+}
+
+.language-switcher {
+  display: inline-flex;
+  align-self: end;
+  padding: 4px;
+  gap: 4px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.lang-button {
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  padding: 9px 14px;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.18s ease, color 0.18s ease, transform 0.18s ease;
+}
+
+.lang-button:hover {
+  color: var(--accent-strong);
+  transform: translateY(-1px);
+}
+
+html[data-lang="en"] .lang-button[data-lang-switch="en"],
+html[data-lang="zh"] .lang-button[data-lang-switch="zh"] {
+  background: var(--accent);
+  color: #f8fffe;
 }
 
 .meta-label,
@@ -243,11 +284,16 @@ a:hover {
 
 @media (max-width: 860px) {
   .brand-row,
+  .header-tools,
   .split,
   .panel-head,
   .paper-header,
   .footer-row {
     flex-direction: column;
+  }
+
+  .language-switcher {
+    align-self: start;
   }
 
   .hero-grid,

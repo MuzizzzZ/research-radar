@@ -143,6 +143,9 @@ def test_build_site_cli_smoke(tmp_path, monkeypatch, capsys) -> None:
     assert (root / "docs" / "index.html").exists()
     assert (root / "docs" / "topics.html").exists()
     assert (root / "docs" / "data" / "index.json").exists()
+    index_html = (root / "docs" / "index.html").read_text(encoding="utf-8")
+    assert 'data-lang-switch="zh"' in index_html
+    assert 'data-i18n="nav.home"' in index_html
 
 
 def test_run_cli_writes_state_reports_and_site(tmp_path, monkeypatch, capsys) -> None:

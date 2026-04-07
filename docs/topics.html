@@ -11,21 +11,31 @@
       <div class="shell">
         <div class="brand-row">
           <div>
-            <p class="eyebrow">Research Intel Radar</p>
+            <p class="eyebrow" data-i18n="header.eyebrow">Research Intel Radar</p>
             <h1 class="brand-title">research-radar</h1>
-            <p class="brand-subtitle">Incremental literature tracking for topics, baseline citations, and related work.</p>
+            <p class="brand-subtitle" data-i18n="header.subtitle">Incremental literature tracking for topics, baseline citations, and related work.</p>
           </div>
-          <div class="meta-card">
-            <p class="meta-label">Latest report</p>
-            <p class="meta-value">2026-04-07</p>
+          <div class="header-tools">
+            <div class="language-switcher" role="group" aria-label="Language switcher">
+              <button type="button" class="lang-button" data-lang-switch="en">EN</button>
+              <button type="button" class="lang-button" data-lang-switch="zh">中文</button>
+            </div>
+            <div class="meta-card">
+              <p class="meta-label" data-i18n="header.latest_report">Latest report</p>
+              <p class="meta-value">
+                
+                2026-04-07
+                
+              </p>
+            </div>
           </div>
         </div>
         <nav class="nav">
-          <a href="index.html">Home</a>
-          <a href="topics.html">Topics</a>
-          <a href="baselines.html">Baselines</a>
-          <a href="reports.html">Reports</a>
-          <a href="about.html">About</a>
+          <a href="index.html" data-i18n="nav.home">Home</a>
+          <a href="topics.html" data-i18n="nav.topics">Topics</a>
+          <a href="baselines.html" data-i18n="nav.baselines">Baselines</a>
+          <a href="reports.html" data-i18n="nav.reports">Reports</a>
+          <a href="about.html" data-i18n="nav.about">About</a>
         </nav>
       </div>
     </header>
@@ -35,23 +45,23 @@
 <section class="content-section">
   <div class="section-heading split">
     <div>
-      <h2>Topics</h2>
-      <p>Browse historical incremental discoveries grouped by topic.</p>
+      <h2 data-i18n="topics.title">Topics</h2>
+      <p data-i18n="topics.description">Browse historical incremental discoveries grouped by topic.</p>
     </div>
-    <input class="filter-input" data-filter-input="topic-papers" type="search" placeholder="Filter papers by title or author">
+    <input class="filter-input" data-filter-input="topic-papers" data-i18n-placeholder="topics.filter_placeholder" type="search" placeholder="Filter papers by title or author">
   </div>
   
   <article class="panel topic-block">
     <div class="panel-head">
       <div>
         <h3>UAV / RIS Communications</h3>
-        <p class="muted">Queries: uav reconfigurable intelligent surface · drone ris wireless communication · aerial intelligent reflecting surface</p>
+        <p class="muted"><span data-i18n="common.queries">Queries</span>: uav reconfigurable intelligent surface · drone ris wireless communication · aerial intelligent reflecting surface</p>
       </div>
-      <div class="pill">0 tracked</div>
+      <div class="pill"><span>0</span>&nbsp;<span data-i18n="common.tracked">tracked</span></div>
     </div>
     <div class="paper-list" data-filter-group="topic-papers">
       
-      <article class="empty-state">No topic-level papers have been recorded yet.</article>
+      <article class="empty-state" data-i18n="topics.empty_state">No topic-level papers have been recorded yet.</article>
       
     </div>
   </article>
@@ -60,22 +70,31 @@
     <div class="panel-head">
       <div>
         <h3>Vision-Language Navigation</h3>
-        <p class="muted">Queries: vision language navigation · embodied navigation language grounding · vln instruction following</p>
+        <p class="muted"><span data-i18n="common.queries">Queries</span>: vision language navigation · embodied navigation language grounding · vln instruction following</p>
       </div>
-      <div class="pill">1 tracked</div>
+      <div class="pill"><span>1</span>&nbsp;<span data-i18n="common.tracked">tracked</span></div>
     </div>
     <div class="paper-list" data-filter-group="topic-papers">
       
       <article class="paper-card" data-search="Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning Xueying Li Feng Lyu Hao Wu Mingliu Liu Jia-Nan Liu">
         <div class="paper-header">
           <h4>Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning</h4>
-          <span class="badge">candidate</span>
+          <span class="badge" data-paper-label="candidate">candidate</span>
         </div>
-        <p class="muted">Xueying Li, Feng Lyu, Hao Wu, Mingliu Liu, Jia-Nan Liu</p>
-        <p>2026-04-02 · ArXiv.org</p>
-        <p>title hit x1, abstract hit x1</p>
+        <p class="muted">
+          
+          Xueying Li, Feng Lyu, Hao Wu, Mingliu Liu, Jia-Nan Liu
+          
+        </p>
+        <p>
+          
+          2026-04-02
+          
+           · ArXiv.org
+        </p>
+        <p data-paper-reason="title hit x1, abstract hit x1">title hit x1, abstract hit x1</p>
         
-        <p><a href="http://arxiv.org/abs/2604.02318" target="_blank" rel="noopener noreferrer">Open paper</a></p>
+        <p><a href="http://arxiv.org/abs/2604.02318" target="_blank" rel="noopener noreferrer" data-i18n="paper.open_paper">Open paper</a></p>
         
       </article>
       
@@ -88,8 +107,8 @@
 
     <footer class="site-footer">
       <div class="shell footer-row">
-        <span>Generated from repository state and published with GitHub Pages.</span>
-        <span>Data: OpenAlex + Semantic Scholar</span>
+        <span data-i18n="footer.generated">Generated from repository state and published with GitHub Pages.</span>
+        <span data-i18n="footer.data_sources">Data: OpenAlex + Semantic Scholar</span>
       </div>
     </footer>
     <script src="assets/app.js"></script>

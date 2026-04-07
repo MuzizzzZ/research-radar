@@ -3,36 +3,49 @@
 <section class="content-section">
   <div class="section-heading split">
     <div>
-      <h2>Topics</h2>
-      <p>Browse historical incremental discoveries grouped by topic.</p>
+      <h2 data-i18n="topics.title">Topics</h2>
+      <p data-i18n="topics.description">Browse historical incremental discoveries grouped by topic.</p>
     </div>
-    <input class="filter-input" data-filter-input="topic-papers" type="search" placeholder="Filter papers by title or author">
+    <input class="filter-input" data-filter-input="topic-papers" data-i18n-placeholder="topics.filter_placeholder" type="search" placeholder="Filter papers by title or author">
   </div>
   {% for topic in topics %}
   <article class="panel topic-block">
     <div class="panel-head">
       <div>
         <h3>{{ topic.name }}</h3>
-        <p class="muted">Queries: {{ topic.queries|join(' · ') }}</p>
+        <p class="muted"><span data-i18n="common.queries">Queries</span>: {{ topic.queries|join(' · ') }}</p>
       </div>
-      <div class="pill">{{ topic.total_papers }} tracked</div>
+      <div class="pill"><span>{{ topic.total_papers }}</span>&nbsp;<span data-i18n="common.tracked">tracked</span></div>
     </div>
     <div class="paper-list" data-filter-group="topic-papers">
       {% for paper in topic.papers %}
       <article class="paper-card" data-search="{{ paper.title }} {{ paper.authors|join(' ') }}">
         <div class="paper-header">
           <h4>{{ paper.title }}</h4>
-          <span class="badge">{{ paper.label }}</span>
+          <span class="badge" data-paper-label="{{ paper.label }}">{{ paper.label }}</span>
         </div>
-        <p class="muted">{{ paper.authors|join(', ') if paper.authors else 'Unknown authors' }}</p>
-        <p>{{ paper.publication_date or paper.year or 'Unknown date' }}{% if paper.venue %} · {{ paper.venue }}{% endif %}</p>
-        <p>{{ paper.reason }}</p>
+        <p class="muted">
+          {% if paper.authors %}
+          {{ paper.authors|join(', ') }}
+          {% else %}
+          <span data-i18n="paper.unknown_authors">Unknown authors</span>
+          {% endif %}
+        </p>
+        <p>
+          {% if paper.publication_date or paper.year %}
+          {{ paper.publication_date or paper.year }}
+          {% else %}
+          <span data-i18n="paper.unknown_date">Unknown date</span>
+          {% endif %}
+          {% if paper.venue %} · {{ paper.venue }}{% endif %}
+        </p>
+        <p data-paper-reason="{{ paper.reason }}">{{ paper.reason }}</p>
         {% if paper.best_url %}
-        <p><a href="{{ paper.best_url }}" target="_blank" rel="noopener noreferrer">Open paper</a></p>
+        <p><a href="{{ paper.best_url }}" target="_blank" rel="noopener noreferrer" data-i18n="paper.open_paper">Open paper</a></p>
         {% endif %}
       </article>
       {% else %}
-      <article class="empty-state">No topic-level papers have been recorded yet.</article>
+      <article class="empty-state" data-i18n="topics.empty_state">No topic-level papers have been recorded yet.</article>
       {% endfor %}
     </div>
   </article>

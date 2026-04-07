@@ -2,33 +2,33 @@
 {% block content %}
 <section class="hero-grid">
   <article class="summary-card accent">
-    <p class="card-label">Today's new scope discoveries</p>
+    <p class="card-label" data-i18n="index.new_scope_discoveries">Today's new scope discoveries</p>
     <h2>{{ summary.today_new_total }}</h2>
-    <p>{{ summary.today_new_global }} papers were first seen globally.</p>
+    <p><span>{{ summary.today_new_global }}</span> <span data-i18n="index.first_seen_globally">papers were first seen globally.</span></p>
   </article>
   <article class="summary-card">
-    <p class="card-label">Tracked topics</p>
+    <p class="card-label" data-i18n="index.tracked_topics">Tracked topics</p>
     <h2>{{ summary.topics|length }}</h2>
-    <p>Across multi-query topic monitors and baseline anchors.</p>
+    <p data-i18n="index.tracked_topics_desc">Across multi-query topic monitors and baseline anchors.</p>
   </article>
   <article class="summary-card">
-    <p class="card-label">Tracked baselines</p>
+    <p class="card-label" data-i18n="index.tracked_baselines">Tracked baselines</p>
     <h2>{{ summary.baselines|length }}</h2>
-    <p>Citation and related-work deltas are grouped separately.</p>
+    <p data-i18n="index.tracked_baselines_desc">Citation and related-work deltas are grouped separately.</p>
   </article>
 </section>
 
 <section class="content-section">
   <div class="section-heading">
-    <h2>Topic Overview</h2>
-    <p>Counts are based on incremental discoveries retained in repository state.</p>
+    <h2 data-i18n="index.topic_overview">Topic Overview</h2>
+    <p data-i18n="index.topic_overview_desc">Counts are based on incremental discoveries retained in repository state.</p>
   </div>
   <div class="grid two-up">
     {% for topic in summary.topics %}
     <article class="panel">
       <h3>{{ topic.name }}</h3>
-      <p class="metric">{{ topic.today_count }} new today</p>
-      <p>{{ topic.total_papers }} total tracked papers.</p>
+      <p class="metric"><span>{{ topic.today_count }}</span> <span data-i18n="common.new_today">new today</span></p>
+      <p><span>{{ topic.total_papers }}</span> <span data-i18n="common.total_tracked_papers">total tracked papers.</span></p>
     </article>
     {% endfor %}
   </div>
@@ -36,15 +36,18 @@
 
 <section class="content-section">
   <div class="section-heading">
-    <h2>Baseline Snapshot</h2>
-    <p>Baseline deltas distinguish direct citing papers from high-similarity related work.</p>
+    <h2 data-i18n="index.baseline_snapshot">Baseline Snapshot</h2>
+    <p data-i18n="index.baseline_snapshot_desc">Baseline deltas distinguish direct citing papers from high-similarity related work.</p>
   </div>
   <div class="grid two-up">
     {% for baseline in summary.baselines %}
     <article class="panel">
       <h3>{{ baseline.title }}</h3>
-      <p class="muted">Topic: {{ baseline.topic_id }}</p>
-      <p>{{ baseline.today_citations }} new citations, {{ baseline.today_related }} new related papers today.</p>
+      <p class="muted"><span data-i18n="common.topic">Topic</span>: {{ baseline.topic_id }}</p>
+      <p>
+        <span>{{ baseline.today_citations }}</span> <span data-i18n="common.new_citations">new citations</span>,
+        <span>{{ baseline.today_related }}</span> <span data-i18n="common.new_related_today">new related papers today.</span>
+      </p>
     </article>
     {% endfor %}
   </div>
@@ -52,25 +55,44 @@
 
 <section class="content-section">
   <div class="section-heading">
-    <h2>Recent Papers</h2>
-    <p>A compact view of the latest accepted papers from the most recent run.</p>
+    <h2 data-i18n="index.recent_papers">Recent Papers</h2>
+    <p data-i18n="index.recent_papers_desc">A compact view of the latest accepted papers from the most recent run.</p>
   </div>
   <div class="paper-list">
     {% for paper in summary.recent_papers %}
     <article class="paper-card" data-search="{{ paper.title }} {{ paper.authors|join(' ') }}">
       <div class="paper-header">
         <h3>{{ paper.title }}</h3>
-        <span class="badge">{{ paper.label }}</span>
+        <span class="badge" data-paper-label="{{ paper.label }}">{{ paper.label }}</span>
       </div>
-      <p class="muted">{{ paper.authors|join(', ') if paper.authors else 'Unknown authors' }}</p>
-      <p>{{ paper.publication_date or paper.year or 'Unknown date' }}{% if paper.venue %} · {{ paper.venue }}{% endif %}</p>
-      <p>{{ paper.reason or 'Reason unavailable.' }}</p>
+      <p class="muted">
+        {% if paper.authors %}
+        {{ paper.authors|join(', ') }}
+        {% else %}
+        <span data-i18n="paper.unknown_authors">Unknown authors</span>
+        {% endif %}
+      </p>
+      <p>
+        {% if paper.publication_date or paper.year %}
+        {{ paper.publication_date or paper.year }}
+        {% else %}
+        <span data-i18n="paper.unknown_date">Unknown date</span>
+        {% endif %}
+        {% if paper.venue %} · {{ paper.venue }}{% endif %}
+      </p>
+      <p data-paper-reason="{{ paper.reason or '' }}">
+        {% if paper.reason %}
+        {{ paper.reason }}
+        {% else %}
+        <span data-i18n="paper.reason_unavailable">Reason unavailable.</span>
+        {% endif %}
+      </p>
       {% if paper.best_url %}
-      <p><a href="{{ paper.best_url }}" target="_blank" rel="noopener noreferrer">Open paper</a></p>
+      <p><a href="{{ paper.best_url }}" target="_blank" rel="noopener noreferrer" data-i18n="paper.open_paper">Open paper</a></p>
       {% endif %}
     </article>
     {% else %}
-    <article class="empty-state">Run `python -m src.main run` to generate the first report and site snapshot.</article>
+    <article class="empty-state" data-i18n="index.empty_state">Run `python -m src.main run` to generate the first report and site snapshot.</article>
     {% endfor %}
   </div>
 </section>
@@ -78,13 +100,13 @@
 {% if summary.issues %}
 <section class="content-section">
   <div class="section-heading">
-    <h2>Latest Run Issues</h2>
-    <p>Source failures are recorded so the run can degrade gracefully instead of crashing.</p>
+    <h2 data-i18n="index.latest_issues">Latest Run Issues</h2>
+    <p data-i18n="index.latest_issues_desc">Source failures are recorded so the run can degrade gracefully instead of crashing.</p>
   </div>
   <div class="panel">
     <ul class="issue-list">
       {% for issue in summary.issues %}
-      <li>{{ issue }}</li>
+      <li data-issue-text="{{ issue }}">{{ issue }}</li>
       {% endfor %}
     </ul>
   </div>

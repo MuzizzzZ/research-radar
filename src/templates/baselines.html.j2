@@ -3,64 +3,90 @@
 <section class="content-section">
   <div class="section-heading split">
     <div>
-      <h2>Baselines</h2>
-      <p>Each baseline tracks direct citations and nearby related work separately.</p>
+      <h2 data-i18n="baselines.title">Baselines</h2>
+      <p data-i18n="baselines.description">Each baseline tracks direct citations and nearby related work separately.</p>
     </div>
-    <input class="filter-input" data-filter-input="baseline-papers" type="search" placeholder="Filter baseline papers">
+    <input class="filter-input" data-filter-input="baseline-papers" data-i18n-placeholder="baselines.filter_placeholder" type="search" placeholder="Filter baseline papers">
   </div>
   {% for baseline in baselines %}
   <article class="panel">
     <div class="panel-head">
       <div>
         <h3>{{ baseline.title }}</h3>
-        <p class="muted">Topic: {{ baseline.topic_id }}</p>
+        <p class="muted"><span data-i18n="common.topic">Topic</span>: {{ baseline.topic_id }}</p>
       </div>
       <div class="stacked-metrics">
-        <span class="pill">{{ baseline.citations|length }} citations</span>
-        <span class="pill">{{ baseline.related|length }} related</span>
+        <span class="pill"><span>{{ baseline.citations|length }}</span>&nbsp;<span data-i18n="common.citations">citations</span></span>
+        <span class="pill"><span>{{ baseline.related|length }}</span>&nbsp;<span data-i18n="common.related">related</span></span>
       </div>
     </div>
 
     <div class="subsection">
-      <h4>New Citing Papers</h4>
+      <h4 data-i18n="baselines.new_citing_papers">New Citing Papers</h4>
       <div class="paper-list" data-filter-group="baseline-papers">
         {% for paper in baseline.citations %}
         <article class="paper-card" data-search="{{ paper.title }} {{ paper.authors|join(' ') }}">
           <div class="paper-header">
             <h5>{{ paper.title }}</h5>
-            <span class="badge">{{ paper.label }}</span>
+            <span class="badge" data-paper-label="{{ paper.label }}">{{ paper.label }}</span>
           </div>
-          <p class="muted">{{ paper.authors|join(', ') if paper.authors else 'Unknown authors' }}</p>
-          <p>{{ paper.publication_date or paper.year or 'Unknown date' }}{% if paper.venue %} · {{ paper.venue }}{% endif %}</p>
-          <p>{{ paper.reason }}</p>
+          <p class="muted">
+            {% if paper.authors %}
+            {{ paper.authors|join(', ') }}
+            {% else %}
+            <span data-i18n="paper.unknown_authors">Unknown authors</span>
+            {% endif %}
+          </p>
+          <p>
+            {% if paper.publication_date or paper.year %}
+            {{ paper.publication_date or paper.year }}
+            {% else %}
+            <span data-i18n="paper.unknown_date">Unknown date</span>
+            {% endif %}
+            {% if paper.venue %} · {{ paper.venue }}{% endif %}
+          </p>
+          <p data-paper-reason="{{ paper.reason }}">{{ paper.reason }}</p>
           {% if paper.best_url %}
-          <p><a href="{{ paper.best_url }}" target="_blank" rel="noopener noreferrer">Open paper</a></p>
+          <p><a href="{{ paper.best_url }}" target="_blank" rel="noopener noreferrer" data-i18n="paper.open_paper">Open paper</a></p>
           {% endif %}
         </article>
         {% else %}
-        <article class="empty-state">No citing papers have been recorded yet.</article>
+        <article class="empty-state" data-i18n="baselines.empty_citing">No citing papers have been recorded yet.</article>
         {% endfor %}
       </div>
     </div>
 
     <div class="subsection">
-      <h4>New Related Papers</h4>
+      <h4 data-i18n="baselines.new_related_papers">New Related Papers</h4>
       <div class="paper-list" data-filter-group="baseline-papers">
         {% for paper in baseline.related %}
         <article class="paper-card" data-search="{{ paper.title }} {{ paper.authors|join(' ') }}">
           <div class="paper-header">
             <h5>{{ paper.title }}</h5>
-            <span class="badge">{{ paper.label }}</span>
+            <span class="badge" data-paper-label="{{ paper.label }}">{{ paper.label }}</span>
           </div>
-          <p class="muted">{{ paper.authors|join(', ') if paper.authors else 'Unknown authors' }}</p>
-          <p>{{ paper.publication_date or paper.year or 'Unknown date' }}{% if paper.venue %} · {{ paper.venue }}{% endif %}</p>
-          <p>{{ paper.reason }}</p>
+          <p class="muted">
+            {% if paper.authors %}
+            {{ paper.authors|join(', ') }}
+            {% else %}
+            <span data-i18n="paper.unknown_authors">Unknown authors</span>
+            {% endif %}
+          </p>
+          <p>
+            {% if paper.publication_date or paper.year %}
+            {{ paper.publication_date or paper.year }}
+            {% else %}
+            <span data-i18n="paper.unknown_date">Unknown date</span>
+            {% endif %}
+            {% if paper.venue %} · {{ paper.venue }}{% endif %}
+          </p>
+          <p data-paper-reason="{{ paper.reason }}">{{ paper.reason }}</p>
           {% if paper.best_url %}
-          <p><a href="{{ paper.best_url }}" target="_blank" rel="noopener noreferrer">Open paper</a></p>
+          <p><a href="{{ paper.best_url }}" target="_blank" rel="noopener noreferrer" data-i18n="paper.open_paper">Open paper</a></p>
           {% endif %}
         </article>
         {% else %}
-        <article class="empty-state">No related papers have been recorded yet.</article>
+        <article class="empty-state" data-i18n="baselines.empty_related">No related papers have been recorded yet.</article>
         {% endfor %}
       </div>
     </div>

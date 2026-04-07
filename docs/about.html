@@ -11,21 +11,31 @@
       <div class="shell">
         <div class="brand-row">
           <div>
-            <p class="eyebrow">Research Intel Radar</p>
+            <p class="eyebrow" data-i18n="header.eyebrow">Research Intel Radar</p>
             <h1 class="brand-title">research-radar</h1>
-            <p class="brand-subtitle">Incremental literature tracking for topics, baseline citations, and related work.</p>
+            <p class="brand-subtitle" data-i18n="header.subtitle">Incremental literature tracking for topics, baseline citations, and related work.</p>
           </div>
-          <div class="meta-card">
-            <p class="meta-label">Latest report</p>
-            <p class="meta-value">2026-04-07</p>
+          <div class="header-tools">
+            <div class="language-switcher" role="group" aria-label="Language switcher">
+              <button type="button" class="lang-button" data-lang-switch="en">EN</button>
+              <button type="button" class="lang-button" data-lang-switch="zh">中文</button>
+            </div>
+            <div class="meta-card">
+              <p class="meta-label" data-i18n="header.latest_report">Latest report</p>
+              <p class="meta-value">
+                
+                2026-04-07
+                
+              </p>
+            </div>
           </div>
         </div>
         <nav class="nav">
-          <a href="index.html">Home</a>
-          <a href="topics.html">Topics</a>
-          <a href="baselines.html">Baselines</a>
-          <a href="reports.html">Reports</a>
-          <a href="about.html">About</a>
+          <a href="index.html" data-i18n="nav.home">Home</a>
+          <a href="topics.html" data-i18n="nav.topics">Topics</a>
+          <a href="baselines.html" data-i18n="nav.baselines">Baselines</a>
+          <a href="reports.html" data-i18n="nav.reports">Reports</a>
+          <a href="about.html" data-i18n="nav.about">About</a>
         </nav>
       </div>
     </header>
@@ -34,17 +44,17 @@
       
 <section class="content-section">
   <div class="section-heading">
-    <h2>About</h2>
-    <p>research-radar is an incremental literature tracking system designed for repository-only deployment.</p>
+    <h2 data-i18n="about.title">About</h2>
+    <p data-i18n="about.description">research-radar is an incremental literature tracking system designed for repository-only deployment.</p>
   </div>
   <div class="grid two-up">
     <article class="panel">
-      <h3>Architecture</h3>
-      <p>GitHub Actions + repository-backed JSON/Markdown state + GitHub Pages static site</p>
-      <p>The project avoids long-running servers, online databases, and custom backend hosting.</p>
+      <h3 data-i18n="about.architecture_title">Architecture</h3>
+      <p data-i18n="about.architecture_value">GitHub Actions + repository-backed JSON/Markdown state + GitHub Pages static site</p>
+      <p data-i18n="about.architecture_note">The project avoids long-running servers, online databases, and custom backend hosting.</p>
     </article>
     <article class="panel">
-      <h3>Data Sources</h3>
+      <h3 data-i18n="about.data_sources_title">Data Sources</h3>
       <ul class="issue-list">
         
         <li>OpenAlex</li>
@@ -55,14 +65,14 @@
     </article>
   </div>
   <article class="panel">
-    <h3>Limitations</h3>
+    <h3 data-i18n="about.limitations_title">Limitations</h3>
     <ul class="issue-list">
       
-      <li>The system relies on public metadata availability and API uptime.</li>
+      <li data-i18n="about.limitations.0">The system relies on public metadata availability and API uptime.</li>
       
-      <li>Title-based fallback resolution can miss or over-match some baseline papers.</li>
+      <li data-i18n="about.limitations.1">Title-based fallback resolution can miss or over-match some baseline papers.</li>
       
-      <li>Rule-based relevance scoring is intentionally transparent but not exhaustive.</li>
+      <li data-i18n="about.limitations.2">Rule-based relevance scoring is intentionally transparent but not exhaustive.</li>
       
     </ul>
   </article>
@@ -72,8 +82,8 @@
 
     <footer class="site-footer">
       <div class="shell footer-row">
-        <span>Generated from repository state and published with GitHub Pages.</span>
-        <span>Data: OpenAlex + Semantic Scholar</span>
+        <span data-i18n="footer.generated">Generated from repository state and published with GitHub Pages.</span>
+        <span data-i18n="footer.data_sources">Data: OpenAlex + Semantic Scholar</span>
       </div>
     </footer>
     <script src="assets/app.js"></script>

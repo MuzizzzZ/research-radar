@@ -2,18 +2,24 @@
 {% block content %}
 <section class="content-section">
   <div class="section-heading">
-    <h2>Reports</h2>
-    <p>Daily markdown reports are committed to the repository and linked here.</p>
+    <h2 data-i18n="reports.title">Reports</h2>
+    <p data-i18n="reports.description">Daily markdown reports are committed to the repository and linked here.</p>
   </div>
   <div class="grid">
     {% for report in reports %}
     <article class="panel">
       <h3>{{ report.date }}</h3>
-      <p class="muted">{{ report.preview or 'Daily report archive entry.' }}</p>
-      <p><a href="{{ report.path }}">Open markdown report</a></p>
+      <p class="muted" data-report-preview="{{ report.preview or 'Daily report archive entry.' }}">
+        {% if report.preview %}
+        {{ report.preview }}
+        {% else %}
+        <span data-i18n="reports.archive_entry">Daily report archive entry.</span>
+        {% endif %}
+      </p>
+      <p><a href="{{ report.path }}" data-i18n="reports.open_report">Open markdown report</a></p>
     </article>
     {% else %}
-    <article class="empty-state">No reports have been generated yet.</article>
+    <article class="empty-state" data-i18n="reports.empty_state">No reports have been generated yet.</article>
     {% endfor %}
   </div>
 </section>
