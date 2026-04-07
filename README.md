@@ -12,6 +12,7 @@
 - 去重与增量状态管理
 - Markdown 日报生成
 - GitHub Pages 静态站点生成
+- 浏览器端 Config Studio：可视化编辑 topic / baseline、自动校验、导出 YAML、可选直接提交回 GitHub
 - GitHub Actions 定时运行
 
 ## 为什么采用这个架构
@@ -153,6 +154,31 @@ cp config/settings.example.yaml config/settings.yaml
 - `uav-ris`
 - `vln`
 
+### 前端配置工作台
+
+站点中的 `Config` 页面提供了一套纯前端配置工作台，专门编辑：
+
+- `topics.yaml`
+- `baselines.yaml`
+
+它现在采用更适合非技术用户的“搜索式配置”：
+
+- Topic 先填名称和 queries，其他字段放在高级选项里
+- Baseline 不要求你手动填写 DOI / OpenAlex / Semantic Scholar id
+- 页面会联动搜索 OpenAlex、Semantic Scholar 和 Crossref
+- 你可以从搜索结果中直接选择论文，一键导入 baseline 元数据
+- 草稿会保存在当前浏览器的 `localStorage`
+- 页面会实时校验重复 id、缺失 query、baseline topic_id 不存在等问题
+- 你可以下载新的 `topics.yaml` / `baselines.yaml`
+- 也可以在浏览器中提供 GitHub Personal Access Token，直接把两个文件提交回仓库
+
+说明：
+
+- 为避免把敏感字段暴露到公开 Pages 站点，当前前端只编辑 `topics.yaml` 和 `baselines.yaml`
+- `settings.yaml` 仍建议在本地仓库中维护
+- GitHub token 不会写入 `localStorage`，只在当前浏览器会话中使用
+- 页面中的论文搜索属于前端直连公开 API；如果外部源限流或临时不可用，导入功能会降级为局部失败提示
+
 ### baselines 配置
 
 每个 baseline 至少包含：
@@ -219,6 +245,7 @@ python -m src.main build-report --date 2026-04-06
 - 在无网络环境下，命令仍会成功返回，但会把数据源失败记录到输出和报告中
 - `run` 会更新 `data/state/`、生成 `reports/daily/*.md`，并重建 `docs/`
 - `build-site` 只依赖本地保存的状态与报告
+- `build-site` 生成的 `docs/config.html` 可直接作为配置工作台使用
 
 ## GitHub Actions 配置
 
@@ -276,6 +303,8 @@ python -m src.main build-report --date 2026-04-06
 5. 触发一次：
    - 手动运行 `Daily Update`
    - 或本地先执行 `python -m src.main build-site` 并 push
+
+部署完成后，站点中的 `Config` 页面可以直接创建 topic，并通过搜索论文来导入 baseline。如果你希望从前端直接提交回 GitHub，需要准备一个具有仓库内容写权限的 Personal Access Token。
 
 ## 数据源说明
 
@@ -339,6 +368,8 @@ python -m src.main build-report --date 2026-04-06
 - 目前 related detection 主要基于标题/作者/主题邻近关系，属于保守 MVP
 - 当前只实现了日报主链路，`weekly digest` 目录已预留但尚未启用
 - 静态站点以预生成内容为主，前端交互保持轻量
+- 浏览器端直写 GitHub 依赖用户手动提供 Token，更适合个人仓库或小团队受控使用
+- Baseline 搜索依赖公开论文 API 的 CORS、可用性和限流策略，因此搜索体验会受外部源状态影响
 
 ## 后续可扩展方向
 

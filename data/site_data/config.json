@@ -1,0 +1,75 @@
+{
+  "baselines": [
+    {
+      "enabled": true,
+      "id": "secure-uav-ris",
+      "title": "Joint Trajectory and Passive Beamforming Design for Secure UAV-RIS Communication Systems",
+      "topic_id": "uav-ris",
+      "track_new_citations": true,
+      "track_related": true
+    },
+    {
+      "enabled": true,
+      "id": "room-to-room",
+      "title": "Vision-and-Language Navigation: Interpreting visually-grounded navigation instructions in real environments",
+      "topic_id": "vln",
+      "track_new_citations": true,
+      "track_related": true
+    }
+  ],
+  "meta": {
+    "baselines_path": "config/baselines.yaml",
+    "editing_mode": "browser",
+    "topics_path": "config/topics.yaml"
+  },
+  "schema_version": 1,
+  "topics": [
+    {
+      "enabled": true,
+      "exclude": [
+        "patent",
+        "underwater"
+      ],
+      "id": "uav-ris",
+      "min_score": 8.0,
+      "name": "UAV / RIS Communications",
+      "preferred_authors": [
+        "Yong Zeng",
+        "Qingqing Wu"
+      ],
+      "preferred_venues": [
+        "IEEE Transactions on Wireless Communications",
+        "IEEE Journal on Selected Areas in Communications"
+      ],
+      "queries": [
+        "uav reconfigurable intelligent surface",
+        "drone ris wireless communication",
+        "aerial intelligent reflecting surface"
+      ]
+    },
+    {
+      "enabled": true,
+      "exclude": [
+        "survey",
+        "game"
+      ],
+      "id": "vln",
+      "min_score": 8.0,
+      "name": "Vision-Language Navigation",
+      "preferred_authors": [
+        "Dhruv Batra",
+        "Peter Anderson"
+      ],
+      "preferred_venues": [
+        "CVPR",
+        "ICCV",
+        "NeurIPS"
+      ],
+      "queries": [
+        "vision language navigation",
+        "embodied navigation language grounding",
+        "vln instruction following"
+      ]
+    }
+  ]
+}

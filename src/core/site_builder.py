@@ -185,6 +185,16 @@ def build_site(
             "Rule-based relevance scoring is intentionally transparent but not exhaustive.",
         ],
     }
+    config_payload = {
+        "schema_version": 1,
+        "topics": [topic.model_dump(mode="json", exclude_none=True) for topic in topics],
+        "baselines": [baseline.model_dump(mode="json", exclude_none=True) for baseline in baselines],
+        "meta": {
+            "topics_path": "config/topics.yaml",
+            "baselines_path": "config/baselines.yaml",
+            "editing_mode": "browser",
+        },
+    }
 
     payloads = {
         "index.json": summary_payload,
@@ -192,6 +202,7 @@ def build_site(
         "baselines.json": {"baselines": baseline_rows},
         "reports.json": {"reports": reports},
         "about.json": about_payload,
+        "config.json": config_payload,
     }
 
     for filename, payload in payloads.items():
@@ -204,6 +215,7 @@ def build_site(
         "baselines": baseline_rows,
         "reports": reports,
         "about": about_payload,
+        "config_payload": config_payload,
     }
 
     for template_name, output_name in [
@@ -212,14 +224,17 @@ def build_site(
         ("baselines.html.j2", "baselines.html"),
         ("reports.html.j2", "reports.html"),
         ("about.html.j2", "about.html"),
+        ("config.html.j2", "config.html"),
     ]:
         template = env.get_template(template_name)
         dump_text(docs_dir / output_name, template.render(page_title="Research Radar", **template_context))
 
     styles = (template_dir / "styles.css").read_text(encoding="utf-8")
     script = (template_dir / "app.js").read_text(encoding="utf-8")
+    config_script = (template_dir / "config_studio.js").read_text(encoding="utf-8")
     dump_text(assets_dir / "styles.css", styles)
     dump_text(assets_dir / "app.js", script)
+    dump_text(assets_dir / "config_studio.js", config_script)
 
     ensure_parent(docs_dir / ".nojekyll")
     dump_text(docs_dir / ".nojekyll", "")

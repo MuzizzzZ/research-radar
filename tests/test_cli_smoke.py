@@ -142,10 +142,17 @@ def test_build_site_cli_smoke(tmp_path, monkeypatch, capsys) -> None:
     assert "Static site rebuilt" in output
     assert (root / "docs" / "index.html").exists()
     assert (root / "docs" / "topics.html").exists()
+    assert (root / "docs" / "config.html").exists()
     assert (root / "docs" / "data" / "index.json").exists()
+    assert (root / "docs" / "data" / "config.json").exists()
+    assert (root / "docs" / "assets" / "config_studio.js").exists()
     index_html = (root / "docs" / "index.html").read_text(encoding="utf-8")
+    config_html = (root / "docs" / "config.html").read_text(encoding="utf-8")
     assert 'data-lang-switch="zh"' in index_html
     assert 'data-i18n="nav.home"' in index_html
+    assert 'data-i18n="nav.config"' in config_html
+    assert 'id="config-bootstrap"' in config_html
+    assert 'id="config-search-button"' in config_html
 
 
 def test_run_cli_writes_state_reports_and_site(tmp_path, monkeypatch, capsys) -> None:

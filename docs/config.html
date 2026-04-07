@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Research Radar</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="shell">
+        <div class="brand-row">
+          <div>
+            <p class="eyebrow" data-i18n="header.eyebrow">Research Intel Radar</p>
+            <h1 class="brand-title">research-radar</h1>
+            <p class="brand-subtitle" data-i18n="header.subtitle">Incremental literature tracking for topics, baseline citations, and related work.</p>
+          </div>
+          <div class="header-tools">
+            <div class="language-switcher" role="group" aria-label="Language switcher">
+              <button type="button" class="lang-button" data-lang-switch="en">EN</button>
+              <button type="button" class="lang-button" data-lang-switch="zh">中文</button>
+            </div>
+            <div class="meta-card">
+              <p class="meta-label" data-i18n="header.latest_report">Latest report</p>
+              <p class="meta-value">
+                
+                2026-04-07
+                
+              </p>
+            </div>
+          </div>
+        </div>
+        <nav class="nav">
+          <a href="index.html" data-i18n="nav.home">Home</a>
+          <a href="topics.html" data-i18n="nav.topics">Topics</a>
+          <a href="baselines.html" data-i18n="nav.baselines">Baselines</a>
+          <a href="config.html" data-i18n="nav.config">Config</a>
+          <a href="reports.html" data-i18n="nav.reports">Reports</a>
+          <a href="about.html" data-i18n="nav.about">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="shell">
+      
+<section class="content-section">
+  <div class="section-heading">
+    <h2 data-i18n="config.title">Config Studio</h2>
+    <p data-i18n="config.description">Set up topics and baseline papers with a search-first workflow designed for non-technical users.</p>
+  </div>
+
+  <article class="panel onboarding-panel">
+    <div class="panel-head">
+      <div>
+        <h3 data-i18n="config.quickstart_title">Quick Start</h3>
+        <p class="muted" data-i18n="config.quickstart_desc">You only need to decide what to track. The page can search papers and fill most identifiers for you.</p>
+      </div>
+    </div>
+    <ol class="simple-steps">
+      <li data-i18n="config.step_topics">Create one or more topics with a name and a few search phrases.</li>
+      <li data-i18n="config.step_search">Search for a baseline paper by title, DOI, arXiv id, or author keywords.</li>
+      <li data-i18n="config.step_import">Pick a search result to import it as a baseline automatically.</li>
+      <li data-i18n="config.step_publish">When everything looks right, download YAML or commit the config back to GitHub in the advanced section.</li>
+    </ol>
+  </article>
+
+  <section class="content-section">
+    <div class="section-heading">
+      <div class="panel-head">
+        <div>
+          <h3 data-i18n="config.topics_title">Topics</h3>
+          <p class="muted" data-i18n="config.topics_desc">Keep this simple: a topic name and a few queries are enough to start.</p>
+        </div>
+        <button type="button" class="secondary-button" id="config-add-topic" data-i18n="config.add_topic">Add topic</button>
+      </div>
+    </div>
+    <div id="topics-editor" class="config-card-list"></div>
+  </section>
+
+  <section class="content-section">
+    <div class="section-heading">
+      <h3 data-i18n="config.search_title">Search Baseline Papers</h3>
+      <p data-i18n="config.search_desc">Search OpenAlex, Semantic Scholar, and Crossref, then import a paper instead of typing identifiers by hand.</p>
+    </div>
+    <article class="panel">
+      <div class="config-search-grid">
+        <label class="field">
+          <span data-i18n="config.search_topic">Attach to topic</span>
+          <select id="config-search-topic"></select>
+        </label>
+        <label class="field span-2">
+          <span data-i18n="config.search_query_label">Paper search</span>
+          <input type="search" id="config-search-query" autocomplete="off" data-i18n-placeholder="config.search_placeholder" placeholder="Search by paper title, DOI, arXiv id, or author keywords">
+        </label>
+        <div class="config-action-row">
+          <button type="button" class="primary-button" id="config-search-button" data-i18n="config.search_button">Search papers</button>
+        </div>
+      </div>
+      <p id="config-search-status" class="search-status muted"></p>
+      <ul id="config-search-issues" class="validation-list compact"></ul>
+      <div id="config-search-results" class="config-search-results"></div>
+    </article>
+  </section>
+
+  <section class="content-section">
+    <div class="section-heading">
+      <div class="panel-head">
+        <div>
+          <h3 data-i18n="config.baselines_title">Selected Baselines</h3>
+          <p class="muted" data-i18n="config.baselines_desc">Imported papers land here. You can still tweak tracking options and advanced identifiers if needed.</p>
+        </div>
+      </div>
+    </div>
+    <div id="baselines-editor" class="config-card-list"></div>
+  </section>
+
+  <section class="content-section">
+    <article class="panel">
+      <div class="panel-head">
+        <h3 data-i18n="config.validation_title">Validation</h3>
+      </div>
+      <div id="config-runtime-status" class="status-banner info"></div>
+      <p id="config-validation-summary" class="validation-summary"></p>
+      <ul id="config-validation-list" class="validation-list"></ul>
+    </article>
+  </section>
+
+  <details class="panel details-panel">
+    <summary>
+      <span data-i18n="config.advanced_title">Advanced Export and Publish</span>
+    </summary>
+    <div class="advanced-content">
+      <p class="muted" data-i18n="config.advanced_desc">Use this section when you want raw YAML files or want to commit the updated config back to GitHub.</p>
+
+      <div class="grid two-up">
+        <article class="panel nested-panel">
+          <div class="panel-head">
+            <div>
+              <h4 data-i18n="config.local_title">Local Export</h4>
+              <p class="muted" data-i18n="config.local_desc">Drafts are autosaved in this browser. You can reset back to the repository snapshot at any time.</p>
+            </div>
+          </div>
+          <div class="config-action-row">
+            <button type="button" class="secondary-button" id="config-reset" data-i18n="config.reset_button">Reset to repository snapshot</button>
+            <button type="button" class="primary-button" id="config-download-topics" data-i18n="config.download_topics">Download topics.yaml</button>
+            <button type="button" class="primary-button" id="config-download-baselines" data-i18n="config.download_baselines">Download baselines.yaml</button>
+          </div>
+        </article>
+
+        <article class="panel nested-panel">
+          <div class="panel-head">
+            <div>
+              <h4 data-i18n="config.github_title">Commit Back to GitHub</h4>
+              <p class="muted" data-i18n="config.github_desc">Optional: use a Personal Access Token in this browser session to commit both config files back to the repository.</p>
+            </div>
+          </div>
+          <div class="config-form-grid compact">
+            <label class="field">
+              <span data-i18n="config.owner">Repository owner</span>
+              <input type="text" id="config-repo-owner" autocomplete="off">
+            </label>
+            <label class="field">
+              <span data-i18n="config.repo">Repository name</span>
+              <input type="text" id="config-repo-name" autocomplete="off">
+            </label>
+            <label class="field">
+              <span data-i18n="config.branch">Branch</span>
+              <input type="text" id="config-repo-branch" autocomplete="off">
+            </label>
+            <label class="field">
+              <span data-i18n="config.commit_message">Commit message</span>
+              <input type="text" id="config-commit-message" autocomplete="off">
+            </label>
+            <label class="field span-2">
+              <span data-i18n="config.token">GitHub token</span>
+              <input type="password" id="config-repo-token" autocomplete="off">
+              <small class="muted" data-i18n="config.token_hint">The token is only used in this tab and is never stored in localStorage.</small>
+            </label>
+          </div>
+          <div class="config-action-row">
+            <button type="button" class="primary-button" id="config-push" data-i18n="config.push_button">Commit topics.yaml and baselines.yaml</button>
+          </div>
+        </article>
+      </div>
+
+      <div class="grid two-up">
+        <article class="panel nested-panel">
+          <h4 data-i18n="config.topics_yaml">topics.yaml preview</h4>
+          <pre id="topics-yaml-preview" class="code-preview"></pre>
+        </article>
+        <article class="panel nested-panel">
+          <h4 data-i18n="config.baselines_yaml">baselines.yaml preview</h4>
+          <pre id="baselines-yaml-preview" class="code-preview"></pre>
+        </article>
+      </div>
+    </div>
+  </details>
+</section>
+
+<script id="config-bootstrap" type="application/json">{"baselines": [{"enabled": true, "id": "secure-uav-ris", "title": "Joint Trajectory and Passive Beamforming Design for Secure UAV-RIS Communication Systems", "topic_id": "uav-ris", "track_new_citations": true, "track_related": true}, {"enabled": true, "id": "room-to-room", "title": "Vision-and-Language Navigation: Interpreting visually-grounded navigation instructions in real environments", "topic_id": "vln", "track_new_citations": true, "track_related": true}], "meta": {"baselines_path": "config/baselines.yaml", "editing_mode": "browser", "topics_path": "config/topics.yaml"}, "schema_version": 1, "topics": [{"enabled": true, "exclude": ["patent", "underwater"], "id": "uav-ris", "min_score": 8.0, "name": "UAV / RIS Communications", "preferred_authors": ["Yong Zeng", "Qingqing Wu"], "preferred_venues": ["IEEE Transactions on Wireless Communications", "IEEE Journal on Selected Areas in Communications"], "queries": ["uav reconfigurable intelligent surface", "drone ris wireless communication", "aerial intelligent reflecting surface"]}, {"enabled": true, "exclude": ["survey", "game"], "id": "vln", "min_score": 8.0, "name": "Vision-Language Navigation", "preferred_authors": ["Dhruv Batra", "Peter Anderson"], "preferred_venues": ["CVPR", "ICCV", "NeurIPS"], "queries": ["vision language navigation", "embodied navigation language grounding", "vln instruction following"]}]}</script>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-row">
+        <span data-i18n="footer.generated">Generated from repository state and published with GitHub Pages.</span>
+        <span data-i18n="footer.data_sources">Data: OpenAlex + Semantic Scholar</span>
+      </div>
+    </footer>
+    <script src="assets/app.js"></script>
+    
+<script src="assets/config_studio.js"></script>
+
+  </body>
+</html>
