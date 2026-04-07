@@ -108,10 +108,9 @@ function normalizeOpenAlex(value) {
   return String(value || "").trim();
 }
 
-function defaultTopic() {
-  const used = new Set(sanitizedTopics().map((topic) => topic.id).filter(Boolean));
+function emptyTopic() {
   return {
-    id: uniqueSlug("new-topic", used, "topic"),
+    id: "",
     name: "",
     queries: [],
     exclude: [],
@@ -122,12 +121,27 @@ function defaultTopic() {
   };
 }
 
-function defaultBaseline(topicId = "") {
-  const topicIds = sanitizedTopics().map((topic) => topic.id).filter(Boolean);
+function rawTopicIds() {
+  return state.topics.map((topic) => String(topic?.id || "").trim()).filter(Boolean);
+}
+
+function rawBaselineIds() {
+  return state.baselines.map((baseline) => String(baseline?.id || "").trim()).filter(Boolean);
+}
+
+function defaultTopic() {
+  const used = new Set(rawTopicIds());
   return {
-    id: uniqueSlug("new-baseline", new Set(sanitizedBaselines().map((baseline) => baseline.id).filter(Boolean)), "baseline"),
+    ...emptyTopic(),
+    id: uniqueSlug("new-topic", used, "topic"),
+  };
+}
+
+function emptyBaseline(topicId = "") {
+  return {
+    id: "",
     title: "",
-    topic_id: topicId || topicIds[0] || "",
+    topic_id: topicId || rawTopicIds()[0] || "",
     doi: "",
     arxiv_id: "",
     openalex_id: "",
@@ -141,6 +155,13 @@ function defaultBaseline(topicId = "") {
     track_new_citations: true,
     track_related: true,
     enabled: true
+  };
+}
+
+function defaultBaseline(topicId = "") {
+  return {
+    ...emptyBaseline(topicId),
+    id: uniqueSlug("new-baseline", new Set(rawBaselineIds()), "baseline")
   };
 }
 
@@ -177,7 +198,7 @@ async function loadConfigPayload() {
 }
 
 function hydrateTopic(topic) {
-  const merged = { ...defaultTopic(), ...topic };
+  const merged = { ...emptyTopic(), ...topic };
   return {
     ...merged,
     id: String(merged.id || "").trim(),
@@ -196,7 +217,7 @@ function hydrateTopic(topic) {
 }
 
 function hydrateBaseline(baseline) {
-  const merged = { ...defaultBaseline(baseline.topic_id || ""), ...baseline };
+  const merged = { ...emptyBaseline(baseline.topic_id || ""), ...baseline };
   return {
     ...merged,
     id: String(merged.id || "").trim(),
