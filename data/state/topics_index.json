@@ -15,6 +15,14 @@
       "reason": "title hit x1, abstract hit x1",
       "relation_type": "topic",
       "score": 4.5
+    },
+    {
+      "canonical_id": "arxiv:2604.12486",
+      "date": "2026-04-19",
+      "label": "candidate",
+      "reason": "title hit x1, abstract hit x1",
+      "relation_type": "topic",
+      "score": 4.5
     }
   ]
 }
