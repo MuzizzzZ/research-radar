@@ -100,7 +100,6 @@
       "openalex"
     ],
     "source_tags": [
-      "topic:vln:query:embodied navigation language grounding",
       "topic:vln:query:vln instruction following"
     ],
     "title": "DeCoNav: Dialog enhanced Long-Horizon Collaborative Vision-Language Navigation",
