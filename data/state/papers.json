@@ -603,7 +603,7 @@
       "Xiapu Luo"
     ],
     "canonical_id": "doi:10.1109/twc.2026.3651300",
-    "citations_count": 0,
+    "citations_count": 1,
     "discovered_date": null,
     "doi": "10.1109/twc.2026.3651300",
     "external_ids": {
@@ -832,13 +832,13 @@
     "doi": "10.48550/arxiv.2604.17473",
     "external_ids": {
       "doi": "https://doi.org/10.48550/arxiv.2604.17473",
-      "openalex": "https://openalex.org/W7155060173"
+      "openalex": "https://openalex.org/W7155247431"
     },
     "label": "candidate",
     "last_updated": null,
     "normalized_title": "dual anchoring addressing state drift in vision language navigation",
-    "openalex_id": "https://openalex.org/W7155060173",
-    "pdf_url": null,
+    "openalex_id": "https://openalex.org/W7155247431",
+    "pdf_url": "https://arxiv.org/pdf/2604.17473",
     "primary_reason": "title hit x1, abstract hit x1",
     "publication_date": "2026-04-19",
     "reasons": [
@@ -865,8 +865,8 @@
     ],
     "title": "Dual-Anchoring: Addressing State Drift in Vision-Language Navigation",
     "title_hash": "ad6bdbf9ec752e4ee135f2fa6cff25a7050dd767",
-    "url": "https://doi.org/10.48550/arxiv.2604.17473",
-    "venue": "arXiv (Cornell University)",
+    "url": "https://arxiv.org/abs/2604.17473",
+    "venue": "ArXiv.org",
     "year": 2026
   },
   "s2:08ba2877828708ace87d13acded59d47864d6659": {
