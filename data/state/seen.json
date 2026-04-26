@@ -51,9 +51,9 @@
     },
     "first_seen_date": "2026-04-07",
     "last_seen_by_scope": {
-      "baseline:secure-uav-ris:citation": "2026-04-25"
+      "baseline:secure-uav-ris:citation": "2026-04-26"
     },
-    "last_seen_date": "2026-04-25",
+    "last_seen_date": "2026-04-26",
     "relation_types": [
       "citation"
     ],
@@ -72,9 +72,9 @@
     },
     "first_seen_date": "2026-04-07",
     "last_seen_by_scope": {
-      "baseline:secure-uav-ris:citation": "2026-04-25"
+      "baseline:secure-uav-ris:citation": "2026-04-26"
     },
-    "last_seen_date": "2026-04-25",
+    "last_seen_date": "2026-04-26",
     "relation_types": [
       "citation"
     ],
@@ -93,9 +93,9 @@
     },
     "first_seen_date": "2026-04-07",
     "last_seen_by_scope": {
-      "baseline:secure-uav-ris:citation": "2026-04-25"
+      "baseline:secure-uav-ris:citation": "2026-04-26"
     },
-    "last_seen_date": "2026-04-25",
+    "last_seen_date": "2026-04-26",
     "relation_types": [
       "citation"
     ],
@@ -114,9 +114,9 @@
     },
     "first_seen_date": "2026-04-07",
     "last_seen_by_scope": {
-      "baseline:secure-uav-ris:citation": "2026-04-25"
+      "baseline:secure-uav-ris:citation": "2026-04-26"
     },
-    "last_seen_date": "2026-04-25",
+    "last_seen_date": "2026-04-26",
     "relation_types": [
       "citation"
     ],
@@ -135,9 +135,9 @@
     },
     "first_seen_date": "2026-04-07",
     "last_seen_by_scope": {
-      "baseline:secure-uav-ris:citation": "2026-04-25"
+      "baseline:secure-uav-ris:citation": "2026-04-26"
     },
-    "last_seen_date": "2026-04-25",
+    "last_seen_date": "2026-04-26",
     "relation_types": [
       "citation"
     ],
@@ -156,9 +156,9 @@
     },
     "first_seen_date": "2026-04-07",
     "last_seen_by_scope": {
-      "baseline:secure-uav-ris:citation": "2026-04-25"
+      "baseline:secure-uav-ris:citation": "2026-04-26"
     },
-    "last_seen_date": "2026-04-25",
+    "last_seen_date": "2026-04-26",
     "relation_types": [
       "citation"
     ],
@@ -177,9 +177,9 @@
     },
     "first_seen_date": "2026-04-07",
     "last_seen_by_scope": {
-      "baseline:secure-uav-ris:citation": "2026-04-25"
+      "baseline:secure-uav-ris:citation": "2026-04-26"
     },
-    "last_seen_date": "2026-04-25",
+    "last_seen_date": "2026-04-26",
     "relation_types": [
       "citation"
     ],
@@ -198,9 +198,9 @@
     },
     "first_seen_date": "2026-04-07",
     "last_seen_by_scope": {
-      "baseline:secure-uav-ris:citation": "2026-04-25"
+      "baseline:secure-uav-ris:citation": "2026-04-26"
     },
-    "last_seen_date": "2026-04-25",
+    "last_seen_date": "2026-04-26",
     "relation_types": [
       "citation"
     ],
@@ -219,9 +219,9 @@
     },
     "first_seen_date": "2026-04-07",
     "last_seen_by_scope": {
-      "baseline:secure-uav-ris:citation": "2026-04-25"
+      "baseline:secure-uav-ris:citation": "2026-04-26"
     },
-    "last_seen_date": "2026-04-25",
+    "last_seen_date": "2026-04-26",
     "relation_types": [
       "citation"
     ],
@@ -240,9 +240,9 @@
     },
     "first_seen_date": "2026-04-07",
     "last_seen_by_scope": {
-      "baseline:secure-uav-ris:citation": "2026-04-25"
+      "baseline:secure-uav-ris:citation": "2026-04-26"
     },
-    "last_seen_date": "2026-04-25",
+    "last_seen_date": "2026-04-26",
     "relation_types": [
       "citation"
     ],
@@ -261,9 +261,9 @@
     },
     "first_seen_date": "2026-04-07",
     "last_seen_by_scope": {
-      "baseline:secure-uav-ris:citation": "2026-04-25"
+      "baseline:secure-uav-ris:citation": "2026-04-26"
     },
-    "last_seen_date": "2026-04-25",
+    "last_seen_date": "2026-04-26",
     "relation_types": [
       "citation"
     ],
@@ -282,9 +282,9 @@
     },
     "first_seen_date": "2026-04-07",
     "last_seen_by_scope": {
-      "baseline:secure-uav-ris:citation": "2026-04-25"
+      "baseline:secure-uav-ris:citation": "2026-04-26"
     },
-    "last_seen_date": "2026-04-25",
+    "last_seen_date": "2026-04-26",
     "relation_types": [
       "citation"
     ],
@@ -335,6 +335,27 @@
       "vln"
     ]
   },
+  "doi:10.48550/arxiv.2604.21363": {
+    "baseline_ids": [],
+    "canonical_id": "doi:10.48550/arxiv.2604.21363",
+    "first_seen_by_scope": {
+      "topic:vln:topic": "2026-04-26"
+    },
+    "first_seen_date": "2026-04-26",
+    "last_seen_by_scope": {
+      "topic:vln:topic": "2026-04-26"
+    },
+    "last_seen_date": "2026-04-26",
+    "relation_types": [
+      "topic"
+    ],
+    "scope_keys": [
+      "topic:vln:topic"
+    ],
+    "topic_ids": [
+      "vln"
+    ]
+  },
   "s2:08ba2877828708ace87d13acded59d47864d6659": {
     "baseline_ids": [
       "secure-uav-ris"
@@ -345,9 +366,9 @@
     },
     "first_seen_date": "2026-04-07",
     "last_seen_by_scope": {
-      "baseline:secure-uav-ris:citation": "2026-04-25"
+      "baseline:secure-uav-ris:citation": "2026-04-26"
     },
-    "last_seen_date": "2026-04-25",
+    "last_seen_date": "2026-04-26",
     "relation_types": [
       "citation"
     ],
@@ -366,9 +387,9 @@
     },
     "first_seen_date": "2026-04-07",
     "last_seen_by_scope": {
-      "baseline:secure-uav-ris:citation": "2026-04-25"
+      "baseline:secure-uav-ris:citation": "2026-04-26"
     },
-    "last_seen_date": "2026-04-25",
+    "last_seen_date": "2026-04-26",
     "relation_types": [
       "citation"
     ],

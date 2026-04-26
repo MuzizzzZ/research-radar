@@ -17,6 +17,34 @@
       "name": "Vision-Language Navigation",
       "papers": [
         {
+          "abstract": "Bridging the gap between embodied intelligence and embedded deployment remains a key challenge in intelligent robotic systems, where perception, reasoning, and planning must operate under strict constraints on computation, memory, energy, and real-time execution. In vision-language navigation (VLN), existing approaches often face a fundamental trade-off between strong reasoning capabilities and efficient deployment on real-world platforms. In this paper, we present a deployable embodied VLN system that achieves both high efficiency and robust high-level reasoning on real-world robotic platforms. To achieve this, we decouple the system into three asynchronous modules: a real-time perception module for continuous environment sensing, a memory integration module for spatial-semantic aggregation, and a reasoning module for high-level decision making. We incrementally construct a cognitive memory graph to encode scene information, which is further decomposed into subgraphs to enable reasoning with a vision-language model (VLM). To further improve navigation efficiency and accuracy, we also leverage the cognitive memory graph to formulate the exploration problem as a context-aware Weighted Traveling Repairman Problem (WTRP), which minimizes the weighted waiting time of viewpoints. Extensive experiments in both simulation and real-world robotic platforms demonstrate improved navigation success and efficiency over existing VLN approaches, while maintaining real-time performance on resource-constrained hardware.",
+          "arxiv_id": "2604.21363",
+          "authors": [
+            "Kuan Xu",
+            "Ruimeng Liu",
+            "Yizhuo Yang",
+            "Denan Liang",
+            "Tongxing Jin"
+          ],
+          "baseline_ids": [],
+          "best_url": "https://doi.org/10.48550/arxiv.2604.21363",
+          "canonical_id": "doi:10.48550/arxiv.2604.21363",
+          "doi": "10.48550/arxiv.2604.21363",
+          "label": "candidate",
+          "openalex_id": "https://openalex.org/W7155506046",
+          "publication_date": "2026-04-23",
+          "reason": "title hit x1, abstract hit x1",
+          "relation_type": "topic",
+          "score": 4.5,
+          "semanticscholar_id": null,
+          "title": "A Deployable Embodied Vision-Language Navigation System with Hierarchical Cognition and Context-Aware Exploration",
+          "topic_ids": [
+            "vln"
+          ],
+          "venue": "arXiv (Cornell University)",
+          "year": 2026
+        },
+        {
           "abstract": "Vision-Language Navigation(VLN) requires an agent to navigate through 3D environments by following natural language instructions. While recent Video Large Language Models(Video-LLMs) have largely advanced VLN, they remain highly susceptible to State Drift in long scenarios. In these cases, the agent's internal state drifts away from the true task execution state, leading to aimless wandering and failure to execute essential maneuvers in the instruction. We attribute this failure to two distinct cognitive deficits: Progress Drift, where the agent fails to distinguish completed sub-goals from remaining ones, and Memory Drift, where the agent's history representations degrade, making it lose track of visited landmarks. In this paper, we propose a Dual-Anchoring Framework that explicitly anchors the instruction progress and history representations. First, to address progress drift, we introduce Instruction Progress Anchoring, which supervises the agent to generate structured text tokens that delineate completed versus remaining sub-goals. Second, to mitigate memory drift, we propose Memory Landmark Anchoring, which utilizes a Landmark-Centric World Model to retrospectively predict object-centric embeddings extracted by the Segment Anything Model, compelling the agent to explicitly verify past observations and preserve distinct representations of visited landmarks. Facilitating this framework, we curate two extensive datasets: 3.6 million samples with explicit progress descriptions, and 937k grounded landmark data for retrospective verification. Extensive experiments in both simulation and real-world environments demonstrate the superiority of our method, achieving a 15.2% improvement in Success Rate and a remarkable 24.7% gain on long-horizon trajectories. To facilitate further research, we will release our code, data generation pipelines, and the collected datasets.",
           "arxiv_id": "2604.17473",
           "authors": [
@@ -134,8 +162,8 @@
         "embodied navigation language grounding",
         "vln instruction following"
       ],
-      "today_count": 0,
-      "total_papers": 4
+      "today_count": 1,
+      "total_papers": 5
     }
   ]
 }
