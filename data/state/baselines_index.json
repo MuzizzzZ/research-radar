@@ -111,6 +111,14 @@
       "reason": "direct citation to baseline",
       "relation_type": "citation",
       "score": 7.5
+    },
+    {
+      "canonical_id": "doi:10.3389/fphy.2026.1817865",
+      "date": "2026-05-10",
+      "label": "candidate",
+      "reason": "direct citation to baseline",
+      "relation_type": "citation",
+      "score": 7.5
     }
   ]
 }

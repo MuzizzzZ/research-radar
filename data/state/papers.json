@@ -814,6 +814,63 @@
     "venue": "IEEE Transactions on Wireless Communications",
     "year": 2026
   },
+  "doi:10.3389/fphy.2026.1817865": {
+    "abstract": "Introduction Recent years have witnessed an increasing number of Internet of Things devices (IoTDs) deployed in power grids to monitor bidirectional information and power transfer, transforming them into smart grids. The densification of IoTDs in smart grids demands communication solutions that are simultaneously secure against eavesdropping and energy-efficient for sustainable operation. Methods This article proposes an unmanned aerial vehicle (UAV) and reconfigurable intelligent surface (RIS)-assisted framework in smart grids that maximizes worst-case secrecy energy efficiency via joint optimization of the UAV’s trajectory, beamforming, and phase shifts of RIS. A twin attention-driven deep reinforcement learning algorithm, TAMRRTD3, is developed, featuring attention-based state representation and regret-aware reward design to enhance learning accuracy and convergence. Results and Discussion Simulation results indicate that the proposed algorithm achieves a faster convergence rate and enhanced secrecy energy efficiency than the benchmark algorithms.",
+    "arxiv_id": "2026.18178",
+    "authors": [
+      "Jianmin Wu",
+      "Xiaowei Hao",
+      "Junwei Ma",
+      "Yang Li",
+      "Jian Wu"
+    ],
+    "canonical_id": "doi:10.3389/fphy.2026.1817865",
+    "citations_count": 0,
+    "discovered_date": null,
+    "doi": "10.3389/fphy.2026.1817865",
+    "external_ids": {
+      "CorpusId": "288099800",
+      "DOI": "10.3389/fphy.2026.1817865",
+      "doi": "https://doi.org/10.3389/fphy.2026.1817865",
+      "openalex": "https://openalex.org/W7160499084"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "joint security and energy optimization in uav enabled smart grid networks",
+    "openalex_id": "https://openalex.org/W7160499084",
+    "pdf_url": "https://www.frontiersin.org/journals/physics/articles/10.3389/fphy.2026.1817865/pdf",
+    "primary_reason": "direct citation to baseline",
+    "publication_date": "2026-05-07",
+    "reasons": [
+      "direct citation to baseline"
+    ],
+    "references_count": 42,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "direct citation to baseline",
+        "relation_type": "citation",
+        "scope_id": "secure-uav-ris",
+        "scope_type": "baseline",
+        "score": 7.5
+      }
+    ],
+    "score": 7.5,
+    "semanticscholar_id": "a9ba01a83bb2fcf9413d7775974419a2ad7adec0",
+    "source_names": [
+      "openalex",
+      "semanticscholar"
+    ],
+    "source_tags": [
+      "topic:uav-ris:query:uav reconfigurable intelligent surface",
+      "baseline:secure-uav-ris:citation"
+    ],
+    "title": "Joint security and energy optimization in UAV-enabled smart grid networks",
+    "title_hash": "34a9a52bda4e6d16a02682cb104bd7028c54ee5d",
+    "url": "https://doi.org/10.3389/fphy.2026.1817865",
+    "venue": "Frontiers in Physics",
+    "year": 2026
+  },
   "doi:10.48550/arxiv.2604.12486": {
     "abstract": "Long-horizon collaborative vision-language navigation (VLN) is critical for multi-robot systems to accomplish complex tasks beyond the capability of a single agent. CoNavBench takes a first step by introducing the first collaborative long-horizon VLN benchmark with relay-style multi-robot tasks, a collaboration taxonomy, along with graph-grounded generation and evaluation to model handoffs and rendezvous in shared environments. However, existing benchmarks and evaluations often do not enforce strictly synchronized dual-robot rollout on a shared world timeline, and they typically rely on static coordination policies that cannot adapt when new cross-agent evidence emerges. We present Dialog enhanced Long-Horizon Collaborative Vision-Language Navigation (DeCoNav), a decentralized framework that couples event-triggered dialogue with dynamic task allocation and replanning for real-time, adaptive coordination. In DeCoNav, robots exchange compact semantic states via dialogue without a central controller. When informative events such as new evidence, uncertainty, or conflicts arise, dialogue is triggered to dynamically reassign subgoals and replan under synchronized execution. Implemented in DeCoNavBench with 1,213 tasks across 176 HM3D scenes, DeCoNav improves the both-success rate (BSR) by 69.2%, demonstrating the effectiveness of dialogue-driven, dynamically reallocated planning for multi-robot collaboration.",
     "arxiv_id": "2604.12486",
@@ -981,6 +1038,61 @@
     "venue": "arXiv (Cornell University)",
     "year": 2026
   },
+  "doi:10.48550/arxiv.2605.06317": {
+    "abstract": "Existing Vision-Language Navigation (VLN) methods typically adopt an egocentric, step-by-step paradigm, which struggles with error accumulation and limits efficiency. While recent approaches attempt to leverage pre-built environment maps, they often rely on incrementally updating memory graphs or scoring discrete path proposals, which restricts continuous spatial reasoning and creates discrete bottlenecks. We propose Top-Down VLN (TD-VLN), reformulating navigation as a one-step global path planning problem on pre-built top-down maps, supported by our newly constructed R2R-TopDown dataset. To solve this, we introduce NavOne, a unified framework that directly predicts dense path probabilities over multi-modal maps in a single end-to-end forward pass. NavOne features a Top-Down Map Fuser for joint multi-modal map representation, and extends Attention Residuals for spatial-aware depth mixing. Extensive experiments on R2R-TopDown show that NavOne achieves state-of-the-art performance among map-based VLN methods, with a planning-stage speedup of 8x over existing map-based baselines and 80x over egocentric methods, enabling highly efficient global navigation.",
+    "arxiv_id": "2605.06317",
+    "authors": [
+      "Dijia Zhan",
+      "Jinyi Li",
+      "Chenxi Zheng",
+      "Shaoyu Huang",
+      "Yong Li",
+      "Jie Tang",
+      "Xuemiao Xu"
+    ],
+    "canonical_id": "doi:10.48550/arxiv.2605.06317",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": "10.48550/arxiv.2605.06317",
+    "external_ids": {
+      "doi": "https://doi.org/10.48550/arxiv.2605.06317",
+      "openalex": "https://openalex.org/W7160601632"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "navone one step global planning for vision language navigation on top down maps",
+    "openalex_id": "https://openalex.org/W7160601632",
+    "pdf_url": null,
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-05-07",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vision language navigation"
+    ],
+    "title": "NavOne: One-Step Global Planning for Vision-Language Navigation on Top-Down Maps",
+    "title_hash": "41cec313c13d267914e3024b48f048d2b30594c1",
+    "url": "https://doi.org/10.48550/arxiv.2605.06317",
+    "venue": "arXiv (Cornell University)",
+    "year": 2026
+  },
   "s2:08ba2877828708ace87d13acded59d47864d6659": {
     "abstract": null,
     "arxiv_id": null,
@@ -988,7 +1100,7 @@
       "Xiaoyan Hu"
     ],
     "canonical_id": "s2:08ba2877828708ace87d13acded59d47864d6659",
-    "citations_count": 19,
+    "citations_count": 20,
     "discovered_date": null,
     "doi": null,
     "external_ids": {

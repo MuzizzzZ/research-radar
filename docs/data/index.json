@@ -3,7 +3,7 @@
     {
       "id": "secure-uav-ris",
       "title": "Joint Trajectory and Passive Beamforming Design for Secure UAV-RIS Communication Systems",
-      "today_citations": 0,
+      "today_citations": 1,
       "today_related": 0,
       "topic_id": "uav-ris"
     },
@@ -15,15 +15,72 @@
       "topic_id": "vln"
     }
   ],
-  "generated_at": "2026-05-09",
+  "generated_at": "2026-05-10",
   "issues": [
     "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
-  "latest_report_date": "2026-05-09",
+  "latest_report_date": "2026-05-10",
   "project_name": "research-radar",
-  "recent_papers": [],
-  "today_new_global": 0,
-  "today_new_total": 0,
+  "recent_papers": [
+    {
+      "abstract": "Existing Vision-Language Navigation (VLN) methods typically adopt an egocentric, step-by-step paradigm, which struggles with error accumulation and limits efficiency. While recent approaches attempt to leverage pre-built environment maps, they often rely on incrementally updating memory graphs or scoring discrete path proposals, which restricts continuous spatial reasoning and creates discrete bottlenecks. We propose Top-Down VLN (TD-VLN), reformulating navigation as a one-step global path planning problem on pre-built top-down maps, supported by our newly constructed R2R-TopDown dataset. To solve this, we introduce NavOne, a unified framework that directly predicts dense path probabilities over multi-modal maps in a single end-to-end forward pass. NavOne features a Top-Down Map Fuser for joint multi-modal map representation, and extends Attention Residuals for spatial-aware depth mixing. Extensive experiments on R2R-TopDown show that NavOne achieves state-of-the-art performance among map-based VLN methods, with a planning-stage speedup of 8x over existing map-based baselines and 80x over egocentric methods, enabling highly efficient global navigation.",
+      "arxiv_id": "2605.06317",
+      "authors": [
+        "Dijia Zhan",
+        "Jinyi Li",
+        "Chenxi Zheng",
+        "Shaoyu Huang",
+        "Yong Li"
+      ],
+      "baseline_ids": [],
+      "best_url": "https://doi.org/10.48550/arxiv.2605.06317",
+      "canonical_id": "doi:10.48550/arxiv.2605.06317",
+      "doi": "10.48550/arxiv.2605.06317",
+      "label": "candidate",
+      "openalex_id": "https://openalex.org/W7160601632",
+      "publication_date": "2026-05-07",
+      "reason": "title hit x1, abstract hit x1",
+      "relation_type": null,
+      "score": 4.5,
+      "semanticscholar_id": null,
+      "title": "NavOne: One-Step Global Planning for Vision-Language Navigation on Top-Down Maps",
+      "topic_ids": [
+        "vln"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "year": 2026
+    },
+    {
+      "abstract": "Introduction Recent years have witnessed an increasing number of Internet of Things devices (IoTDs) deployed in power grids to monitor bidirectional information and power transfer, transforming them into smart grids. The densification of IoTDs in smart grids demands communication solutions that are simultaneously secure against eavesdropping and energy-efficient for sustainable operation. Methods This article proposes an unmanned aerial vehicle (UAV) and reconfigurable intelligent surface (RIS)-assisted framework in smart grids that maximizes worst-case secrecy energy efficiency via joint optimization of the UAV’s trajectory, beamforming, and phase shifts of RIS. A twin attention-driven deep reinforcement learning algorithm, TAMRRTD3, is developed, featuring attention-based state representation and regret-aware reward design to enhance learning accuracy and convergence. Results and Discussion Simulation results indicate that the proposed algorithm achieves a faster convergence rate and enhanced secrecy energy efficiency than the benchmark algorithms.",
+      "arxiv_id": "2026.18178",
+      "authors": [
+        "Jianmin Wu",
+        "Xiaowei Hao",
+        "Junwei Ma",
+        "Yang Li",
+        "Jian Wu"
+      ],
+      "baseline_ids": [
+        "secure-uav-ris"
+      ],
+      "best_url": "https://doi.org/10.3389/fphy.2026.1817865",
+      "canonical_id": "doi:10.3389/fphy.2026.1817865",
+      "doi": "10.3389/fphy.2026.1817865",
+      "label": "candidate",
+      "openalex_id": "https://openalex.org/W7160499084",
+      "publication_date": "2026-05-07",
+      "reason": "direct citation to baseline",
+      "relation_type": null,
+      "score": 7.5,
+      "semanticscholar_id": "a9ba01a83bb2fcf9413d7775974419a2ad7adec0",
+      "title": "Joint security and energy optimization in UAV-enabled smart grid networks",
+      "topic_ids": [],
+      "venue": "Frontiers in Physics",
+      "year": 2026
+    }
+  ],
+  "today_new_global": 2,
+  "today_new_total": 2,
   "topics": [
     {
       "id": "uav-ris",
@@ -34,8 +91,8 @@
     {
       "id": "vln",
       "name": "Vision-Language Navigation",
-      "today_count": 0,
-      "total_papers": 6
+      "today_count": 1,
+      "total_papers": 7
     }
   ]
 }

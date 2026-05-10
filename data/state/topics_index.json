@@ -47,6 +47,14 @@
       "reason": "title hit x1, abstract hit x1",
       "relation_type": "topic",
       "score": 4.5
+    },
+    {
+      "canonical_id": "doi:10.48550/arxiv.2605.06317",
+      "date": "2026-05-10",
+      "label": "candidate",
+      "reason": "title hit x1, abstract hit x1",
+      "relation_type": "topic",
+      "score": 4.5
     }
   ]
 }

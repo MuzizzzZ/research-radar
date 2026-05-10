@@ -3,6 +3,34 @@
     {
       "citations": [
         {
+          "abstract": "Introduction Recent years have witnessed an increasing number of Internet of Things devices (IoTDs) deployed in power grids to monitor bidirectional information and power transfer, transforming them into smart grids. The densification of IoTDs in smart grids demands communication solutions that are simultaneously secure against eavesdropping and energy-efficient for sustainable operation. Methods This article proposes an unmanned aerial vehicle (UAV) and reconfigurable intelligent surface (RIS)-assisted framework in smart grids that maximizes worst-case secrecy energy efficiency via joint optimization of the UAV’s trajectory, beamforming, and phase shifts of RIS. A twin attention-driven deep reinforcement learning algorithm, TAMRRTD3, is developed, featuring attention-based state representation and regret-aware reward design to enhance learning accuracy and convergence. Results and Discussion Simulation results indicate that the proposed algorithm achieves a faster convergence rate and enhanced secrecy energy efficiency than the benchmark algorithms.",
+          "arxiv_id": "2026.18178",
+          "authors": [
+            "Jianmin Wu",
+            "Xiaowei Hao",
+            "Junwei Ma",
+            "Yang Li",
+            "Jian Wu"
+          ],
+          "baseline_ids": [
+            "secure-uav-ris"
+          ],
+          "best_url": "https://doi.org/10.3389/fphy.2026.1817865",
+          "canonical_id": "doi:10.3389/fphy.2026.1817865",
+          "doi": "10.3389/fphy.2026.1817865",
+          "label": "candidate",
+          "openalex_id": "https://openalex.org/W7160499084",
+          "publication_date": "2026-05-07",
+          "reason": "direct citation to baseline",
+          "relation_type": "citation",
+          "score": 7.5,
+          "semanticscholar_id": "a9ba01a83bb2fcf9413d7775974419a2ad7adec0",
+          "title": "Joint security and energy optimization in UAV-enabled smart grid networks",
+          "topic_ids": [],
+          "venue": "Frontiers in Physics",
+          "year": 2026
+        },
+        {
           "abstract": "This article investigates a secure aerial reconfigurable intelligent surface (A-RIS) communication system, where user mobility, imperfect channel state information (CSI), and RIS phase errors induced by uncrewed aerial vehicle (UAV) jitter significantly degrade performance. To address these challenges, we formulate a joint optimization problem for UAV trajectory, base station (BS) we propose abeamforming, and A-RIS beamforming to maximize the minimum secrecy energy efficiency (SEE), subject to constraints on user secrecy rates and UAV energy efficiency. To solve this highly non-convex problem, we propose a novel reinforcement learning framework termed IA-CSORL based on the twin-twin-delayed deep deterministic policy gradient (TTD3) architecture, which incorporates two novel modules. Specifically, we develop the phase-aware relativistic adaptive descent (PRAD) algorithm is proposed, which embeds the learning process into a conformal Hamiltonian system. By integrating gradient-based phase error correction and adaptive momentum adjustment, PRAD effectively counteracts phase noise and stabilizes training. Furthermore, we design an environment-state interactive attention (ESIA) mechanism to dynamically fuse UAV positioning and environmental features, enhancing state representation and deployment accuracy. Numerical results demonstrate that IA-CSORL significantly outperforms existing RL baselines in terms of both robustness and convergence performance. Moreover, IA-CSORL achieves superior beamforming accuracy under phase errors and CSI imperfections and provides a better trade-off between sum secrecy rate (SSR) and SEE, with performance gains becoming more significant as the number of RIS elements increases.",
           "arxiv_id": null,
           "authors": [
@@ -386,7 +414,7 @@
       "id": "secure-uav-ris",
       "related": [],
       "title": "Joint Trajectory and Passive Beamforming Design for Secure UAV-RIS Communication Systems",
-      "today_citations": 0,
+      "today_citations": 1,
       "today_related": 0,
       "topic_id": "uav-ris"
     },
