@@ -1112,13 +1112,13 @@
     "doi": "10.48550/arxiv.2605.10376",
     "external_ids": {
       "doi": "https://doi.org/10.48550/arxiv.2605.10376",
-      "openalex": "https://openalex.org/W7160904032"
+      "openalex": "https://openalex.org/W7161092204"
     },
     "label": "candidate",
     "last_updated": null,
     "normalized_title": "sleepwalk a three tier benchmark for stress testing instruction guided vision language navigation",
-    "openalex_id": "https://openalex.org/W7160904032",
-    "pdf_url": null,
+    "openalex_id": "https://openalex.org/W7161092204",
+    "pdf_url": "https://arxiv.org/pdf/2605.10376",
     "primary_reason": "title hit x1, abstract hit x1",
     "publication_date": "2026-05-11",
     "reasons": [
@@ -1145,8 +1145,8 @@
     ],
     "title": "SleepWalk: A Three-Tier Benchmark for Stress-Testing Instruction-Guided Vision-Language Navigation",
     "title_hash": "2503c1856df08536e3a7eaacf5cbd3af31164252",
-    "url": "https://doi.org/10.48550/arxiv.2605.10376",
-    "venue": "arXiv (Cornell University)",
+    "url": "https://arxiv.org/abs/2605.10376",
+    "venue": "ArXiv.org",
     "year": 2026
   },
   "s2:08ba2877828708ace87d13acded59d47864d6659": {
@@ -1156,7 +1156,7 @@
       "Xiaoyan Hu"
     ],
     "canonical_id": "s2:08ba2877828708ace87d13acded59d47864d6659",
-    "citations_count": 20,
+    "citations_count": 21,
     "discovered_date": null,
     "doi": null,
     "external_ids": {
