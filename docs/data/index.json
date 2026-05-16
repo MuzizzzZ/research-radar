@@ -11,19 +11,76 @@
       "id": "room-to-room",
       "title": "Vision-and-Language Navigation: Interpreting visually-grounded navigation instructions in real environments",
       "today_citations": 0,
-      "today_related": 0,
+      "today_related": 1,
       "topic_id": "vln"
     }
   ],
-  "generated_at": "2026-05-15",
+  "generated_at": "2026-05-16",
   "issues": [
     "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
-  "latest_report_date": "2026-05-15",
+  "latest_report_date": "2026-05-16",
   "project_name": "research-radar",
-  "recent_papers": [],
-  "today_new_global": 0,
-  "today_new_total": 0,
+  "recent_papers": [
+    {
+      "abstract": "Vision-Language Models (VLMs) have advanced rapidly in multimodal perception and language understanding, yet it remains unclear whether they can reliably ground language into spatially coherent, plausibly executable actions in 3D digital environments. We introduce SleepWalk, a benchmark for evaluating instruction-grounded trajectory prediction in single-scene 3D worlds generated from textual scene descriptions and filtered for navigability. Unlike prior navigation benchmarks centered on long-range exploration across rooms, SleepWalk targets localized, interaction-centric embodied reasoning: given rendered visual observations and a natural-language instruction, a model must predict a trajectory that respects scene geometry, avoids collisions, and terminates at an action-compatible location. The benchmark covers diverse indoor and outdoor environments and organizes tasks into three tiers of spatial and temporal difficulty, enabling fine-grained analysis of grounding under increasing compositional complexity. Using a standardized pointwise judge-based evaluation protocol, we evaluate three frontier VLMs on 2,472 curated 3D environments with nine instructions per scene. Results reveal systematic failures in grounded spatial reasoning, especially under occlusion, interaction constraints, and multi-step instructions: performance drops as the difficulty level of the tasks increase. In general, current VLMs can somewhat produce trajectories that are simultaneously spatially coherent, plausibly executable, and aligned with intended actions. By exposing failures in a controlled yet scalable setting, SleepWalk provides a critical benchmark for advancing grounded multimodal reasoning, embodied planning, vision-language navigation, and action-capable agents in 3D environments.",
+      "arxiv_id": "2605.10376",
+      "authors": [
+        "Niyati Rawal",
+        "Sushant Ravva",
+        "Shah Alam Abir",
+        "Saksham Jain",
+        "Aman Chadha"
+      ],
+      "baseline_ids": [],
+      "best_url": "https://arxiv.org/abs/2605.10376",
+      "canonical_id": "arxiv:2605.10376",
+      "doi": null,
+      "label": "candidate",
+      "openalex_id": "https://openalex.org/W7161092204",
+      "publication_date": "2026-05-11",
+      "reason": "title hit x1, abstract hit x1",
+      "relation_type": null,
+      "score": 4.5,
+      "semanticscholar_id": null,
+      "title": "SleepWalk: A Three-Tier Benchmark for Stress-Testing Instruction-Guided Vision-Language Navigation",
+      "topic_ids": [
+        "vln"
+      ],
+      "venue": "ArXiv.org",
+      "year": 2026
+    },
+    {
+      "abstract": "Vision-and-Language Navigation (VLN) is a cornerstone of embodied intelligence. However, current agents often suffer from significant performance degradation when transitioning from simulation to real-world deployment, primarily due to perceptual instability (e.g., lighting variations and motion blur) and under-specified instructions. While existing methods attempt to bridge this gap by scaling up model size and training data, we argue that the bottleneck lies in the lack of robust spatial grounding and cross-domain priors. In this paper, we propose StereoNav, a robust Vision-Language-Action framework designed to enhance real-world navigation consistency. To address the inherent gap between synthetic training and physical execution, we introduce Target-Location Priors as a persistent bridge. These priors provide stable visual guidance that remains invariant across domains, effectively grounding the agent even when instructions are vague. Furthermore, to mitigate visual disturbances like motion blur and illumination shifts, StereoNav leverages stereo vision to construct a unified representation of semantics and geometry, enabling precise action prediction through enhanced depth awareness. Extensive experiments on R2R-CE and RxR-CE demonstrate that StereoNav achieves state-of-the-art egocentric RGB performance, with SR and SPL scores of 81.1% and 68.3%, and 67.5% and 52.0%, respectively, while using significantly fewer parameters and less training data than prior scaling-based approaches. More importantly, real-world robotic deployments confirm that StereoNav substantially improves navigation reliability in complex, unstructured environments. Project page: https://yunheng-wang.github.io/stereonav-public.github.io.",
+      "arxiv_id": "2605.13328",
+      "authors": [
+        "Yunheng Wang",
+        "Yuetong Fang",
+        "Taowen Wang",
+        "Lusong Li",
+        "Kun Liu"
+      ],
+      "baseline_ids": [
+        "room-to-room"
+      ],
+      "best_url": "https://doi.org/10.48550/arxiv.2605.13328",
+      "canonical_id": "doi:10.48550/arxiv.2605.13328",
+      "doi": "10.48550/arxiv.2605.13328",
+      "label": "candidate",
+      "openalex_id": "https://openalex.org/W7161127285",
+      "publication_date": "2026-05-13",
+      "reason": "title similarity 83, related to baseline topic cluster",
+      "relation_type": null,
+      "score": 5.5,
+      "semanticscholar_id": null,
+      "title": "What Limits Vision-and-Language Navigation ?",
+      "topic_ids": [],
+      "venue": "arXiv (Cornell University)",
+      "year": 2026
+    }
+  ],
+  "today_new_global": 2,
+  "today_new_total": 2,
   "topics": [
     {
       "id": "uav-ris",
@@ -34,8 +91,8 @@
     {
       "id": "vln",
       "name": "Vision-Language Navigation",
-      "today_count": 0,
-      "total_papers": 8
+      "today_count": 1,
+      "total_papers": 9
     }
   ]
 }

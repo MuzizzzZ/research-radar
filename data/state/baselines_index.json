@@ -1,4 +1,14 @@
 {
+  "room-to-room": [
+    {
+      "canonical_id": "doi:10.48550/arxiv.2605.13328",
+      "date": "2026-05-16",
+      "label": "candidate",
+      "reason": "title similarity 83, related to baseline topic cluster",
+      "relation_type": "related",
+      "score": 5.5
+    }
+  ],
   "secure-uav-ris": [
     {
       "canonical_id": "doi:10.1109/jsac.2026.3669466",
