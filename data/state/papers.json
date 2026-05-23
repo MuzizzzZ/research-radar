@@ -219,6 +219,60 @@
     "venue": "ArXiv.org",
     "year": 2026
   },
+  "arxiv:2605.17249": {
+    "abstract": "Vision-Language Navigation (VLN) approaches have currently followed two primary paradigms: the end-to-end Vision-Language Model (VLM) policy fine-tuned on navigation trajectories to directly predict actions, and the zero-shot modular pipeline integrating pre-trained Multimodal Large Language Model (MLLM) for training-free generalization to unseen environments. However, end-to-end methods struggle with long-horizon navigation and lack dynamic reasoning, whereas zero-shot methods are constrained by limited spatial grounding for reliable planning and also require substantial reasoning time. To bridge this gap, we introduce SEDualVLN, a spatially-enhanced dual-system VLN framework. System 1 is a VLM model enhanced with both global and local spatial awareness, used for action generation. System 2 integrates a general MLLM with a mapping module, wherein the MLLM plans waypoints by leveraging top-down views of the real-time 3D map alongside streams of rendered path images. Both systems leverage different forms of spatial enhancement to cultivate the agent's sense of direction in VLN tasks. Ultimately, they cooperate to complete the navigation task through a fast-slow coordinated approach. SEDualVLN achieves state-of-the-art performance on VLN-CE benchmarks, and further ablation studies demonstrate the effectiveness of each system and module.",
+    "arxiv_id": "2605.17249",
+    "authors": [
+      "Jingzhi Huang",
+      "Junkai Huang",
+      "Wenxuan Song",
+      "Haoyang Yang",
+      "Hailong Huang",
+      "Haoang Li",
+      "Yi Hsien Wang"
+    ],
+    "canonical_id": "arxiv:2605.17249",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": null,
+    "external_ids": {
+      "openalex": "https://openalex.org/W7161915864"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "sedualvln a spatially enhanced dual system for vision language navigation",
+    "openalex_id": "https://openalex.org/W7161915864",
+    "pdf_url": "https://arxiv.org/pdf/2605.17249",
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-05-17",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vln instruction following"
+    ],
+    "title": "SEDualVLN: A Spatially-Enhanced Dual-System for Vision-Language Navigation",
+    "title_hash": "ee8956e29ff23b29f341f9a47c808d8702ae19a0",
+    "url": "https://arxiv.org/abs/2605.17249",
+    "venue": "ArXiv.org",
+    "year": 2026
+  },
   "doi:10.1109/access.2026.3651489": {
     "abstract": "The use of unmanned aerial vehicles (UAVs) for collecting data from sensors has garnered considerable attention in both academic and industrial fields in recent years. To assess the freshness of the information gathered, the age of information (AoI) metric has emerged as an important tool, particularly in time-sensitive applications such as traffic management or monitoring critical issues like fire hazards. This study explores a scenario where a UAV, supported by multiple intelligent reflecting surfaces (IRSs), periodically gathers data from distributed internet of things devices (IoTDs). To minimize the average AoI across all devices, a comprehensive optimization approach is employed. Key elements such as the UAV’s trajectory, device transmission scheduling, timeslot duration, IRS selection factor, and the phase shift matrix of the selected IRS are jointly optimized. However, the problem’s complexity arises from its mixed-integer nature—IRS selection and device scheduling coefficients require integer values—and the strong interdependence of channel conditions with the UAV’s flight path and IRS phase shifts. These challenges make the problem difficult to solve. To address this, the primary optimization problem is framed as a Markov decision process (MDP). A deep reinforcement learning (DRL)-based approach is then adopted to determine the optimal UAV’s trajectory, device scheduling, and timeslot duration. Additionally, a location-based method is employed for selecting the suitable IRS, while a closed-form solution is used to design the phase shift matrix of the selected IRS. Results evidence improvements in successful transmission and fairness selection of devices when using multiple IRSs and variable timeslots.",
     "arxiv_id": null,
@@ -229,7 +283,7 @@
       "Saleh Yousefi"
     ],
     "canonical_id": "doi:10.1109/access.2026.3651489",
-    "citations_count": 0,
+    "citations_count": 1,
     "discovered_date": null,
     "doi": "10.1109/access.2026.3651489",
     "external_ids": {

@@ -17,6 +17,34 @@
       "name": "Vision-Language Navigation",
       "papers": [
         {
+          "abstract": "Vision-Language Navigation (VLN) approaches have currently followed two primary paradigms: the end-to-end Vision-Language Model (VLM) policy fine-tuned on navigation trajectories to directly predict actions, and the zero-shot modular pipeline integrating pre-trained Multimodal Large Language Model (MLLM) for training-free generalization to unseen environments. However, end-to-end methods struggle with long-horizon navigation and lack dynamic reasoning, whereas zero-shot methods are constrained by limited spatial grounding for reliable planning and also require substantial reasoning time. To bridge this gap, we introduce SEDualVLN, a spatially-enhanced dual-system VLN framework. System 1 is a VLM model enhanced with both global and local spatial awareness, used for action generation. System 2 integrates a general MLLM with a mapping module, wherein the MLLM plans waypoints by leveraging top-down views of the real-time 3D map alongside streams of rendered path images. Both systems leverage different forms of spatial enhancement to cultivate the agent's sense of direction in VLN tasks. Ultimately, they cooperate to complete the navigation task through a fast-slow coordinated approach. SEDualVLN achieves state-of-the-art performance on VLN-CE benchmarks, and further ablation studies demonstrate the effectiveness of each system and module.",
+          "arxiv_id": "2605.17249",
+          "authors": [
+            "Jingzhi Huang",
+            "Junkai Huang",
+            "Wenxuan Song",
+            "Haoyang Yang",
+            "Hailong Huang"
+          ],
+          "baseline_ids": [],
+          "best_url": "https://arxiv.org/abs/2605.17249",
+          "canonical_id": "arxiv:2605.17249",
+          "doi": null,
+          "label": "candidate",
+          "openalex_id": "https://openalex.org/W7161915864",
+          "publication_date": "2026-05-17",
+          "reason": "title hit x1, abstract hit x1",
+          "relation_type": "topic",
+          "score": 4.5,
+          "semanticscholar_id": null,
+          "title": "SEDualVLN: A Spatially-Enhanced Dual-System for Vision-Language Navigation",
+          "topic_ids": [
+            "vln"
+          ],
+          "venue": "ArXiv.org",
+          "year": 2026
+        },
+        {
           "abstract": "Vision-Language Models (VLMs) have advanced rapidly in multimodal perception and language understanding, yet it remains unclear whether they can reliably ground language into spatially coherent, plausibly executable actions in 3D digital environments. We introduce SleepWalk, a benchmark for evaluating instruction-grounded trajectory prediction in single-scene 3D worlds generated from textual scene descriptions and filtered for navigability. Unlike prior navigation benchmarks centered on long-range exploration across rooms, SleepWalk targets localized, interaction-centric embodied reasoning: given rendered visual observations and a natural-language instruction, a model must predict a trajectory that respects scene geometry, avoids collisions, and terminates at an action-compatible location. The benchmark covers diverse indoor and outdoor environments and organizes tasks into three tiers of spatial and temporal difficulty, enabling fine-grained analysis of grounding under increasing compositional complexity. Using a standardized pointwise judge-based evaluation protocol, we evaluate three frontier VLMs on 2,472 curated 3D environments with nine instructions per scene. Results reveal systematic failures in grounded spatial reasoning, especially under occlusion, interaction constraints, and multi-step instructions: performance drops as the difficulty level of the tasks increase. In general, current VLMs can somewhat produce trajectories that are simultaneously spatially coherent, plausibly executable, and aligned with intended actions. By exposing failures in a controlled yet scalable setting, SleepWalk provides a critical benchmark for advancing grounded multimodal reasoning, embodied planning, vision-language navigation, and action-capable agents in 3D environments.",
           "arxiv_id": "2605.10376",
           "authors": [
@@ -274,8 +302,8 @@
         "embodied navigation language grounding",
         "vln instruction following"
       ],
-      "today_count": 0,
-      "total_papers": 9
+      "today_count": 1,
+      "total_papers": 10
     }
   ]
 }
