@@ -3,6 +3,34 @@
     {
       "citations": [
         {
+          "abstract": "This work investigates a secure uncrewed aerial vehicle (UAV)-assisted communication system enhanced by a ground-deployed reconfigurable intelligent surface (RIS), aiming to ensure secure communications for multiple ground users under the threat of a malicious eavesdropper. The core challenge lies in the joint optimization of UAV trajectory, beamforming vectors, and RIS phase shifts to maximize the average secrecy rate, which is a highly nonconvex problem involving coupled continuous and discrete variables. To address this, we propose a multihead distributional soft actor–critic (DSAC) framework that formulates the problem as a Markov decision process (MDP) and integrates continuous flight control variables, including UAV position and beamforming and discrete communication variables, which are RIS phase shifts into a unified reinforcement learning model. The proposed framework employs a multihead actor network to handle mixed actions and distributional critic networks to enhance value estimation robustness. Simulation results demonstrate that the proposed multihead DSAC outperforms existing reinforcement learning algorithms in terms of average secrecy rate and convergence stability, validating its effectiveness in dynamic and hostile wireless environments.",
+          "arxiv_id": null,
+          "authors": [
+            "Heng Zhang",
+            "Yunfei Wu",
+            "Shujiu Wang",
+            "Sirun Li",
+            "Ming Li"
+          ],
+          "baseline_ids": [
+            "secure-uav-ris"
+          ],
+          "best_url": "https://www.semanticscholar.org/paper/6891297866a177aecd2dc10c8d10e02146ce33f7",
+          "canonical_id": "doi:10.1109/jmass.2026.3664901",
+          "doi": "10.1109/jmass.2026.3664901",
+          "label": "candidate",
+          "openalex_id": null,
+          "publication_date": "2026-06-01",
+          "reason": "direct citation to baseline",
+          "relation_type": "citation",
+          "score": 7.5,
+          "semanticscholar_id": "6891297866a177aecd2dc10c8d10e02146ce33f7",
+          "title": "DRL-Empowered Secure UAV-RIS Communication: A Multihead DSAC Optimization Framework",
+          "topic_ids": [],
+          "venue": "IEEE Journal on Miniaturization for Air and Space Systems",
+          "year": 2026
+        },
+        {
           "abstract": "Introduction Recent years have witnessed an increasing number of Internet of Things devices (IoTDs) deployed in power grids to monitor bidirectional information and power transfer, transforming them into smart grids. The densification of IoTDs in smart grids demands communication solutions that are simultaneously secure against eavesdropping and energy-efficient for sustainable operation. Methods This article proposes an unmanned aerial vehicle (UAV) and reconfigurable intelligent surface (RIS)-assisted framework in smart grids that maximizes worst-case secrecy energy efficiency via joint optimization of the UAV’s trajectory, beamforming, and phase shifts of RIS. A twin attention-driven deep reinforcement learning algorithm, TAMRRTD3, is developed, featuring attention-based state representation and regret-aware reward design to enhance learning accuracy and convergence. Results and Discussion Simulation results indicate that the proposed algorithm achieves a faster convergence rate and enhanced secrecy energy efficiency than the benchmark algorithms.",
           "arxiv_id": "2026.18178",
           "authors": [
@@ -414,7 +442,7 @@
       "id": "secure-uav-ris",
       "related": [],
       "title": "Joint Trajectory and Passive Beamforming Design for Secure UAV-RIS Communication Systems",
-      "today_citations": 0,
+      "today_citations": 1,
       "today_related": 0,
       "topic_id": "uav-ris"
     },

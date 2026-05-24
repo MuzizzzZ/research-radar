@@ -379,6 +379,61 @@
     "venue": "IEEE Access",
     "year": 2026
   },
+  "doi:10.1109/jmass.2026.3664901": {
+    "abstract": "This work investigates a secure uncrewed aerial vehicle (UAV)-assisted communication system enhanced by a ground-deployed reconfigurable intelligent surface (RIS), aiming to ensure secure communications for multiple ground users under the threat of a malicious eavesdropper. The core challenge lies in the joint optimization of UAV trajectory, beamforming vectors, and RIS phase shifts to maximize the average secrecy rate, which is a highly nonconvex problem involving coupled continuous and discrete variables. To address this, we propose a multihead distributional soft actor–critic (DSAC) framework that formulates the problem as a Markov decision process (MDP) and integrates continuous flight control variables, including UAV position and beamforming and discrete communication variables, which are RIS phase shifts into a unified reinforcement learning model. The proposed framework employs a multihead actor network to handle mixed actions and distributional critic networks to enhance value estimation robustness. Simulation results demonstrate that the proposed multihead DSAC outperforms existing reinforcement learning algorithms in terms of average secrecy rate and convergence stability, validating its effectiveness in dynamic and hostile wireless environments.",
+    "arxiv_id": null,
+    "authors": [
+      "Heng Zhang",
+      "Yunfei Wu",
+      "Shujiu Wang",
+      "Sirun Li",
+      "Ming Li",
+      "Jian Zhang",
+      "Meng Huang"
+    ],
+    "canonical_id": "doi:10.1109/jmass.2026.3664901",
+    "citations_count": 1,
+    "discovered_date": null,
+    "doi": "10.1109/jmass.2026.3664901",
+    "external_ids": {
+      "CorpusId": "285668666",
+      "DOI": "10.1109/JMASS.2026.3664901"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "drl empowered secure uav ris communication a multihead dsac optimization framework",
+    "openalex_id": null,
+    "pdf_url": "",
+    "primary_reason": "direct citation to baseline",
+    "publication_date": "2026-06-01",
+    "reasons": [
+      "direct citation to baseline"
+    ],
+    "references_count": 30,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "direct citation to baseline",
+        "relation_type": "citation",
+        "scope_id": "secure-uav-ris",
+        "scope_type": "baseline",
+        "score": 7.5
+      }
+    ],
+    "score": 7.5,
+    "semanticscholar_id": "6891297866a177aecd2dc10c8d10e02146ce33f7",
+    "source_names": [
+      "semanticscholar"
+    ],
+    "source_tags": [
+      "baseline:secure-uav-ris:citation"
+    ],
+    "title": "DRL-Empowered Secure UAV-RIS Communication: A Multihead DSAC Optimization Framework",
+    "title_hash": "5530c71b5062ddb136dc0c278ec28c1ca47c0508",
+    "url": "https://www.semanticscholar.org/paper/6891297866a177aecd2dc10c8d10e02146ce33f7",
+    "venue": "IEEE Journal on Miniaturization for Air and Space Systems",
+    "year": 2026
+  },
   "doi:10.1109/jsac.2026.3669466": {
     "abstract": "Enabled by 6G wireless technologies, Simultaneously Transmitting And Reflecting Reconfigurable Intelligent Surfaces (STAR-RISs) create a new dimension for optimizing performance in Uncrewed Aerial Vehicle (UAV) communications through full-space signal coverage. However, existing research on STAR-RIS-assisted UAV secure communications still faces critical challenges, including the reliance on ideal Channel State Information (CSI) assumptions, amplitude optimization complexity under mode switching protocols, and limited scalability to meet multi-user communication demands. To address these challenges, we propose a robust and secure STAR-RIS-assisted UAV communication approach for a multi-user and multi-eavesdropper scenario. By jointly optimizing user scheduling, transmitting and reflecting coefficients of STAR-RIS, transmit power and flight trajectory of UAV, we aim to maximize the average worst-case achievable secrecy rate. To tackle the non-convexity and coupled decision variables of the formulated problem, we propose an alternating optimization framework, with a Lagrange multiplier method for power allocation, a deterministic model reformulated via S-procedure for CSI uncertainty quantification and robust handling, and a penalty-based double-loop iterative algorithm forcing the phase-shift matrix toward a rank-one solution. Finally, theoretical analysis and simulation results validate the superior secrecy performance of the proposed algorithm over other representative algorithms.",
     "arxiv_id": null,
@@ -1315,6 +1370,61 @@
     "title": "What Limits Vision-and-Language Navigation ?",
     "title_hash": "8109d5e7240b2df73224a124f68f31d82dbaba00",
     "url": "https://doi.org/10.48550/arxiv.2605.13328",
+    "venue": "arXiv (Cornell University)",
+    "year": 2026
+  },
+  "doi:10.48550/arxiv.2605.22036": {
+    "abstract": "Despite significant progress in Vision-Language Navigation (VLN), existing approaches still rely on dense RGB videos that produce excessive patch tokens and lack explicit spatial structure, resulting in substantial computational overhead and limited spatial reasoning. To address these issues, we introduce the Geometry-Aware BEV (GA-BEV) - a compact, 3D-grounded feature representation that integrates both explicit and implicit geometric cues into multimodal large language model (MLLM) - based navigation systems. We construct BEV spatial maps from RGB-D inputs by projecting visual features into 3D space and aggregating them into an agent-centric layout that preserves geometric consistency while reducing token redundancy. To further enrich geometric understanding, we incorporate features from a pretrained 3D foundation model into the BEV space, injecting structural priors learned from large-scale 3D reconstruction tasks. Together, these complementary cues - explicit depth-based projection and implicit learned priors - yield compact yet spatially expressive representations that substantially improve navigation efficiency and performance. Experiments show that our method achieves state-of-the-art results using only navigation data, without DAgger augmentation or mixed VQA training, demonstrating the robustness and data efficiency of the proposed GA-VLN framework.",
+    "arxiv_id": "2605.22036",
+    "authors": [
+      "Jiahao Yang",
+      "Zihan Wang",
+      "Xiangyang Li",
+      "Xing Zhu",
+      "Yujun Shen",
+      "Yinghao Xu",
+      "Shuqiang Jiang"
+    ],
+    "canonical_id": "doi:10.48550/arxiv.2605.22036",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": "10.48550/arxiv.2605.22036",
+    "external_ids": {
+      "doi": "https://doi.org/10.48550/arxiv.2605.22036",
+      "openalex": "https://openalex.org/W7162120177"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "ga vln geometry aware bev representation for efficient vision language navigation",
+    "openalex_id": "https://openalex.org/W7162120177",
+    "pdf_url": null,
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-05-21",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vision language navigation"
+    ],
+    "title": "GA-VLN: Geometry-Aware BEV Representation for Efficient Vision-Language Navigation",
+    "title_hash": "001df8cb62da1d4a7914e977dd2c397f87ddc197",
+    "url": "https://doi.org/10.48550/arxiv.2605.22036",
     "venue": "arXiv (Cornell University)",
     "year": 2026
   },

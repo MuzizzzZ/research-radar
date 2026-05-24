@@ -129,6 +129,14 @@
       "reason": "direct citation to baseline",
       "relation_type": "citation",
       "score": 7.5
+    },
+    {
+      "canonical_id": "doi:10.1109/jmass.2026.3664901",
+      "date": "2026-05-24",
+      "label": "candidate",
+      "reason": "direct citation to baseline",
+      "relation_type": "citation",
+      "score": 7.5
     }
   ]
 }
