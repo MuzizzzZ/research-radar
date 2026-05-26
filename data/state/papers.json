@@ -273,6 +273,119 @@
     "venue": "ArXiv.org",
     "year": 2026
   },
+  "arxiv:2605.22036": {
+    "abstract": "Despite significant progress in Vision-Language Navigation (VLN), existing approaches still rely on dense RGB videos that produce excessive patch tokens and lack explicit spatial structure, resulting in substantial computational overhead and limited spatial reasoning. To address these issues, we introduce the Geometry-Aware BEV (GA-BEV) - a compact, 3D-grounded feature representation that integrates both explicit and implicit geometric cues into multimodal large language model (MLLM) - based navigation systems. We construct BEV spatial maps from RGB-D inputs by projecting visual features into 3D space and aggregating them into an agent-centric layout that preserves geometric consistency while reducing token redundancy. To further enrich geometric understanding, we incorporate features from a pretrained 3D foundation model into the BEV space, injecting structural priors learned from large-scale 3D reconstruction tasks. Together, these complementary cues - explicit depth-based projection and implicit learned priors - yield compact yet spatially expressive representations that substantially improve navigation efficiency and performance. Experiments show that our method achieves state-of-the-art results using only navigation data, without DAgger augmentation or mixed VQA training, demonstrating the robustness and data efficiency of the proposed GA-VLN framework.",
+    "arxiv_id": "2605.22036",
+    "authors": [
+      "Jiahao Yang",
+      "Zihan Wang",
+      "Xiangyang Li",
+      "Xing Zhu",
+      "Yujun Shen",
+      "Yinghao Xu",
+      "Shuqiang Jiang"
+    ],
+    "canonical_id": "arxiv:2605.22036",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": null,
+    "external_ids": {
+      "openalex": "https://openalex.org/W7162219148"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "ga vln geometry aware bev representation for efficient vision language navigation",
+    "openalex_id": "https://openalex.org/W7162219148",
+    "pdf_url": "https://arxiv.org/pdf/2605.22036",
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-05-21",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:embodied navigation language grounding",
+      "topic:vln:query:vln instruction following"
+    ],
+    "title": "GA-VLN: Geometry-Aware BEV Representation for Efficient Vision-Language Navigation",
+    "title_hash": "001df8cb62da1d4a7914e977dd2c397f87ddc197",
+    "url": "https://arxiv.org/abs/2605.22036",
+    "venue": "ArXiv.org",
+    "year": 2026
+  },
+  "arxiv:2605.22816": {
+    "abstract": "Vision-and-Language Navigation (VLN) requires an agent to ground language instructions to its own movement within a visual environment. While state-of-the-art methods leverage the reasoning capabilities of Vision-Language Models (VLMs) for end-to-end action prediction, they often lack an explicit and explainable understanding of the relationships between the agent, the instruction, and the scene. Conversely, explicitly building a scene map for heuristic planning is intuitively appealing but relies on additional 3D sensors and hinders large-scale vision-language pre-training. To bridge this gap, we propose AwareVLN, a novel framework that equips the navigation model with a self-aware reasoning mechanism, enabling it to understand the agent's state and task progress in a fully end-to-end and data-driven manner. Our approach features two key innovations: (1) a structural reasoning module that fosters spatial and task-oriented self-awareness, and (2) an automatic data engine with progress division for effective training. Extensive experiments on various datasets in Habitat simulator show our AwareVLN significantly outperforms previous state-of-the-art vision-language navigation methods. Project page: https://gwxuan.github.io/AwareVLN/.",
+    "arxiv_id": "2605.22816",
+    "authors": [
+      "Wenxuan Guo",
+      "Xiuwei Xu",
+      "Yichen Liu",
+      "Xiangyu Li",
+      "Hang Yin",
+      "Huangxing Chen",
+      "Wenzhao Zheng",
+      "Jianjiang Feng",
+      "Jie Zhou",
+      "Jiwen Lu"
+    ],
+    "canonical_id": "arxiv:2605.22816",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": null,
+    "external_ids": {
+      "openalex": "https://openalex.org/W7162219225"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "awarevln reasoning with self awareness for vision language navigation",
+    "openalex_id": "https://openalex.org/W7162219225",
+    "pdf_url": "https://arxiv.org/pdf/2605.22816",
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-05-21",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:embodied navigation language grounding",
+      "topic:vln:query:vln instruction following"
+    ],
+    "title": "AwareVLN: Reasoning with Self-awareness for Vision-Language Navigation",
+    "title_hash": "5dbe5d38aba7dffca5efa20a41a23ba4556d2b53",
+    "url": "https://arxiv.org/abs/2605.22816",
+    "venue": "ArXiv.org",
+    "year": 2026
+  },
   "doi:10.1109/access.2026.3651489": {
     "abstract": "The use of unmanned aerial vehicles (UAVs) for collecting data from sensors has garnered considerable attention in both academic and industrial fields in recent years. To assess the freshness of the information gathered, the age of information (AoI) metric has emerged as an important tool, particularly in time-sensitive applications such as traffic management or monitoring critical issues like fire hazards. This study explores a scenario where a UAV, supported by multiple intelligent reflecting surfaces (IRSs), periodically gathers data from distributed internet of things devices (IoTDs). To minimize the average AoI across all devices, a comprehensive optimization approach is employed. Key elements such as the UAV’s trajectory, device transmission scheduling, timeslot duration, IRS selection factor, and the phase shift matrix of the selected IRS are jointly optimized. However, the problem’s complexity arises from its mixed-integer nature—IRS selection and device scheduling coefficients require integer values—and the strong interdependence of channel conditions with the UAV’s flight path and IRS phase shifts. These challenges make the problem difficult to solve. To address this, the primary optimization problem is framed as a Markov decision process (MDP). A deep reinforcement learning (DRL)-based approach is then adopted to determine the optimal UAV’s trajectory, device scheduling, and timeslot duration. Additionally, a location-based method is employed for selecting the suitable IRS, while a closed-form solution is used to design the phase shift matrix of the selected IRS. Results evidence improvements in successful transmission and fairness selection of devices when using multiple IRSs and variable timeslots.",
     "arxiv_id": null,
