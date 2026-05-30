@@ -27,11 +27,11 @@
             "Yingxue Zhang"
           ],
           "baseline_ids": [],
-          "best_url": "https://doi.org/10.48550/arxiv.2605.26503",
+          "best_url": "https://arxiv.org/abs/2605.26503",
           "canonical_id": "doi:10.48550/arxiv.2605.26503",
           "doi": "10.48550/arxiv.2605.26503",
           "label": "candidate",
-          "openalex_id": "https://openalex.org/W7162541397",
+          "openalex_id": "https://openalex.org/W7162699481",
           "publication_date": "2026-05-26",
           "reason": "title hit x1, abstract hit x1",
           "relation_type": "topic",
@@ -41,7 +41,7 @@
           "topic_ids": [
             "vln"
           ],
-          "venue": "arXiv (Cornell University)",
+          "venue": "ArXiv.org",
           "year": 2026
         },
         {
@@ -414,7 +414,7 @@
         "embodied navigation language grounding",
         "vln instruction following"
       ],
-      "today_count": 1,
+      "today_count": 0,
       "total_papers": 14
     }
   ]

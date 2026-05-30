@@ -1561,13 +1561,13 @@
     "doi": "10.48550/arxiv.2605.26503",
     "external_ids": {
       "doi": "https://doi.org/10.48550/arxiv.2605.26503",
-      "openalex": "https://openalex.org/W7162541397"
+      "openalex": "https://openalex.org/W7162699481"
     },
     "label": "candidate",
     "last_updated": null,
     "normalized_title": "uncertainty aware gaussian map for vision language navigation",
-    "openalex_id": "https://openalex.org/W7162541397",
-    "pdf_url": null,
+    "openalex_id": "https://openalex.org/W7162699481",
+    "pdf_url": "https://arxiv.org/pdf/2605.26503",
     "primary_reason": "title hit x1, abstract hit x1",
     "publication_date": "2026-05-26",
     "reasons": [
@@ -1594,8 +1594,8 @@
     ],
     "title": "Uncertainty-Aware Gaussian Map for Vision-Language Navigation",
     "title_hash": "7fcbc016d62bee9b59b1ecbed4e3bf5a2207a313",
-    "url": "https://doi.org/10.48550/arxiv.2605.26503",
-    "venue": "arXiv (Cornell University)",
+    "url": "https://arxiv.org/abs/2605.26503",
+    "venue": "ArXiv.org",
     "year": 2026
   },
   "s2:08ba2877828708ace87d13acded59d47864d6659": {

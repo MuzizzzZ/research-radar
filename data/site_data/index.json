@@ -15,44 +15,16 @@
       "topic_id": "vln"
     }
   ],
-  "generated_at": "2026-05-29",
+  "generated_at": "2026-05-30",
   "issues": [
+    "Semantic Scholar citation fetch failed for baseline secure-uav-ris: Semantic Scholar API rate limit exceeded.",
     "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
-  "latest_report_date": "2026-05-29",
+  "latest_report_date": "2026-05-30",
   "project_name": "research-radar",
-  "recent_papers": [
-    {
-      "abstract": "Vision-Language Navigation (VLN) requires an agent to navigate 3D environments following natural language instructions. During navigation, existing agents commonly encounter perceptual uncertainty, such as insufficient evidence for reliable grounding or ambiguity in interpreting spatial cues, yet they typically ignore such information when predicting actions. In this work, we explicitly model three forms of perceptual uncertainty (i.e., geometric, semantic, and appearance uncertainty) and integrate them into the agent's observation space to enable informed decision-making. Concretely, our agent first constructs a Semantic Gaussian Map (SGM), composed of differentiable 3D Gaussian primitives initialized from panoramic observations, that encodes both the geometric structure and semantic content of the environment. On top of SGM, geometric uncertainty is estimated through variational perturbations of Gaussian position and scale to assess structural reliability; semantic uncertainty is captured by perturbing Gaussian semantic attributes to reveal ambiguous interpretations; and appearance uncertainty is characterized by Fisher Information, which measures the sensitivity of rendered observations to Gaussian-level variations. These uncertainties are incorporated into SGM, extending it into a unified 3D Value Map, which grounds them as affordances and constraints that support reliable navigation. Comprehensive evaluations across multiple VLN benchmarks show the effectiveness of our agent.",
-      "arxiv_id": "2605.26503",
-      "authors": [
-        "Jianzhe Gao",
-        "Rui Liu",
-        "Yuxuan Xu",
-        "Tongtong Cao",
-        "Yingxue Zhang"
-      ],
-      "baseline_ids": [],
-      "best_url": "https://doi.org/10.48550/arxiv.2605.26503",
-      "canonical_id": "doi:10.48550/arxiv.2605.26503",
-      "doi": "10.48550/arxiv.2605.26503",
-      "label": "candidate",
-      "openalex_id": "https://openalex.org/W7162541397",
-      "publication_date": "2026-05-26",
-      "reason": "title hit x1, abstract hit x1",
-      "relation_type": null,
-      "score": 4.5,
-      "semanticscholar_id": null,
-      "title": "Uncertainty-Aware Gaussian Map for Vision-Language Navigation",
-      "topic_ids": [
-        "vln"
-      ],
-      "venue": "arXiv (Cornell University)",
-      "year": 2026
-    }
-  ],
-  "today_new_global": 1,
-  "today_new_total": 1,
+  "recent_papers": [],
+  "today_new_global": 0,
+  "today_new_total": 0,
   "topics": [
     {
       "id": "uav-ris",
@@ -63,7 +35,7 @@
     {
       "id": "vln",
       "name": "Vision-Language Navigation",
-      "today_count": 1,
+      "today_count": 0,
       "total_papers": 14
     }
   ]
