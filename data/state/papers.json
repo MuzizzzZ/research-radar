@@ -386,6 +386,56 @@
     "venue": "ArXiv.org",
     "year": 2026
   },
+  "arxiv:2605.26500": {
+    "abstract": "Vision-language navigation (VLN) requires an agent to traverse complex 3D environments based on natural language instructions, necessitating a thorough scene understanding. While existing works equip agents with various scene representations to enhance spatial awareness, they often neglect the complex 3D geometry and rich semantics in VLN scenarios, limiting the ability to generalize across diverse and unseen environments. To address these challenges, this work proposes a 3D Gaussian Map that represents the environment as a set of differentiable 3D Gaussians and accordingly develops a navigation strategy for VLN. Specifically, Egocentric Scene Map is constructed online by initializing 3D Gaussians from sparse pseudo-lidar point clouds, providing informative geometric priors for scene understanding. Each Gaussian primitive is further enriched through Open-Set Semantic Grouping operation, which groups 3D Gaussians based on their membership in object instances or stuff categories within the open world, resulting in a unified 3D Gaussian Map. Building on this map, Multi-Level Action Prediction strategy, which combines spatial-semantic cues at multiple granularities, is designed to assist agents in decision-making. Extensive experiments conducted on three public benchmarks (i.e., R2R, R4R, and REVERIE) validate the effectiveness of our method.",
+    "arxiv_id": "2605.26500",
+    "authors": [
+      "Jianzhe Gao",
+      "Rui Liu",
+      "Wenguan Wang"
+    ],
+    "canonical_id": "arxiv:2605.26500",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": null,
+    "external_ids": {
+      "openalex": "https://openalex.org/W7162700204"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "3d gaussian map with open set semantic grouping for vision language navigation",
+    "openalex_id": "https://openalex.org/W7162700204",
+    "pdf_url": "https://arxiv.org/pdf/2605.26500",
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-05-26",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vln instruction following"
+    ],
+    "title": "3D Gaussian Map with Open-Set Semantic Grouping for Vision-Language Navigation",
+    "title_hash": "500c818afb7df33e445bb9f558a012e23b288aa9",
+    "url": "https://arxiv.org/abs/2605.26500",
+    "venue": "ArXiv.org",
+    "year": 2026
+  },
   "doi:10.1109/access.2026.3651489": {
     "abstract": "The use of unmanned aerial vehicles (UAVs) for collecting data from sensors has garnered considerable attention in both academic and industrial fields in recent years. To assess the freshness of the information gathered, the age of information (AoI) metric has emerged as an important tool, particularly in time-sensitive applications such as traffic management or monitoring critical issues like fire hazards. This study explores a scenario where a UAV, supported by multiple intelligent reflecting surfaces (IRSs), periodically gathers data from distributed internet of things devices (IoTDs). To minimize the average AoI across all devices, a comprehensive optimization approach is employed. Key elements such as the UAV’s trajectory, device transmission scheduling, timeslot duration, IRS selection factor, and the phase shift matrix of the selected IRS are jointly optimized. However, the problem’s complexity arises from its mixed-integer nature—IRS selection and device scheduling coefficients require integer values—and the strong interdependence of channel conditions with the UAV’s flight path and IRS phase shifts. These challenges make the problem difficult to solve. To address this, the primary optimization problem is framed as a Markov decision process (MDP). A deep reinforcement learning (DRL)-based approach is then adopted to determine the optimal UAV’s trajectory, device scheduling, and timeslot duration. Additionally, a location-based method is employed for selecting the suitable IRS, while a closed-form solution is used to design the phase shift matrix of the selected IRS. Results evidence improvements in successful transmission and fairness selection of devices when using multiple IRSs and variable timeslots.",
     "arxiv_id": null,
@@ -1605,7 +1655,7 @@
       "Xiaoyan Hu"
     ],
     "canonical_id": "s2:08ba2877828708ace87d13acded59d47864d6659",
-    "citations_count": 21,
+    "citations_count": 22,
     "discovered_date": null,
     "doi": null,
     "external_ids": {
