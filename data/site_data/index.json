@@ -15,42 +15,16 @@
       "topic_id": "vln"
     }
   ],
-  "generated_at": "2026-05-31",
+  "generated_at": "2026-06-01",
   "issues": [
+    "Semantic Scholar citation fetch failed for baseline secure-uav-ris: Semantic Scholar API rate limit exceeded.",
     "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
-  "latest_report_date": "2026-05-31",
+  "latest_report_date": "2026-06-01",
   "project_name": "research-radar",
-  "recent_papers": [
-    {
-      "abstract": "Vision-language navigation (VLN) requires an agent to traverse complex 3D environments based on natural language instructions, necessitating a thorough scene understanding. While existing works equip agents with various scene representations to enhance spatial awareness, they often neglect the complex 3D geometry and rich semantics in VLN scenarios, limiting the ability to generalize across diverse and unseen environments. To address these challenges, this work proposes a 3D Gaussian Map that represents the environment as a set of differentiable 3D Gaussians and accordingly develops a navigation strategy for VLN. Specifically, Egocentric Scene Map is constructed online by initializing 3D Gaussians from sparse pseudo-lidar point clouds, providing informative geometric priors for scene understanding. Each Gaussian primitive is further enriched through Open-Set Semantic Grouping operation, which groups 3D Gaussians based on their membership in object instances or stuff categories within the open world, resulting in a unified 3D Gaussian Map. Building on this map, Multi-Level Action Prediction strategy, which combines spatial-semantic cues at multiple granularities, is designed to assist agents in decision-making. Extensive experiments conducted on three public benchmarks (i.e., R2R, R4R, and REVERIE) validate the effectiveness of our method.",
-      "arxiv_id": "2605.26500",
-      "authors": [
-        "Jianzhe Gao",
-        "Rui Liu",
-        "Wenguan Wang"
-      ],
-      "baseline_ids": [],
-      "best_url": "https://arxiv.org/abs/2605.26500",
-      "canonical_id": "arxiv:2605.26500",
-      "doi": null,
-      "label": "candidate",
-      "openalex_id": "https://openalex.org/W7162700204",
-      "publication_date": "2026-05-26",
-      "reason": "title hit x1, abstract hit x1",
-      "relation_type": null,
-      "score": 4.5,
-      "semanticscholar_id": null,
-      "title": "3D Gaussian Map with Open-Set Semantic Grouping for Vision-Language Navigation",
-      "topic_ids": [
-        "vln"
-      ],
-      "venue": "ArXiv.org",
-      "year": 2026
-    }
-  ],
-  "today_new_global": 1,
-  "today_new_total": 1,
+  "recent_papers": [],
+  "today_new_global": 0,
+  "today_new_total": 0,
   "topics": [
     {
       "id": "uav-ris",
@@ -61,7 +35,7 @@
     {
       "id": "vln",
       "name": "Vision-Language Navigation",
-      "today_count": 1,
+      "today_count": 0,
       "total_papers": 15
     }
   ]
