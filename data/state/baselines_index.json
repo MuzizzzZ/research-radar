@@ -137,6 +137,14 @@
       "reason": "direct citation to baseline",
       "relation_type": "citation",
       "score": 7.5
+    },
+    {
+      "canonical_id": "doi:10.3390/s26113469",
+      "date": "2026-06-05",
+      "label": "candidate",
+      "reason": "direct citation to baseline",
+      "relation_type": "citation",
+      "score": 7.5
     }
   ]
 }
