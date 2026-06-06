@@ -3,7 +3,7 @@
     {
       "id": "secure-uav-ris",
       "title": "Joint Trajectory and Passive Beamforming Design for Secure UAV-RIS Communication Systems",
-      "today_citations": 1,
+      "today_citations": 0,
       "today_related": 0,
       "topic_id": "uav-ris"
     },
@@ -15,44 +15,15 @@
       "topic_id": "vln"
     }
   ],
-  "generated_at": "2026-06-05",
+  "generated_at": "2026-06-06",
   "issues": [
     "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
-  "latest_report_date": "2026-06-05",
+  "latest_report_date": "2026-06-06",
   "project_name": "research-radar",
-  "recent_papers": [
-    {
-      "abstract": "This paper investigates secure and low-latency communications in UAV-mounted simultaneously transmitting and reflecting reconfigurable intelligent surface (STAR-RIS)-assisted urban vehicular networks, where severe blockage, high vehicle mobility, eavesdropping threats, and delay-sensitive traffic services coexist. In the considered system, the UAV is used not only as an aerial carrier for the STAR-RIS but also as a mobile intelligent control node that can dynamically adjust its horizontal aerial position according to vehicle distribution, blockage conditions, and eavesdropping threats. First, a UAV-STAR-RIS-assisted vehicular communication system model is developed by jointly considering urban blockage, vehicle mobility, passive eavesdropping attacks, queueing dynamics, and UAV flight constraints. Then, a high-dimensional, non-convex, and strongly coupled dynamic optimization problem is formulated to maximize the long-term average secure and low-latency utility through the joint optimization of the UAV trajectory, the STAR-RIS transmission–reflection partition ratio, the phase-shift matrices, and the transmit power allocation. Furthermore, the problem is modeled as a Markov decision process with continuous state and action spaces, and a hierarchical constrained soft actor–critic (HC-SAC)-based joint control algorithm is proposed to enable adaptive UAV movement, STAR-RIS configuration, and power control in complex dynamic environments. Simulation results demonstrate that the proposed method outperforms DDPG and several structural benchmark schemes. In the representative evaluation, the proposed HC-SAC achieves an average delay of 10.85 slots and a secrecy outage probability of 0.7160, compared with 11.72 slots and 0.8501 for PPO, and 11.94 slots and 0.8599 for DDPG. Although PPO provides the highest average secrecy rate and successful service ratio, the proposed method still maintains a competitive secure communication capability and service reliability. A normalized composite utility analysis further shows that HC-SAC attains the highest utility value of 0.9254, indicating a more favorable security–latency trade-off in complex urban vehicular scenarios.",
-      "arxiv_id": null,
-      "authors": [
-        "Jian Tang",
-        "Jun Yuan",
-        "Hu Zhao",
-        "Mengxiang Chen",
-        "Yi Peng"
-      ],
-      "baseline_ids": [
-        "secure-uav-ris"
-      ],
-      "best_url": "https://doi.org/10.3390/s26113469",
-      "canonical_id": "doi:10.3390/s26113469",
-      "doi": "10.3390/s26113469",
-      "label": "candidate",
-      "openalex_id": "https://openalex.org/W7163031551",
-      "publication_date": "2026-05-31",
-      "reason": "direct citation to baseline",
-      "relation_type": null,
-      "score": 7.5,
-      "semanticscholar_id": "b841d6a7d82e5807b0a67e68f7c955192432dcdf",
-      "title": "Deep Reinforcement Learning for Secure and Low-Latency Communications in UAV-Mounted STAR-RIS Assisted Urban Vehicular Networks",
-      "topic_ids": [],
-      "venue": "Sensors",
-      "year": 2026
-    }
-  ],
-  "today_new_global": 1,
-  "today_new_total": 1,
+  "recent_papers": [],
+  "today_new_global": 0,
+  "today_new_total": 0,
   "topics": [
     {
       "id": "uav-ris",
