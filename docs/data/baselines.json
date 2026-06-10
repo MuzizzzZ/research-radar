@@ -3,6 +3,34 @@
     {
       "citations": [
         {
+          "abstract": "Low-altitude wireless networks (LAWN) envision a reconfigurable 3D network capable of supporting mission-critical aerial operations. This paper presents a reconfigurable intelligent surface (RIS)-assisted LAWN to establish a reliable communication with an unmanned aerial vehicle (UAV) across varying wireless channel conditions and signal blockages. A low complexity stripe-based RIS phase shift optimization framework is proposed to simultaneously enhance communication reliability and provide passive sensing capability for UAV tracking under 3D mobility. Unlike high-complexity optimization approaches, the proposed method leverages the inherent structural phase-gradient of the RIS adjacent elements to significantly reduce the search space for calculating and updating the RIS configuration as the UAV moves. The analysis and simulation results demonstrate that the proposed framework outperforms conventional benchmarks in convergence speed and computational efficiency, while maintaining robust, high signal-to-noise-ratio (SNR) connectivity even in the presence of phase estimation errors and low SNR regimes. In addition, the measurement experiments using a real RIS prototype in an outdoor campus environment are performed to demonstrate the practical viability of the proposed approach.",
+          "arxiv_id": "2606.07026",
+          "authors": [
+            "Burak Ahmet Celebi",
+            "Sefa Kayraklik",
+            "Onur Salan",
+            "İbrahim Hökelek",
+            "Alí Emre Pusane"
+          ],
+          "baseline_ids": [
+            "secure-uav-ris"
+          ],
+          "best_url": "https://doi.org/10.48550/arxiv.2606.07026",
+          "canonical_id": "doi:10.48550/arxiv.2606.07026",
+          "doi": "10.48550/arxiv.2606.07026",
+          "label": "candidate",
+          "openalex_id": "https://openalex.org/W7163894890",
+          "publication_date": "2026-06-05",
+          "reason": "direct citation to baseline",
+          "relation_type": "citation",
+          "score": 7.5,
+          "semanticscholar_id": "167e8a34e5f94dbe851f39528dac88e5e11a1727",
+          "title": "A Novel Stripe-based RIS Optimization for UAV Communications and Sensing in Low-Altitude Wireless Networks",
+          "topic_ids": [],
+          "venue": "arXiv (Cornell University)",
+          "year": 2026
+        },
+        {
           "abstract": "This paper investigates secure and low-latency communications in UAV-mounted simultaneously transmitting and reflecting reconfigurable intelligent surface (STAR-RIS)-assisted urban vehicular networks, where severe blockage, high vehicle mobility, eavesdropping threats, and delay-sensitive traffic services coexist. In the considered system, the UAV is used not only as an aerial carrier for the STAR-RIS but also as a mobile intelligent control node that can dynamically adjust its horizontal aerial position according to vehicle distribution, blockage conditions, and eavesdropping threats. First, a UAV-STAR-RIS-assisted vehicular communication system model is developed by jointly considering urban blockage, vehicle mobility, passive eavesdropping attacks, queueing dynamics, and UAV flight constraints. Then, a high-dimensional, non-convex, and strongly coupled dynamic optimization problem is formulated to maximize the long-term average secure and low-latency utility through the joint optimization of the UAV trajectory, the STAR-RIS transmission–reflection partition ratio, the phase-shift matrices, and the transmit power allocation. Furthermore, the problem is modeled as a Markov decision process with continuous state and action spaces, and a hierarchical constrained soft actor–critic (HC-SAC)-based joint control algorithm is proposed to enable adaptive UAV movement, STAR-RIS configuration, and power control in complex dynamic environments. Simulation results demonstrate that the proposed method outperforms DDPG and several structural benchmark schemes. In the representative evaluation, the proposed HC-SAC achieves an average delay of 10.85 slots and a secrecy outage probability of 0.7160, compared with 11.72 slots and 0.8501 for PPO, and 11.94 slots and 0.8599 for DDPG. Although PPO provides the highest average secrecy rate and successful service ratio, the proposed method still maintains a competitive secure communication capability and service reliability. A normalized composite utility analysis further shows that HC-SAC attains the highest utility value of 0.9254, indicating a more favorable security–latency trade-off in complex urban vehicular scenarios.",
           "arxiv_id": null,
           "authors": [
@@ -470,7 +498,7 @@
       "id": "secure-uav-ris",
       "related": [],
       "title": "Joint Trajectory and Passive Beamforming Design for Secure UAV-RIS Communication Systems",
-      "today_citations": 0,
+      "today_citations": 1,
       "today_related": 0,
       "topic_id": "uav-ris"
     },

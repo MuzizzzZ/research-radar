@@ -3,7 +3,7 @@
     {
       "id": "secure-uav-ris",
       "title": "Joint Trajectory and Passive Beamforming Design for Secure UAV-RIS Communication Systems",
-      "today_citations": 0,
+      "today_citations": 1,
       "today_related": 0,
       "topic_id": "uav-ris"
     },
@@ -15,16 +15,44 @@
       "topic_id": "vln"
     }
   ],
-  "generated_at": "2026-06-09",
+  "generated_at": "2026-06-10",
   "issues": [
-    "Semantic Scholar citation fetch failed for baseline secure-uav-ris: Semantic Scholar API rate limit exceeded.",
     "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
-  "latest_report_date": "2026-06-09",
+  "latest_report_date": "2026-06-10",
   "project_name": "research-radar",
-  "recent_papers": [],
-  "today_new_global": 0,
-  "today_new_total": 0,
+  "recent_papers": [
+    {
+      "abstract": "Low-altitude wireless networks (LAWN) envision a reconfigurable 3D network capable of supporting mission-critical aerial operations. This paper presents a reconfigurable intelligent surface (RIS)-assisted LAWN to establish a reliable communication with an unmanned aerial vehicle (UAV) across varying wireless channel conditions and signal blockages. A low complexity stripe-based RIS phase shift optimization framework is proposed to simultaneously enhance communication reliability and provide passive sensing capability for UAV tracking under 3D mobility. Unlike high-complexity optimization approaches, the proposed method leverages the inherent structural phase-gradient of the RIS adjacent elements to significantly reduce the search space for calculating and updating the RIS configuration as the UAV moves. The analysis and simulation results demonstrate that the proposed framework outperforms conventional benchmarks in convergence speed and computational efficiency, while maintaining robust, high signal-to-noise-ratio (SNR) connectivity even in the presence of phase estimation errors and low SNR regimes. In addition, the measurement experiments using a real RIS prototype in an outdoor campus environment are performed to demonstrate the practical viability of the proposed approach.",
+      "arxiv_id": "2606.07026",
+      "authors": [
+        "Burak Ahmet Celebi",
+        "Sefa Kayraklik",
+        "Onur Salan",
+        "İbrahim Hökelek",
+        "Alí Emre Pusane"
+      ],
+      "baseline_ids": [
+        "secure-uav-ris"
+      ],
+      "best_url": "https://doi.org/10.48550/arxiv.2606.07026",
+      "canonical_id": "doi:10.48550/arxiv.2606.07026",
+      "doi": "10.48550/arxiv.2606.07026",
+      "label": "candidate",
+      "openalex_id": "https://openalex.org/W7163894890",
+      "publication_date": "2026-06-05",
+      "reason": "direct citation to baseline",
+      "relation_type": null,
+      "score": 7.5,
+      "semanticscholar_id": "167e8a34e5f94dbe851f39528dac88e5e11a1727",
+      "title": "A Novel Stripe-based RIS Optimization for UAV Communications and Sensing in Low-Altitude Wireless Networks",
+      "topic_ids": [],
+      "venue": "arXiv (Cornell University)",
+      "year": 2026
+    }
+  ],
+  "today_new_global": 1,
+  "today_new_total": 1,
   "topics": [
     {
       "id": "uav-ris",

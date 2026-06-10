@@ -1706,6 +1706,67 @@
     "venue": "ArXiv.org",
     "year": 2026
   },
+  "doi:10.48550/arxiv.2606.07026": {
+    "abstract": "Low-altitude wireless networks (LAWN) envision a reconfigurable 3D network capable of supporting mission-critical aerial operations. This paper presents a reconfigurable intelligent surface (RIS)-assisted LAWN to establish a reliable communication with an unmanned aerial vehicle (UAV) across varying wireless channel conditions and signal blockages. A low complexity stripe-based RIS phase shift optimization framework is proposed to simultaneously enhance communication reliability and provide passive sensing capability for UAV tracking under 3D mobility. Unlike high-complexity optimization approaches, the proposed method leverages the inherent structural phase-gradient of the RIS adjacent elements to significantly reduce the search space for calculating and updating the RIS configuration as the UAV moves. The analysis and simulation results demonstrate that the proposed framework outperforms conventional benchmarks in convergence speed and computational efficiency, while maintaining robust, high signal-to-noise-ratio (SNR) connectivity even in the presence of phase estimation errors and low SNR regimes. In addition, the measurement experiments using a real RIS prototype in an outdoor campus environment are performed to demonstrate the practical viability of the proposed approach.",
+    "arxiv_id": "2606.07026",
+    "authors": [
+      "Burak Ahmet Celebi",
+      "Sefa Kayraklik",
+      "Onur Salan",
+      "İbrahim Hökelek",
+      "Alí Emre Pusane",
+      "Ali Gorcin",
+      "B. Çelebi",
+      "I. Hokelek",
+      "Ali E. Pusane"
+    ],
+    "canonical_id": "doi:10.48550/arxiv.2606.07026",
+    "citations_count": 0,
+    "discovered_date": null,
+    "doi": "10.48550/arxiv.2606.07026",
+    "external_ids": {
+      "ArXiv": "2606.07026",
+      "CorpusId": "288984752",
+      "doi": "https://doi.org/10.48550/arxiv.2606.07026",
+      "openalex": "https://openalex.org/W7163894890"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "a novel stripe based ris optimization for uav communications and sensing in low altitude wireless networks",
+    "openalex_id": "https://openalex.org/W7163894890",
+    "pdf_url": null,
+    "primary_reason": "direct citation to baseline",
+    "publication_date": "2026-06-05",
+    "reasons": [
+      "direct citation to baseline"
+    ],
+    "references_count": 28,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "direct citation to baseline",
+        "relation_type": "citation",
+        "scope_id": "secure-uav-ris",
+        "scope_type": "baseline",
+        "score": 7.5
+      }
+    ],
+    "score": 7.5,
+    "semanticscholar_id": "167e8a34e5f94dbe851f39528dac88e5e11a1727",
+    "source_names": [
+      "openalex",
+      "semanticscholar"
+    ],
+    "source_tags": [
+      "topic:uav-ris:query:uav reconfigurable intelligent surface",
+      "baseline:secure-uav-ris:citation"
+    ],
+    "title": "A Novel Stripe-based RIS Optimization for UAV Communications and Sensing in Low-Altitude Wireless Networks",
+    "title_hash": "bd5646c16690cdbe6b7f2bc85fdbc05f4c1932ae",
+    "url": "https://doi.org/10.48550/arxiv.2606.07026",
+    "venue": "arXiv (Cornell University)",
+    "year": 2026
+  },
   "s2:08ba2877828708ace87d13acded59d47864d6659": {
     "abstract": null,
     "arxiv_id": null,
