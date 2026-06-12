@@ -119,6 +119,14 @@
       "reason": "title hit x1, abstract hit x1",
       "relation_type": "topic",
       "score": 4.5
+    },
+    {
+      "canonical_id": "doi:10.17615/s9re-1h34",
+      "date": "2026-06-12",
+      "label": "candidate",
+      "reason": "title hit x1, abstract hit x1",
+      "relation_type": "topic",
+      "score": 4.5
     }
   ]
 }

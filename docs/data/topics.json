@@ -17,6 +17,30 @@
       "name": "Vision-Language Navigation",
       "papers": [
         {
+          "abstract": "Current Vision-Language-Action (VLA) models for embodied navigation are effectively stateless, limiting long-horizon reasoning in complex indoor environments. We present HRM-VLA, a hierarchical architecture for Vision-Language Navigation in Continuous Environments (VLN-CE) that introduces persistent, multi-scale spatial memory. The system combines a DINOv2 vision encoder and Qwen2.5 language encoder with an Adaptive Hierarchical State-Space Memory module at three temporal scales (Object, Furniture, Room), with learned halting for adaptive computation depth. A cross-modal VLA decoder fuses spatial memory with language via bidirectional cross-attention. ALiBi and RoPE modules are architecturally present but not fully activated in the current forward path. We train with a stabilized DAgger pipeline including oracle-supervised rollouts, replay buffering, class balancing, and collapse monitoring. On R2R-VLN-CE, the full model achieves 15.0% SR on val_seen and 1.5% on val_unseen. Ablation of spatial memory reduces SR to 1.0%/0.0% respectively. An unexpected modality collapse finding, in which the agent performs better without language instructions, and the substantial generalization gap define directions<br />for future work.",
+          "arxiv_id": null,
+          "authors": [
+            "Pranav Wagh"
+          ],
+          "baseline_ids": [],
+          "best_url": "https://doi.org/10.17615/s9re-1h34",
+          "canonical_id": "doi:10.17615/s9re-1h34",
+          "doi": "10.17615/s9re-1h34",
+          "label": "candidate",
+          "openalex_id": "https://openalex.org/W7164153702",
+          "publication_date": "2026-06-10",
+          "reason": "title hit x1, abstract hit x1",
+          "relation_type": "topic",
+          "score": 4.5,
+          "semanticscholar_id": null,
+          "title": "ADAPTIVE HIERARCHICAL STATE-SPACE MODELS FOR ROBUST VISION-LANGUAGE NAVIGATION",
+          "topic_ids": [
+            "vln"
+          ],
+          "venue": "UNC Libraries",
+          "year": 2026
+        },
+        {
           "abstract": "Vision-language navigation (VLN) requires an agent to traverse complex 3D environments based on natural language instructions, necessitating a thorough scene understanding. While existing works equip agents with various scene representations to enhance spatial awareness, they often neglect the complex 3D geometry and rich semantics in VLN scenarios, limiting the ability to generalize across diverse and unseen environments. To address these challenges, this work proposes a 3D Gaussian Map that represents the environment as a set of differentiable 3D Gaussians and accordingly develops a navigation strategy for VLN. Specifically, Egocentric Scene Map is constructed online by initializing 3D Gaussians from sparse pseudo-lidar point clouds, providing informative geometric priors for scene understanding. Each Gaussian primitive is further enriched through Open-Set Semantic Grouping operation, which groups 3D Gaussians based on their membership in object instances or stuff categories within the open world, resulting in a unified 3D Gaussian Map. Building on this map, Multi-Level Action Prediction strategy, which combines spatial-semantic cues at multiple granularities, is designed to assist agents in decision-making. Extensive experiments conducted on three public benchmarks (i.e., R2R, R4R, and REVERIE) validate the effectiveness of our method.",
           "arxiv_id": "2605.26500",
           "authors": [
@@ -440,8 +464,8 @@
         "embodied navigation language grounding",
         "vln instruction following"
       ],
-      "today_count": 0,
-      "total_papers": 15
+      "today_count": 1,
+      "total_papers": 16
     }
   ]
 }

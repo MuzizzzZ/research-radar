@@ -935,7 +935,7 @@
       "Jianji Shao"
     ],
     "canonical_id": "doi:10.1109/tnse.2025.3648816",
-    "citations_count": 0,
+    "citations_count": 1,
     "discovered_date": null,
     "doi": "10.1109/tnse.2025.3648816",
     "external_ids": {
@@ -1139,6 +1139,55 @@
     "title_hash": "9f5b0f17fe29625b7b7b35b4919a9188c57a824c",
     "url": "https://www.semanticscholar.org/paper/c2b773c5e4714edacde95af69ff459a252fec25b",
     "venue": "IEEE Transactions on Wireless Communications",
+    "year": 2026
+  },
+  "doi:10.17615/s9re-1h34": {
+    "abstract": "Current Vision-Language-Action (VLA) models for embodied navigation are effectively stateless, limiting long-horizon reasoning in complex indoor environments. We present HRM-VLA, a hierarchical architecture for Vision-Language Navigation in Continuous Environments (VLN-CE) that introduces persistent, multi-scale spatial memory. The system combines a DINOv2 vision encoder and Qwen2.5 language encoder with an Adaptive Hierarchical State-Space Memory module at three temporal scales (Object, Furniture, Room), with learned halting for adaptive computation depth. A cross-modal VLA decoder fuses spatial memory with language via bidirectional cross-attention. ALiBi and RoPE modules are architecturally present but not fully activated in the current forward path. We train with a stabilized DAgger pipeline including oracle-supervised rollouts, replay buffering, class balancing, and collapse monitoring. On R2R-VLN-CE, the full model achieves 15.0% SR on val_seen and 1.5% on val_unseen. Ablation of spatial memory reduces SR to 1.0%/0.0% respectively. An unexpected modality collapse finding, in which the agent performs better without language instructions, and the substantial generalization gap define directions<br />for future work.",
+    "arxiv_id": null,
+    "authors": [
+      "Pranav Wagh"
+    ],
+    "canonical_id": "doi:10.17615/s9re-1h34",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": "10.17615/s9re-1h34",
+    "external_ids": {
+      "doi": "https://doi.org/10.17615/s9re-1h34",
+      "openalex": "https://openalex.org/W7164153702"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "adaptive hierarchical state space models for robust vision language navigation",
+    "openalex_id": "https://openalex.org/W7164153702",
+    "pdf_url": null,
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-06-10",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vision language navigation"
+    ],
+    "title": "ADAPTIVE HIERARCHICAL STATE-SPACE MODELS FOR ROBUST VISION-LANGUAGE NAVIGATION",
+    "title_hash": "e51fd9cac98c2c867fa57aa7dbf552320ddea923",
+    "url": "https://doi.org/10.17615/s9re-1h34",
+    "venue": "UNC Libraries",
     "year": 2026
   },
   "doi:10.3389/fphy.2026.1817865": {
