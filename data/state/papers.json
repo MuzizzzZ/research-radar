@@ -1816,6 +1816,63 @@
     "venue": "arXiv (Cornell University)",
     "year": 2026
   },
+  "doi:10.48550/arxiv.2606.20045": {
+    "abstract": "UAV Vision-Language Navigation (UAV-VLN) is typically formulated as a holistic search-and-reach problem, where long-range target discovery and final target approach are optimized and evaluated jointly. This formulation makes it difficult to assess a critical capability of aerial embodied agents, namely whether a UAV can accurately ground a visible target and translate vision-language evidence into precise 3D motion once the target enters its field of view. To address this limitation, we introduce UAV-VLN-FOV, a target-visible navigation task that isolates the see-and-reach stage and enables a more diagnostic evaluation of terminal reaching ability. We further propose 3DG-VLN, a vision-language waypoint prediction framework guided by dynamic 3D direction cues to enhance fine-grained visual grounding and spatial direction alignment for precise target reaching. Specifically, 3DG-VLN adaptively processes high-resolution front-view and downward-view observations to preserve fine-grained visual and geometric details for target grounding. It also updates the target-relative direction online during closed-loop navigation, allowing the agent to maintain spatial alignment with the target and reduce accumulated direction drift. To support this task, we construct a dedicated high-resolution benchmark which contains 2,717 trajectories with target-oriented high-level instructions, high-resolution front-view and downward-view egocentric observations, and continuous 3D waypoint annotations. Experiments show that 3DG-VLN outperforms competitive UAV-VLN baselines, achieving a 13.82\\% improvement in success rate. Real-world trials further demonstrate the potential of 3DG-VLN for practical see-and-reach navigation. The source code and benchmark are available at https://github.com/xuefanfu/3DG-VLN.",
+    "arxiv_id": "2606.20045",
+    "authors": [
+      "Fanfu Xue",
+      "En Yu",
+      "Yantian Shen",
+      "Zhikun Hu",
+      "Hao Wang",
+      "Yang Yang",
+      "Xindi Wang",
+      "Jiande Sun",
+      "Hongjun Wang"
+    ],
+    "canonical_id": "doi:10.48550/arxiv.2606.20045",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": "10.48550/arxiv.2606.20045",
+    "external_ids": {
+      "doi": "https://doi.org/10.48550/arxiv.2606.20045",
+      "openalex": "https://openalex.org/W7165423569"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "see and reach precise vision language navigation for uavs within the field of view",
+    "openalex_id": "https://openalex.org/W7165423569",
+    "pdf_url": "https://arxiv.org/pdf/2606.20045",
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-06-18",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:embodied navigation language grounding"
+    ],
+    "title": "See-and-Reach: Precise Vision-Language Navigation for UAVs within the Field of View",
+    "title_hash": "f1f27ad45c2e91d050f2cad8cdd3c658c176c5c6",
+    "url": "https://arxiv.org/abs/2606.20045",
+    "venue": "ArXiv.org",
+    "year": 2026
+  },
   "s2:08ba2877828708ace87d13acded59d47864d6659": {
     "abstract": null,
     "arxiv_id": null,
