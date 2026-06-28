@@ -828,7 +828,7 @@
       "Shihao Yan"
     ],
     "canonical_id": "doi:10.1109/tgcn.2025.3585891",
-    "citations_count": 6,
+    "citations_count": 7,
     "discovered_date": null,
     "doi": "10.1109/tgcn.2025.3585891",
     "external_ids": {
@@ -1243,6 +1243,58 @@
     "title_hash": "e51fd9cac98c2c867fa57aa7dbf552320ddea923",
     "url": "https://doi.org/10.17615/s9re-1h34",
     "venue": "UNC Libraries",
+    "year": 2026
+  },
+  "doi:10.22260/isarc2026/0084": {
+    "abstract": "Automated inspection of indoor construction sites is pivotal for enhancing project quality management and operational safety.Mobile inspection robots possess the potential to gradually replace human workers.However, characterized by high dynamics, clutter, and visual monotony, construction environments pose severe navigational challenges.Current SLAM solutions impose heavy computational burdens and face robustness challenges in such environments.Therefore, this study proposes a Vision-Language Navigation framework tailored for indoor construction site inspection.Specifically, we leverage the robust generalization of pre-trained Vision-Language Models (VLMs) to construct a two-stage navigation agent controlling quadruped robots.In the first stage, we utilize building floor plans and scene graphs to plan movement paths within the facility, thereby generating detailed navigation sub-tasks and path descriptions.In the second stage, the navigation agent outputs the subsequent action sequence based on current sub-task information and continuously updated historical navigation memory until the navigation task is completed.The proposed framework was validated within a custom three-story educational building construction scenario simulated in the Habitat3.0simulator.Experimental results demonstrate that the path generation module achieves high semantic alignment with ground truth.Furthermore, the agent exhibits execution capabilities in challenging scenarios, such as textureless cross-room traversal and stair climbing.This work provides a new technical pathway for achieving low-cost and flexible intelligent construction inspection, advancing construction automation.",
+    "arxiv_id": null,
+    "authors": [
+      "Q. H. Chen",
+      "Xianfei Yin",
+      "Zeying Gong",
+      "Zihua Zhu"
+    ],
+    "canonical_id": "doi:10.22260/isarc2026/0084",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": "10.22260/isarc2026/0084",
+    "external_ids": {
+      "doi": "https://doi.org/10.22260/isarc2026/0084",
+      "openalex": "https://openalex.org/W7165947267"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "vision language navigation for indoor construction site inspection using quadruped robots",
+    "openalex_id": "https://openalex.org/W7165947267",
+    "pdf_url": "https://www.iaarc.org/./publications/fulltext/ISARC2026_1077.pdf",
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-06-22",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vln instruction following"
+    ],
+    "title": "Vision-Language Navigation for Indoor Construction Site Inspection using Quadruped Robots",
+    "title_hash": "d51c54d9b3276f967cabb1254bbf67bf0b02bae1",
+    "url": "https://doi.org/10.22260/isarc2026/0084",
+    "venue": "Proceedings of the ... ISARC",
     "year": 2026
   },
   "doi:10.3389/fphy.2026.1817865": {

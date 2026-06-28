@@ -17,6 +17,33 @@
       "name": "Vision-Language Navigation",
       "papers": [
         {
+          "abstract": "Automated inspection of indoor construction sites is pivotal for enhancing project quality management and operational safety.Mobile inspection robots possess the potential to gradually replace human workers.However, characterized by high dynamics, clutter, and visual monotony, construction environments pose severe navigational challenges.Current SLAM solutions impose heavy computational burdens and face robustness challenges in such environments.Therefore, this study proposes a Vision-Language Navigation framework tailored for indoor construction site inspection.Specifically, we leverage the robust generalization of pre-trained Vision-Language Models (VLMs) to construct a two-stage navigation agent controlling quadruped robots.In the first stage, we utilize building floor plans and scene graphs to plan movement paths within the facility, thereby generating detailed navigation sub-tasks and path descriptions.In the second stage, the navigation agent outputs the subsequent action sequence based on current sub-task information and continuously updated historical navigation memory until the navigation task is completed.The proposed framework was validated within a custom three-story educational building construction scenario simulated in the Habitat3.0simulator.Experimental results demonstrate that the path generation module achieves high semantic alignment with ground truth.Furthermore, the agent exhibits execution capabilities in challenging scenarios, such as textureless cross-room traversal and stair climbing.This work provides a new technical pathway for achieving low-cost and flexible intelligent construction inspection, advancing construction automation.",
+          "arxiv_id": null,
+          "authors": [
+            "Q. H. Chen",
+            "Xianfei Yin",
+            "Zeying Gong",
+            "Zihua Zhu"
+          ],
+          "baseline_ids": [],
+          "best_url": "https://doi.org/10.22260/isarc2026/0084",
+          "canonical_id": "doi:10.22260/isarc2026/0084",
+          "doi": "10.22260/isarc2026/0084",
+          "label": "candidate",
+          "openalex_id": "https://openalex.org/W7165947267",
+          "publication_date": "2026-06-22",
+          "reason": "title hit x1, abstract hit x1",
+          "relation_type": "topic",
+          "score": 4.5,
+          "semanticscholar_id": null,
+          "title": "Vision-Language Navigation for Indoor Construction Site Inspection using Quadruped Robots",
+          "topic_ids": [
+            "vln"
+          ],
+          "venue": "Proceedings of the ... ISARC",
+          "year": 2026
+        },
+        {
           "abstract": "UAV Vision-Language Navigation (UAV-VLN) is typically formulated as a holistic search-and-reach problem, where long-range target discovery and final target approach are optimized and evaluated jointly. This formulation makes it difficult to assess a critical capability of aerial embodied agents, namely whether a UAV can accurately ground a visible target and translate vision-language evidence into precise 3D motion once the target enters its field of view. To address this limitation, we introduce UAV-VLN-FOV, a target-visible navigation task that isolates the see-and-reach stage and enables a more diagnostic evaluation of terminal reaching ability. We further propose 3DG-VLN, a vision-language waypoint prediction framework guided by dynamic 3D direction cues to enhance fine-grained visual grounding and spatial direction alignment for precise target reaching. Specifically, 3DG-VLN adaptively processes high-resolution front-view and downward-view observations to preserve fine-grained visual and geometric details for target grounding. It also updates the target-relative direction online during closed-loop navigation, allowing the agent to maintain spatial alignment with the target and reduce accumulated direction drift. To support this task, we construct a dedicated high-resolution benchmark which contains 2,717 trajectories with target-oriented high-level instructions, high-resolution front-view and downward-view egocentric observations, and continuous 3D waypoint annotations. Experiments show that 3DG-VLN outperforms competitive UAV-VLN baselines, achieving a 13.82\\% improvement in success rate. Real-world trials further demonstrate the potential of 3DG-VLN for practical see-and-reach navigation. The source code and benchmark are available at https://github.com/xuefanfu/3DG-VLN.",
           "arxiv_id": "2606.20045",
           "authors": [
@@ -520,8 +547,8 @@
         "embodied navigation language grounding",
         "vln instruction following"
       ],
-      "today_count": 0,
-      "total_papers": 18
+      "today_count": 1,
+      "total_papers": 19
     }
   ]
 }
