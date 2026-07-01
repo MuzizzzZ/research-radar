@@ -15,12 +15,17 @@
       "topic_id": "vln"
     }
   ],
-  "generated_at": "2026-06-30",
+  "generated_at": "2026-07-01",
   "issues": [
-    "Semantic Scholar citation fetch failed for baseline secure-uav-ris: Semantic Scholar API rate limit exceeded.",
+    "OpenAlex topic fetch failed for uav-ris / 'uav reconfigurable intelligent surface': HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works?search=uav+reconfigurable+intelligent+surface&sort=publication_date%3Adesc&page=1&per-page=13&filter=from_publication_date%3A2026-06-25%2Cto_publication_date%3A2026-07-01 (Caused by ResponseError('too many 503 error responses'))",
+    "OpenAlex topic fetch failed for uav-ris / 'drone ris wireless communication': HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works?search=drone+ris+wireless+communication&sort=publication_date%3Adesc&page=1&per-page=13&filter=from_publication_date%3A2026-06-25%2Cto_publication_date%3A2026-07-01 (Caused by ResponseError('too many 503 error responses'))",
+    "OpenAlex topic fetch failed for uav-ris / 'aerial intelligent reflecting surface': HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works?search=aerial+intelligent+reflecting+surface&sort=publication_date%3Adesc&page=1&per-page=13&filter=from_publication_date%3A2026-06-25%2Cto_publication_date%3A2026-07-01 (Caused by ResponseError('too many 503 error responses'))",
+    "OpenAlex topic fetch failed for vln / 'vision language navigation': HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works?search=vision+language+navigation&sort=publication_date%3Adesc&page=1&per-page=13&filter=from_publication_date%3A2026-06-25%2Cto_publication_date%3A2026-07-01 (Caused by ResponseError('too many 503 error responses'))",
+    "OpenAlex topic fetch failed for vln / 'embodied navigation language grounding': HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works?search=embodied+navigation+language+grounding&sort=publication_date%3Adesc&page=1&per-page=13&filter=from_publication_date%3A2026-06-25%2Cto_publication_date%3A2026-07-01 (Caused by ResponseError('too many 503 error responses'))",
+    "OpenAlex topic fetch failed for vln / 'vln instruction following': HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works?search=vln+instruction+following&sort=publication_date%3Adesc&page=1&per-page=13&filter=from_publication_date%3A2026-06-25%2Cto_publication_date%3A2026-07-01 (Caused by ResponseError('too many 503 error responses'))",
     "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
-  "latest_report_date": "2026-06-30",
+  "latest_report_date": "2026-07-01",
   "project_name": "research-radar",
   "recent_papers": [],
   "today_new_global": 0,
