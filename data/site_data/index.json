@@ -15,22 +15,44 @@
       "topic_id": "vln"
     }
   ],
-  "generated_at": "2026-07-02",
+  "generated_at": "2026-07-03",
   "issues": [
-    "OpenAlex topic fetch failed for uav-ris / 'uav reconfigurable intelligent surface': HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works?search=uav+reconfigurable+intelligent+surface&sort=publication_date%3Adesc&page=1&per-page=13&filter=from_publication_date%3A2026-06-26%2Cto_publication_date%3A2026-07-02 (Caused by ResponseError('too many 503 error responses'))",
-    "OpenAlex topic fetch failed for uav-ris / 'drone ris wireless communication': HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works?search=drone+ris+wireless+communication&sort=publication_date%3Adesc&page=1&per-page=13&filter=from_publication_date%3A2026-06-26%2Cto_publication_date%3A2026-07-02 (Caused by ResponseError('too many 503 error responses'))",
-    "OpenAlex topic fetch failed for uav-ris / 'aerial intelligent reflecting surface': HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works?search=aerial+intelligent+reflecting+surface&sort=publication_date%3Adesc&page=1&per-page=13&filter=from_publication_date%3A2026-06-26%2Cto_publication_date%3A2026-07-02 (Caused by ResponseError('too many 503 error responses'))",
-    "OpenAlex topic fetch failed for vln / 'vision language navigation': HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works?search=vision+language+navigation&sort=publication_date%3Adesc&page=1&per-page=13&filter=from_publication_date%3A2026-06-26%2Cto_publication_date%3A2026-07-02 (Caused by ResponseError('too many 503 error responses'))",
-    "OpenAlex topic fetch failed for vln / 'embodied navigation language grounding': HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works?search=embodied+navigation+language+grounding&sort=publication_date%3Adesc&page=1&per-page=13&filter=from_publication_date%3A2026-06-26%2Cto_publication_date%3A2026-07-02 (Caused by ResponseError('too many 503 error responses'))",
-    "OpenAlex topic fetch failed for vln / 'vln instruction following': HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works?search=vln+instruction+following&sort=publication_date%3Adesc&page=1&per-page=13&filter=from_publication_date%3A2026-06-26%2Cto_publication_date%3A2026-07-02 (Caused by ResponseError('too many 503 error responses'))",
-    "Semantic Scholar citation fetch failed for baseline secure-uav-ris: Semantic Scholar API rate limit exceeded.",
     "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
-  "latest_report_date": "2026-07-02",
+  "latest_report_date": "2026-07-03",
   "project_name": "research-radar",
-  "recent_papers": [],
-  "today_new_global": 0,
-  "today_new_total": 0,
+  "recent_papers": [
+    {
+      "abstract": "Recent advances in multimodal large models have significantly improved UAV vision-language navigation (UAV-VLN) by enhancing high-level perception and reasoning. However, existing methods mainly focus on predicting discrete actions, local targets, or sparse waypoints, while the continuous transition from navigation intent to executable UAV motion remains weakly modeled. This motion-interface gap limits the continuity, stability, and executability of generated UAV trajectories. To address this gap, we propose DynFly, a dynamic-aware continuous trajectory generation framework that bridges high-level navigation reasoning and executable UAV motion. DynFly bridges high-level navigation intent and continuous UAV motion through a lightweight trajectory generation layer. Specifically, it represents expert trajectories in B-spline control-point space and employs a Spline-DiT generator to learn conditional trajectory generation via flow matching. Furthermore, we introduce UAV-oriented dynamic-aware supervision over position, finite-difference velocity, finite-difference acceleration, heading consistency, and local target alignment, enabling the generated trajectories to better satisfy UAV motion characteristics. And our trajectory generation framework can also be integrated with an existing UAV-VLN framework while preserving its original visual-language reasoning pipeline. Extensive experiments on the OpenUAV UAV-VLN benchmark show that DynFly improves both navigation performance and trajectory quality. On the Test Unseen Full split, DynFly improves the strongest baseline by 4.69 NDTW, 2.40 SDTW, 2.14 SR points and 4.87 OSR points, while reducing NE by 4.51 m.",
+      "arxiv_id": "2606.31654",
+      "authors": [
+        "Wen Jiang",
+        "Haomin Liang",
+        "Li Wang",
+        "Kangyao Huang",
+        "Wang Xu"
+      ],
+      "baseline_ids": [],
+      "best_url": "https://doi.org/10.48550/arxiv.2606.31654",
+      "canonical_id": "doi:10.48550/arxiv.2606.31654",
+      "doi": "10.48550/arxiv.2606.31654",
+      "label": "candidate",
+      "openalex_id": "https://openalex.org/W7166863384",
+      "publication_date": "2026-06-30",
+      "reason": "title hit x1, abstract hit x1",
+      "relation_type": null,
+      "score": 4.5,
+      "semanticscholar_id": null,
+      "title": "DynFly: Dynamic-Aware Continuous Trajectory Generation for UAV Vision-Language Navigation in Urban Environments",
+      "topic_ids": [
+        "vln"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "year": 2026
+    }
+  ],
+  "today_new_global": 1,
+  "today_new_total": 1,
   "topics": [
     {
       "id": "uav-ris",
@@ -41,8 +63,8 @@
     {
       "id": "vln",
       "name": "Vision-Language Navigation",
-      "today_count": 0,
-      "total_papers": 19
+      "today_count": 1,
+      "total_papers": 20
     }
   ]
 }

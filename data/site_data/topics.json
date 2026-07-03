@@ -17,6 +17,34 @@
       "name": "Vision-Language Navigation",
       "papers": [
         {
+          "abstract": "Recent advances in multimodal large models have significantly improved UAV vision-language navigation (UAV-VLN) by enhancing high-level perception and reasoning. However, existing methods mainly focus on predicting discrete actions, local targets, or sparse waypoints, while the continuous transition from navigation intent to executable UAV motion remains weakly modeled. This motion-interface gap limits the continuity, stability, and executability of generated UAV trajectories. To address this gap, we propose DynFly, a dynamic-aware continuous trajectory generation framework that bridges high-level navigation reasoning and executable UAV motion. DynFly bridges high-level navigation intent and continuous UAV motion through a lightweight trajectory generation layer. Specifically, it represents expert trajectories in B-spline control-point space and employs a Spline-DiT generator to learn conditional trajectory generation via flow matching. Furthermore, we introduce UAV-oriented dynamic-aware supervision over position, finite-difference velocity, finite-difference acceleration, heading consistency, and local target alignment, enabling the generated trajectories to better satisfy UAV motion characteristics. And our trajectory generation framework can also be integrated with an existing UAV-VLN framework while preserving its original visual-language reasoning pipeline. Extensive experiments on the OpenUAV UAV-VLN benchmark show that DynFly improves both navigation performance and trajectory quality. On the Test Unseen Full split, DynFly improves the strongest baseline by 4.69 NDTW, 2.40 SDTW, 2.14 SR points and 4.87 OSR points, while reducing NE by 4.51 m.",
+          "arxiv_id": "2606.31654",
+          "authors": [
+            "Wen Jiang",
+            "Haomin Liang",
+            "Li Wang",
+            "Kangyao Huang",
+            "Wang Xu"
+          ],
+          "baseline_ids": [],
+          "best_url": "https://doi.org/10.48550/arxiv.2606.31654",
+          "canonical_id": "doi:10.48550/arxiv.2606.31654",
+          "doi": "10.48550/arxiv.2606.31654",
+          "label": "candidate",
+          "openalex_id": "https://openalex.org/W7166863384",
+          "publication_date": "2026-06-30",
+          "reason": "title hit x1, abstract hit x1",
+          "relation_type": "topic",
+          "score": 4.5,
+          "semanticscholar_id": null,
+          "title": "DynFly: Dynamic-Aware Continuous Trajectory Generation for UAV Vision-Language Navigation in Urban Environments",
+          "topic_ids": [
+            "vln"
+          ],
+          "venue": "arXiv (Cornell University)",
+          "year": 2026
+        },
+        {
           "abstract": "Automated inspection of indoor construction sites is pivotal for enhancing project quality management and operational safety.Mobile inspection robots possess the potential to gradually replace human workers.However, characterized by high dynamics, clutter, and visual monotony, construction environments pose severe navigational challenges.Current SLAM solutions impose heavy computational burdens and face robustness challenges in such environments.Therefore, this study proposes a Vision-Language Navigation framework tailored for indoor construction site inspection.Specifically, we leverage the robust generalization of pre-trained Vision-Language Models (VLMs) to construct a two-stage navigation agent controlling quadruped robots.In the first stage, we utilize building floor plans and scene graphs to plan movement paths within the facility, thereby generating detailed navigation sub-tasks and path descriptions.In the second stage, the navigation agent outputs the subsequent action sequence based on current sub-task information and continuously updated historical navigation memory until the navigation task is completed.The proposed framework was validated within a custom three-story educational building construction scenario simulated in the Habitat3.0simulator.Experimental results demonstrate that the path generation module achieves high semantic alignment with ground truth.Furthermore, the agent exhibits execution capabilities in challenging scenarios, such as textureless cross-room traversal and stair climbing.This work provides a new technical pathway for achieving low-cost and flexible intelligent construction inspection, advancing construction automation.",
           "arxiv_id": null,
           "authors": [
@@ -547,8 +575,8 @@
         "embodied navigation language grounding",
         "vln instruction following"
       ],
-      "today_count": 0,
-      "total_papers": 19
+      "today_count": 1,
+      "total_papers": 20
     }
   ]
 }

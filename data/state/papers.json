@@ -513,7 +513,7 @@
     "last_updated": null,
     "normalized_title": "age of information aware data collection for multi irs assisted uav networks a deep reinforcement learning approach",
     "openalex_id": null,
-    "pdf_url": "",
+    "pdf_url": "https://doi.org/10.1109/access.2026.3651489",
     "primary_reason": "direct citation to baseline",
     "publication_date": null,
     "reasons": [
@@ -566,7 +566,7 @@
     "last_updated": null,
     "normalized_title": "digital twin and transformer based learning for secure and energy efficient active ris assisted communications",
     "openalex_id": null,
-    "pdf_url": "",
+    "pdf_url": "https://doi.org/10.1109/access.2026.3652482",
     "primary_reason": "direct citation to baseline",
     "publication_date": null,
     "reasons": [
@@ -840,7 +840,7 @@
     "last_updated": null,
     "normalized_title": "joint trajectory and beamforming optimization for irs assisted multi antenna uav covert communications with a finite blocklength",
     "openalex_id": null,
-    "pdf_url": "",
+    "pdf_url": "https://ro.ecu.edu.au/ecuworks2022-2026/6724",
     "primary_reason": "direct citation to baseline",
     "publication_date": null,
     "reasons": [
@@ -1980,6 +1980,66 @@
     "venue": "ArXiv.org",
     "year": 2026
   },
+  "doi:10.48550/arxiv.2606.31654": {
+    "abstract": "Recent advances in multimodal large models have significantly improved UAV vision-language navigation (UAV-VLN) by enhancing high-level perception and reasoning. However, existing methods mainly focus on predicting discrete actions, local targets, or sparse waypoints, while the continuous transition from navigation intent to executable UAV motion remains weakly modeled. This motion-interface gap limits the continuity, stability, and executability of generated UAV trajectories. To address this gap, we propose DynFly, a dynamic-aware continuous trajectory generation framework that bridges high-level navigation reasoning and executable UAV motion. DynFly bridges high-level navigation intent and continuous UAV motion through a lightweight trajectory generation layer. Specifically, it represents expert trajectories in B-spline control-point space and employs a Spline-DiT generator to learn conditional trajectory generation via flow matching. Furthermore, we introduce UAV-oriented dynamic-aware supervision over position, finite-difference velocity, finite-difference acceleration, heading consistency, and local target alignment, enabling the generated trajectories to better satisfy UAV motion characteristics. And our trajectory generation framework can also be integrated with an existing UAV-VLN framework while preserving its original visual-language reasoning pipeline. Extensive experiments on the OpenUAV UAV-VLN benchmark show that DynFly improves both navigation performance and trajectory quality. On the Test Unseen Full split, DynFly improves the strongest baseline by 4.69 NDTW, 2.40 SDTW, 2.14 SR points and 4.87 OSR points, while reducing NE by 4.51 m.",
+    "arxiv_id": "2606.31654",
+    "authors": [
+      "Wen Jiang",
+      "Haomin Liang",
+      "Li Wang",
+      "Kangyao Huang",
+      "Wang Xu",
+      "Wei Fan",
+      "Jinyuan Liu",
+      "Liu S",
+      "Hongwei Duan",
+      "Bin Xu",
+      "Xiangyang Ji",
+      "Huaping Liu"
+    ],
+    "canonical_id": "doi:10.48550/arxiv.2606.31654",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": "10.48550/arxiv.2606.31654",
+    "external_ids": {
+      "doi": "https://doi.org/10.48550/arxiv.2606.31654",
+      "openalex": "https://openalex.org/W7166863384"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "dynfly dynamic aware continuous trajectory generation for uav vision language navigation in urban environments",
+    "openalex_id": "https://openalex.org/W7166863384",
+    "pdf_url": null,
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-06-30",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vision language navigation"
+    ],
+    "title": "DynFly: Dynamic-Aware Continuous Trajectory Generation for UAV Vision-Language Navigation in Urban Environments",
+    "title_hash": "8bd5a886a898ff389f210e3f05374a65650d063e",
+    "url": "https://doi.org/10.48550/arxiv.2606.31654",
+    "venue": "arXiv (Cornell University)",
+    "year": 2026
+  },
   "s2:08ba2877828708ace87d13acded59d47864d6659": {
     "abstract": null,
     "arxiv_id": null,
@@ -1987,7 +2047,7 @@
       "Xiaoyan Hu"
     ],
     "canonical_id": "s2:08ba2877828708ace87d13acded59d47864d6659",
-    "citations_count": 22,
+    "citations_count": 24,
     "discovered_date": null,
     "doi": null,
     "external_ids": {

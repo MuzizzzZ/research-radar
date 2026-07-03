@@ -1,6 +1,11 @@
 {
   "reports": [
     {
+      "date": "2026-07-03",
+      "path": "reports/daily/2026-07-03.md",
+      "preview": "## Summary"
+    },
+    {
       "date": "2026-07-02",
       "path": "reports/daily/2026-07-02.md",
       "preview": "## Summary"
