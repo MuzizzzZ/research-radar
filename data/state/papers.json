@@ -491,6 +491,57 @@
     "venue": "ArXiv.org",
     "year": 2026
   },
+  "arxiv:2607.01043": {
+    "abstract": "Memory-based discrete vision-language navigation (VLN) agents must act under partial observability, yet even strong frozen backbones remain vulnerable at test time. Two common failure modes are stale historical evidence at memory readout and inefficient local backtracking during action selection. We present DART-VLN, a training-free test-time control framework for discrete VLN. DART-VLN combines Test-Time Memory Decay, a read-side memory reweighting rule that suppresses stale and redundant evidence without rewriting stored content, with Anti-Loop Regularization, a lightweight next-hop penalty that discourages immediate reversals during action selection. The framework introduces no new learnable parameters and leaves the learned backbone unchanged. Experiments on R2R and REVERIE show a consistent pattern: decay-only provides stable read-side gains, while decay+anti-loop achieves the best overall quality-efficiency trade-off, yielding shorter trajectories, lower runtime, and improved navigation performance in key settings. Behavioral analysis further confirms that anti-loop regularization reduces local backtracking and improves path efficiency under frozen backbones. Overall, the results show that modest test-time control can make memory-based discrete VLN more reliable and efficient without retraining.",
+    "arxiv_id": "2607.01043",
+    "authors": [
+      "Shaoheng Zhang",
+      "Zhichen Li",
+      "Jie Mei"
+    ],
+    "canonical_id": "arxiv:2607.01043",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": null,
+    "external_ids": {
+      "openalex": "https://openalex.org/W7167289741"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "dart vln test time memory decay and anti loop regularization for discrete vision language navigation",
+    "openalex_id": "https://openalex.org/W7167289741",
+    "pdf_url": "https://arxiv.org/pdf/2607.01043",
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-07-01",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:embodied navigation language grounding",
+      "topic:vln:query:vln instruction following"
+    ],
+    "title": "DART-VLN: Test-Time Memory Decay and Anti-Loop Regularization for Discrete Vision-Language Navigation",
+    "title_hash": "830ceee4dc91275ef4de37722d44975688aa2c3e",
+    "url": "https://arxiv.org/abs/2607.01043",
+    "venue": "arXiv (Cornell University)",
+    "year": 2026
+  },
   "doi:10.1109/access.2026.3651489": {
     "abstract": "The use of unmanned aerial vehicles (UAVs) for collecting data from sensors has garnered considerable attention in both academic and industrial fields in recent years. To assess the freshness of the information gathered, the age of information (AoI) metric has emerged as an important tool, particularly in time-sensitive applications such as traffic management or monitoring critical issues like fire hazards. This study explores a scenario where a UAV, supported by multiple intelligent reflecting surfaces (IRSs), periodically gathers data from distributed internet of things devices (IoTDs). To minimize the average AoI across all devices, a comprehensive optimization approach is employed. Key elements such as the UAV’s trajectory, device transmission scheduling, timeslot duration, IRS selection factor, and the phase shift matrix of the selected IRS are jointly optimized. However, the problem’s complexity arises from its mixed-integer nature—IRS selection and device scheduling coefficients require integer values—and the strong interdependence of channel conditions with the UAV’s flight path and IRS phase shifts. These challenges make the problem difficult to solve. To address this, the primary optimization problem is framed as a Markov decision process (MDP). A deep reinforcement learning (DRL)-based approach is then adopted to determine the optimal UAV’s trajectory, device scheduling, and timeslot duration. Additionally, a location-based method is employed for selecting the suitable IRS, while a closed-form solution is used to design the phase shift matrix of the selected IRS. Results evidence improvements in successful transmission and fairness selection of devices when using multiple IRSs and variable timeslots.",
     "arxiv_id": null,
