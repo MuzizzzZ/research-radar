@@ -533,12 +533,62 @@
       "openalex"
     ],
     "source_tags": [
-      "topic:vln:query:embodied navigation language grounding",
       "topic:vln:query:vln instruction following"
     ],
     "title": "DART-VLN: Test-Time Memory Decay and Anti-Loop Regularization for Discrete Vision-Language Navigation",
     "title_hash": "830ceee4dc91275ef4de37722d44975688aa2c3e",
     "url": "https://arxiv.org/abs/2607.01043",
+    "venue": "arXiv (Cornell University)",
+    "year": 2026
+  },
+  "arxiv:2607.01754": {
+    "abstract": "On-policy exploration is a crucial component for training robust Vision-Language Navigation agents, as it exposes the policy to a broader state distribution. However, such exploration inevitably leads to trajectories that deviate from expert demonstrations, resulting in a semantic mismatch between the executed visual stream and the original language instruction. In this work, we address this challenge by introducing Phi-Nav, a unified on-policy framework that leverages hindsight reasoning to align instructions with the agent's actual exploratory journey. Specifically, Phi-Nav operates through a three-stage dual-supervision cycle: 1) the agent performs oracle-guided on-policy exploration, sampling a trajectory while learning from expert action feedback, 2) a hindsight speaker synthesizes a path-level hindsight instruction grounded in the collected visual observations, and 3) the agent conducts a second imitation pass, treating the synthesized trajectory-instruction pair as an additional expert demonstration. Through this process, Phi-Nav bridges the critical semantic supervision gap inherent in on-policy methods, transforming semantically unlabeled movement into dense training signals. Evaluations on the R2R-CE and RxR-CE benchmarks show that Phi-Nav yields competitive performance while requiring only a fraction of the expert demonstrations used by current baselines. These results underscore the necessity of semantic exploration in VLN, positioning Phi-Nav as an effective solution for training embodied agents with limited data.",
+    "arxiv_id": "2607.01754",
+    "authors": [
+      "Sung June Kim",
+      "Sangpil Kim",
+      "Honglak Lee"
+    ],
+    "canonical_id": "arxiv:2607.01754",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": null,
+    "external_ids": {
+      "openalex": "https://openalex.org/W7167380012"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "path level hindsight instructions for semantic exploration in vision language navigation",
+    "openalex_id": "https://openalex.org/W7167380012",
+    "pdf_url": "https://arxiv.org/pdf/2607.01754",
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-07-02",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:embodied navigation language grounding",
+      "topic:vln:query:vln instruction following"
+    ],
+    "title": "Path-level Hindsight Instructions for Semantic Exploration in Vision-Language Navigation",
+    "title_hash": "0c855c8c8c700fe755f680eaea432085aab627a1",
+    "url": "https://arxiv.org/abs/2607.01754",
     "venue": "arXiv (Cornell University)",
     "year": 2026
   },
