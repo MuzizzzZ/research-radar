@@ -3,6 +3,62 @@
     {
       "citations": [
         {
+          "abstract": "Mechanically reconfigurable metasurfaces have been designed to achieve continuous modulation of electromagnetic responses through the integration of deformable elements with structurally simple architectures. Although current implementations with independently addressable deformable units enable multifunctionality, their constrained phase modulation range imposes fundamental limitations on achieving fully reprogrammable metasurfaces. Here, we report for the first time a 1-bit phase-coding concept of a deformable unit based on the controllable interference of two three-dimensional (3D) bistable antennas, while maintaining superior broadband performance. By employing a hollow hyper-elastic substrate, we create a reliable platform for 3D buckling and shape switching of antennas, where out-of-plane loadings applied to each unit allow programming of the desired phase patterns. A reprogrammable metasurface prototype is meticulously designed and fabricated, demonstrating reliable, repeatable, and arbitrary functionality-switching capabilities. This concept establishes a robust foundation for mechanically reprogrammable metasurfaces and opens broader possibilities for applications in adaptive imaging, mechanical sensing, cloaking, information processing, and beyond.",
+          "arxiv_id": null,
+          "authors": [
+            "Donghai Han",
+            "Haoyuan Lu",
+            "Zhonglei Shen",
+            "Farid Manshaii",
+            "Yushan Hou"
+          ],
+          "baseline_ids": [
+            "secure-uav-ris"
+          ],
+          "best_url": "https://www.semanticscholar.org/paper/d0515a85c25b9eff1b2b6e177c194abc64c3c967",
+          "canonical_id": "doi:10.1002/adma.202522736",
+          "doi": "10.1002/adma.202522736",
+          "label": "candidate",
+          "openalex_id": null,
+          "publication_date": "2026-07-08",
+          "reason": "direct citation to baseline",
+          "relation_type": "citation",
+          "score": 7.5,
+          "semanticscholar_id": "d0515a85c25b9eff1b2b6e177c194abc64c3c967",
+          "title": "Reprogrammable Bistable Metasurface for Arbitrary Electromagnetic Wave Manipulation.",
+          "topic_ids": [],
+          "venue": "Advances in Materials",
+          "year": 2026
+        },
+        {
+          "abstract": "Unmanned aerial vehicles (UAVs) have become key components of sixth-generation (6G) wireless networks and have significantly promoted the rapid development of the low-altitude economy (LAE). However, UAV communications are inherently vulnerable to eavesdropping attacks owing to the open and broadcast nature of wireless channels, which makes transmission secrecy a critical challenge. This paper investigates an air-to-ground secure transmission system in which a UAV-mounted reconfigurable intelligent surface (RIS) assists a base station (Alice) while simultaneously serving multiple ground users (Bobs) under the surveillance of an eavesdropper (Eve). We mount the RIS on the UAV to jointly exploit UAV mobility and RIS reconfigurability for physical-layer security (PLS). First, we consider a single-user case in which we formulate a secrecy throughput maximization problem by jointly optimizing the UAV trajectory and RIS phase shifts. The framework is then extended to a multi-user non-orthogonal multiple access (NOMA) system, where the additional transmit power allocation between users is optimized. To address the resulting non-convex problems, we develop an efficient alternating optimization (AO) framework by leveraging successive convex approximation (SCA) and semidefinite relaxation (SDR). The numerical results show that the proposed method achieves rapid convergence and delivers significant improvements in secrecy performance over benchmark schemes with random RIS phase shifts and without UAV trajectory planning. Our results highlight the importance of UAV–RIS cooperation in achieving secure and scalable multi-user communications for future wireless networks.",
+          "arxiv_id": null,
+          "authors": [
+            "Tong-Xing Zheng",
+            "Z. Yetneberk",
+            "Wenjie Wang",
+            "Chongwen Huang",
+            "Zhi Lin"
+          ],
+          "baseline_ids": [
+            "secure-uav-ris"
+          ],
+          "best_url": "https://www.semanticscholar.org/paper/87a759c41f9d1c4aef180e4e82f9ad958c84c96a",
+          "canonical_id": "doi:10.1109/tcomm.2026.3706477",
+          "doi": "10.1109/tcomm.2026.3706477",
+          "label": "candidate",
+          "openalex_id": null,
+          "publication_date": null,
+          "reason": "direct citation to baseline",
+          "relation_type": "citation",
+          "score": 7.5,
+          "semanticscholar_id": "87a759c41f9d1c4aef180e4e82f9ad958c84c96a",
+          "title": "Joint Trajectory and RIS-NOMA Optimization for Multi-User UAV Secure Communications",
+          "topic_ids": [],
+          "venue": "IEEE Transactions on Communications",
+          "year": 2026
+        },
+        {
           "abstract": "Low-altitude wireless networks (LAWN) envision a reconfigurable 3D network capable of supporting mission-critical aerial operations. This paper presents a reconfigurable intelligent surface (RIS)-assisted LAWN to establish a reliable communication with an unmanned aerial vehicle (UAV) across varying wireless channel conditions and signal blockages. A low complexity stripe-based RIS phase shift optimization framework is proposed to simultaneously enhance communication reliability and provide passive sensing capability for UAV tracking under 3D mobility. Unlike high-complexity optimization approaches, the proposed method leverages the inherent structural phase-gradient of the RIS adjacent elements to significantly reduce the search space for calculating and updating the RIS configuration as the UAV moves. The analysis and simulation results demonstrate that the proposed framework outperforms conventional benchmarks in convergence speed and computational efficiency, while maintaining robust, high signal-to-noise-ratio (SNR) connectivity even in the presence of phase estimation errors and low SNR regimes. In addition, the measurement experiments using a real RIS prototype in an outdoor campus environment are performed to demonstrate the practical viability of the proposed approach.",
           "arxiv_id": "2606.07026",
           "authors": [
@@ -498,7 +554,7 @@
       "id": "secure-uav-ris",
       "related": [],
       "title": "Joint Trajectory and Passive Beamforming Design for Secure UAV-RIS Communication Systems",
-      "today_citations": 0,
+      "today_citations": 2,
       "today_related": 0,
       "topic_id": "uav-ris"
     },

@@ -592,6 +592,118 @@
     "venue": "arXiv (Cornell University)",
     "year": 2026
   },
+  "arxiv:2607.08359": {
+    "abstract": "Vision-Language Navigation (VLN) enables UAV autonomous navigation in unknown environments by mapping language instructions to real-time visual inputs. Compared with GPS-dependent or pre-programmed navigation, VLN supports intuitive human-machine interaction and stronger environmental adaptability, requiring tight integration of high-level semantic reasoning and low-latency flight control.Existing methods suffer from structural misalignment between global multimodal understanding and sequential action generation, causing jittery trajectories and severe decision latency for long-horizon aerial navigation. To solve this issue, we propose FSD-VLN, a fast-slow dual-system architecture disentangling semantic reasoning and low-latency flight command generation.The framework has two asynchronous branches: a slow stream extracting stable semantic priors from pre-trained vision-language models, and a Diffusion Transformer (DiT) fast stream modeling cross-temporal action distributions to produce consistent flight outputs. We further introduce a time-aware adaptive optimizer to stabilize long-sequence training and reduce gradient oscillation.Large-scale low-altitude simulation experiments show FSD-VLN achieves up to 2X higher navigation success rates on unseen scenes than SOTA methods, while cutting single-action inference delay and total task runtime by over 50%. Our work validates the benefit of decoupled semantic-control modeling and provides a practical paradigm for long-horizon aerial VLN.",
+    "arxiv_id": "2607.08359",
+    "authors": [
+      "Xueke Zhu",
+      "Qingyan Meng",
+      "Liutao Yu",
+      "Wei Zhang",
+      "Zhengyu Ma",
+      "Huihui Zhou",
+      "Yonghong Tian"
+    ],
+    "canonical_id": "arxiv:2607.08359",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": null,
+    "external_ids": {
+      "openalex": "https://openalex.org/W7168054718"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "fsd vln fast slow dual system modeling for aerial long horizon vision language navigation",
+    "openalex_id": "https://openalex.org/W7168054718",
+    "pdf_url": "https://arxiv.org/pdf/2607.08359",
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-07-09",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vln instruction following"
+    ],
+    "title": "FSD-VLN: Fast-Slow Dual-System Modeling for Aerial Long-Horizon Vision-Language Navigation",
+    "title_hash": "40b17637ec8e8a4043cb055ed70f18693e26f94b",
+    "url": "https://arxiv.org/abs/2607.08359",
+    "venue": "arXiv (Cornell University)",
+    "year": 2026
+  },
+  "doi:10.1002/adma.202522736": {
+    "abstract": "Mechanically reconfigurable metasurfaces have been designed to achieve continuous modulation of electromagnetic responses through the integration of deformable elements with structurally simple architectures. Although current implementations with independently addressable deformable units enable multifunctionality, their constrained phase modulation range imposes fundamental limitations on achieving fully reprogrammable metasurfaces. Here, we report for the first time a 1-bit phase-coding concept of a deformable unit based on the controllable interference of two three-dimensional (3D) bistable antennas, while maintaining superior broadband performance. By employing a hollow hyper-elastic substrate, we create a reliable platform for 3D buckling and shape switching of antennas, where out-of-plane loadings applied to each unit allow programming of the desired phase patterns. A reprogrammable metasurface prototype is meticulously designed and fabricated, demonstrating reliable, repeatable, and arbitrary functionality-switching capabilities. This concept establishes a robust foundation for mechanically reprogrammable metasurfaces and opens broader possibilities for applications in adaptive imaging, mechanical sensing, cloaking, information processing, and beyond.",
+    "arxiv_id": null,
+    "authors": [
+      "Donghai Han",
+      "Haoyuan Lu",
+      "Zhonglei Shen",
+      "Farid Manshaii",
+      "Yushan Hou",
+      "Xiaoming Chen",
+      "Ruqiang Yan",
+      "Liuyang Zhang",
+      "Jun Chen"
+    ],
+    "canonical_id": "doi:10.1002/adma.202522736",
+    "citations_count": 0,
+    "discovered_date": null,
+    "doi": "10.1002/adma.202522736",
+    "external_ids": {
+      "CorpusId": "290010653",
+      "DOI": "10.1002/adma.202522736",
+      "PubMed": "42418653"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "reprogrammable bistable metasurface for arbitrary electromagnetic wave manipulation",
+    "openalex_id": null,
+    "pdf_url": "",
+    "primary_reason": "direct citation to baseline",
+    "publication_date": "2026-07-08",
+    "reasons": [
+      "direct citation to baseline"
+    ],
+    "references_count": 54,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "direct citation to baseline",
+        "relation_type": "citation",
+        "scope_id": "secure-uav-ris",
+        "scope_type": "baseline",
+        "score": 7.5
+      }
+    ],
+    "score": 7.5,
+    "semanticscholar_id": "d0515a85c25b9eff1b2b6e177c194abc64c3c967",
+    "source_names": [
+      "semanticscholar"
+    ],
+    "source_tags": [
+      "baseline:secure-uav-ris:citation"
+    ],
+    "title": "Reprogrammable Bistable Metasurface for Arbitrary Electromagnetic Wave Manipulation.",
+    "title_hash": "784e3e8efb1a569751fdad3655267108b0bcdb95",
+    "url": "https://www.semanticscholar.org/paper/d0515a85c25b9eff1b2b6e177c194abc64c3c967",
+    "venue": "Advances in Materials",
+    "year": 2026
+  },
   "doi:10.1109/access.2026.3651489": {
     "abstract": "The use of unmanned aerial vehicles (UAVs) for collecting data from sensors has garnered considerable attention in both academic and industrial fields in recent years. To assess the freshness of the information gathered, the age of information (AoI) metric has emerged as an important tool, particularly in time-sensitive applications such as traffic management or monitoring critical issues like fire hazards. This study explores a scenario where a UAV, supported by multiple intelligent reflecting surfaces (IRSs), periodically gathers data from distributed internet of things devices (IoTDs). To minimize the average AoI across all devices, a comprehensive optimization approach is employed. Key elements such as the UAV’s trajectory, device transmission scheduling, timeslot duration, IRS selection factor, and the phase shift matrix of the selected IRS are jointly optimized. However, the problem’s complexity arises from its mixed-integer nature—IRS selection and device scheduling coefficients require integer values—and the strong interdependence of channel conditions with the UAV’s flight path and IRS phase shifts. These challenges make the problem difficult to solve. To address this, the primary optimization problem is framed as a Markov decision process (MDP). A deep reinforcement learning (DRL)-based approach is then adopted to determine the optimal UAV’s trajectory, device scheduling, and timeslot duration. Additionally, a location-based method is employed for selecting the suitable IRS, while a closed-form solution is used to design the phase shift matrix of the selected IRS. Results evidence improvements in successful transmission and fairness selection of devices when using multiple IRSs and variable timeslots.",
     "arxiv_id": null,
@@ -766,7 +878,7 @@
       "Yan Zhang"
     ],
     "canonical_id": "doi:10.1109/jsac.2026.3669466",
-    "citations_count": 1,
+    "citations_count": 2,
     "discovered_date": null,
     "doi": "10.1109/jsac.2026.3669466",
     "external_ids": {
@@ -863,6 +975,62 @@
     "title_hash": "ab2560e0741b4457808fdaaa865dc75690821f26",
     "url": "https://www.semanticscholar.org/paper/8f54b957af3af2bd1fac292ef21187d2ab6da2cf",
     "venue": "IEEE Transactions on Cognitive Communications and Networking",
+    "year": 2026
+  },
+  "doi:10.1109/tcomm.2026.3706477": {
+    "abstract": "Unmanned aerial vehicles (UAVs) have become key components of sixth-generation (6G) wireless networks and have significantly promoted the rapid development of the low-altitude economy (LAE). However, UAV communications are inherently vulnerable to eavesdropping attacks owing to the open and broadcast nature of wireless channels, which makes transmission secrecy a critical challenge. This paper investigates an air-to-ground secure transmission system in which a UAV-mounted reconfigurable intelligent surface (RIS) assists a base station (Alice) while simultaneously serving multiple ground users (Bobs) under the surveillance of an eavesdropper (Eve). We mount the RIS on the UAV to jointly exploit UAV mobility and RIS reconfigurability for physical-layer security (PLS). First, we consider a single-user case in which we formulate a secrecy throughput maximization problem by jointly optimizing the UAV trajectory and RIS phase shifts. The framework is then extended to a multi-user non-orthogonal multiple access (NOMA) system, where the additional transmit power allocation between users is optimized. To address the resulting non-convex problems, we develop an efficient alternating optimization (AO) framework by leveraging successive convex approximation (SCA) and semidefinite relaxation (SDR). The numerical results show that the proposed method achieves rapid convergence and delivers significant improvements in secrecy performance over benchmark schemes with random RIS phase shifts and without UAV trajectory planning. Our results highlight the importance of UAV–RIS cooperation in achieving secure and scalable multi-user communications for future wireless networks.",
+    "arxiv_id": null,
+    "authors": [
+      "Tong-Xing Zheng",
+      "Z. Yetneberk",
+      "Wenjie Wang",
+      "Chongwen Huang",
+      "Zhi Lin",
+      "Haiyang Ding",
+      "Jia Shi",
+      "Zan Li"
+    ],
+    "canonical_id": "doi:10.1109/tcomm.2026.3706477",
+    "citations_count": 0,
+    "discovered_date": null,
+    "doi": "10.1109/tcomm.2026.3706477",
+    "external_ids": {
+      "CorpusId": "289573984",
+      "DOI": "10.1109/TCOMM.2026.3706477"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "joint trajectory and ris noma optimization for multi user uav secure communications",
+    "openalex_id": null,
+    "pdf_url": "",
+    "primary_reason": "direct citation to baseline",
+    "publication_date": null,
+    "reasons": [
+      "direct citation to baseline"
+    ],
+    "references_count": 34,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "direct citation to baseline",
+        "relation_type": "citation",
+        "scope_id": "secure-uav-ris",
+        "scope_type": "baseline",
+        "score": 7.5
+      }
+    ],
+    "score": 7.5,
+    "semanticscholar_id": "87a759c41f9d1c4aef180e4e82f9ad958c84c96a",
+    "source_names": [
+      "semanticscholar"
+    ],
+    "source_tags": [
+      "baseline:secure-uav-ris:citation"
+    ],
+    "title": "Joint Trajectory and RIS-NOMA Optimization for Multi-User UAV Secure Communications",
+    "title_hash": "ebcca77a8879cfbca3215baee3a8ccb32915f7c3",
+    "url": "https://www.semanticscholar.org/paper/87a759c41f9d1c4aef180e4e82f9ad958c84c96a",
+    "venue": "IEEE Transactions on Communications",
     "year": 2026
   },
   "doi:10.1109/tgcn.2025.3581390": {
@@ -2148,7 +2316,7 @@
       "Xiaoyan Hu"
     ],
     "canonical_id": "s2:08ba2877828708ace87d13acded59d47864d6659",
-    "citations_count": 24,
+    "citations_count": 25,
     "discovered_date": null,
     "doi": null,
     "external_ids": {
