@@ -2309,6 +2309,64 @@
     "venue": "arXiv (Cornell University)",
     "year": 2026
   },
+  "doi:10.48550/arxiv.2607.11638": {
+    "abstract": "City-scale outdoor navigation is currently hindered by the heavy reliance on dense maps or costly navigation supervision. In this work, we introduce a novel paradigm for leveraging directional instructions from commercial navigation tools (e.g., Google Maps). To bridge the gap between commercial instructions and executable navigation actions, while mitigating long-horizon error accumulation through robust trajectory recovery, we propose DA-Nav, a Direction-Aware vision-language Navigation framework that reformulates navigation as a discrete spatial grounding problem on the egocentric 2D image plane. To achieve trajectory recovery, DA-Nav employs a Chain-of-Thought (CoT) reasoning process encompassing deviation assessment, action prediction, and target grid selection. We further introduce ReDA, a dataset that provides direction-aware instructions and recovery trajectories to enhance spatial grounding and support CoT recovery reasoning. Extensive experiments in CARLA demonstrate that DA-Nav achieves a high success rate of 56.16% in unseen urban environments, outperforming existing State-of-The-Art (SoTA) methods while maintaining a substantially stronger recovery capability. Furthermore, without fine-tuning, DA-Nav seamlessly adapts to both quadruped and humanoid robots, enabling stable kilometer-scale closed-loop outdoor navigation in complex real world environments.",
+    "arxiv_id": "2607.11638",
+    "authors": [
+      "Ye Yuan",
+      "Kehan Chen",
+      "Xinqiang Yu",
+      "Wentao Xu",
+      "Heng Wang",
+      "Libo Huang",
+      "Chuanguang Yang",
+      "Yan Huang",
+      "Jiawei He",
+      "Zhulin An"
+    ],
+    "canonical_id": "doi:10.48550/arxiv.2607.11638",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": "10.48550/arxiv.2607.11638",
+    "external_ids": {
+      "doi": "https://doi.org/10.48550/arxiv.2607.11638",
+      "openalex": "https://openalex.org/W7168282213"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "da nav direction aware city scale vision language navigation",
+    "openalex_id": "https://openalex.org/W7168282213",
+    "pdf_url": null,
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-07-13",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vision language navigation"
+    ],
+    "title": "DA-Nav: Direction-Aware City-Scale Vision-Language Navigation",
+    "title_hash": "d363c91b5e683dadd471530892803cbd70b85875",
+    "url": "https://doi.org/10.48550/arxiv.2607.11638",
+    "venue": "arXiv (Cornell University)",
+    "year": 2026
+  },
   "s2:08ba2877828708ace87d13acded59d47864d6659": {
     "abstract": null,
     "arxiv_id": null,
