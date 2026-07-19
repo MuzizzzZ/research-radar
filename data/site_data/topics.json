@@ -17,6 +17,34 @@
       "name": "Vision-Language Navigation",
       "papers": [
         {
+          "abstract": "Existing vision-language navigation methods often couple a VLM with waypoint decoders to produce multi-step action plans, but they typically lack an explicit closed-loop mechanism for tracking semantic progress, diagnosing execution failures, and recovering from error accumulation in long-horizon navigation. To address this gap, we propose ReflectVLN, an agentic VLN framework that organizes decision-making through bidirectionally interactive intention and execution agents. The intention agent performs subtask decomposition and reflection, generating executable subtask descriptions as corrective plans. Conditioned on these descriptions, the execution agent grounds them into short-horizon actions under current observations while monitoring sub-goal progress and detecting off-track behavior. Crucially, ReflectVLN enables closed-loop bidirectional communication: the execution agent emits progress and deviation signals to trigger reflection and subtask updates on demand, and the intention agent returns structured guidance that reconditions subsequent actions for recovery. To encourage temporally coherent decisions with interpretable intermediate rationales, we introduce Action Chain-of-Thought (Action-CoT), a path-conditioned dual-query training scheme for action generation. Experiments on standard VLN benchmarks show that ReflectVLN improves success rates and path efficiency under a constrained data budget, with favorable training cost and fewer high-level intention calls at inference time, while providing interpretable intermediate decisions for analysis and collaboration. Code is available at: https://github.com/AIprogrammer/ReflectVLN",
+          "arxiv_id": "2607.12680",
+          "authors": [
+            "Jiahang Wang",
+            "Yirong Yang",
+            "Yanqing Zhu",
+            "Minghua Luo",
+            "Shichao Xie"
+          ],
+          "baseline_ids": [],
+          "best_url": "https://arxiv.org/abs/2607.12680",
+          "canonical_id": "arxiv:2607.12680",
+          "doi": null,
+          "label": "candidate",
+          "openalex_id": "https://openalex.org/W7169473314",
+          "publication_date": "2026-07-14",
+          "reason": "title hit x1, abstract hit x1",
+          "relation_type": "topic",
+          "score": 4.5,
+          "semanticscholar_id": null,
+          "title": "ReflectVLN: Training Vision-Language Navigation Agents with Reflective Reasoning",
+          "topic_ids": [
+            "vln"
+          ],
+          "venue": "arXiv (Cornell University)",
+          "year": 2026
+        },
+        {
           "abstract": "City-scale outdoor navigation is currently hindered by the heavy reliance on dense maps or costly navigation supervision. In this work, we introduce a novel paradigm for leveraging directional instructions from commercial navigation tools (e.g., Google Maps). To bridge the gap between commercial instructions and executable navigation actions, while mitigating long-horizon error accumulation through robust trajectory recovery, we propose DA-Nav, a Direction-Aware vision-language Navigation framework that reformulates navigation as a discrete spatial grounding problem on the egocentric 2D image plane. To achieve trajectory recovery, DA-Nav employs a Chain-of-Thought (CoT) reasoning process encompassing deviation assessment, action prediction, and target grid selection. We further introduce ReDA, a dataset that provides direction-aware instructions and recovery trajectories to enhance spatial grounding and support CoT recovery reasoning. Extensive experiments in CARLA demonstrate that DA-Nav achieves a high success rate of 56.16% in unseen urban environments, outperforming existing State-of-The-Art (SoTA) methods while maintaining a substantially stronger recovery capability. Furthermore, without fine-tuning, DA-Nav seamlessly adapts to both quadruped and humanoid robots, enabling stable kilometer-scale closed-loop outdoor navigation in complex real world environments.",
           "arxiv_id": "2607.11638",
           "authors": [
@@ -683,8 +711,8 @@
         "embodied navigation language grounding",
         "vln instruction following"
       ],
-      "today_count": 0,
-      "total_papers": 24
+      "today_count": 1,
+      "total_papers": 25
     }
   ]
 }

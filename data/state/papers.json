@@ -646,6 +646,60 @@
     "venue": "arXiv (Cornell University)",
     "year": 2026
   },
+  "arxiv:2607.12680": {
+    "abstract": "Existing vision-language navigation methods often couple a VLM with waypoint decoders to produce multi-step action plans, but they typically lack an explicit closed-loop mechanism for tracking semantic progress, diagnosing execution failures, and recovering from error accumulation in long-horizon navigation. To address this gap, we propose ReflectVLN, an agentic VLN framework that organizes decision-making through bidirectionally interactive intention and execution agents. The intention agent performs subtask decomposition and reflection, generating executable subtask descriptions as corrective plans. Conditioned on these descriptions, the execution agent grounds them into short-horizon actions under current observations while monitoring sub-goal progress and detecting off-track behavior. Crucially, ReflectVLN enables closed-loop bidirectional communication: the execution agent emits progress and deviation signals to trigger reflection and subtask updates on demand, and the intention agent returns structured guidance that reconditions subsequent actions for recovery. To encourage temporally coherent decisions with interpretable intermediate rationales, we introduce Action Chain-of-Thought (Action-CoT), a path-conditioned dual-query training scheme for action generation. Experiments on standard VLN benchmarks show that ReflectVLN improves success rates and path efficiency under a constrained data budget, with favorable training cost and fewer high-level intention calls at inference time, while providing interpretable intermediate decisions for analysis and collaboration. Code is available at: https://github.com/AIprogrammer/ReflectVLN",
+    "arxiv_id": "2607.12680",
+    "authors": [
+      "Jiahang Wang",
+      "Yirong Yang",
+      "Yanqing Zhu",
+      "Minghua Luo",
+      "Shichao Xie",
+      "Fei Liu",
+      "Mei‐Yan Xu"
+    ],
+    "canonical_id": "arxiv:2607.12680",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": null,
+    "external_ids": {
+      "openalex": "https://openalex.org/W7169473314"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "reflectvln training vision language navigation agents with reflective reasoning",
+    "openalex_id": "https://openalex.org/W7169473314",
+    "pdf_url": "https://arxiv.org/pdf/2607.12680",
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-07-14",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vln instruction following"
+    ],
+    "title": "ReflectVLN: Training Vision-Language Navigation Agents with Reflective Reasoning",
+    "title_hash": "efe0e2cdd93e3ba8667c792a1638c84e2344c9a2",
+    "url": "https://arxiv.org/abs/2607.12680",
+    "venue": "arXiv (Cornell University)",
+    "year": 2026
+  },
   "doi:10.1002/adma.202522736": {
     "abstract": "Mechanically reconfigurable metasurfaces have been designed to achieve continuous modulation of electromagnetic responses through the integration of deformable elements with structurally simple architectures. Although current implementations with independently addressable deformable units enable multifunctionality, their constrained phase modulation range imposes fundamental limitations on achieving fully reprogrammable metasurfaces. Here, we report for the first time a 1-bit phase-coding concept of a deformable unit based on the controllable interference of two three-dimensional (3D) bistable antennas, while maintaining superior broadband performance. By employing a hollow hyper-elastic substrate, we create a reliable platform for 3D buckling and shape switching of antennas, where out-of-plane loadings applied to each unit allow programming of the desired phase patterns. A reprogrammable metasurface prototype is meticulously designed and fabricated, demonstrating reliable, repeatable, and arbitrary functionality-switching capabilities. This concept establishes a robust foundation for mechanically reprogrammable metasurfaces and opens broader possibilities for applications in adaptive imaging, mechanical sensing, cloaking, information processing, and beyond.",
     "arxiv_id": null,

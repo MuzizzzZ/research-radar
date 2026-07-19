@@ -15,15 +15,45 @@
       "topic_id": "vln"
     }
   ],
-  "generated_at": "2026-07-18",
+  "generated_at": "2026-07-19",
   "issues": [
+    "Semantic Scholar citation fetch failed for baseline secure-uav-ris: Semantic Scholar API rate limit exceeded.",
     "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
-  "latest_report_date": "2026-07-18",
+  "latest_report_date": "2026-07-19",
   "project_name": "research-radar",
-  "recent_papers": [],
-  "today_new_global": 0,
-  "today_new_total": 0,
+  "recent_papers": [
+    {
+      "abstract": "Existing vision-language navigation methods often couple a VLM with waypoint decoders to produce multi-step action plans, but they typically lack an explicit closed-loop mechanism for tracking semantic progress, diagnosing execution failures, and recovering from error accumulation in long-horizon navigation. To address this gap, we propose ReflectVLN, an agentic VLN framework that organizes decision-making through bidirectionally interactive intention and execution agents. The intention agent performs subtask decomposition and reflection, generating executable subtask descriptions as corrective plans. Conditioned on these descriptions, the execution agent grounds them into short-horizon actions under current observations while monitoring sub-goal progress and detecting off-track behavior. Crucially, ReflectVLN enables closed-loop bidirectional communication: the execution agent emits progress and deviation signals to trigger reflection and subtask updates on demand, and the intention agent returns structured guidance that reconditions subsequent actions for recovery. To encourage temporally coherent decisions with interpretable intermediate rationales, we introduce Action Chain-of-Thought (Action-CoT), a path-conditioned dual-query training scheme for action generation. Experiments on standard VLN benchmarks show that ReflectVLN improves success rates and path efficiency under a constrained data budget, with favorable training cost and fewer high-level intention calls at inference time, while providing interpretable intermediate decisions for analysis and collaboration. Code is available at: https://github.com/AIprogrammer/ReflectVLN",
+      "arxiv_id": "2607.12680",
+      "authors": [
+        "Jiahang Wang",
+        "Yirong Yang",
+        "Yanqing Zhu",
+        "Minghua Luo",
+        "Shichao Xie"
+      ],
+      "baseline_ids": [],
+      "best_url": "https://arxiv.org/abs/2607.12680",
+      "canonical_id": "arxiv:2607.12680",
+      "doi": null,
+      "label": "candidate",
+      "openalex_id": "https://openalex.org/W7169473314",
+      "publication_date": "2026-07-14",
+      "reason": "title hit x1, abstract hit x1",
+      "relation_type": null,
+      "score": 4.5,
+      "semanticscholar_id": null,
+      "title": "ReflectVLN: Training Vision-Language Navigation Agents with Reflective Reasoning",
+      "topic_ids": [
+        "vln"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "year": 2026
+    }
+  ],
+  "today_new_global": 1,
+  "today_new_total": 1,
   "topics": [
     {
       "id": "uav-ris",
@@ -34,8 +64,8 @@
     {
       "id": "vln",
       "name": "Vision-Language Navigation",
-      "today_count": 0,
-      "total_papers": 24
+      "today_count": 1,
+      "total_papers": 25
     }
   ]
 }
