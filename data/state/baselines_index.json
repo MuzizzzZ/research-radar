@@ -169,6 +169,14 @@
       "reason": "direct citation to baseline",
       "relation_type": "citation",
       "score": 7.5
+    },
+    {
+      "canonical_id": "doi:10.1109/tnse.2026.3708972",
+      "date": "2026-07-20",
+      "label": "candidate",
+      "reason": "direct citation to baseline",
+      "relation_type": "citation",
+      "score": 7.5
     }
   ]
 }

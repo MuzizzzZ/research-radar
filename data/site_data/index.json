@@ -3,7 +3,7 @@
     {
       "id": "secure-uav-ris",
       "title": "Joint Trajectory and Passive Beamforming Design for Secure UAV-RIS Communication Systems",
-      "today_citations": 0,
+      "today_citations": 1,
       "today_related": 0,
       "topic_id": "uav-ris"
     },
@@ -15,40 +15,38 @@
       "topic_id": "vln"
     }
   ],
-  "generated_at": "2026-07-19",
+  "generated_at": "2026-07-20",
   "issues": [
-    "Semantic Scholar citation fetch failed for baseline secure-uav-ris: Semantic Scholar API rate limit exceeded.",
     "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
-  "latest_report_date": "2026-07-19",
+  "latest_report_date": "2026-07-20",
   "project_name": "research-radar",
   "recent_papers": [
     {
-      "abstract": "Existing vision-language navigation methods often couple a VLM with waypoint decoders to produce multi-step action plans, but they typically lack an explicit closed-loop mechanism for tracking semantic progress, diagnosing execution failures, and recovering from error accumulation in long-horizon navigation. To address this gap, we propose ReflectVLN, an agentic VLN framework that organizes decision-making through bidirectionally interactive intention and execution agents. The intention agent performs subtask decomposition and reflection, generating executable subtask descriptions as corrective plans. Conditioned on these descriptions, the execution agent grounds them into short-horizon actions under current observations while monitoring sub-goal progress and detecting off-track behavior. Crucially, ReflectVLN enables closed-loop bidirectional communication: the execution agent emits progress and deviation signals to trigger reflection and subtask updates on demand, and the intention agent returns structured guidance that reconditions subsequent actions for recovery. To encourage temporally coherent decisions with interpretable intermediate rationales, we introduce Action Chain-of-Thought (Action-CoT), a path-conditioned dual-query training scheme for action generation. Experiments on standard VLN benchmarks show that ReflectVLN improves success rates and path efficiency under a constrained data budget, with favorable training cost and fewer high-level intention calls at inference time, while providing interpretable intermediate decisions for analysis and collaboration. Code is available at: https://github.com/AIprogrammer/ReflectVLN",
-      "arxiv_id": "2607.12680",
+      "abstract": "Antenna arrays are the fundamental component of modern high-throughput wireless networks. The diversity of array structures and system functionalities results in strong non-convexity of the related optimization problems, making it difficult to derive optimal solutions and thereby limiting network performance. To address this issue, the order-reduction optimization plays an important role, providing a trade-off between system performance and computational complexity. In this paper, we propose a comprehensive and systematic framework on order-reduction optimization, which has a wide range of application scenarios and satisfactory performance. We first discuss the construction of order-reduction inequalities and related properties in terms of three mathematical paradigms: the log-trace-based identity, the positive definite identity, and the tangent identity. Then we propose order-reduction algorithms applied to constant-modulus (CM) constrained optimization problems. Specifically, the hybrid digital-analog system, the reconfigurable intelligent surface (RIS)-aided system, and the holographic metasurface antenna (HMA)-aided system are investigated, respectively. In addition, we consider the application of the proposed order-reduction algorithms to different functional systems, where integrated sensing and communication (ISAC) and the physical layer security (PLS) are included.",
+      "arxiv_id": null,
       "authors": [
-        "Jiahang Wang",
-        "Yirong Yang",
-        "Yanqing Zhu",
-        "Minghua Luo",
-        "Shichao Xie"
+        "Yihan Li",
+        "Chengwen Xing",
+        "Shiqi Gong",
+        "Nan Zhao"
       ],
-      "baseline_ids": [],
-      "best_url": "https://arxiv.org/abs/2607.12680",
-      "canonical_id": "arxiv:2607.12680",
-      "doi": null,
+      "baseline_ids": [
+        "secure-uav-ris"
+      ],
+      "best_url": "https://www.semanticscholar.org/paper/f18a87cbe7a25fdf0cd538bdbc9d64f5cd895129",
+      "canonical_id": "doi:10.1109/tnse.2026.3708972",
+      "doi": "10.1109/tnse.2026.3708972",
       "label": "candidate",
-      "openalex_id": "https://openalex.org/W7169473314",
-      "publication_date": "2026-07-14",
-      "reason": "title hit x1, abstract hit x1",
+      "openalex_id": null,
+      "publication_date": null,
+      "reason": "direct citation to baseline",
       "relation_type": null,
-      "score": 4.5,
-      "semanticscholar_id": null,
-      "title": "ReflectVLN: Training Vision-Language Navigation Agents with Reflective Reasoning",
-      "topic_ids": [
-        "vln"
-      ],
-      "venue": "arXiv (Cornell University)",
+      "score": 7.5,
+      "semanticscholar_id": "f18a87cbe7a25fdf0cd538bdbc9d64f5cd895129",
+      "title": "A Framework on Order-Reduction Optimization for Array-Assisted Communication Networks",
+      "topic_ids": [],
+      "venue": "IEEE Transactions on Network Science and Engineering",
       "year": 2026
     }
   ],
@@ -64,7 +62,7 @@
     {
       "id": "vln",
       "name": "Vision-Language Navigation",
-      "today_count": 1,
+      "today_count": 0,
       "total_papers": 25
     }
   ]

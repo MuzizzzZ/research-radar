@@ -1356,6 +1356,58 @@
     "venue": "IEEE Transactions on Network Science and Engineering",
     "year": 2026
   },
+  "doi:10.1109/tnse.2026.3708972": {
+    "abstract": "Antenna arrays are the fundamental component of modern high-throughput wireless networks. The diversity of array structures and system functionalities results in strong non-convexity of the related optimization problems, making it difficult to derive optimal solutions and thereby limiting network performance. To address this issue, the order-reduction optimization plays an important role, providing a trade-off between system performance and computational complexity. In this paper, we propose a comprehensive and systematic framework on order-reduction optimization, which has a wide range of application scenarios and satisfactory performance. We first discuss the construction of order-reduction inequalities and related properties in terms of three mathematical paradigms: the log-trace-based identity, the positive definite identity, and the tangent identity. Then we propose order-reduction algorithms applied to constant-modulus (CM) constrained optimization problems. Specifically, the hybrid digital-analog system, the reconfigurable intelligent surface (RIS)-aided system, and the holographic metasurface antenna (HMA)-aided system are investigated, respectively. In addition, we consider the application of the proposed order-reduction algorithms to different functional systems, where integrated sensing and communication (ISAC) and the physical layer security (PLS) are included.",
+    "arxiv_id": null,
+    "authors": [
+      "Yihan Li",
+      "Chengwen Xing",
+      "Shiqi Gong",
+      "Nan Zhao"
+    ],
+    "canonical_id": "doi:10.1109/tnse.2026.3708972",
+    "citations_count": 0,
+    "discovered_date": null,
+    "doi": "10.1109/tnse.2026.3708972",
+    "external_ids": {
+      "CorpusId": "289791609",
+      "DOI": "10.1109/TNSE.2026.3708972"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "a framework on order reduction optimization for array assisted communication networks",
+    "openalex_id": null,
+    "pdf_url": "",
+    "primary_reason": "direct citation to baseline",
+    "publication_date": null,
+    "reasons": [
+      "direct citation to baseline"
+    ],
+    "references_count": 75,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "direct citation to baseline",
+        "relation_type": "citation",
+        "scope_id": "secure-uav-ris",
+        "scope_type": "baseline",
+        "score": 7.5
+      }
+    ],
+    "score": 7.5,
+    "semanticscholar_id": "f18a87cbe7a25fdf0cd538bdbc9d64f5cd895129",
+    "source_names": [
+      "semanticscholar"
+    ],
+    "source_tags": [
+      "baseline:secure-uav-ris:citation"
+    ],
+    "title": "A Framework on Order-Reduction Optimization for Array-Assisted Communication Networks",
+    "title_hash": "19cd30f2d84287f7065145ebeff00a90612fe30e",
+    "url": "https://www.semanticscholar.org/paper/f18a87cbe7a25fdf0cd538bdbc9d64f5cd895129",
+    "venue": "IEEE Transactions on Network Science and Engineering",
+    "year": 2026
+  },
   "doi:10.1109/twc.2026.3651300": {
     "abstract": "In response to the problems in uncrewed aerial vehicle (UAV) communications such as limited antenna number, exposure of the line-of-sight (LoS) for eavesdroppers, and limited onboard energy, this paper proposes a secure UAV communication scheme based on movable antennas (MAs). This scheme jointly designs the user scheduling factors, the UAV beamforming, the small-scale adjustment of MA positions, and the large-scale planning of UAV trajectories to maximize the system’s minimum secrecy rate under uncertain eavesdropper regions. To solve the non-convex optimization problem, a block coordinate descent (BCD) algorithm is used to decompose the original problem into four subproblems for iterative solving, followed by an analysis of the algorithm’s convergence and computational complexity. Simulation results reveal that the UAV follows the strategy of “maximum-speed-flight-and-then-low-speed-hovering” to serve each user in sequence. In this way, it can quickly pass through the uncertain region of the eavesdroppers and minimize the distance to the served user during the flight period. The proposed scheme leverages millimeter-level MA position reconstruction and wide-range UAV trajectory design. When the system’s minimum secrecy rate is maintained at 3.5 bps/Hz, the proposed scheme can securely support approximately 20% more users than the fixed-position antenna (FPA) scheme, while achieving more than 40% reductions in both transmit power and antenna count.",
     "arxiv_id": null,
