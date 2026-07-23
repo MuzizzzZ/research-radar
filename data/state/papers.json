@@ -2473,6 +2473,172 @@
     "venue": "arXiv (Cornell University)",
     "year": 2026
   },
+  "doi:10.48550/arxiv.2607.17767": {
+    "abstract": "Existing methods in Autonomous Valet Parking (AVP) typically rely on pre-built maps, which severely restricts their scalability to unseen environments and open-vocabulary targets. Inspired by the application of Vision-Language Models (VLMs) in Vision-Language Navigation (VLN) tasks, we propose VLN-AVP, a zero-shot navigation framework for AVP tasks. By combining the precise spatial perception of a Bird's-Eye-View (BEV) model with the general intelligence of VLMs, our framework 1) eliminates the dependency on pre-built maps, 2) interprets semantic environmental contexts in parking scenarios, and 3) enables intuitive navigation following natural language instructions. Specifically, we introduce a hybrid memory system: a short-term perception memory tracks semantic visual cues to address the limitations of VLM's single-frame reasoning in existing methods, while a long-term topological memory facilitates stable policy learning from past experiences. To bridge the gap in existing benchmarks, we also present the VLN-AVP dataset and benchmark. Featuring 10 high-fidelity parking scenes and over 1,000 navigation episodes, it has the largest number of garage scenes to date and is the first VLN benchmark for underground parking. Extensive experiments demonstrate that in simulation, our method achieves an over 25% improvement in success rate compared to VLN methods and an over 15% improvement compared to other autonomous driving methods. Furthermore, it attains a leading success rate in real-world vehicle experiments, proving its practical feasibility.",
+    "arxiv_id": "2607.17767",
+    "authors": [
+      "Yijian Li",
+      "Xiangru Mu",
+      "Changze Li",
+      "Hantian Shi",
+      "Jiyuan Cai",
+      "Jia Cai",
+      "Xiaoxue Liu",
+      "Yajing Sun",
+      "Ming Yang",
+      "Tong Qin"
+    ],
+    "canonical_id": "doi:10.48550/arxiv.2607.17767",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": "10.48550/arxiv.2607.17767",
+    "external_ids": {
+      "doi": "https://doi.org/10.48550/arxiv.2607.17767",
+      "openalex": "https://openalex.org/W7169884302"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "vln avp zero shot vision language navigation with hybrid long short term memory for autonomous valet parking",
+    "openalex_id": "https://openalex.org/W7169884302",
+    "pdf_url": null,
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-07-20",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vision language navigation",
+      "topic:vln:query:vln instruction following"
+    ],
+    "title": "VLN-AVP: Zero-Shot Vision-Language Navigation with Hybrid Long-Short-Term Memory for Autonomous Valet Parking",
+    "title_hash": "2f39fdaedf97e63f06b28ca078394c0154f25383",
+    "url": "https://doi.org/10.48550/arxiv.2607.17767",
+    "venue": "arXiv (Cornell University)",
+    "year": 2026
+  },
+  "doi:10.48550/arxiv.2607.17806": {
+    "abstract": "Vision-Language Navigation (VLN) requires an embodied agent to interpret a natural-language instruction and predict actions from temporally ordered visual observations. Adapting a multimodal large language model to VLN requires visual-language alignment, compact temporal inputs, action-space grounding, and stable training on the target hardware. This technical report presents PGN (Pangu Navigator), an offline VLN action-prediction system built on OpenPangu-7B. Training proceeds in two stages. First, PGMM aligns a frozen EVA-ViT-G/14 vision encoder with the frozen language backbone by training a Q-Former and a two-layer MLP projector. Second, PGN adapts the aligned model to expert navigation trajectories using five-observation windows, epoch-dependent temporal sampling, and a reasoning-then-action output format; this stage freezes the aligned visual pathway and updates three structural-token embeddings and LoRA adapters. The implementation combines mixed-precision computation, selective FP32 computation, and DeepSpeed ZeRO-2 on eight Ascend 910B NPUs. Under teacher-forced, open-loop evaluation on 500 held-out expert trajectories, V9 reports a 62.29% Normalized Action Match (NAM) and a 100.00% Non-empty Rate (NER). These metrics quantify offline expert-action alignment rather than closed-loop navigation success; evaluating error accumulation, path efficiency, and goal completion remains future work.",
+    "arxiv_id": "2607.17806",
+    "authors": [
+      "Li Xian",
+      "Mingxi Li",
+      "Yizheng Wang",
+      "Yiming Shen",
+      "Qi Chen",
+      "Zhuoling Xiao"
+    ],
+    "canonical_id": "doi:10.48550/arxiv.2607.17806",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": "10.48550/arxiv.2607.17806",
+    "external_ids": {
+      "doi": "https://doi.org/10.48550/arxiv.2607.17806",
+      "openalex": "https://openalex.org/W7169863823"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "pgn design and implementation of a vision language navigation system based on pangu multimodal foundation model",
+    "openalex_id": "https://openalex.org/W7169863823",
+    "pdf_url": null,
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-07-20",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:embodied navigation language grounding"
+    ],
+    "title": "PGN: Design and Implementation of a Vision-Language Navigation System Based on Pangu Multimodal Foundation Model",
+    "title_hash": "2dc9a495985bc9f7835107810ac245939e9d3488",
+    "url": "https://doi.org/10.48550/arxiv.2607.17806",
+    "venue": "arXiv (Cornell University)",
+    "year": 2026
+  },
+  "doi:10.48550/arxiv.2607.18042": {
+    "abstract": "End-to-end vision-language navigation (VLN) with causal vision-language models can map instructions and egocentric observations directly to actions, but standard behavior cloning supervises only the next action and does not explicitly train the policy state to be predictive of future visual outcomes. We first ask a diagnostic question: if the policy is given an expert-trajectory future image as privileged input at training and testing time, is that additional visual evidence useful for choosing the current action? (These expert-trajectory future images are unavailable at test time in real deployment, so we use this setting only as a privileged-input diagnostic.) The answer is yes; this sanity check shows that future observations can provide rich, actionable cues. We then ask a deployable question: without accessing future images at inference, can we still benefit from future information by using a compressed future visual latent only as training supervision? We propose Future-State-Conditioned VLN (FSC-VLN), which adds a future-query token and aligns its hidden state to a frozen visual embedding $Δ$ steps ahead via a training-only target branch that is removed after training. On R2R val-unseen, FSC-VLN improves SR/OSR/SPL over a StreamVLN-style baseline under two training-data regimes, with larger gains on long-horizon episodes; ablations further support the dual-query design (separating future and action queries).",
+    "arxiv_id": "2607.18042",
+    "authors": [
+      "Lingfeng Zhang",
+      "Zhanguang Zhang",
+      "L R Ma",
+      "Tongtong Cao",
+      "Yingxue Zhang"
+    ],
+    "canonical_id": "doi:10.48550/arxiv.2607.18042",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": "10.48550/arxiv.2607.18042",
+    "external_ids": {
+      "doi": "https://doi.org/10.48550/arxiv.2607.18042",
+      "openalex": "https://openalex.org/W7169865079"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "anticipate before acting future state conditioned vision language navigation",
+    "openalex_id": "https://openalex.org/W7169865079",
+    "pdf_url": null,
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-07-20",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vision language navigation"
+    ],
+    "title": "Anticipate Before Acting: Future-State-Conditioned Vision-Language Navigation",
+    "title_hash": "0674b4c1400d278fc8280e3d4d0398c57fb62f75",
+    "url": "https://doi.org/10.48550/arxiv.2607.18042",
+    "venue": "arXiv (Cornell University)",
+    "year": 2026
+  },
   "s2:08ba2877828708ace87d13acded59d47864d6659": {
     "abstract": null,
     "arxiv_id": null,

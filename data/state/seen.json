@@ -944,6 +944,69 @@
       "vln"
     ]
   },
+  "doi:10.48550/arxiv.2607.17767": {
+    "baseline_ids": [],
+    "canonical_id": "doi:10.48550/arxiv.2607.17767",
+    "first_seen_by_scope": {
+      "topic:vln:topic": "2026-07-23"
+    },
+    "first_seen_date": "2026-07-23",
+    "last_seen_by_scope": {
+      "topic:vln:topic": "2026-07-23"
+    },
+    "last_seen_date": "2026-07-23",
+    "relation_types": [
+      "topic"
+    ],
+    "scope_keys": [
+      "topic:vln:topic"
+    ],
+    "topic_ids": [
+      "vln"
+    ]
+  },
+  "doi:10.48550/arxiv.2607.17806": {
+    "baseline_ids": [],
+    "canonical_id": "doi:10.48550/arxiv.2607.17806",
+    "first_seen_by_scope": {
+      "topic:vln:topic": "2026-07-23"
+    },
+    "first_seen_date": "2026-07-23",
+    "last_seen_by_scope": {
+      "topic:vln:topic": "2026-07-23"
+    },
+    "last_seen_date": "2026-07-23",
+    "relation_types": [
+      "topic"
+    ],
+    "scope_keys": [
+      "topic:vln:topic"
+    ],
+    "topic_ids": [
+      "vln"
+    ]
+  },
+  "doi:10.48550/arxiv.2607.18042": {
+    "baseline_ids": [],
+    "canonical_id": "doi:10.48550/arxiv.2607.18042",
+    "first_seen_by_scope": {
+      "topic:vln:topic": "2026-07-23"
+    },
+    "first_seen_date": "2026-07-23",
+    "last_seen_by_scope": {
+      "topic:vln:topic": "2026-07-23"
+    },
+    "last_seen_date": "2026-07-23",
+    "relation_types": [
+      "topic"
+    ],
+    "scope_keys": [
+      "topic:vln:topic"
+    ],
+    "topic_ids": [
+      "vln"
+    ]
+  },
   "s2:08ba2877828708ace87d13acded59d47864d6659": {
     "baseline_ids": [
       "secure-uav-ris"
