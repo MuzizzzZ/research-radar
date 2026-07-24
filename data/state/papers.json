@@ -988,7 +988,7 @@
       "Jiangzhou Wang"
     ],
     "canonical_id": "doi:10.1109/tccn.2025.3613521",
-    "citations_count": 1,
+    "citations_count": 5,
     "discovered_date": null,
     "doi": "10.1109/tccn.2025.3613521",
     "external_ids": {
@@ -1151,7 +1151,7 @@
       "Shihao Yan"
     ],
     "canonical_id": "doi:10.1109/tgcn.2025.3585891",
-    "citations_count": 7,
+    "citations_count": 12,
     "discovered_date": null,
     "doi": "10.1109/tgcn.2025.3585891",
     "external_ids": {
@@ -1259,7 +1259,7 @@
       "Rui Shi"
     ],
     "canonical_id": "doi:10.1109/tnse.2025.3626520",
-    "citations_count": 1,
+    "citations_count": 2,
     "discovered_date": null,
     "doi": "10.1109/tnse.2025.3626520",
     "external_ids": {
@@ -2500,7 +2500,7 @@
     "last_updated": null,
     "normalized_title": "vln avp zero shot vision language navigation with hybrid long short term memory for autonomous valet parking",
     "openalex_id": "https://openalex.org/W7169884302",
-    "pdf_url": null,
+    "pdf_url": "https://arxiv.org/pdf/2607.17767",
     "primary_reason": "title hit x1, abstract hit x1",
     "publication_date": "2026-07-20",
     "reasons": [
@@ -2523,7 +2523,6 @@
       "openalex"
     ],
     "source_tags": [
-      "topic:vln:query:vision language navigation",
       "topic:vln:query:vln instruction following"
     ],
     "title": "VLN-AVP: Zero-Shot Vision-Language Navigation with Hybrid Long-Short-Term Memory for Autonomous Valet Parking",
@@ -2549,13 +2548,13 @@
     "doi": "10.48550/arxiv.2607.17806",
     "external_ids": {
       "doi": "https://doi.org/10.48550/arxiv.2607.17806",
-      "openalex": "https://openalex.org/W7169863823"
+      "openalex": "https://openalex.org/W7170112850"
     },
     "label": "candidate",
     "last_updated": null,
     "normalized_title": "pgn design and implementation of a vision language navigation system based on pangu multimodal foundation model",
-    "openalex_id": "https://openalex.org/W7169863823",
-    "pdf_url": null,
+    "openalex_id": "https://openalex.org/W7170112850",
+    "pdf_url": "https://arxiv.org/pdf/2607.17806",
     "primary_reason": "title hit x1, abstract hit x1",
     "publication_date": "2026-07-20",
     "reasons": [
@@ -2582,7 +2581,7 @@
     ],
     "title": "PGN: Design and Implementation of a Vision-Language Navigation System Based on Pangu Multimodal Foundation Model",
     "title_hash": "2dc9a495985bc9f7835107810ac245939e9d3488",
-    "url": "https://doi.org/10.48550/arxiv.2607.17806",
+    "url": "https://arxiv.org/abs/2607.17806",
     "venue": "arXiv (Cornell University)",
     "year": 2026
   },

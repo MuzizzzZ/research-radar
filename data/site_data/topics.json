@@ -83,11 +83,11 @@
             "Qi Chen"
           ],
           "baseline_ids": [],
-          "best_url": "https://doi.org/10.48550/arxiv.2607.17806",
+          "best_url": "https://arxiv.org/abs/2607.17806",
           "canonical_id": "doi:10.48550/arxiv.2607.17806",
           "doi": "10.48550/arxiv.2607.17806",
           "label": "candidate",
-          "openalex_id": "https://openalex.org/W7169863823",
+          "openalex_id": "https://openalex.org/W7170112850",
           "publication_date": "2026-07-20",
           "reason": "title hit x1, abstract hit x1",
           "relation_type": "topic",
@@ -795,7 +795,7 @@
         "embodied navigation language grounding",
         "vln instruction following"
       ],
-      "today_count": 3,
+      "today_count": 0,
       "total_papers": 28
     }
   ]
