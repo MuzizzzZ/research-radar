@@ -1,14 +1,14 @@
 {
   "candidates_collected": 76,
-  "deduped_count": 69,
-  "generated_at": "2026-08-02",
+  "deduped_count": 71,
+  "generated_at": "2026-08-03",
   "issues": [
     "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
   "new_global_count": 0,
   "new_scope_count": 0,
-  "report_date": "2026-08-02",
+  "report_date": "2026-08-03",
   "selected_count": 16,
-  "window_end": "2026-08-02",
-  "window_start": "2026-07-27"
+  "window_end": "2026-08-03",
+  "window_start": "2026-07-28"
 }
