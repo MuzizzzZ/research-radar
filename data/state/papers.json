@@ -1050,6 +1050,7 @@
     "doi": "10.1109/tcomm.2026.3706477",
     "external_ids": {
       "CorpusId": "289573984",
+      "DBLP": "journals/tcom/ZhengMWHLDSL26",
       "DOI": "10.1109/TCOMM.2026.3706477"
     },
     "label": "candidate",
@@ -1371,6 +1372,7 @@
     "doi": "10.1109/tnse.2026.3708972",
     "external_ids": {
       "CorpusId": "289791609",
+      "DBLP": "journals/tnse/LiXGZ26",
       "DOI": "10.1109/TNSE.2026.3708972"
     },
     "label": "candidate",
