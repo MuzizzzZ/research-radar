@@ -3,7 +3,7 @@
     {
       "id": "secure-uav-ris",
       "title": "Joint Trajectory and Passive Beamforming Design for Secure UAV-RIS Communication Systems",
-      "today_citations": 0,
+      "today_citations": 1,
       "today_related": 0,
       "topic_id": "uav-ris"
     },
@@ -15,16 +15,98 @@
       "topic_id": "vln"
     }
   ],
-  "generated_at": "2026-08-14",
+  "generated_at": "2026-08-15",
   "issues": [
-    "Semantic Scholar citation fetch failed for baseline secure-uav-ris: Semantic Scholar API rate limit exceeded.",
     "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
-  "latest_report_date": "2026-08-14",
+  "latest_report_date": "2026-08-15",
   "project_name": "research-radar",
-  "recent_papers": [],
-  "today_new_global": 0,
-  "today_new_total": 0,
+  "recent_papers": [
+    {
+      "abstract": "Unmanned aerial vehicle vision-language navigation (UAV-VLN) requires agents to translate visual observations and language instructions into reliable flight actions in complex environments. Although recent end-to-end UAV vision-language-action (UAV-VLA) policies reduce reliance on separately designed perception, planning, and control modules, their behavior-cloning objectives provide limited corrective supervision for interactive closed-loop execution. Reinforcement learning (RL) offers a promising solution, while its effectiveness is constrained by inefficient use of samples, long-tailed scene distributions, and policy distribution shift during optimization. To this end, we propose RecoverFly, a failure-aware RL post-training framework for end-to-end UAV-VLA policies. Specifically, RecoverFly adapts token-level RL for stable optimization of grammar-constrained autoregressive UAV actions, revisits unresolved failure cases to strengthen corrective learning and sample utilization, and combines a two-stage long-tail scene curriculum with reference-policy regularization to improve scene adaptation while preserving acquired capabilities. Experiments on the TravelUAV benchmark demonstrate that RecoverFly achieves the best performance on the seen, unseen-map, and unseen-object splits. Moreover, compared to the AerialVLA initialization, RecoverFly improves success rate by 3.12 to 8.37 percentage points under a total rollout budget of about 30\\% of the training-set size, validating its effectiveness, robustness, and generalization capabilities.",
+      "arxiv_id": "2608.09467",
+      "authors": [
+        "Boxiong Wang",
+        "Hui Kang",
+        "Geng Sun",
+        "Jiahui Li",
+        "Chao Yu"
+      ],
+      "baseline_ids": [],
+      "best_url": "https://arxiv.org/abs/2608.09467",
+      "canonical_id": "doi:10.48550/arxiv.2608.09467",
+      "doi": "10.48550/arxiv.2608.09467",
+      "label": "candidate",
+      "openalex_id": "https://openalex.org/W7202210937",
+      "publication_date": "2026-08-10",
+      "reason": "title hit x1, abstract hit x1",
+      "relation_type": null,
+      "score": 4.5,
+      "semanticscholar_id": null,
+      "title": "RecoverFly: A Failure-Aware Reinforcement Learning Post-Training Framework for Aerial Vision-Language Navigation",
+      "topic_ids": [
+        "vln"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "year": 2026
+    },
+    {
+      "abstract": "UAV vision-language navigation (UAV-VLN) focuses on enabling an aerial agent to follow natural-language instructions in open 3D environments from egocentric visual observations. Current approaches suffer from three coupled issues: weak grounding of instruction-relevant landmarks in visual observations, insufficient exploitation of long-horizon history, and unstable decisions under local traps or repeated exploration. To address these issues, we propose a unified semantic-to-decision framework. First, we present an instruction-grounded semantic enhancement module that injects object-level semantics and relative spatial cues into the current observation state. Subsequently, we develop a relevance-aware dynamic temporal aggregation strategy that reweights the full history buffer while converting a few high-relevance frames into structured landmark prompts for the decoder. Finally, we devise a topology-aware decision method that combines local-optimum cognition with group-relative policy optimization under progress, goal, semantic, and path-compliance rewards. Experiments on the widely used AerialVLN and OpenFly benchmarks clearly demonstrate that our method achieves state-of-the-art performance.",
+      "arxiv_id": "2608.09564",
+      "authors": [
+        "Zeyuan Ma",
+        "Jiaxin Chen",
+        "Di Huang"
+      ],
+      "baseline_ids": [],
+      "best_url": "https://arxiv.org/abs/2608.09564",
+      "canonical_id": "doi:10.48550/arxiv.2608.09564",
+      "doi": "10.48550/arxiv.2608.09564",
+      "label": "candidate",
+      "openalex_id": "https://openalex.org/W7202194400",
+      "publication_date": "2026-08-10",
+      "reason": "title hit x1, abstract hit x1",
+      "relation_type": null,
+      "score": 4.5,
+      "semanticscholar_id": null,
+      "title": "From Semantic Grounding to Decision Optimization: A Unified Framework for Long-Horizon UAV Vision-Language Navigation",
+      "topic_ids": [
+        "vln"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "year": 2026
+    },
+    {
+      "abstract": "A win-win scheme is investigated for uncrewed aerial vehicle-mounted intelligent reflecting surface (UIRS) enhanced secondary network (SN) data transmission and the primary network (PN) covert communication cooperative cognitive radio networks (UIRS-CCCRNs), where the moving UIRS can flexibly help SN to share the PN’s licensed spectrum and assist PN to hide its wireless transmission behavior. Based on this protocol, a SN’s average rate maximization problem is established under the imperfect channel state information (CSI), while ensuring the PN’s covert communication and weakening the warden’s detection capability. To solve the non-convexity and computational challenges, the original problem is decoupled into three subproblems, and the triangle inequality and the Cauchy-Schwarz inequality are employed to handle the CSI uncertainty. For both the SN’s transmit beamforming and the UIRS’s phase shift matrix subproblems, their optimal solution can be obtained by applying a low-complexity penalty dual decomposition with gradient projection (PDDGP) algorithm. Then, the non-convex UIRS’s trajectory subproblem is tackled by the successive convex approximation. Finally, an efficient joint trajectory and beamforming design that employs the PDDGP algorithm integrated into the block-coordinate-descent framework is proposed to obtain a suboptimal solution of the original problem. Simulation results demonstrate that by exploiting the UIRS, the proposed scheme flexibly assists the SN’s data transmission and PN’s covert communications, thereby achieving a win-win outcome for both PN and SN.",
+      "arxiv_id": null,
+      "authors": [
+        "Wei Zhang",
+        "Xiaopeng Liang",
+        "Qian Deng",
+        "Wei Wu",
+        "Peng Xu"
+      ],
+      "baseline_ids": [
+        "secure-uav-ris"
+      ],
+      "best_url": "https://www.semanticscholar.org/paper/2fe929c919c2960a6060647894ff7a7692cd7751",
+      "canonical_id": "doi:10.1109/twc.2026.3721164",
+      "doi": "10.1109/twc.2026.3721164",
+      "label": "candidate",
+      "openalex_id": null,
+      "publication_date": null,
+      "reason": "direct citation to baseline",
+      "relation_type": null,
+      "score": 7.5,
+      "semanticscholar_id": "2fe929c919c2960a6060647894ff7a7692cd7751",
+      "title": "UAV-Mounted IRS-Enhanced Secondary Transmission and Primary Covert Communication for Cognitive Radio Networks",
+      "topic_ids": [],
+      "venue": "IEEE Transactions on Wireless Communications",
+      "year": 2026
+    }
+  ],
+  "today_new_global": 3,
+  "today_new_total": 3,
   "topics": [
     {
       "id": "uav-ris",
@@ -35,8 +117,8 @@
     {
       "id": "vln",
       "name": "Vision-Language Navigation",
-      "today_count": 0,
-      "total_papers": 28
+      "today_count": 2,
+      "total_papers": 30
     }
   ]
 }

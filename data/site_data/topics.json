@@ -17,6 +17,60 @@
       "name": "Vision-Language Navigation",
       "papers": [
         {
+          "abstract": "Unmanned aerial vehicle vision-language navigation (UAV-VLN) requires agents to translate visual observations and language instructions into reliable flight actions in complex environments. Although recent end-to-end UAV vision-language-action (UAV-VLA) policies reduce reliance on separately designed perception, planning, and control modules, their behavior-cloning objectives provide limited corrective supervision for interactive closed-loop execution. Reinforcement learning (RL) offers a promising solution, while its effectiveness is constrained by inefficient use of samples, long-tailed scene distributions, and policy distribution shift during optimization. To this end, we propose RecoverFly, a failure-aware RL post-training framework for end-to-end UAV-VLA policies. Specifically, RecoverFly adapts token-level RL for stable optimization of grammar-constrained autoregressive UAV actions, revisits unresolved failure cases to strengthen corrective learning and sample utilization, and combines a two-stage long-tail scene curriculum with reference-policy regularization to improve scene adaptation while preserving acquired capabilities. Experiments on the TravelUAV benchmark demonstrate that RecoverFly achieves the best performance on the seen, unseen-map, and unseen-object splits. Moreover, compared to the AerialVLA initialization, RecoverFly improves success rate by 3.12 to 8.37 percentage points under a total rollout budget of about 30\\% of the training-set size, validating its effectiveness, robustness, and generalization capabilities.",
+          "arxiv_id": "2608.09467",
+          "authors": [
+            "Boxiong Wang",
+            "Hui Kang",
+            "Geng Sun",
+            "Jiahui Li",
+            "Chao Yu"
+          ],
+          "baseline_ids": [],
+          "best_url": "https://arxiv.org/abs/2608.09467",
+          "canonical_id": "doi:10.48550/arxiv.2608.09467",
+          "doi": "10.48550/arxiv.2608.09467",
+          "label": "candidate",
+          "openalex_id": "https://openalex.org/W7202210937",
+          "publication_date": "2026-08-10",
+          "reason": "title hit x1, abstract hit x1",
+          "relation_type": "topic",
+          "score": 4.5,
+          "semanticscholar_id": null,
+          "title": "RecoverFly: A Failure-Aware Reinforcement Learning Post-Training Framework for Aerial Vision-Language Navigation",
+          "topic_ids": [
+            "vln"
+          ],
+          "venue": "arXiv (Cornell University)",
+          "year": 2026
+        },
+        {
+          "abstract": "UAV vision-language navigation (UAV-VLN) focuses on enabling an aerial agent to follow natural-language instructions in open 3D environments from egocentric visual observations. Current approaches suffer from three coupled issues: weak grounding of instruction-relevant landmarks in visual observations, insufficient exploitation of long-horizon history, and unstable decisions under local traps or repeated exploration. To address these issues, we propose a unified semantic-to-decision framework. First, we present an instruction-grounded semantic enhancement module that injects object-level semantics and relative spatial cues into the current observation state. Subsequently, we develop a relevance-aware dynamic temporal aggregation strategy that reweights the full history buffer while converting a few high-relevance frames into structured landmark prompts for the decoder. Finally, we devise a topology-aware decision method that combines local-optimum cognition with group-relative policy optimization under progress, goal, semantic, and path-compliance rewards. Experiments on the widely used AerialVLN and OpenFly benchmarks clearly demonstrate that our method achieves state-of-the-art performance.",
+          "arxiv_id": "2608.09564",
+          "authors": [
+            "Zeyuan Ma",
+            "Jiaxin Chen",
+            "Di Huang"
+          ],
+          "baseline_ids": [],
+          "best_url": "https://arxiv.org/abs/2608.09564",
+          "canonical_id": "doi:10.48550/arxiv.2608.09564",
+          "doi": "10.48550/arxiv.2608.09564",
+          "label": "candidate",
+          "openalex_id": "https://openalex.org/W7202194400",
+          "publication_date": "2026-08-10",
+          "reason": "title hit x1, abstract hit x1",
+          "relation_type": "topic",
+          "score": 4.5,
+          "semanticscholar_id": null,
+          "title": "From Semantic Grounding to Decision Optimization: A Unified Framework for Long-Horizon UAV Vision-Language Navigation",
+          "topic_ids": [
+            "vln"
+          ],
+          "venue": "arXiv (Cornell University)",
+          "year": 2026
+        },
+        {
           "abstract": "Existing methods in Autonomous Valet Parking (AVP) typically rely on pre-built maps, which severely restricts their scalability to unseen environments and open-vocabulary targets. Inspired by the application of Vision-Language Models (VLMs) in Vision-Language Navigation (VLN) tasks, we propose VLN-AVP, a zero-shot navigation framework for AVP tasks. By combining the precise spatial perception of a Bird's-Eye-View (BEV) model with the general intelligence of VLMs, our framework 1) eliminates the dependency on pre-built maps, 2) interprets semantic environmental contexts in parking scenarios, and 3) enables intuitive navigation following natural language instructions. Specifically, we introduce a hybrid memory system: a short-term perception memory tracks semantic visual cues to address the limitations of VLM's single-frame reasoning in existing methods, while a long-term topological memory facilitates stable policy learning from past experiences. To bridge the gap in existing benchmarks, we also present the VLN-AVP dataset and benchmark. Featuring 10 high-fidelity parking scenes and over 1,000 navigation episodes, it has the largest number of garage scenes to date and is the first VLN benchmark for underground parking. Extensive experiments demonstrate that in simulation, our method achieves an over 25% improvement in success rate compared to VLN methods and an over 15% improvement compared to other autonomous driving methods. Furthermore, it attains a leading success rate in real-world vehicle experiments, proving its practical feasibility.",
           "arxiv_id": "2607.17767",
           "authors": [
@@ -795,8 +849,8 @@
         "embodied navigation language grounding",
         "vln instruction following"
       ],
-      "today_count": 0,
-      "total_papers": 28
+      "today_count": 2,
+      "total_papers": 30
     }
   ]
 }

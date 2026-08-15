@@ -821,7 +821,7 @@
       "H. Al-Hraishawi"
     ],
     "canonical_id": "doi:10.1109/access.2026.3652482",
-    "citations_count": 1,
+    "citations_count": 2,
     "discovered_date": null,
     "doi": "10.1109/access.2026.3652482",
     "external_ids": {
@@ -1570,6 +1570,62 @@
     "title": "Reinforcement Learning With Conformal Symplectic Optimization for Aerial RIS-Aided Secure Communication",
     "title_hash": "9f5b0f17fe29625b7b7b35b4919a9188c57a824c",
     "url": "https://www.semanticscholar.org/paper/c2b773c5e4714edacde95af69ff459a252fec25b",
+    "venue": "IEEE Transactions on Wireless Communications",
+    "year": 2026
+  },
+  "doi:10.1109/twc.2026.3721164": {
+    "abstract": "A win-win scheme is investigated for uncrewed aerial vehicle-mounted intelligent reflecting surface (UIRS) enhanced secondary network (SN) data transmission and the primary network (PN) covert communication cooperative cognitive radio networks (UIRS-CCCRNs), where the moving UIRS can flexibly help SN to share the PN’s licensed spectrum and assist PN to hide its wireless transmission behavior. Based on this protocol, a SN’s average rate maximization problem is established under the imperfect channel state information (CSI), while ensuring the PN’s covert communication and weakening the warden’s detection capability. To solve the non-convexity and computational challenges, the original problem is decoupled into three subproblems, and the triangle inequality and the Cauchy-Schwarz inequality are employed to handle the CSI uncertainty. For both the SN’s transmit beamforming and the UIRS’s phase shift matrix subproblems, their optimal solution can be obtained by applying a low-complexity penalty dual decomposition with gradient projection (PDDGP) algorithm. Then, the non-convex UIRS’s trajectory subproblem is tackled by the successive convex approximation. Finally, an efficient joint trajectory and beamforming design that employs the PDDGP algorithm integrated into the block-coordinate-descent framework is proposed to obtain a suboptimal solution of the original problem. Simulation results demonstrate that by exploiting the UIRS, the proposed scheme flexibly assists the SN’s data transmission and PN’s covert communications, thereby achieving a win-win outcome for both PN and SN.",
+    "arxiv_id": null,
+    "authors": [
+      "Wei Zhang",
+      "Xiaopeng Liang",
+      "Qian Deng",
+      "Wei Wu",
+      "Peng Xu",
+      "Ning Gao",
+      "Feng Shu",
+      "Fuhui Zhou"
+    ],
+    "canonical_id": "doi:10.1109/twc.2026.3721164",
+    "citations_count": 0,
+    "discovered_date": null,
+    "doi": "10.1109/twc.2026.3721164",
+    "external_ids": {
+      "CorpusId": "291038082",
+      "DOI": "10.1109/TWC.2026.3721164"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "uav mounted irs enhanced secondary transmission and primary covert communication for cognitive radio networks",
+    "openalex_id": null,
+    "pdf_url": "",
+    "primary_reason": "direct citation to baseline",
+    "publication_date": null,
+    "reasons": [
+      "direct citation to baseline"
+    ],
+    "references_count": 60,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "direct citation to baseline",
+        "relation_type": "citation",
+        "scope_id": "secure-uav-ris",
+        "scope_type": "baseline",
+        "score": 7.5
+      }
+    ],
+    "score": 7.5,
+    "semanticscholar_id": "2fe929c919c2960a6060647894ff7a7692cd7751",
+    "source_names": [
+      "semanticscholar"
+    ],
+    "source_tags": [
+      "baseline:secure-uav-ris:citation"
+    ],
+    "title": "UAV-Mounted IRS-Enhanced Secondary Transmission and Primary Covert Communication for Cognitive Radio Networks",
+    "title_hash": "c1c146cb0b25ac70ae0134b1b13762e1456ceea0",
+    "url": "https://www.semanticscholar.org/paper/2fe929c919c2960a6060647894ff7a7692cd7751",
     "venue": "IEEE Transactions on Wireless Communications",
     "year": 2026
   },
@@ -2637,6 +2693,111 @@
     "title": "Anticipate Before Acting: Future-State-Conditioned Vision-Language Navigation",
     "title_hash": "0674b4c1400d278fc8280e3d4d0398c57fb62f75",
     "url": "https://doi.org/10.48550/arxiv.2607.18042",
+    "venue": "arXiv (Cornell University)",
+    "year": 2026
+  },
+  "doi:10.48550/arxiv.2608.09467": {
+    "abstract": "Unmanned aerial vehicle vision-language navigation (UAV-VLN) requires agents to translate visual observations and language instructions into reliable flight actions in complex environments. Although recent end-to-end UAV vision-language-action (UAV-VLA) policies reduce reliance on separately designed perception, planning, and control modules, their behavior-cloning objectives provide limited corrective supervision for interactive closed-loop execution. Reinforcement learning (RL) offers a promising solution, while its effectiveness is constrained by inefficient use of samples, long-tailed scene distributions, and policy distribution shift during optimization. To this end, we propose RecoverFly, a failure-aware RL post-training framework for end-to-end UAV-VLA policies. Specifically, RecoverFly adapts token-level RL for stable optimization of grammar-constrained autoregressive UAV actions, revisits unresolved failure cases to strengthen corrective learning and sample utilization, and combines a two-stage long-tail scene curriculum with reference-policy regularization to improve scene adaptation while preserving acquired capabilities. Experiments on the TravelUAV benchmark demonstrate that RecoverFly achieves the best performance on the seen, unseen-map, and unseen-object splits. Moreover, compared to the AerialVLA initialization, RecoverFly improves success rate by 3.12 to 8.37 percentage points under a total rollout budget of about 30\\% of the training-set size, validating its effectiveness, robustness, and generalization capabilities.",
+    "arxiv_id": "2608.09467",
+    "authors": [
+      "Boxiong Wang",
+      "Hui Kang",
+      "Geng Sun",
+      "Jiahui Li",
+      "Chao Yu",
+      "Daxin Tian"
+    ],
+    "canonical_id": "doi:10.48550/arxiv.2608.09467",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": "10.48550/arxiv.2608.09467",
+    "external_ids": {
+      "doi": "https://doi.org/10.48550/arxiv.2608.09467",
+      "openalex": "https://openalex.org/W7202210937"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "recoverfly a failure aware reinforcement learning post training framework for aerial vision language navigation",
+    "openalex_id": "https://openalex.org/W7202210937",
+    "pdf_url": "https://arxiv.org/pdf/2608.09467",
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-08-10",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vln instruction following"
+    ],
+    "title": "RecoverFly: A Failure-Aware Reinforcement Learning Post-Training Framework for Aerial Vision-Language Navigation",
+    "title_hash": "ffd9d71882ab58c229167efd374df4da51ff3588",
+    "url": "https://arxiv.org/abs/2608.09467",
+    "venue": "arXiv (Cornell University)",
+    "year": 2026
+  },
+  "doi:10.48550/arxiv.2608.09564": {
+    "abstract": "UAV vision-language navigation (UAV-VLN) focuses on enabling an aerial agent to follow natural-language instructions in open 3D environments from egocentric visual observations. Current approaches suffer from three coupled issues: weak grounding of instruction-relevant landmarks in visual observations, insufficient exploitation of long-horizon history, and unstable decisions under local traps or repeated exploration. To address these issues, we propose a unified semantic-to-decision framework. First, we present an instruction-grounded semantic enhancement module that injects object-level semantics and relative spatial cues into the current observation state. Subsequently, we develop a relevance-aware dynamic temporal aggregation strategy that reweights the full history buffer while converting a few high-relevance frames into structured landmark prompts for the decoder. Finally, we devise a topology-aware decision method that combines local-optimum cognition with group-relative policy optimization under progress, goal, semantic, and path-compliance rewards. Experiments on the widely used AerialVLN and OpenFly benchmarks clearly demonstrate that our method achieves state-of-the-art performance.",
+    "arxiv_id": "2608.09564",
+    "authors": [
+      "Zeyuan Ma",
+      "Jiaxin Chen",
+      "Di Huang"
+    ],
+    "canonical_id": "doi:10.48550/arxiv.2608.09564",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": "10.48550/arxiv.2608.09564",
+    "external_ids": {
+      "doi": "https://doi.org/10.48550/arxiv.2608.09564",
+      "openalex": "https://openalex.org/W7202194400"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "from semantic grounding to decision optimization a unified framework for long horizon uav vision language navigation",
+    "openalex_id": "https://openalex.org/W7202194400",
+    "pdf_url": "https://arxiv.org/pdf/2608.09564",
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-08-10",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vln instruction following"
+    ],
+    "title": "From Semantic Grounding to Decision Optimization: A Unified Framework for Long-Horizon UAV Vision-Language Navigation",
+    "title_hash": "fd545fa92dfbec89cdbdf5e2373a659d6d0e3da6",
+    "url": "https://arxiv.org/abs/2608.09564",
     "venue": "arXiv (Cornell University)",
     "year": 2026
   },
