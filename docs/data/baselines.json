@@ -3,6 +3,32 @@
     {
       "citations": [
         {
+          "abstract": "Bridging the rural digital divide remains a persistent global challenge despite the widespread deployment of 4G and 5G cellular networks. This paper presents a comprehensive survey and quantitative analysis of network architectures for enabling future sixth-generation (6G) services in rural and underserved regions. Drawing on a structured review of peer-reviewed studies, 3GPP and ITU-R standards, O-RAN Alliance specifications, and documented field deployments, we classify and evaluate four architectural categories: terrestrial networks (TNs), non-terrestrial networks (NTNs), hybrid TN–NTN systems, and Open Radio Access Network (O-RAN)-based deployments. Each architecture is assessed against International Mobile Telecommunications for 2030 (IMT-2030) performance targets for throughput, end-to-end round-trip latency, energy efficiency (expressed as energy consumed per bit), coverage, and reliability. Unlike prior surveys that address individual components in isolation, such as satellite backhaul, microwave transport, or O-RAN frameworks, this paper provides a unified, deployment-driven, and quantitatively grounded treatment of all four architectural classes under rural 6G constraints. The survey analyzes key enabling technologies including Integrated Access and Backhaul (IAB), High-Altitude Platform Stations (HAPSs), Low-Earth Orbit (LEO) satellite systems, Reconfigurable Intelligent Surfaces (RIS), and AI-native orchestration frameworks. Analytical models are presented for RIS-assisted link enhancement and AI-native RAN Intelligent Controller (RIC) control utility. A quantitative, normalized key performance indicator (KPI) comparison across cost efficiency, spectral utilization, power consumption, and deployment scalability is grounded in a transparent scoring methodology, extended with a multi-criteria (AHP) architecture ranking, a weight-sensitivity analysis, and a parametric techno-economic cost-per-user comparison, and supported by an extensive review of technical, industrial, and policy literature. Beyond current deployments, this work identifies emerging technologies, including direct-to-device non-terrestrial access, programmable radio environments, and intelligent RAN control, that are expected to play a central role in extending sustainable rural 6G connectivity. A practical deployment decision framework and scenario-driven architectural guidance are provided for researchers, network operators, and policymakers pursuing inclusive, future-ready rural connectivity.",
+          "arxiv_id": null,
+          "authors": [
+            "Souradeep Deb",
+            "Nishith D. Tripathi",
+            "Jeffrey H. Reed"
+          ],
+          "baseline_ids": [
+            "secure-uav-ris"
+          ],
+          "best_url": "https://www.semanticscholar.org/paper/03a0dfd2ac47c0be1b5e7783ea5018e63c3b8211",
+          "canonical_id": "doi:10.1109/ojcoms.2026.3722804",
+          "doi": "10.1109/ojcoms.2026.3722804",
+          "label": "candidate",
+          "openalex_id": null,
+          "publication_date": null,
+          "reason": "direct citation to baseline",
+          "relation_type": "citation",
+          "score": 7.5,
+          "semanticscholar_id": "03a0dfd2ac47c0be1b5e7783ea5018e63c3b8211",
+          "title": "A Survey and Quantitative Analysis of Network Architectures for Future 6G Services in Rural and Underserved Areas",
+          "topic_ids": [],
+          "venue": "IEEE Open Journal of the Communications Society",
+          "year": 2026
+        },
+        {
           "abstract": "A win-win scheme is investigated for uncrewed aerial vehicle-mounted intelligent reflecting surface (UIRS) enhanced secondary network (SN) data transmission and the primary network (PN) covert communication cooperative cognitive radio networks (UIRS-CCCRNs), where the moving UIRS can flexibly help SN to share the PN’s licensed spectrum and assist PN to hide its wireless transmission behavior. Based on this protocol, a SN’s average rate maximization problem is established under the imperfect channel state information (CSI), while ensuring the PN’s covert communication and weakening the warden’s detection capability. To solve the non-convexity and computational challenges, the original problem is decoupled into three subproblems, and the triangle inequality and the Cauchy-Schwarz inequality are employed to handle the CSI uncertainty. For both the SN’s transmit beamforming and the UIRS’s phase shift matrix subproblems, their optimal solution can be obtained by applying a low-complexity penalty dual decomposition with gradient projection (PDDGP) algorithm. Then, the non-convex UIRS’s trajectory subproblem is tackled by the successive convex approximation. Finally, an efficient joint trajectory and beamforming design that employs the PDDGP algorithm integrated into the block-coordinate-descent framework is proposed to obtain a suboptimal solution of the original problem. Simulation results demonstrate that by exploiting the UIRS, the proposed scheme flexibly assists the SN’s data transmission and PN’s covert communications, thereby achieving a win-win outcome for both PN and SN.",
           "arxiv_id": null,
           "authors": [
@@ -609,7 +635,7 @@
       "id": "secure-uav-ris",
       "related": [],
       "title": "Joint Trajectory and Passive Beamforming Design for Secure UAV-RIS Communication Systems",
-      "today_citations": 0,
+      "today_citations": 1,
       "today_related": 0,
       "topic_id": "uav-ris"
     },

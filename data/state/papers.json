@@ -932,7 +932,7 @@
       "Yan Zhang"
     ],
     "canonical_id": "doi:10.1109/jsac.2026.3669466",
-    "citations_count": 2,
+    "citations_count": 3,
     "discovered_date": null,
     "doi": "10.1109/jsac.2026.3669466",
     "external_ids": {
@@ -973,6 +973,57 @@
     "title_hash": "e268ce72f80123589caf95afe1339e4ace4cde25",
     "url": "https://www.semanticscholar.org/paper/e07079dcad64664760b996eb530021f0ce336af5",
     "venue": "IEEE Journal on Selected Areas in Communications",
+    "year": 2026
+  },
+  "doi:10.1109/ojcoms.2026.3722804": {
+    "abstract": "Bridging the rural digital divide remains a persistent global challenge despite the widespread deployment of 4G and 5G cellular networks. This paper presents a comprehensive survey and quantitative analysis of network architectures for enabling future sixth-generation (6G) services in rural and underserved regions. Drawing on a structured review of peer-reviewed studies, 3GPP and ITU-R standards, O-RAN Alliance specifications, and documented field deployments, we classify and evaluate four architectural categories: terrestrial networks (TNs), non-terrestrial networks (NTNs), hybrid TN–NTN systems, and Open Radio Access Network (O-RAN)-based deployments. Each architecture is assessed against International Mobile Telecommunications for 2030 (IMT-2030) performance targets for throughput, end-to-end round-trip latency, energy efficiency (expressed as energy consumed per bit), coverage, and reliability. Unlike prior surveys that address individual components in isolation, such as satellite backhaul, microwave transport, or O-RAN frameworks, this paper provides a unified, deployment-driven, and quantitatively grounded treatment of all four architectural classes under rural 6G constraints. The survey analyzes key enabling technologies including Integrated Access and Backhaul (IAB), High-Altitude Platform Stations (HAPSs), Low-Earth Orbit (LEO) satellite systems, Reconfigurable Intelligent Surfaces (RIS), and AI-native orchestration frameworks. Analytical models are presented for RIS-assisted link enhancement and AI-native RAN Intelligent Controller (RIC) control utility. A quantitative, normalized key performance indicator (KPI) comparison across cost efficiency, spectral utilization, power consumption, and deployment scalability is grounded in a transparent scoring methodology, extended with a multi-criteria (AHP) architecture ranking, a weight-sensitivity analysis, and a parametric techno-economic cost-per-user comparison, and supported by an extensive review of technical, industrial, and policy literature. Beyond current deployments, this work identifies emerging technologies, including direct-to-device non-terrestrial access, programmable radio environments, and intelligent RAN control, that are expected to play a central role in extending sustainable rural 6G connectivity. A practical deployment decision framework and scenario-driven architectural guidance are provided for researchers, network operators, and policymakers pursuing inclusive, future-ready rural connectivity.",
+    "arxiv_id": null,
+    "authors": [
+      "Souradeep Deb",
+      "Nishith D. Tripathi",
+      "Jeffrey H. Reed"
+    ],
+    "canonical_id": "doi:10.1109/ojcoms.2026.3722804",
+    "citations_count": 0,
+    "discovered_date": null,
+    "doi": "10.1109/ojcoms.2026.3722804",
+    "external_ids": {
+      "CorpusId": "291049687",
+      "DOI": "10.1109/OJCOMS.2026.3722804"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "a survey and quantitative analysis of network architectures for future 6g services in rural and underserved areas",
+    "openalex_id": null,
+    "pdf_url": "https://doi.org/10.1109/ojcoms.2026.3722804",
+    "primary_reason": "direct citation to baseline",
+    "publication_date": null,
+    "reasons": [
+      "direct citation to baseline"
+    ],
+    "references_count": 93,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "direct citation to baseline",
+        "relation_type": "citation",
+        "scope_id": "secure-uav-ris",
+        "scope_type": "baseline",
+        "score": 7.5
+      }
+    ],
+    "score": 7.5,
+    "semanticscholar_id": "03a0dfd2ac47c0be1b5e7783ea5018e63c3b8211",
+    "source_names": [
+      "semanticscholar"
+    ],
+    "source_tags": [
+      "baseline:secure-uav-ris:citation"
+    ],
+    "title": "A Survey and Quantitative Analysis of Network Architectures for Future 6G Services in Rural and Underserved Areas",
+    "title_hash": "a1227ae1e4886f5d88fbe541476bf0c3eb363e80",
+    "url": "https://www.semanticscholar.org/paper/03a0dfd2ac47c0be1b5e7783ea5018e63c3b8211",
+    "venue": "IEEE Open Journal of the Communications Society",
     "year": 2026
   },
   "doi:10.1109/tccn.2025.3613521": {
@@ -1206,7 +1257,7 @@
       "Xingwang Li"
     ],
     "canonical_id": "doi:10.1109/tgcn.2026.3653184",
-    "citations_count": 0,
+    "citations_count": 1,
     "discovered_date": null,
     "doi": "10.1109/tgcn.2026.3653184",
     "external_ids": {
@@ -2858,6 +2909,65 @@
     "title": "HumanoidVLN: A Physics-Grounded Simulator and Benchmark for Vision-Language Navigation Across Diverse Humanoid Embodiments",
     "title_hash": "05b55f440fe129acfe3f0e61dee13a8f49272a2f",
     "url": "https://arxiv.org/abs/2608.12860",
+    "venue": "arXiv (Cornell University)",
+    "year": 2026
+  },
+  "doi:10.48550/arxiv.2608.17318": {
+    "abstract": "Vision-language navigation agents are often evaluated on their ability to follow route-like instructions toward a fixed goal. Yet, real navigation instructions often depend on observed states of the environment: if a condition holds, then follow one path, otherwise take another. Such instructions require an agent to evaluate scene evidence, select the correct logical branch, and execute the corresponding navigation behavior. Existing evaluations provide limited control over conditional branch execution, making it difficult to determine whether agents fail because of perception, grounding, navigation, or logical decision-making. We introduce CondVLN, a scene-graph-grounded benchmark for diagnosing conditional branching in vision-language navigation. CondVLN programmatically generates instructions whose branch conditions are grounded in verifiable 3D scene-graph predicates, with controlled variation in branch depth, dependency chain length, spatial composition, evidence observability, and instruction horizon. CondVLN contains over 11,500 generated conditional instructions across AI2-THOR, Matterport3D, Gibson, and ReplicaCAD, and evaluates agents using standard VLN metrics and branch-specific diagnostics: Branch Selection Accuracy and Conditional Success Rate. Evaluating four state-of-the-art VLN agents (VLN-Zero, NaVid, NaVILA, and Open-Nav) shows that conditional branching exposes failures that are not captured by standard success rate or path length alone: agents can navigate plausibly while committing to a branch inconsistent with the observed scene condition. We also present a lightweight neurosymbolic branch-selection model that separates condition grounding from navigation execution, improving performance by 2x. CondVLN provides a reusable testbed for measuring whether embodied agents can not only follow instructions, but follow the right instruction under the right condition.",
+    "arxiv_id": "2608.17318",
+    "authors": [
+      "Seoyoung Lee",
+      "Neel P. Bhatt",
+      "Pranay Samineni",
+      "Cong Liu",
+      "S P Sharan",
+      "Timothy Barclay",
+      "Gregory M. Wagner",
+      "Daniel Milan",
+      "Sandeep Chinchali",
+      "Ufuk Topcu",
+      "Atlas Wang"
+    ],
+    "canonical_id": "doi:10.48550/arxiv.2608.17318",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": "10.48550/arxiv.2608.17318",
+    "external_ids": {
+      "doi": "https://doi.org/10.48550/arxiv.2608.17318",
+      "openalex": "https://openalex.org/W7203787716"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "if then otherwise diagnosing conditional branching in vision language navigation",
+    "openalex_id": "https://openalex.org/W7203787716",
+    "pdf_url": null,
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-08-18",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:embodied navigation language grounding"
+    ],
+    "title": "If, Then, Otherwise: Diagnosing Conditional Branching in Vision-Language Navigation",
+    "title_hash": "dacdc23b28f84ae05d9b6356ef8c6944fd79e4ab",
+    "url": "https://doi.org/10.48550/arxiv.2608.17318",
     "venue": "arXiv (Cornell University)",
     "year": 2026
   },

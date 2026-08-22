@@ -3,7 +3,7 @@
     {
       "id": "secure-uav-ris",
       "title": "Joint Trajectory and Passive Beamforming Design for Secure UAV-RIS Communication Systems",
-      "today_citations": 0,
+      "today_citations": 1,
       "today_related": 0,
       "topic_id": "uav-ris"
     },
@@ -15,16 +15,70 @@
       "topic_id": "vln"
     }
   ],
-  "generated_at": "2026-08-21",
+  "generated_at": "2026-08-22",
   "issues": [
-    "Semantic Scholar citation fetch failed for baseline secure-uav-ris: Semantic Scholar API rate limit exceeded.",
     "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
-  "latest_report_date": "2026-08-21",
+  "latest_report_date": "2026-08-22",
   "project_name": "research-radar",
-  "recent_papers": [],
-  "today_new_global": 0,
-  "today_new_total": 0,
+  "recent_papers": [
+    {
+      "abstract": "Vision-language navigation agents are often evaluated on their ability to follow route-like instructions toward a fixed goal. Yet, real navigation instructions often depend on observed states of the environment: if a condition holds, then follow one path, otherwise take another. Such instructions require an agent to evaluate scene evidence, select the correct logical branch, and execute the corresponding navigation behavior. Existing evaluations provide limited control over conditional branch execution, making it difficult to determine whether agents fail because of perception, grounding, navigation, or logical decision-making. We introduce CondVLN, a scene-graph-grounded benchmark for diagnosing conditional branching in vision-language navigation. CondVLN programmatically generates instructions whose branch conditions are grounded in verifiable 3D scene-graph predicates, with controlled variation in branch depth, dependency chain length, spatial composition, evidence observability, and instruction horizon. CondVLN contains over 11,500 generated conditional instructions across AI2-THOR, Matterport3D, Gibson, and ReplicaCAD, and evaluates agents using standard VLN metrics and branch-specific diagnostics: Branch Selection Accuracy and Conditional Success Rate. Evaluating four state-of-the-art VLN agents (VLN-Zero, NaVid, NaVILA, and Open-Nav) shows that conditional branching exposes failures that are not captured by standard success rate or path length alone: agents can navigate plausibly while committing to a branch inconsistent with the observed scene condition. We also present a lightweight neurosymbolic branch-selection model that separates condition grounding from navigation execution, improving performance by 2x. CondVLN provides a reusable testbed for measuring whether embodied agents can not only follow instructions, but follow the right instruction under the right condition.",
+      "arxiv_id": "2608.17318",
+      "authors": [
+        "Seoyoung Lee",
+        "Neel P. Bhatt",
+        "Pranay Samineni",
+        "Cong Liu",
+        "S P Sharan"
+      ],
+      "baseline_ids": [],
+      "best_url": "https://doi.org/10.48550/arxiv.2608.17318",
+      "canonical_id": "doi:10.48550/arxiv.2608.17318",
+      "doi": "10.48550/arxiv.2608.17318",
+      "label": "candidate",
+      "openalex_id": "https://openalex.org/W7203787716",
+      "publication_date": "2026-08-18",
+      "reason": "title hit x1, abstract hit x1",
+      "relation_type": null,
+      "score": 4.5,
+      "semanticscholar_id": null,
+      "title": "If, Then, Otherwise: Diagnosing Conditional Branching in Vision-Language Navigation",
+      "topic_ids": [
+        "vln"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "year": 2026
+    },
+    {
+      "abstract": "Bridging the rural digital divide remains a persistent global challenge despite the widespread deployment of 4G and 5G cellular networks. This paper presents a comprehensive survey and quantitative analysis of network architectures for enabling future sixth-generation (6G) services in rural and underserved regions. Drawing on a structured review of peer-reviewed studies, 3GPP and ITU-R standards, O-RAN Alliance specifications, and documented field deployments, we classify and evaluate four architectural categories: terrestrial networks (TNs), non-terrestrial networks (NTNs), hybrid TN–NTN systems, and Open Radio Access Network (O-RAN)-based deployments. Each architecture is assessed against International Mobile Telecommunications for 2030 (IMT-2030) performance targets for throughput, end-to-end round-trip latency, energy efficiency (expressed as energy consumed per bit), coverage, and reliability. Unlike prior surveys that address individual components in isolation, such as satellite backhaul, microwave transport, or O-RAN frameworks, this paper provides a unified, deployment-driven, and quantitatively grounded treatment of all four architectural classes under rural 6G constraints. The survey analyzes key enabling technologies including Integrated Access and Backhaul (IAB), High-Altitude Platform Stations (HAPSs), Low-Earth Orbit (LEO) satellite systems, Reconfigurable Intelligent Surfaces (RIS), and AI-native orchestration frameworks. Analytical models are presented for RIS-assisted link enhancement and AI-native RAN Intelligent Controller (RIC) control utility. A quantitative, normalized key performance indicator (KPI) comparison across cost efficiency, spectral utilization, power consumption, and deployment scalability is grounded in a transparent scoring methodology, extended with a multi-criteria (AHP) architecture ranking, a weight-sensitivity analysis, and a parametric techno-economic cost-per-user comparison, and supported by an extensive review of technical, industrial, and policy literature. Beyond current deployments, this work identifies emerging technologies, including direct-to-device non-terrestrial access, programmable radio environments, and intelligent RAN control, that are expected to play a central role in extending sustainable rural 6G connectivity. A practical deployment decision framework and scenario-driven architectural guidance are provided for researchers, network operators, and policymakers pursuing inclusive, future-ready rural connectivity.",
+      "arxiv_id": null,
+      "authors": [
+        "Souradeep Deb",
+        "Nishith D. Tripathi",
+        "Jeffrey H. Reed"
+      ],
+      "baseline_ids": [
+        "secure-uav-ris"
+      ],
+      "best_url": "https://www.semanticscholar.org/paper/03a0dfd2ac47c0be1b5e7783ea5018e63c3b8211",
+      "canonical_id": "doi:10.1109/ojcoms.2026.3722804",
+      "doi": "10.1109/ojcoms.2026.3722804",
+      "label": "candidate",
+      "openalex_id": null,
+      "publication_date": null,
+      "reason": "direct citation to baseline",
+      "relation_type": null,
+      "score": 7.5,
+      "semanticscholar_id": "03a0dfd2ac47c0be1b5e7783ea5018e63c3b8211",
+      "title": "A Survey and Quantitative Analysis of Network Architectures for Future 6G Services in Rural and Underserved Areas",
+      "topic_ids": [],
+      "venue": "IEEE Open Journal of the Communications Society",
+      "year": 2026
+    }
+  ],
+  "today_new_global": 2,
+  "today_new_total": 2,
   "topics": [
     {
       "id": "uav-ris",
@@ -35,8 +89,8 @@
     {
       "id": "vln",
       "name": "Vision-Language Navigation",
-      "today_count": 0,
-      "total_papers": 31
+      "today_count": 1,
+      "total_papers": 32
     }
   ]
 }
