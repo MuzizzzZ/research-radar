@@ -267,12 +267,12 @@
           "best_url": "https://www.semanticscholar.org/paper/c2b773c5e4714edacde95af69ff459a252fec25b",
           "canonical_id": "doi:10.1109/twc.2026.3670412",
           "doi": "10.1109/twc.2026.3670412",
-          "label": "high_confidence",
+          "label": "candidate",
           "openalex_id": null,
           "publication_date": null,
           "reason": "direct citation to baseline, shared author",
           "relation_type": "citation",
-          "score": 8.5,
+          "score": 7.5,
           "semanticscholar_id": "c2b773c5e4714edacde95af69ff459a252fec25b",
           "title": "Reinforcement Learning With Conformal Symplectic Optimization for Aerial RIS-Aided Secure Communication",
           "topic_ids": [],
@@ -392,7 +392,7 @@
           "abstract": "This paper investigates a fluid antenna system (FAS)/movable antenna (MA) and active reconfigurable intelligent surface (RIS)-aided integrated sensing and communication (ISAC) system. Specifically, we maximize the radar signal-to-noise-ratio (SNR) by jointly optimizing the beamforming matrix at the base station (BS), the reflecting coefficients of active RIS and port selection of FAS, subject to the transmit power constraints and the communication requirements of users. To tackle the problem, we propose an effective algorithm to decompose the main problem into three subproblems. For each subproblem, we first utilize semidefinite relaxation (SDR), successive convex approximation (SCA) and penalty function to reformulate the subproblem, then the majorization-minimization (MM) method is applied to solve the subproblem iteratively. Numerical results validate the superiority of the proposed system. In addition, FAS can reduce the resource consumption and active RIS can overcome the severe path loss effectively.",
           "arxiv_id": null,
           "authors": [
-            "Jiajun Zhu",
+            "Jia-Jun Zhu",
             "Haisu Wu",
             "Hongxiang Ren",
             "Cunhua Pan",
@@ -528,7 +528,7 @@
           "arxiv_id": null,
           "authors": [
             "Habtamu Demeke Mihertie",
-            "Zheng-qiang Wang",
+            "Zhengqiang Wang",
             "M. Ouamri",
             "Elhadj Moustapha Diallo",
             "Xingwang Li"
@@ -558,7 +558,7 @@
             "Minghao Chen",
             "Feng Shu",
             "Min Zhu",
-            "Xiaobo Zhou",
+            "Xiao-Bo Zhou",
             "Jiajia Liu"
           ],
           "baseline_ids": [

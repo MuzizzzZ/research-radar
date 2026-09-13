@@ -1251,7 +1251,7 @@
     "arxiv_id": null,
     "authors": [
       "Habtamu Demeke Mihertie",
-      "Zheng-qiang Wang",
+      "Zhengqiang Wang",
       "M. Ouamri",
       "Elhadj Moustapha Diallo",
       "Xingwang Li"
@@ -1304,7 +1304,7 @@
     "abstract": "This paper investigates a fluid antenna system (FAS)/movable antenna (MA) and active reconfigurable intelligent surface (RIS)-aided integrated sensing and communication (ISAC) system. Specifically, we maximize the radar signal-to-noise-ratio (SNR) by jointly optimizing the beamforming matrix at the base station (BS), the reflecting coefficients of active RIS and port selection of FAS, subject to the transmit power constraints and the communication requirements of users. To tackle the problem, we propose an effective algorithm to decompose the main problem into three subproblems. For each subproblem, we first utilize semidefinite relaxation (SDR), successive convex approximation (SCA) and penalty function to reformulate the subproblem, then the majorization-minimization (MM) method is applied to solve the subproblem iteratively. Numerical results validate the superiority of the proposed system. In addition, FAS can reduce the resource consumption and active RIS can overcome the severe path loss effectively.",
     "arxiv_id": null,
     "authors": [
-      "Jiajun Zhu",
+      "Jia-Jun Zhu",
       "Haisu Wu",
       "Hongxiang Ren",
       "Cunhua Pan",
@@ -1519,7 +1519,7 @@
       "Minghao Chen",
       "Feng Shu",
       "Min Zhu",
-      "Xiaobo Zhou",
+      "Xiao-Bo Zhou",
       "Jiajia Liu",
       "Maolin Li",
       "Cunhua Pan"
@@ -1577,8 +1577,8 @@
       "Haoran Zha",
       "Yun Lin",
       "Yuanwei Liu",
-      "Dusist Niyato",
-      "Marco Di Renzo"
+      "D. Niyato",
+      "M. di Renzo"
     ],
     "canonical_id": "doi:10.1109/twc.2026.3670412",
     "citations_count": 2,
@@ -1589,28 +1589,28 @@
       "DBLP": "journals/twc/FengGZLLNR26",
       "DOI": "10.1109/TWC.2026.3670412"
     },
-    "label": "high_confidence",
+    "label": "candidate",
     "last_updated": null,
     "normalized_title": "reinforcement learning with conformal symplectic optimization for aerial ris aided secure communication",
     "openalex_id": null,
     "pdf_url": "",
-    "primary_reason": "direct citation to baseline, shared author",
+    "primary_reason": "direct citation to baseline",
     "publication_date": null,
     "reasons": [
-      "direct citation to baseline, shared author"
+      "direct citation to baseline"
     ],
     "references_count": 50,
     "scopes": [
       {
-        "label": "high_confidence",
-        "reason": "direct citation to baseline, shared author",
+        "label": "candidate",
+        "reason": "direct citation to baseline",
         "relation_type": "citation",
         "scope_id": "secure-uav-ris",
         "scope_type": "baseline",
-        "score": 8.5
+        "score": 7.5
       }
     ],
-    "score": 8.5,
+    "score": 7.5,
     "semanticscholar_id": "c2b773c5e4714edacde95af69ff459a252fec25b",
     "source_names": [
       "semanticscholar"

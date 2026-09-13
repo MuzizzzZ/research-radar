@@ -15,11 +15,12 @@
       "topic_id": "vln"
     }
   ],
-  "generated_at": "2026-09-12",
+  "generated_at": "2026-09-13",
   "issues": [
+    "OpenAlex topic fetch failed for vln / 'vision language navigation': HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works?search=vision+language+navigation&sort=publication_date%3Adesc&page=1&per-page=13&filter=from_publication_date%3A2026-09-07%2Cto_publication_date%3A2026-09-13 (Caused by ResponseError('too many 429 error responses'))",
     "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
-  "latest_report_date": "2026-09-12",
+  "latest_report_date": "2026-09-13",
   "project_name": "research-radar",
   "recent_papers": [],
   "today_new_global": 0,
