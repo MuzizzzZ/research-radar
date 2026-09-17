@@ -3,6 +3,34 @@
     {
       "citations": [
         {
+          "abstract": "Integrated sensing, communication, and power transfer (ISCPT) paradigm has emerged as a promising solution for multi-functional integration and efficient resource sharing in upcoming sixth-generation (6G) wireless networks. To overcome the limited flexibility and coverage of existing terrestrial ISCPT systems based on ground base stations in complex terrains and temporary hotspots, we propose a novel multi-UAV ISCPT system that leverages UAVs’ high mobility, flexible deployment, and reliable line-of-sight links to improve ISCPT performance. A multi-objective optimization problem is formulated to simultaneously maximize the minimum quality of service across communication, sensing, and energy users by jointly optimizing the three-dimensional (3D) deployment and transmit power allocation of UAVs. To address this challenging non-convex problem, a two-stage joint optimization method based on a cascading residual graph attention network (CRGAT) is proposed, effectively capturing the intricate spatial correlations among users and task coupling characteristics. Simulation results unveil that the proposed CRGAT-based method improves overall performance by over 39.6% compared to baseline methods adopting existing schemes. Under fixed weight configurations, it effectively balances multiple objectives; by traversing the weight space, it further produces a well-distributed and continuous approximate Pareto front, demonstrating its strong adaptability to diverse objective preferences. Moreover, the proposed method remains adaptability under varying user distributions without retraining, indicating good generalization and deployment potential.",
+          "arxiv_id": null,
+          "authors": [
+            "Yu-Ping Lu",
+            "Ke Xiong",
+            "Wei Chen",
+            "Ping-Yi Fan",
+            "Derrick Wing Kwan Ng"
+          ],
+          "baseline_ids": [
+            "secure-uav-ris"
+          ],
+          "best_url": "https://www.semanticscholar.org/paper/fcc455daa697d410590b79307fadc57671d9175b",
+          "canonical_id": "doi:10.1109/tmc.2026.3683050",
+          "doi": "10.1109/tmc.2026.3683050",
+          "label": "candidate",
+          "openalex_id": null,
+          "publication_date": "2026-10-01",
+          "reason": "direct citation to baseline",
+          "relation_type": "citation",
+          "score": 7.5,
+          "semanticscholar_id": "fcc455daa697d410590b79307fadc57671d9175b",
+          "title": "Multi-UAV Collaborative ISCPT: Joint 3D Deployment and Power Control of UAVs",
+          "topic_ids": [],
+          "venue": "IEEE Transactions on Mobile Computing",
+          "year": 2026
+        },
+        {
           "abstract": "Bridging the rural digital divide remains a persistent global challenge despite the widespread deployment of 4G and 5G cellular networks. This paper presents a comprehensive survey and quantitative analysis of network architectures for enabling future sixth-generation (6G) services in rural and underserved regions. Drawing on a structured review of peer-reviewed studies, 3GPP and ITU-R standards, O-RAN Alliance specifications, and documented field deployments, we classify and evaluate four architectural categories: terrestrial networks (TNs), non-terrestrial networks (NTNs), hybrid TN–NTN systems, and Open Radio Access Network (O-RAN)-based deployments. Each architecture is assessed against International Mobile Telecommunications for 2030 (IMT-2030) performance targets for throughput, end-to-end round-trip latency, energy efficiency (expressed as energy consumed per bit), coverage, and reliability. Unlike prior surveys that address individual components in isolation, such as satellite backhaul, microwave transport, or O-RAN frameworks, this paper provides a unified, deployment-driven, and quantitatively grounded treatment of all four architectural classes under rural 6G constraints. The survey analyzes key enabling technologies including Integrated Access and Backhaul (IAB), High-Altitude Platform Stations (HAPSs), Low-Earth Orbit (LEO) satellite systems, Reconfigurable Intelligent Surfaces (RIS), and AI-native orchestration frameworks. Analytical models are presented for RIS-assisted link enhancement and AI-native RAN Intelligent Controller (RIC) control utility. A quantitative, normalized key performance indicator (KPI) comparison across cost efficiency, spectral utilization, power consumption, and deployment scalability is grounded in a transparent scoring methodology, extended with a multi-criteria (AHP) architecture ranking, a weight-sensitivity analysis, and a parametric techno-economic cost-per-user comparison, and supported by an extensive review of technical, industrial, and policy literature. Beyond current deployments, this work identifies emerging technologies, including direct-to-device non-terrestrial access, programmable radio environments, and intelligent RAN control, that are expected to play a central role in extending sustainable rural 6G connectivity. A practical deployment decision framework and scenario-driven architectural guidance are provided for researchers, network operators, and policymakers pursuing inclusive, future-ready rural connectivity.",
           "arxiv_id": null,
           "authors": [
@@ -61,8 +89,8 @@
           "arxiv_id": null,
           "authors": [
             "Yihan Li",
-            "Chengwen Xing",
-            "Shiqi Gong",
+            "Cheng-Wen Xing",
+            "Shi-Qi Gong",
             "Nan Zhao"
           ],
           "baseline_ids": [
@@ -283,11 +311,11 @@
           "abstract": "Enabled by 6G wireless technologies, Simultaneously Transmitting And Reflecting Reconfigurable Intelligent Surfaces (STAR-RISs) create a new dimension for optimizing performance in Uncrewed Aerial Vehicle (UAV) communications through full-space signal coverage. However, existing research on STAR-RIS-assisted UAV secure communications still faces critical challenges, including the reliance on ideal Channel State Information (CSI) assumptions, amplitude optimization complexity under mode switching protocols, and limited scalability to meet multi-user communication demands. To address these challenges, we propose a robust and secure STAR-RIS-assisted UAV communication approach for a multi-user and multi-eavesdropper scenario. By jointly optimizing user scheduling, transmitting and reflecting coefficients of STAR-RIS, transmit power and flight trajectory of UAV, we aim to maximize the average worst-case achievable secrecy rate. To tackle the non-convexity and coupled decision variables of the formulated problem, we propose an alternating optimization framework, with a Lagrange multiplier method for power allocation, a deterministic model reformulated via S-procedure for CSI uncertainty quantification and robust handling, and a penalty-based double-loop iterative algorithm forcing the phase-shift matrix toward a rank-one solution. Finally, theoretical analysis and simulation results validate the superior secrecy performance of the proposed algorithm over other representative algorithms.",
           "arxiv_id": null,
           "authors": [
-            "Xiaojie Wang",
+            "Xiao-Jie Wang",
             "Jiaxin Ren",
-            "Zhaolong Ning",
-            "Yihang Huang",
-            "Xiaoming Tao"
+            "Zhao-Long Ning",
+            "Yi-Hang Huang",
+            "Xiao-Ming Tao"
           ],
           "baseline_ids": [
             "secure-uav-ris"
@@ -312,9 +340,9 @@
           "arxiv_id": null,
           "authors": [
             "Tingting Li",
-            "Yanjun Li",
+            "Yan-Jun Li",
             "Yuzhe Chen",
-            "C. Chen",
+            "Chung-Shue Chen",
             "Jianji Shao"
           ],
           "baseline_ids": [
@@ -340,7 +368,7 @@
           "arxiv_id": null,
           "authors": [
             "Xiangyun Meng",
-            "Xuanli Wu"
+            "Xuan-Li Wu"
           ],
           "baseline_ids": [
             "secure-uav-ris"
@@ -395,7 +423,7 @@
             "Jia-Jun Zhu",
             "Haisu Wu",
             "Hongxiang Ren",
-            "Cunhua Pan",
+            "Cun-Hua Pan",
             "Rui Shi"
           ],
           "baseline_ids": [
@@ -421,7 +449,7 @@
           "arxiv_id": null,
           "authors": [
             "Qian Deng",
-            "Guangchen Yu",
+            "Guang-Chen Yu",
             "Xiaopeng Liang",
             "Zhuang Zhang",
             "Feng Shu"
@@ -635,7 +663,7 @@
       "id": "secure-uav-ris",
       "related": [],
       "title": "Joint Trajectory and Passive Beamforming Design for Secure UAV-RIS Communication Systems",
-      "today_citations": 0,
+      "today_citations": 1,
       "today_related": 0,
       "topic_id": "uav-ris"
     },

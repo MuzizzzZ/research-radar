@@ -923,11 +923,11 @@
     "abstract": "Enabled by 6G wireless technologies, Simultaneously Transmitting And Reflecting Reconfigurable Intelligent Surfaces (STAR-RISs) create a new dimension for optimizing performance in Uncrewed Aerial Vehicle (UAV) communications through full-space signal coverage. However, existing research on STAR-RIS-assisted UAV secure communications still faces critical challenges, including the reliance on ideal Channel State Information (CSI) assumptions, amplitude optimization complexity under mode switching protocols, and limited scalability to meet multi-user communication demands. To address these challenges, we propose a robust and secure STAR-RIS-assisted UAV communication approach for a multi-user and multi-eavesdropper scenario. By jointly optimizing user scheduling, transmitting and reflecting coefficients of STAR-RIS, transmit power and flight trajectory of UAV, we aim to maximize the average worst-case achievable secrecy rate. To tackle the non-convexity and coupled decision variables of the formulated problem, we propose an alternating optimization framework, with a Lagrange multiplier method for power allocation, a deterministic model reformulated via S-procedure for CSI uncertainty quantification and robust handling, and a penalty-based double-loop iterative algorithm forcing the phase-shift matrix toward a rank-one solution. Finally, theoretical analysis and simulation results validate the superior secrecy performance of the proposed algorithm over other representative algorithms.",
     "arxiv_id": null,
     "authors": [
-      "Xiaojie Wang",
+      "Xiao-Jie Wang",
       "Jiaxin Ren",
-      "Zhaolong Ning",
-      "Yihang Huang",
-      "Xiaoming Tao",
+      "Zhao-Long Ning",
+      "Yi-Hang Huang",
+      "Xiao-Ming Tao",
       "Lei Guo",
       "Yan Zhang"
     ],
@@ -1031,7 +1031,7 @@
     "arxiv_id": null,
     "authors": [
       "Qian Deng",
-      "Guangchen Yu",
+      "Guang-Chen Yu",
       "Xiaopeng Liang",
       "Zhuang Zhang",
       "Feng Shu",
@@ -1091,7 +1091,7 @@
       "Wenjie Wang",
       "Chongwen Huang",
       "Zhi Lin",
-      "Haiyang Ding",
+      "Hai-Yang Ding",
       "Jia Shi",
       "Zan Li"
     ],
@@ -1144,7 +1144,7 @@
     "arxiv_id": null,
     "authors": [
       "Xiangyun Meng",
-      "Xuanli Wu"
+      "Xuan-Li Wu"
     ],
     "canonical_id": "doi:10.1109/tgcn.2025.3581390",
     "citations_count": 0,
@@ -1200,7 +1200,7 @@
       "Feng Shu",
       "Zhi Zhang",
       "Liusong Nie",
-      "Shihao Yan"
+      "Shi-Hao Yan"
     ],
     "canonical_id": "doi:10.1109/tgcn.2025.3585891",
     "citations_count": 13,
@@ -1300,6 +1300,60 @@
     "venue": "IEEE Transactions on Green Communications and Networking",
     "year": 2026
   },
+  "doi:10.1109/tmc.2026.3683050": {
+    "abstract": "Integrated sensing, communication, and power transfer (ISCPT) paradigm has emerged as a promising solution for multi-functional integration and efficient resource sharing in upcoming sixth-generation (6G) wireless networks. To overcome the limited flexibility and coverage of existing terrestrial ISCPT systems based on ground base stations in complex terrains and temporary hotspots, we propose a novel multi-UAV ISCPT system that leverages UAVs’ high mobility, flexible deployment, and reliable line-of-sight links to improve ISCPT performance. A multi-objective optimization problem is formulated to simultaneously maximize the minimum quality of service across communication, sensing, and energy users by jointly optimizing the three-dimensional (3D) deployment and transmit power allocation of UAVs. To address this challenging non-convex problem, a two-stage joint optimization method based on a cascading residual graph attention network (CRGAT) is proposed, effectively capturing the intricate spatial correlations among users and task coupling characteristics. Simulation results unveil that the proposed CRGAT-based method improves overall performance by over 39.6% compared to baseline methods adopting existing schemes. Under fixed weight configurations, it effectively balances multiple objectives; by traversing the weight space, it further produces a well-distributed and continuous approximate Pareto front, demonstrating its strong adaptability to diverse objective preferences. Moreover, the proposed method remains adaptability under varying user distributions without retraining, indicating good generalization and deployment potential.",
+    "arxiv_id": null,
+    "authors": [
+      "Yu-Ping Lu",
+      "Ke Xiong",
+      "Wei Chen",
+      "Ping-Yi Fan",
+      "Derrick Wing Kwan Ng",
+      "K. Ben Letaief"
+    ],
+    "canonical_id": "doi:10.1109/tmc.2026.3683050",
+    "citations_count": 0,
+    "discovered_date": null,
+    "doi": "10.1109/tmc.2026.3683050",
+    "external_ids": {
+      "CorpusId": "287406847",
+      "DOI": "10.1109/TMC.2026.3683050"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "multi uav collaborative iscpt joint 3d deployment and power control of uavs",
+    "openalex_id": null,
+    "pdf_url": "",
+    "primary_reason": "direct citation to baseline",
+    "publication_date": "2026-10-01",
+    "reasons": [
+      "direct citation to baseline"
+    ],
+    "references_count": 59,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "direct citation to baseline",
+        "relation_type": "citation",
+        "scope_id": "secure-uav-ris",
+        "scope_type": "baseline",
+        "score": 7.5
+      }
+    ],
+    "score": 7.5,
+    "semanticscholar_id": "fcc455daa697d410590b79307fadc57671d9175b",
+    "source_names": [
+      "semanticscholar"
+    ],
+    "source_tags": [
+      "baseline:secure-uav-ris:citation"
+    ],
+    "title": "Multi-UAV Collaborative ISCPT: Joint 3D Deployment and Power Control of UAVs",
+    "title_hash": "de8930c1c9313af2ecbfebf607644b1c021ea62a",
+    "url": "https://www.semanticscholar.org/paper/fcc455daa697d410590b79307fadc57671d9175b",
+    "venue": "IEEE Transactions on Mobile Computing",
+    "year": 2026
+  },
   "doi:10.1109/tnse.2025.3626520": {
     "abstract": "This paper investigates a fluid antenna system (FAS)/movable antenna (MA) and active reconfigurable intelligent surface (RIS)-aided integrated sensing and communication (ISAC) system. Specifically, we maximize the radar signal-to-noise-ratio (SNR) by jointly optimizing the beamforming matrix at the base station (BS), the reflecting coefficients of active RIS and port selection of FAS, subject to the transmit power constraints and the communication requirements of users. To tackle the problem, we propose an effective algorithm to decompose the main problem into three subproblems. For each subproblem, we first utilize semidefinite relaxation (SDR), successive convex approximation (SCA) and penalty function to reformulate the subproblem, then the majorization-minimization (MM) method is applied to solve the subproblem iteratively. Numerical results validate the superiority of the proposed system. In addition, FAS can reduce the resource consumption and active RIS can overcome the severe path loss effectively.",
     "arxiv_id": null,
@@ -1307,7 +1361,7 @@
       "Jia-Jun Zhu",
       "Haisu Wu",
       "Hongxiang Ren",
-      "Cunhua Pan",
+      "Cun-Hua Pan",
       "Rui Shi"
     ],
     "canonical_id": "doi:10.1109/tnse.2025.3626520",
@@ -1359,9 +1413,9 @@
     "arxiv_id": null,
     "authors": [
       "Tingting Li",
-      "Yanjun Li",
+      "Yan-Jun Li",
       "Yuzhe Chen",
-      "C. Chen",
+      "Chung-Shue Chen",
       "Jianji Shao"
     ],
     "canonical_id": "doi:10.1109/tnse.2025.3648816",
@@ -1413,8 +1467,8 @@
     "arxiv_id": null,
     "authors": [
       "Yihan Li",
-      "Chengwen Xing",
-      "Shiqi Gong",
+      "Cheng-Wen Xing",
+      "Shi-Qi Gong",
       "Nan Zhao"
     ],
     "canonical_id": "doi:10.1109/tnse.2026.3708972",
@@ -1522,7 +1576,7 @@
       "Xiao-Bo Zhou",
       "Jiajia Liu",
       "Maolin Li",
-      "Cunhua Pan"
+      "Cun-Hua Pan"
     ],
     "canonical_id": "doi:10.1109/twc.2026.3669534",
     "citations_count": 0,
