@@ -3,7 +3,7 @@
     {
       "id": "secure-uav-ris",
       "title": "Joint Trajectory and Passive Beamforming Design for Secure UAV-RIS Communication Systems",
-      "today_citations": 1,
+      "today_citations": 0,
       "today_related": 0,
       "topic_id": "uav-ris"
     },
@@ -15,44 +15,16 @@
       "topic_id": "vln"
     }
   ],
-  "generated_at": "2026-09-17",
+  "generated_at": "2026-09-18",
   "issues": [
+    "Semantic Scholar citation fetch failed for baseline secure-uav-ris: Semantic Scholar API rate limit exceeded.",
     "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
-  "latest_report_date": "2026-09-17",
+  "latest_report_date": "2026-09-18",
   "project_name": "research-radar",
-  "recent_papers": [
-    {
-      "abstract": "Integrated sensing, communication, and power transfer (ISCPT) paradigm has emerged as a promising solution for multi-functional integration and efficient resource sharing in upcoming sixth-generation (6G) wireless networks. To overcome the limited flexibility and coverage of existing terrestrial ISCPT systems based on ground base stations in complex terrains and temporary hotspots, we propose a novel multi-UAV ISCPT system that leverages UAVs’ high mobility, flexible deployment, and reliable line-of-sight links to improve ISCPT performance. A multi-objective optimization problem is formulated to simultaneously maximize the minimum quality of service across communication, sensing, and energy users by jointly optimizing the three-dimensional (3D) deployment and transmit power allocation of UAVs. To address this challenging non-convex problem, a two-stage joint optimization method based on a cascading residual graph attention network (CRGAT) is proposed, effectively capturing the intricate spatial correlations among users and task coupling characteristics. Simulation results unveil that the proposed CRGAT-based method improves overall performance by over 39.6% compared to baseline methods adopting existing schemes. Under fixed weight configurations, it effectively balances multiple objectives; by traversing the weight space, it further produces a well-distributed and continuous approximate Pareto front, demonstrating its strong adaptability to diverse objective preferences. Moreover, the proposed method remains adaptability under varying user distributions without retraining, indicating good generalization and deployment potential.",
-      "arxiv_id": null,
-      "authors": [
-        "Yu-Ping Lu",
-        "Ke Xiong",
-        "Wei Chen",
-        "Ping-Yi Fan",
-        "Derrick Wing Kwan Ng"
-      ],
-      "baseline_ids": [
-        "secure-uav-ris"
-      ],
-      "best_url": "https://www.semanticscholar.org/paper/fcc455daa697d410590b79307fadc57671d9175b",
-      "canonical_id": "doi:10.1109/tmc.2026.3683050",
-      "doi": "10.1109/tmc.2026.3683050",
-      "label": "candidate",
-      "openalex_id": null,
-      "publication_date": "2026-10-01",
-      "reason": "direct citation to baseline",
-      "relation_type": null,
-      "score": 7.5,
-      "semanticscholar_id": "fcc455daa697d410590b79307fadc57671d9175b",
-      "title": "Multi-UAV Collaborative ISCPT: Joint 3D Deployment and Power Control of UAVs",
-      "topic_ids": [],
-      "venue": "IEEE Transactions on Mobile Computing",
-      "year": 2026
-    }
-  ],
-  "today_new_global": 1,
-  "today_new_total": 1,
+  "recent_papers": [],
+  "today_new_global": 0,
+  "today_new_total": 0,
   "topics": [
     {
       "id": "uav-ris",
