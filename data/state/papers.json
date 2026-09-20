@@ -1626,7 +1626,7 @@
     "abstract": "This article investigates a secure aerial reconfigurable intelligent surface (A-RIS) communication system, where user mobility, imperfect channel state information (CSI), and RIS phase errors induced by uncrewed aerial vehicle (UAV) jitter significantly degrade performance. To address these challenges, we formulate a joint optimization problem for UAV trajectory, base station (BS) we propose abeamforming, and A-RIS beamforming to maximize the minimum secrecy energy efficiency (SEE), subject to constraints on user secrecy rates and UAV energy efficiency. To solve this highly non-convex problem, we propose a novel reinforcement learning framework termed IA-CSORL based on the twin-twin-delayed deep deterministic policy gradient (TTD3) architecture, which incorporates two novel modules. Specifically, we develop the phase-aware relativistic adaptive descent (PRAD) algorithm is proposed, which embeds the learning process into a conformal Hamiltonian system. By integrating gradient-based phase error correction and adaptive momentum adjustment, PRAD effectively counteracts phase noise and stabilizes training. Furthermore, we design an environment-state interactive attention (ESIA) mechanism to dynamically fuse UAV positioning and environmental features, enhancing state representation and deployment accuracy. Numerical results demonstrate that IA-CSORL significantly outperforms existing RL baselines in terms of both robustness and convergence performance. Moreover, IA-CSORL achieves superior beamforming accuracy under phase errors and CSI imperfections and provides a better trade-off between sum secrecy rate (SSR) and SEE, with performance gains becoming more significant as the number of RIS elements increases.",
     "arxiv_id": null,
     "authors": [
-      "Zhongming Feng",
+      "Zhong-Ming Feng",
       "Qiling Gao",
       "Haoran Zha",
       "Yun Lin",
@@ -1635,7 +1635,7 @@
       "M. di Renzo"
     ],
     "canonical_id": "doi:10.1109/twc.2026.3670412",
-    "citations_count": 2,
+    "citations_count": 3,
     "discovered_date": null,
     "doi": "10.1109/twc.2026.3670412",
     "external_ids": {
