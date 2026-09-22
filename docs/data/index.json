@@ -15,16 +15,44 @@
       "topic_id": "vln"
     }
   ],
-  "generated_at": "2026-09-21",
+  "generated_at": "2026-09-22",
   "issues": [
-    "Semantic Scholar citation fetch failed for baseline secure-uav-ris: Semantic Scholar API rate limit exceeded.",
     "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
-  "latest_report_date": "2026-09-21",
+  "latest_report_date": "2026-09-22",
   "project_name": "research-radar",
-  "recent_papers": [],
-  "today_new_global": 0,
-  "today_new_total": 0,
+  "recent_papers": [
+    {
+      "abstract": "Vision-language navigation requires aligning language with visual observations while maintaining spatial understanding over time. Geometry foundation models (GFMs) expose intermediate representations throughout their hierarchy, but how navigation policies should use these features and retain historical geometric evidence remains unresolved. We introduce \\method{}, a streaming VLN framework that addresses these questions across \\textbf{representation depth} and \\textbf{navigation time}. Hierarchical GFM--VLM fusion couples earlier, intermediate, and later GFM representations to successive policy stages instead of repeatedly injecting a terminal feature. Navigation-aware GFM memory retains historical VGGT global-attention KV states according to instruction relevance, geometric confidence, and transition novelty under a bounded per-layer budget. Retained states provide geometric context for subsequent observations before fusion with the policy. Across R2R-CE and RxR-CE, \\method{} achieves strong performance using a single RGB stream without additional navigation-specific external data. Controlled ablations show that multi-depth coupling substantially outperforms repeated terminal-feature injection at matched fusion locations. Bounded navigation-aware retention preserves navigation performance while considerably reducing GFM-KV memory relative to larger-memory temporal retention. These findings support jointly examining the geometric representations exposed to the policy and the historical evidence retained for future inference. Code will be released upon acceptance at https://humanoid-research.github.io/adageovln/.",
+      "arxiv_id": "2609.18789",
+      "authors": [
+        "Quan-Dung Pham",
+        "Anh Dao",
+        "Danh Vinh Le",
+        "Nguyen Viet Tri Pham",
+        "The-Anh Nguyen"
+      ],
+      "baseline_ids": [],
+      "best_url": "https://arxiv.org/abs/2609.18789",
+      "canonical_id": "doi:10.48550/arxiv.2609.18789",
+      "doi": "10.48550/arxiv.2609.18789",
+      "label": "candidate",
+      "openalex_id": "https://openalex.org/W7213512107",
+      "publication_date": "2026-09-16",
+      "reason": "title hit x1, abstract hit x1",
+      "relation_type": null,
+      "score": 4.5,
+      "semanticscholar_id": null,
+      "title": "AdaGeoVLN: Selective Geometry Across Representation Depth and Navigation Time for Vision-Language Navigation",
+      "topic_ids": [
+        "vln"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "year": 2026
+    }
+  ],
+  "today_new_global": 1,
+  "today_new_total": 1,
   "topics": [
     {
       "id": "uav-ris",
@@ -35,8 +63,8 @@
     {
       "id": "vln",
       "name": "Vision-Language Navigation",
-      "today_count": 0,
-      "total_papers": 33
+      "today_count": 1,
+      "total_papers": 34
     }
   ]
 }

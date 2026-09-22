@@ -3078,6 +3078,64 @@
     "venue": "arXiv (Cornell University)",
     "year": 2026
   },
+  "doi:10.48550/arxiv.2609.18789": {
+    "abstract": "Vision-language navigation requires aligning language with visual observations while maintaining spatial understanding over time. Geometry foundation models (GFMs) expose intermediate representations throughout their hierarchy, but how navigation policies should use these features and retain historical geometric evidence remains unresolved. We introduce \\method{}, a streaming VLN framework that addresses these questions across \\textbf{representation depth} and \\textbf{navigation time}. Hierarchical GFM--VLM fusion couples earlier, intermediate, and later GFM representations to successive policy stages instead of repeatedly injecting a terminal feature. Navigation-aware GFM memory retains historical VGGT global-attention KV states according to instruction relevance, geometric confidence, and transition novelty under a bounded per-layer budget. Retained states provide geometric context for subsequent observations before fusion with the policy. Across R2R-CE and RxR-CE, \\method{} achieves strong performance using a single RGB stream without additional navigation-specific external data. Controlled ablations show that multi-depth coupling substantially outperforms repeated terminal-feature injection at matched fusion locations. Bounded navigation-aware retention preserves navigation performance while considerably reducing GFM-KV memory relative to larger-memory temporal retention. These findings support jointly examining the geometric representations exposed to the policy and the historical evidence retained for future inference. Code will be released upon acceptance at https://humanoid-research.github.io/adageovln/.",
+    "arxiv_id": "2609.18789",
+    "authors": [
+      "Quan-Dung Pham",
+      "Anh Dao",
+      "Danh Vinh Le",
+      "Nguyen Viet Tri Pham",
+      "The-Anh Nguyen",
+      "Zhirui Dai",
+      "Yiyu Chen",
+      "Tuyen P. Le",
+      "Truong Nguyen",
+      "Quan Nguyen"
+    ],
+    "canonical_id": "doi:10.48550/arxiv.2609.18789",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": "10.48550/arxiv.2609.18789",
+    "external_ids": {
+      "doi": "https://doi.org/10.48550/arxiv.2609.18789",
+      "openalex": "https://openalex.org/W7213512107"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "adageovln selective geometry across representation depth and navigation time for vision language navigation",
+    "openalex_id": "https://openalex.org/W7213512107",
+    "pdf_url": "https://arxiv.org/pdf/2609.18789",
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-09-16",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vln instruction following"
+    ],
+    "title": "AdaGeoVLN: Selective Geometry Across Representation Depth and Navigation Time for Vision-Language Navigation",
+    "title_hash": "25bb8f6161e15a0cf4199f44e2b49f164fcea7c0",
+    "url": "https://arxiv.org/abs/2609.18789",
+    "venue": "arXiv (Cornell University)",
+    "year": 2026
+  },
   "s2:08ba2877828708ace87d13acded59d47864d6659": {
     "abstract": null,
     "arxiv_id": null,
