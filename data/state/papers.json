@@ -3136,6 +3136,61 @@
     "venue": "arXiv (Cornell University)",
     "year": 2026
   },
+  "doi:10.48550/arxiv.2609.24576": {
+    "abstract": "Modern Vision-Language Navigation (VLN) models rely mostly on pre-trained large Vision-Language Models (VLMs) to predict navigation actions. While this fusion of language instructions and visual observations allows multimodal reasoning, it obscures how information is routed across modalities or what mechanisms drive navigation decisions. Thus, it remains unclear whether VLN models ground their predictions in relevant semantic cues or can track task progress. In this work, we study the interpretability and steerability of VLN models. We use intervention-based metrics that measure how visual observations, instructions, and visual memory causally influence navigation decisions. Our results show that these navigation policies are sensitive to all input modalities and do not depend on a single one. We further show that these agents encode navigation progress and retain semantic structure from their VLM backbones, enabling concept-level steering through internal activations. Finally, we extract activation vectors for abstract behaviors to transfer them zero-shot to out-of-distribution real-world scenarios, improving performance without additional fine-tuning.",
+    "arxiv_id": "2609.24576",
+    "authors": [
+      "Débora Oliveira Makowski",
+      "Samiran Gode",
+      "Abhijeet Nayak",
+      "Marco Hutter",
+      "Cordelia Schmid",
+      "Lukas Rosenberger Schmid",
+      "Wolfram Burgard"
+    ],
+    "canonical_id": "doi:10.48550/arxiv.2609.24576",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": "10.48550/arxiv.2609.24576",
+    "external_ids": {
+      "doi": "https://doi.org/10.48550/arxiv.2609.24576",
+      "openalex": "https://openalex.org/W7214028223"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "what do vlm based vision language navigation models rely on interpreting and steering policy behavior",
+    "openalex_id": "https://openalex.org/W7214028223",
+    "pdf_url": null,
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-09-21",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vision language navigation"
+    ],
+    "title": "What do VLM-Based Vision-Language Navigation Models Rely on: Interpreting and Steering Policy Behavior",
+    "title_hash": "894555258ef3e1b3e5657f80bc3cb612b271f606",
+    "url": "https://doi.org/10.48550/arxiv.2609.24576",
+    "venue": "arXiv (Cornell University)",
+    "year": 2026
+  },
   "s2:08ba2877828708ace87d13acded59d47864d6659": {
     "abstract": null,
     "arxiv_id": null,
