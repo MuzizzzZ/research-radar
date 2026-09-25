@@ -15,36 +15,35 @@
       "topic_id": "vln"
     }
   ],
-  "generated_at": "2026-09-24",
+  "generated_at": "2026-09-25",
   "issues": [
-    "Semantic Scholar citation fetch failed for baseline secure-uav-ris: Semantic Scholar API rate limit exceeded.",
     "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
-  "latest_report_date": "2026-09-24",
+  "latest_report_date": "2026-09-25",
   "project_name": "research-radar",
   "recent_papers": [
     {
-      "abstract": "Modern Vision-Language Navigation (VLN) models rely mostly on pre-trained large Vision-Language Models (VLMs) to predict navigation actions. While this fusion of language instructions and visual observations allows multimodal reasoning, it obscures how information is routed across modalities or what mechanisms drive navigation decisions. Thus, it remains unclear whether VLN models ground their predictions in relevant semantic cues or can track task progress. In this work, we study the interpretability and steerability of VLN models. We use intervention-based metrics that measure how visual observations, instructions, and visual memory causally influence navigation decisions. Our results show that these navigation policies are sensitive to all input modalities and do not depend on a single one. We further show that these agents encode navigation progress and retain semantic structure from their VLM backbones, enabling concept-level steering through internal activations. Finally, we extract activation vectors for abstract behaviors to transfer them zero-shot to out-of-distribution real-world scenarios, improving performance without additional fine-tuning.",
-      "arxiv_id": "2609.24576",
+      "abstract": "Map-based vision-language navigation (VLN) relies on persistent spatial representations to connect language understanding with geometric planning. However, acquiring semantics beyond the needs of the current instruction can introduce unnecessary perception cost and irrelevant annotations. Continuously accumulating unrelated objects may not only waste computation, but also clutter the visual-spatial representation consumed by the vision-language model (VLM) planner. To address this problem, we present SparseNav, a training-free framework that follows a less-is-more principle for semantic navigation. SparseNav persistently maintains a lightweight geometric bird's-eye-view (BEV) map and sparse landmark memory, acquiring new semantics on demand using the active sub-instruction to decide what is worth grounding. An instruction manager first tracks navigation progress and identifies the active landmark query. An instruction-conditioned perception mechanism then invokes open-vocabulary segmentation when the queried landmark is visible and its metric location can inform the next decision. The resulting landmark memory supports VLM selection among hybrid frontier and local directional waypoint candidates. Without any additional training, SparseNav achieves success rates of 42.8% on R2R-CE and 40.7% on RxR-CE, both on the Val-Unseen splits. Controlled ablations examine semantic perception strategies and the contributions of individual framework components. Furthermore, we successfully deployed SparseNav on a Unitree Go2 quadruped equipped with an Intel RealSense D455 RGB-D camera for geometric mapping and landmark grounding and a Livox MID-360 LiDAR for localization, without a prebuilt map. We validated its effectiveness across multiple indoor environments using instruction-conditioned waypoint navigation.",
+      "arxiv_id": "2609.26408",
       "authors": [
-        "Débora Oliveira Makowski",
-        "Samiran Gode",
-        "Abhijeet Nayak",
-        "Marco Hutter",
-        "Cordelia Schmid"
+        "Quanhua Chen",
+        "Juhan Kang",
+        "Runfeng Lin",
+        "Zifei Zhang",
+        "Enquang Feng"
       ],
       "baseline_ids": [],
-      "best_url": "https://doi.org/10.48550/arxiv.2609.24576",
-      "canonical_id": "doi:10.48550/arxiv.2609.24576",
-      "doi": "10.48550/arxiv.2609.24576",
+      "best_url": "https://doi.org/10.48550/arxiv.2609.26408",
+      "canonical_id": "doi:10.48550/arxiv.2609.26408",
+      "doi": "10.48550/arxiv.2609.26408",
       "label": "candidate",
-      "openalex_id": "https://openalex.org/W7214028223",
-      "publication_date": "2026-09-21",
+      "openalex_id": "https://openalex.org/W7214082235",
+      "publication_date": "2026-09-22",
       "reason": "title hit x1, abstract hit x1",
       "relation_type": null,
       "score": 4.5,
       "semanticscholar_id": null,
-      "title": "What do VLM-Based Vision-Language Navigation Models Rely on: Interpreting and Steering Policy Behavior",
+      "title": "SparseNav: Instruction-conditioned Sparse Semantic Perception for Training-Free Vision-Language Navigation",
       "topic_ids": [
         "vln"
       ],
@@ -65,7 +64,7 @@
       "id": "vln",
       "name": "Vision-Language Navigation",
       "today_count": 1,
-      "total_papers": 35
+      "total_papers": 36
     }
   ]
 }

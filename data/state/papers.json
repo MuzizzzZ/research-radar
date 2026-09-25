@@ -1257,7 +1257,7 @@
       "Xingwang Li"
     ],
     "canonical_id": "doi:10.1109/tgcn.2026.3653184",
-    "citations_count": 1,
+    "citations_count": 2,
     "discovered_date": null,
     "doi": "10.1109/tgcn.2026.3653184",
     "external_ids": {
@@ -3160,7 +3160,7 @@
     "last_updated": null,
     "normalized_title": "what do vlm based vision language navigation models rely on interpreting and steering policy behavior",
     "openalex_id": "https://openalex.org/W7214028223",
-    "pdf_url": null,
+    "pdf_url": "https://arxiv.org/pdf/2609.24576",
     "primary_reason": "title hit x1, abstract hit x1",
     "publication_date": "2026-09-21",
     "reasons": [
@@ -3187,7 +3187,63 @@
     ],
     "title": "What do VLM-Based Vision-Language Navigation Models Rely on: Interpreting and Steering Policy Behavior",
     "title_hash": "894555258ef3e1b3e5657f80bc3cb612b271f606",
-    "url": "https://doi.org/10.48550/arxiv.2609.24576",
+    "url": "https://arxiv.org/abs/2609.24576",
+    "venue": "arXiv (Cornell University)",
+    "year": 2026
+  },
+  "doi:10.48550/arxiv.2609.26408": {
+    "abstract": "Map-based vision-language navigation (VLN) relies on persistent spatial representations to connect language understanding with geometric planning. However, acquiring semantics beyond the needs of the current instruction can introduce unnecessary perception cost and irrelevant annotations. Continuously accumulating unrelated objects may not only waste computation, but also clutter the visual-spatial representation consumed by the vision-language model (VLM) planner. To address this problem, we present SparseNav, a training-free framework that follows a less-is-more principle for semantic navigation. SparseNav persistently maintains a lightweight geometric bird's-eye-view (BEV) map and sparse landmark memory, acquiring new semantics on demand using the active sub-instruction to decide what is worth grounding. An instruction manager first tracks navigation progress and identifies the active landmark query. An instruction-conditioned perception mechanism then invokes open-vocabulary segmentation when the queried landmark is visible and its metric location can inform the next decision. The resulting landmark memory supports VLM selection among hybrid frontier and local directional waypoint candidates. Without any additional training, SparseNav achieves success rates of 42.8% on R2R-CE and 40.7% on RxR-CE, both on the Val-Unseen splits. Controlled ablations examine semantic perception strategies and the contributions of individual framework components. Furthermore, we successfully deployed SparseNav on a Unitree Go2 quadruped equipped with an Intel RealSense D455 RGB-D camera for geometric mapping and landmark grounding and a Livox MID-360 LiDAR for localization, without a prebuilt map. We validated its effectiveness across multiple indoor environments using instruction-conditioned waypoint navigation.",
+    "arxiv_id": "2609.26408",
+    "authors": [
+      "Quanhua Chen",
+      "Juhan Kang",
+      "Runfeng Lin",
+      "Zifei Zhang",
+      "Enquang Feng",
+      "Chunran Zheng",
+      "Xiwang Dong",
+      "Jiarong Lin"
+    ],
+    "canonical_id": "doi:10.48550/arxiv.2609.26408",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": "10.48550/arxiv.2609.26408",
+    "external_ids": {
+      "doi": "https://doi.org/10.48550/arxiv.2609.26408",
+      "openalex": "https://openalex.org/W7214082235"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "sparsenav instruction conditioned sparse semantic perception for training free vision language navigation",
+    "openalex_id": "https://openalex.org/W7214082235",
+    "pdf_url": null,
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-09-22",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vision language navigation"
+    ],
+    "title": "SparseNav: Instruction-conditioned Sparse Semantic Perception for Training-Free Vision-Language Navigation",
+    "title_hash": "129e879e04580f5c507a9e5a8ff6b7fcd3e1a737",
+    "url": "https://doi.org/10.48550/arxiv.2609.26408",
     "venue": "arXiv (Cornell University)",
     "year": 2026
   },
@@ -3250,7 +3306,7 @@
       "Wei Xiang"
     ],
     "canonical_id": "s2:1e011dcf368ee33ac649098c0e7bbe3f7345faf5",
-    "citations_count": 9,
+    "citations_count": 10,
     "discovered_date": null,
     "doi": null,
     "external_ids": {
