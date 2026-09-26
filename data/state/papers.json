@@ -700,6 +700,59 @@
     "venue": "arXiv (Cornell University)",
     "year": 2026
   },
+  "arxiv:2609.23423": {
+    "abstract": "Vision-language navigation (VLN) has largely been developed for indoor and terrestrial robots, where language can often be treated as a static goal and motion is approximated by discrete or near-instantaneous actions. These assumptions break down for unmanned surface vehicles (USVs): river navigation requires continuous motion under inertia and limited maneuverability, while long-horizon instructions must be executed through sparse and visually ambiguous maritime landmarks. We introduce RiverVLN, to our knowledge the first benchmark designed for long-horizon USV VLN under continuous riverine motion, and PGT-NAV, a phase-grounded temporal navigation framework for USVs. Rather than directly mapping an entire instruction to motion, PGT-NAV converts it into an ordered sequence of visually verifiable semantic phases and maintains the active phase online through grounded visual and motion evidence. This explicit semantic progress state is fused with visual-motion history and phase-specific grounding to predict six local SE(2) pose increments. The resulting trajectory is executed in a predict-execute-re-observe loop, where the vessel executes toward W3, updates phase and grounding, and replans through a map-based safety layer. Experiments show that PGT-NAV substantially reduces recursive position and heading drift relative to GNM-style and ViNT-style baselines and achieves an average success rate of 0.79 in Unity-ROS closed-loop navigation. Unseen bridge-opening trials and real-world USV experiments further demonstrate that the phase-grounded representation transfers from controlled evaluation to physical USV deployment.",
+    "arxiv_id": "2609.23423",
+    "authors": [
+      "Jieling Wu",
+      "Yuehao Huang",
+      "Jiajun Lv",
+      "Tao Huang",
+      "Yong Liu",
+      "Weiwei Liu"
+    ],
+    "canonical_id": "arxiv:2609.23423",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": null,
+    "external_ids": {
+      "openalex": "https://openalex.org/W7214129284"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "rivervln phase grounded temporal vision language navigation for unmanned surface vehicles",
+    "openalex_id": "https://openalex.org/W7214129284",
+    "pdf_url": "https://arxiv.org/pdf/2609.23423",
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-09-20",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vln instruction following"
+    ],
+    "title": "RiverVLN: Phase-Grounded Temporal Vision--Language Navigation for Unmanned Surface Vehicles",
+    "title_hash": "336df9e3419a5dfd48263ab20389b64a2a02582a",
+    "url": "https://arxiv.org/abs/2609.23423",
+    "venue": "arXiv (Cornell University)",
+    "year": 2026
+  },
   "doi:10.1002/adma.202522736": {
     "abstract": "Mechanically reconfigurable metasurfaces have been designed to achieve continuous modulation of electromagnetic responses through the integration of deformable elements with structurally simple architectures. Although current implementations with independently addressable deformable units enable multifunctionality, their constrained phase modulation range imposes fundamental limitations on achieving fully reprogrammable metasurfaces. Here, we report for the first time a 1-bit phase-coding concept of a deformable unit based on the controllable interference of two three-dimensional (3D) bistable antennas, while maintaining superior broadband performance. By employing a hollow hyper-elastic substrate, we create a reliable platform for 3D buckling and shape switching of antennas, where out-of-plane loadings applied to each unit allow programming of the desired phase patterns. A reprogrammable metasurface prototype is meticulously designed and fabricated, demonstrating reliable, repeatable, and arbitrary functionality-switching capabilities. This concept establishes a robust foundation for mechanically reprogrammable metasurfaces and opens broader possibilities for applications in adaptive imaging, mechanical sensing, cloaking, information processing, and beyond.",
     "arxiv_id": null,
@@ -3183,7 +3236,7 @@
       "openalex"
     ],
     "source_tags": [
-      "topic:vln:query:vision language navigation"
+      "topic:vln:query:vln instruction following"
     ],
     "title": "What do VLM-Based Vision-Language Navigation Models Rely on: Interpreting and Steering Policy Behavior",
     "title_hash": "894555258ef3e1b3e5657f80bc3cb612b271f606",
