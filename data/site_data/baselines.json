@@ -287,7 +287,7 @@
             "Qiling Gao",
             "Haoran Zha",
             "Yun Lin",
-            "Yuanwei Liu"
+            "Yuan-Wei Liu"
           ],
           "baseline_ids": [
             "secure-uav-ris"
@@ -504,7 +504,7 @@
           "arxiv_id": null,
           "authors": [
             "Liangsen Zhai",
-            "Xiapu Luo"
+            "Xia-Pu Luo"
           ],
           "baseline_ids": [
             "secure-uav-ris"
@@ -559,7 +559,7 @@
             "Zhengqiang Wang",
             "M. Ouamri",
             "Elhadj Moustapha Diallo",
-            "Xingwang Li"
+            "Xing-Wang Li"
           ],
           "baseline_ids": [
             "secure-uav-ris"
@@ -672,6 +672,33 @@
       "id": "room-to-room",
       "related": [
         {
+          "abstract": "We investigate whether GPT-6-Astra, a general-purpose foundation model, can navigate unfamiliar environments using its own perception, reasoning, and decision-making capabilities. Our evaluation focues on zero-shot vision-and-language navigation in continuous environments (VLN-CE) through a minimal interface in the Codex harness, aiming to unleash GPT-6-Astra's full potential for navigation. Using monocular RGB, GPT-6-Astra decides when to observe, how to move, and when to stop, without navigation-specific fine-tuning, a trained waypoint predictor, or a pre-built scene map. Our evaluation yields four main findings. First, \\textbf{\\textit{GPT-6-Astra achieves strong zero-shot navigation performance using only monocular RGB observations}}. On the common-adopted zero-shot R2R-CE benchmark, ultra reasoning achieves a success rate of \\textbf{\\textit{79.0\\%}}, exceeding the strongest reported zero-shot and supervised success rates by \\textbf{\\textit{13.0}} and \\textbf{\\textit{6.9}} percentage points, respectively. Second, \\textbf{\\textit{GPT-6-Astra advances multi-stage language instructions into coherent, adaptive navigation}} by grounding spatial relations, tracking task progress, and revising its actions. Third, \\textbf{\\textit{reliable route execution and goal verification remain challenging, even with ultra reasoning}}. Plausible local landmark matches do not consistently lead to correct task completion. Fourth, \\textbf{\\textit{these capabilities motivate rethinking the role of embodied learning}}. Future VLN research should build on foundation models to advance generalizable and reliable embodied intelligence.",
+          "arxiv_id": "2609.29861",
+          "authors": [
+            "Guangzhao Dai",
+            "Qianru Sun",
+            "Qi Wu",
+            "Bin Zhu"
+          ],
+          "baseline_ids": [
+            "room-to-room"
+          ],
+          "best_url": "https://doi.org/10.48550/arxiv.2609.29861",
+          "canonical_id": "doi:10.48550/arxiv.2609.29861",
+          "doi": "10.48550/arxiv.2609.29861",
+          "label": "candidate",
+          "openalex_id": "https://openalex.org/W7214344273",
+          "publication_date": "2026-09-24",
+          "reason": "shared author, related to baseline topic cluster",
+          "relation_type": "related",
+          "score": 4.5,
+          "semanticscholar_id": null,
+          "title": "GPT-6-Astra Lights Up Embodied Navigation: Evaluation in Zero-Shot Vision-and-Language Navigation in Continuous Environments",
+          "topic_ids": [],
+          "venue": "arXiv (Cornell University)",
+          "year": 2026
+        },
+        {
           "abstract": "Vision-and-Language Navigation (VLN) is a cornerstone of embodied intelligence. However, current agents often suffer from significant performance degradation when transitioning from simulation to real-world deployment, primarily due to perceptual instability (e.g., lighting variations and motion blur) and under-specified instructions. While existing methods attempt to bridge this gap by scaling up model size and training data, we argue that the bottleneck lies in the lack of robust spatial grounding and cross-domain priors. In this paper, we propose StereoNav, a robust Vision-Language-Action framework designed to enhance real-world navigation consistency. To address the inherent gap between synthetic training and physical execution, we introduce Target-Location Priors as a persistent bridge. These priors provide stable visual guidance that remains invariant across domains, effectively grounding the agent even when instructions are vague. Furthermore, to mitigate visual disturbances like motion blur and illumination shifts, StereoNav leverages stereo vision to construct a unified representation of semantics and geometry, enabling precise action prediction through enhanced depth awareness. Extensive experiments on R2R-CE and RxR-CE demonstrate that StereoNav achieves state-of-the-art egocentric RGB performance, with SR and SPL scores of 81.1% and 68.3%, and 67.5% and 52.0%, respectively, while using significantly fewer parameters and less training data than prior scaling-based approaches. More importantly, real-world robotic deployments confirm that StereoNav substantially improves navigation reliability in complex, unstructured environments. Project page: https://yunheng-wang.github.io/stereonav-public.github.io.",
           "arxiv_id": "2605.13328",
           "authors": [
@@ -702,7 +729,7 @@
       ],
       "title": "Vision-and-Language Navigation: Interpreting visually-grounded navigation instructions in real environments",
       "today_citations": 0,
-      "today_related": 0,
+      "today_related": 1,
       "topic_id": "vln"
     }
   ]

@@ -55,7 +55,7 @@
             "Enquang Feng"
           ],
           "baseline_ids": [],
-          "best_url": "https://doi.org/10.48550/arxiv.2609.26408",
+          "best_url": "https://arxiv.org/abs/2609.26408",
           "canonical_id": "doi:10.48550/arxiv.2609.26408",
           "doi": "10.48550/arxiv.2609.26408",
           "label": "candidate",
@@ -1044,7 +1044,7 @@
         "embodied navigation language grounding",
         "vln instruction following"
       ],
-      "today_count": 1,
+      "today_count": 0,
       "total_papers": 37
     }
   ]

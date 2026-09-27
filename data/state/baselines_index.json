@@ -7,6 +7,14 @@
       "reason": "title similarity 83, related to baseline topic cluster",
       "relation_type": "related",
       "score": 5.5
+    },
+    {
+      "canonical_id": "doi:10.48550/arxiv.2609.29861",
+      "date": "2026-09-27",
+      "label": "candidate",
+      "reason": "shared author, related to baseline topic cluster",
+      "relation_type": "related",
+      "score": 4.5
     }
   ],
   "secure-uav-ris": [
