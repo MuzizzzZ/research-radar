@@ -11,47 +11,19 @@
       "id": "room-to-room",
       "title": "Vision-and-Language Navigation: Interpreting visually-grounded navigation instructions in real environments",
       "today_citations": 0,
-      "today_related": 1,
+      "today_related": 0,
       "topic_id": "vln"
     }
   ],
-  "generated_at": "2026-09-27",
+  "generated_at": "2026-09-28",
   "issues": [
     "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
-  "latest_report_date": "2026-09-27",
+  "latest_report_date": "2026-09-28",
   "project_name": "research-radar",
-  "recent_papers": [
-    {
-      "abstract": "We investigate whether GPT-6-Astra, a general-purpose foundation model, can navigate unfamiliar environments using its own perception, reasoning, and decision-making capabilities. Our evaluation focues on zero-shot vision-and-language navigation in continuous environments (VLN-CE) through a minimal interface in the Codex harness, aiming to unleash GPT-6-Astra's full potential for navigation. Using monocular RGB, GPT-6-Astra decides when to observe, how to move, and when to stop, without navigation-specific fine-tuning, a trained waypoint predictor, or a pre-built scene map. Our evaluation yields four main findings. First, \\textbf{\\textit{GPT-6-Astra achieves strong zero-shot navigation performance using only monocular RGB observations}}. On the common-adopted zero-shot R2R-CE benchmark, ultra reasoning achieves a success rate of \\textbf{\\textit{79.0\\%}}, exceeding the strongest reported zero-shot and supervised success rates by \\textbf{\\textit{13.0}} and \\textbf{\\textit{6.9}} percentage points, respectively. Second, \\textbf{\\textit{GPT-6-Astra advances multi-stage language instructions into coherent, adaptive navigation}} by grounding spatial relations, tracking task progress, and revising its actions. Third, \\textbf{\\textit{reliable route execution and goal verification remain challenging, even with ultra reasoning}}. Plausible local landmark matches do not consistently lead to correct task completion. Fourth, \\textbf{\\textit{these capabilities motivate rethinking the role of embodied learning}}. Future VLN research should build on foundation models to advance generalizable and reliable embodied intelligence.",
-      "arxiv_id": "2609.29861",
-      "authors": [
-        "Guangzhao Dai",
-        "Qianru Sun",
-        "Qi Wu",
-        "Bin Zhu"
-      ],
-      "baseline_ids": [
-        "room-to-room"
-      ],
-      "best_url": "https://doi.org/10.48550/arxiv.2609.29861",
-      "canonical_id": "doi:10.48550/arxiv.2609.29861",
-      "doi": "10.48550/arxiv.2609.29861",
-      "label": "candidate",
-      "openalex_id": "https://openalex.org/W7214344273",
-      "publication_date": "2026-09-24",
-      "reason": "shared author, related to baseline topic cluster",
-      "relation_type": null,
-      "score": 4.5,
-      "semanticscholar_id": null,
-      "title": "GPT-6-Astra Lights Up Embodied Navigation: Evaluation in Zero-Shot Vision-and-Language Navigation in Continuous Environments",
-      "topic_ids": [],
-      "venue": "arXiv (Cornell University)",
-      "year": 2026
-    }
-  ],
-  "today_new_global": 1,
-  "today_new_total": 1,
+  "recent_papers": [],
+  "today_new_global": 0,
+  "today_new_total": 0,
   "topics": [
     {
       "id": "uav-ris",

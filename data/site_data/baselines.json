@@ -683,7 +683,7 @@
           "baseline_ids": [
             "room-to-room"
           ],
-          "best_url": "https://doi.org/10.48550/arxiv.2609.29861",
+          "best_url": "https://arxiv.org/abs/2609.29861",
           "canonical_id": "doi:10.48550/arxiv.2609.29861",
           "doi": "10.48550/arxiv.2609.29861",
           "label": "candidate",
@@ -729,7 +729,7 @@
       ],
       "title": "Vision-and-Language Navigation: Interpreting visually-grounded navigation instructions in real environments",
       "today_citations": 0,
-      "today_related": 1,
+      "today_related": 0,
       "topic_id": "vln"
     }
   ]

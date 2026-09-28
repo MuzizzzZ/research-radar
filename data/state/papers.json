@@ -3321,7 +3321,7 @@
     "last_updated": null,
     "normalized_title": "gpt 6 astra lights up embodied navigation evaluation in zero shot vision and language navigation in continuous environments",
     "openalex_id": "https://openalex.org/W7214344273",
-    "pdf_url": null,
+    "pdf_url": "https://arxiv.org/pdf/2609.29861",
     "primary_reason": "shared author, related to baseline topic cluster",
     "publication_date": "2026-09-24",
     "reasons": [
@@ -3348,7 +3348,7 @@
     ],
     "title": "GPT-6-Astra Lights Up Embodied Navigation: Evaluation in Zero-Shot Vision-and-Language Navigation in Continuous Environments",
     "title_hash": "183891a7f86cb0fb15415b32ee50f9957454763c",
-    "url": "https://doi.org/10.48550/arxiv.2609.29861",
+    "url": "https://arxiv.org/abs/2609.29861",
     "venue": "arXiv (Cornell University)",
     "year": 2026
   },
