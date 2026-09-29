@@ -1142,7 +1142,7 @@
       "Tong-Xing Zheng",
       "Z. Yetneberk",
       "Wenjie Wang",
-      "Chongwen Huang",
+      "Chong-Wen Huang",
       "Zhi Lin",
       "Hai-Yang Ding",
       "Jia Shi",
@@ -1200,7 +1200,7 @@
       "Xuan-Li Wu"
     ],
     "canonical_id": "doi:10.1109/tgcn.2025.3581390",
-    "citations_count": 0,
+    "citations_count": 1,
     "discovered_date": null,
     "doi": "10.1109/tgcn.2025.3581390",
     "external_ids": {
@@ -1742,7 +1742,7 @@
       "Peng Xu",
       "Ning Gao",
       "Feng Shu",
-      "Fuhui Zhou"
+      "Fu-Hui Zhou"
     ],
     "canonical_id": "doi:10.1109/twc.2026.3721164",
     "citations_count": 0,
@@ -3344,7 +3344,7 @@
       "openalex"
     ],
     "source_tags": [
-      "topic:vln:query:embodied navigation language grounding"
+      "topic:vln:query:vln instruction following"
     ],
     "title": "GPT-6-Astra Lights Up Embodied Navigation: Evaluation in Zero-Shot Vision-and-Language Navigation in Continuous Environments",
     "title_hash": "183891a7f86cb0fb15415b32ee50f9957454763c",
