@@ -1269,9 +1269,9 @@
     },
     "first_seen_date": "2026-09-27",
     "last_seen_by_scope": {
-      "baseline:room-to-room:related": "2026-09-29"
+      "baseline:room-to-room:related": "2026-09-30"
     },
-    "last_seen_date": "2026-09-29",
+    "last_seen_date": "2026-09-30",
     "relation_types": [
       "related"
     ],
@@ -1279,6 +1279,27 @@
       "baseline:room-to-room:related"
     ],
     "topic_ids": []
+  },
+  "doi:10.48550/arxiv.2609.31507": {
+    "baseline_ids": [],
+    "canonical_id": "doi:10.48550/arxiv.2609.31507",
+    "first_seen_by_scope": {
+      "topic:vln:topic": "2026-09-30"
+    },
+    "first_seen_date": "2026-09-30",
+    "last_seen_by_scope": {
+      "topic:vln:topic": "2026-09-30"
+    },
+    "last_seen_date": "2026-09-30",
+    "relation_types": [
+      "topic"
+    ],
+    "scope_keys": [
+      "topic:vln:topic"
+    ],
+    "topic_ids": [
+      "vln"
+    ]
   },
   "s2:08ba2877828708ace87d13acded59d47864d6659": {
     "baseline_ids": [

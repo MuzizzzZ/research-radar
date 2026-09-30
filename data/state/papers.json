@@ -3301,7 +3301,7 @@
     "year": 2026
   },
   "doi:10.48550/arxiv.2609.29861": {
-    "abstract": "We investigate whether GPT-6-Astra, a general-purpose foundation model, can navigate unfamiliar environments using its own perception, reasoning, and decision-making capabilities. Our evaluation focues on zero-shot vision-and-language navigation in continuous environments (VLN-CE) through a minimal interface in the Codex harness, aiming to unleash GPT-6-Astra's full potential for navigation. Using monocular RGB, GPT-6-Astra decides when to observe, how to move, and when to stop, without navigation-specific fine-tuning, a trained waypoint predictor, or a pre-built scene map. Our evaluation yields four main findings. First, \\textbf{\\textit{GPT-6-Astra achieves strong zero-shot navigation performance using only monocular RGB observations}}. On the common-adopted zero-shot R2R-CE benchmark, ultra reasoning achieves a success rate of \\textbf{\\textit{79.0\\%}}, exceeding the strongest reported zero-shot and supervised success rates by \\textbf{\\textit{13.0}} and \\textbf{\\textit{6.9}} percentage points, respectively. Second, \\textbf{\\textit{GPT-6-Astra advances multi-stage language instructions into coherent, adaptive navigation}} by grounding spatial relations, tracking task progress, and revising its actions. Third, \\textbf{\\textit{reliable route execution and goal verification remain challenging, even with ultra reasoning}}. Plausible local landmark matches do not consistently lead to correct task completion. Fourth, \\textbf{\\textit{these capabilities motivate rethinking the role of embodied learning}}. Future VLN research should build on foundation models to advance generalizable and reliable embodied intelligence.",
+    "abstract": "We investigate whether GPT-6-Astra, a general-purpose foundation model, can navigate unfamiliar environments using its own perception, reasoning, and decision-making capabilities. Our evaluation focuses on zero-shot vision-and-language navigation in continuous environments (VLN-CE) through a minimal interface in the Codex harness, aiming to unleash GPT-6-Astra's full potential for navigation. Using monocular RGB, GPT-6-Astra decides when to observe, how to move, and when to stop, without navigation-specific fine-tuning, a trained waypoint predictor, or a pre-built scene map. Our evaluation yields four key findings and implications. First, GPT-6-Astra achieves strong zero-shot navigation performance using only monocular RGB observations. On R2R-CE-100, GPT-6-Astra (ultra reasoning) achieves a success rate of 81.3%, exceeding the strongest reported zero-shot and even train-based success rates by 15.3 and 9.2 percentage points, respectively. Second, GPT-6-Astra exhibits promising capabilities in interpreting multi-stage instructions, understanding the environment, and adjusting routes. Third, execution and goal-verification failures persist even with ultra reasoning. Fourth, these results motivate combining general-purpose model capabilities with navigation-specific expertise. Based on these findings, future VLN research should investigate which aspects of instruction interpretation, spatial understanding, and navigation decision-making general-purpose models can handle directly, and where navigation-specific learning can extend their capabilities. This includes exploring how spatial representations, navigation experience, and learned control skills can improve progress tracking, error recovery, and goal verification while preserving the flexibility to adjust routes.",
     "arxiv_id": "2609.29861",
     "authors": [
       "Guangzhao Dai",
@@ -3349,6 +3349,61 @@
     "title": "GPT-6-Astra Lights Up Embodied Navigation: Evaluation in Zero-Shot Vision-and-Language Navigation in Continuous Environments",
     "title_hash": "183891a7f86cb0fb15415b32ee50f9957454763c",
     "url": "https://arxiv.org/abs/2609.29861",
+    "venue": "arXiv (Cornell University)",
+    "year": 2026
+  },
+  "doi:10.48550/arxiv.2609.31507": {
+    "abstract": "Urban uncrewed aerial vehicle (UAV) vision-language navigation (VLN) requires agents to follow instructions across extended urban spaces, inherently demanding long-term memory and geospatial grounding. However, scaling existing benchmarks remains difficult because of their reliance on costly reconstructed 3D assets, limiting geographic diversity and episode scale. To address this, we introduce SatNav, a scalable, long-horizon UAV VLN benchmark built from high-resolution satellite imagery. SatNav targets city-level navigation missions and uses satellite crops as approximations of UAV nadir views for visual observations. Through an automated cue-to-episode pipeline, SatNav constructs 118K episodes from 59 scenes across 18 cities, with an average trajectory length of 379 m. To stress-test long-horizon memory and geospatial reasoning, SatNav defines three task families: Boundary, Landmark, and Route, targeting loop progress tracking, landmark-based spatial grounding, and route following with counting cues. Benchmarking classical VLN agents and recent agents based on large vision-language models (LVLMs) on SatNav shows that city-scale navigation remains challenging. We further introduce SwiftVLN, a modular framework with switchable memory components, and conduct systematic memory-design ablations. Finally, satellite-to-UAV transfer experiments show that satellite-trained navigation models can operate on real-flight UAV observations, showing the practical relevance of SatNav. Our project page: https://eku127.github.io/SatNav/",
+    "arxiv_id": "2609.31507",
+    "authors": [
+      "Jiajun Jiang",
+      "Chunliang Hua",
+      "Zichun Chen",
+      "吴燕杏",
+      "Zeyuan Yang",
+      "Jie Song",
+      "Xiao Hu"
+    ],
+    "canonical_id": "doi:10.48550/arxiv.2609.31507",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": "10.48550/arxiv.2609.31507",
+    "external_ids": {
+      "doi": "https://doi.org/10.48550/arxiv.2609.31507",
+      "openalex": "https://openalex.org/W7214617521"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "satnav a scalable benchmark for long horizon uav vision language navigation from satellite imagery",
+    "openalex_id": "https://openalex.org/W7214617521",
+    "pdf_url": null,
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-09-25",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vln instruction following"
+    ],
+    "title": "SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation from Satellite Imagery",
+    "title_hash": "eb4067fa3bb160fc939955caf5a828dabe08a6a9",
+    "url": "https://doi.org/10.48550/arxiv.2609.31507",
     "venue": "arXiv (Cornell University)",
     "year": 2026
   },
