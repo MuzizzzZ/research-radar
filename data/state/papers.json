@@ -3376,7 +3376,7 @@
     "last_updated": null,
     "normalized_title": "satnav a scalable benchmark for long horizon uav vision language navigation from satellite imagery",
     "openalex_id": "https://openalex.org/W7214617521",
-    "pdf_url": null,
+    "pdf_url": "https://arxiv.org/pdf/2609.31507",
     "primary_reason": "title hit x1, abstract hit x1",
     "publication_date": "2026-09-25",
     "reasons": [
@@ -3403,7 +3403,7 @@
     ],
     "title": "SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation from Satellite Imagery",
     "title_hash": "eb4067fa3bb160fc939955caf5a828dabe08a6a9",
-    "url": "https://doi.org/10.48550/arxiv.2609.31507",
+    "url": "https://arxiv.org/abs/2609.31507",
     "venue": "arXiv (Cornell University)",
     "year": 2026
   },

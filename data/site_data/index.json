@@ -15,45 +15,15 @@
       "topic_id": "vln"
     }
   ],
-  "generated_at": "2026-09-30",
+  "generated_at": "2026-10-01",
   "issues": [
-    "Semantic Scholar citation fetch failed for baseline secure-uav-ris: Semantic Scholar API rate limit exceeded.",
     "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
-  "latest_report_date": "2026-09-30",
+  "latest_report_date": "2026-10-01",
   "project_name": "research-radar",
-  "recent_papers": [
-    {
-      "abstract": "Urban uncrewed aerial vehicle (UAV) vision-language navigation (VLN) requires agents to follow instructions across extended urban spaces, inherently demanding long-term memory and geospatial grounding. However, scaling existing benchmarks remains difficult because of their reliance on costly reconstructed 3D assets, limiting geographic diversity and episode scale. To address this, we introduce SatNav, a scalable, long-horizon UAV VLN benchmark built from high-resolution satellite imagery. SatNav targets city-level navigation missions and uses satellite crops as approximations of UAV nadir views for visual observations. Through an automated cue-to-episode pipeline, SatNav constructs 118K episodes from 59 scenes across 18 cities, with an average trajectory length of 379 m. To stress-test long-horizon memory and geospatial reasoning, SatNav defines three task families: Boundary, Landmark, and Route, targeting loop progress tracking, landmark-based spatial grounding, and route following with counting cues. Benchmarking classical VLN agents and recent agents based on large vision-language models (LVLMs) on SatNav shows that city-scale navigation remains challenging. We further introduce SwiftVLN, a modular framework with switchable memory components, and conduct systematic memory-design ablations. Finally, satellite-to-UAV transfer experiments show that satellite-trained navigation models can operate on real-flight UAV observations, showing the practical relevance of SatNav. Our project page: https://eku127.github.io/SatNav/",
-      "arxiv_id": "2609.31507",
-      "authors": [
-        "Jiajun Jiang",
-        "Chunliang Hua",
-        "Zichun Chen",
-        "吴燕杏",
-        "Zeyuan Yang"
-      ],
-      "baseline_ids": [],
-      "best_url": "https://doi.org/10.48550/arxiv.2609.31507",
-      "canonical_id": "doi:10.48550/arxiv.2609.31507",
-      "doi": "10.48550/arxiv.2609.31507",
-      "label": "candidate",
-      "openalex_id": "https://openalex.org/W7214617521",
-      "publication_date": "2026-09-25",
-      "reason": "title hit x1, abstract hit x1",
-      "relation_type": null,
-      "score": 4.5,
-      "semanticscholar_id": null,
-      "title": "SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation from Satellite Imagery",
-      "topic_ids": [
-        "vln"
-      ],
-      "venue": "arXiv (Cornell University)",
-      "year": 2026
-    }
-  ],
-  "today_new_global": 1,
-  "today_new_total": 1,
+  "recent_papers": [],
+  "today_new_global": 0,
+  "today_new_total": 0,
   "topics": [
     {
       "id": "uav-ris",
@@ -64,7 +34,7 @@
     {
       "id": "vln",
       "name": "Vision-Language Navigation",
-      "today_count": 1,
+      "today_count": 0,
       "total_papers": 38
     }
   ]
