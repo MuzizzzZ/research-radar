@@ -3407,6 +3407,120 @@
     "venue": "arXiv (Cornell University)",
     "year": 2026
   },
+  "doi:10.48550/arxiv.2609.37353": {
+    "abstract": "Vision-Language Navigation (VLN) requires agents to continuously ground task progress from long-horizon instructions and partial egocentric observations. Existing VLM-based navigation agents typically reason only over available observations and may remain confident even when task-relevant evidence is missing. For example, an agent may confidently proceed forward and get lost even though the landmark indicating the next turn lies outside its current field of view. We term this failure mode Progress Myopia: the agent fails to recognize unreliable progress grounding and continues acting on insufficient evidence. To address it, we propose SeekVLN, an evidence-seeking framework that couples semantic progress reasoning with active acquisition of task-relevant observations. SeekVLN is trained in two stages: First, Future-guided Reverse Generation (FRG) uses future expert actions to augment offline expert trajectories with supplementary views and evidence annotations. Supervised fine-tuning on these trajectories establishes a prior for evidence seeking and progress reasoning without additional expert interaction. However, imitation alone does not reveal whether seeking improves subsequent navigation. We therefore introduce Counterfactual Contrastive Policy Optimization (C2PO) for reinforcement fine-tuning. By comparing each evidence-seeking branch with a counterfactual direct-navigation branch from the same state, C2PO uses a contrastive reward to assign credit to seeking decisions based on subsequent navigation benefit. Experiments on simulated benchmarks show that SeekVLN achieves state-of-the-art performance, improving success rate by 12.7% and 7.5% over the base model on R2R-CE and RxR-CE, respectively. Both simulated and real-world evaluations exhibit human-like evidence-seeking behaviors for more reliable progress grounding.",
+    "arxiv_id": "2609.37353",
+    "authors": [
+      "Zhimin Wang",
+      "Meiyuan Zhu",
+      "Duo Wu",
+      "Linjia Kang",
+      "Yajun Wang",
+      "Yuan Ni",
+      "Xiaohang Wang",
+      "Tianlu Pan",
+      "Jingyan Jiang",
+      "Yaowei Wang",
+      "Zhi Wang"
+    ],
+    "canonical_id": "doi:10.48550/arxiv.2609.37353",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": "10.48550/arxiv.2609.37353",
+    "external_ids": {
+      "doi": "https://doi.org/10.48550/arxiv.2609.37353",
+      "openalex": "https://openalex.org/W7214901952"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "seek before you move evidence seeking for progress grounding in vision language navigation",
+    "openalex_id": "https://openalex.org/W7214901952",
+    "pdf_url": "https://arxiv.org/pdf/2609.37353",
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-09-29",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vln instruction following"
+    ],
+    "title": "Seek Before You Move: Evidence Seeking for Progress Grounding in Vision-Language Navigation",
+    "title_hash": "3d9aafc2b76c121804a728937cad900f9e938e8f",
+    "url": "https://arxiv.org/abs/2609.37353",
+    "venue": "arXiv (Cornell University)",
+    "year": 2026
+  },
+  "doi:10.48550/arxiv.2609.37591": {
+    "abstract": "Test-time adaptation for vision-language navigation (TTA-VLN) enables pretrained policies to adapt online to unseen environments using only test-time observations and interaction history. However, distribution shifts can distort local action preferences and lead to off-course decisions. Existing methods rely on predictive uncertainty, trajectory-level feedback, or accumulated adaptation experience to correct such deviations. These signals, however, do not directly reveal whether an executed action supports instruction-guided progress toward the goal. Moreover, a plausible corrective signal does not guarantee a reliable policy update. The key challenge is thus twofold: identifying interactions that support goal-directed improvement and determining whether the resulting updates are worth retaining. We observe that each executed action induces an immediate observation transition, providing evidence of its local consequences. Based on this insight, we propose Credit-Guided Policy Improvement (CGPI), which recovers signed, reference-relative decision credit from action-induced observation transitions without external outcome feedback. With the pretrained navigation policy frozen, CGPI uses this credit to propose lightweight adaptation updates and verifies them against prior credit-supported interactions. Updates are retained only when supported and rolled back otherwise. CGPI achieves consistent gains across the evaluated VLN benchmarks and navigation backbones, while qualitative robot trials further illustrate the feasibility of zero-shot sim-to-real transfer.",
+    "arxiv_id": "2609.37591",
+    "authors": [
+      "Yang Li",
+      "Sijia Zhang",
+      "Yihan Li",
+      "Aming WU",
+      "Zihao Zhang",
+      "Han Ziju",
+      "Yahong Han"
+    ],
+    "canonical_id": "doi:10.48550/arxiv.2609.37591",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": "10.48550/arxiv.2609.37591",
+    "external_ids": {
+      "doi": "https://doi.org/10.48550/arxiv.2609.37591",
+      "openalex": "https://openalex.org/W7214922596"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "credit guided policy improvement for test time adaptive vision language navigation",
+    "openalex_id": "https://openalex.org/W7214922596",
+    "pdf_url": "https://arxiv.org/pdf/2609.37591",
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-09-29",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vln instruction following"
+    ],
+    "title": "Credit-Guided Policy Improvement for Test-time Adaptive Vision-Language Navigation",
+    "title_hash": "63672910d908a58651d857bfae3bca44e2fee427",
+    "url": "https://arxiv.org/abs/2609.37591",
+    "venue": "arXiv (Cornell University)",
+    "year": 2026
+  },
   "s2:08ba2877828708ace87d13acded59d47864d6659": {
     "abstract": null,
     "arxiv_id": null,
