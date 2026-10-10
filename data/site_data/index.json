@@ -3,7 +3,7 @@
     {
       "id": "secure-uav-ris",
       "title": "Joint Trajectory and Passive Beamforming Design for Secure UAV-RIS Communication Systems",
-      "today_citations": 0,
+      "today_citations": 1,
       "today_related": 0,
       "topic_id": "uav-ris"
     },
@@ -15,15 +15,44 @@
       "topic_id": "vln"
     }
   ],
-  "generated_at": "2026-10-08",
+  "generated_at": "2026-10-10",
   "issues": [
     "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
-  "latest_report_date": "2026-10-08",
+  "latest_report_date": "2026-10-10",
   "project_name": "research-radar",
-  "recent_papers": [],
-  "today_new_global": 0,
-  "today_new_total": 0,
+  "recent_papers": [
+    {
+      "abstract": "Uncrewed aerial vehicle (UAV)-assisted mobile edge computing (MEC) is essential for supporting large-scale Internet of Things (IoT) connectivity; however, its performance is fundamentally constrained by fragmented optimization across the electromagnetic, network, and user behavior domains. This article proposes a holistic multidomain joint optimization framework that integrates these interdependent domains into a unified model, explicitly preserving the causal feedback chain from trajectory decisions through channel states to queue dynamics. The joint trajectory design, task offloading, and resource allocation problem is formulated as a mixed-integer nonconvex program (MINCP) to maximize long-term system utility. To solve this NP-hard problem, an iterative algorithm based on block coordinate descent (BCD) is developed, employing mixed-integer linear programming (MILP) and successive convex approximation (SCA) for tractable optimization. Extensive simulation results demonstrate that the proposed framework converges rapidly and exhibits superior robustness against environmental uncertainties via a maximin formulation. Notably, under heavy traffic loads, our method keeps task deadline violations below 2.5% while actively adapting the UAV trajectory to dynamic interference landscapes. This proactive coupling achieves up to a 23.5% reduction in total system energy consumption compared to conventional static-hovering baselines, thereby confirming the effectiveness of the cross-domain joint optimization paradigm.",
+      "arxiv_id": null,
+      "authors": [
+        "Jin-Peng Ran",
+        "Qi-Jie Qian",
+        "Jia-Qi Lin",
+        "Xu-Dong Zhong",
+        "Mu-Gen Peng"
+      ],
+      "baseline_ids": [
+        "secure-uav-ris"
+      ],
+      "best_url": "https://www.semanticscholar.org/paper/0501526ea949dadbd17791967d1e5265d5f5151f",
+      "canonical_id": "doi:10.1109/jiot.2026.3703558",
+      "doi": "10.1109/jiot.2026.3703558",
+      "label": "candidate",
+      "openalex_id": null,
+      "publication_date": "2026-10-15",
+      "reason": "direct citation to baseline",
+      "relation_type": null,
+      "score": 7.5,
+      "semanticscholar_id": "0501526ea949dadbd17791967d1e5265d5f5151f",
+      "title": "Robust Multidomain Joint Optimization of Trajectory, Offloading, and Resources in UAV-MEC Networks",
+      "topic_ids": [],
+      "venue": "IEEE Internet of Things Journal",
+      "year": 2026
+    }
+  ],
+  "today_new_global": 1,
+  "today_new_total": 1,
   "topics": [
     {
       "id": "uav-ris",

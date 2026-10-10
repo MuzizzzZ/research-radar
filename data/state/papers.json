@@ -917,6 +917,60 @@
     "venue": "IEEE Access",
     "year": 2026
   },
+  "doi:10.1109/jiot.2026.3703558": {
+    "abstract": "Uncrewed aerial vehicle (UAV)-assisted mobile edge computing (MEC) is essential for supporting large-scale Internet of Things (IoT) connectivity; however, its performance is fundamentally constrained by fragmented optimization across the electromagnetic, network, and user behavior domains. This article proposes a holistic multidomain joint optimization framework that integrates these interdependent domains into a unified model, explicitly preserving the causal feedback chain from trajectory decisions through channel states to queue dynamics. The joint trajectory design, task offloading, and resource allocation problem is formulated as a mixed-integer nonconvex program (MINCP) to maximize long-term system utility. To solve this NP-hard problem, an iterative algorithm based on block coordinate descent (BCD) is developed, employing mixed-integer linear programming (MILP) and successive convex approximation (SCA) for tractable optimization. Extensive simulation results demonstrate that the proposed framework converges rapidly and exhibits superior robustness against environmental uncertainties via a maximin formulation. Notably, under heavy traffic loads, our method keeps task deadline violations below 2.5% while actively adapting the UAV trajectory to dynamic interference landscapes. This proactive coupling achieves up to a 23.5% reduction in total system energy consumption compared to conventional static-hovering baselines, thereby confirming the effectiveness of the cross-domain joint optimization paradigm.",
+    "arxiv_id": null,
+    "authors": [
+      "Jin-Peng Ran",
+      "Qi-Jie Qian",
+      "Jia-Qi Lin",
+      "Xu-Dong Zhong",
+      "Mu-Gen Peng",
+      "Bao-Quan Ren"
+    ],
+    "canonical_id": "doi:10.1109/jiot.2026.3703558",
+    "citations_count": 0,
+    "discovered_date": null,
+    "doi": "10.1109/jiot.2026.3703558",
+    "external_ids": {
+      "CorpusId": "289412364",
+      "DOI": "10.1109/JIOT.2026.3703558"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "robust multidomain joint optimization of trajectory offloading and resources in uav mec networks",
+    "openalex_id": null,
+    "pdf_url": "",
+    "primary_reason": "direct citation to baseline",
+    "publication_date": "2026-10-15",
+    "reasons": [
+      "direct citation to baseline"
+    ],
+    "references_count": 38,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "direct citation to baseline",
+        "relation_type": "citation",
+        "scope_id": "secure-uav-ris",
+        "scope_type": "baseline",
+        "score": 7.5
+      }
+    ],
+    "score": 7.5,
+    "semanticscholar_id": "0501526ea949dadbd17791967d1e5265d5f5151f",
+    "source_names": [
+      "semanticscholar"
+    ],
+    "source_tags": [
+      "baseline:secure-uav-ris:citation"
+    ],
+    "title": "Robust Multidomain Joint Optimization of Trajectory, Offloading, and Resources in UAV-MEC Networks",
+    "title_hash": "26322555056a86b47bf67f6cfcde5fb05eafdc96",
+    "url": "https://www.semanticscholar.org/paper/0501526ea949dadbd17791967d1e5265d5f5151f",
+    "venue": "IEEE Internet of Things Journal",
+    "year": 2026
+  },
   "doi:10.1109/jmass.2026.3664901": {
     "abstract": "This work investigates a secure uncrewed aerial vehicle (UAV)-assisted communication system enhanced by a ground-deployed reconfigurable intelligent surface (RIS), aiming to ensure secure communications for multiple ground users under the threat of a malicious eavesdropper. The core challenge lies in the joint optimization of UAV trajectory, beamforming vectors, and RIS phase shifts to maximize the average secrecy rate, which is a highly nonconvex problem involving coupled continuous and discrete variables. To address this, we propose a multihead distributional soft actor–critic (DSAC) framework that formulates the problem as a Markov decision process (MDP) and integrates continuous flight control variables, including UAV position and beamforming and discrete communication variables, which are RIS phase shifts into a unified reinforcement learning model. The proposed framework employs a multihead actor network to handle mixed actions and distributional critic networks to enhance value estimation robustness. Simulation results demonstrate that the proposed multihead DSAC outperforms existing reinforcement learning algorithms in terms of average secrecy rate and convergence stability, validating its effectiveness in dynamic and hostile wireless environments.",
     "arxiv_id": null,
@@ -1089,7 +1143,7 @@
       "Zhuang Zhang",
       "Feng Shu",
       "Xing-Wang Li",
-      "Jiangzhou Wang"
+      "Jiang-Zhou Wang"
     ],
     "canonical_id": "doi:10.1109/tccn.2025.3613521",
     "citations_count": 5,
@@ -1472,7 +1526,7 @@
       "Jianji Shao"
     ],
     "canonical_id": "doi:10.1109/tnse.2025.3648816",
-    "citations_count": 1,
+    "citations_count": 2,
     "discovered_date": null,
     "doi": "10.1109/tnse.2025.3648816",
     "external_ids": {
@@ -3528,7 +3582,7 @@
       "Xiaoyan Hu"
     ],
     "canonical_id": "s2:08ba2877828708ace87d13acded59d47864d6659",
-    "citations_count": 26,
+    "citations_count": 27,
     "discovered_date": null,
     "doi": null,
     "external_ids": {
