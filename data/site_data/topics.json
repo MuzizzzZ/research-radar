@@ -17,6 +17,34 @@
       "name": "Vision-Language Navigation",
       "papers": [
         {
+          "abstract": "Vision–Language Navigation (VLN) requires embodied agents to interpret natural-language instructions in 3D environments. While significant progress has been made, state-of-the-art agents often struggle with instructions that demand fine-grained visual understanding, correctly grounding specific object attributes, distinguishing between similar objects, and interpreting complex spatial relationships. Many methods rely on static visual features or on global cross-modal attention and lack mechanisms to dynamically resolve ambiguities during navigation. We propose DyGRAV (Dynamic Grounding and Relational Reasoning for VLN), which is a dynamic, uncertainty-aware framework that augments a strong VLN backbone with two adaptively triggered reasoning modules. The Contextual VLM Querying module detects grounding ambiguity for descriptive phrases (e.g., “the ceramic bowl”) and issues targeted queries to a vision–language model (e.g., CLIP) using current visual evidence, while the Incremental Relational Scene Graph (IRSG) constructs lightweight, task-relevant relational memory online to resolve complex spatial relations (e.g., “the chair next to the window”). A budget-aware gating mechanism regulates when these modules are invoked, optimizing the balance between reasoning quality and computational cost through value-per-cost selection and hard budget constraints. Comprehensive evaluations on R2R and RxR, along with a fine-grained diagnostic benchmark emphasizing attribute and relation understanding, show that DyGRAV achieves superior navigation accuracy on challenging instructions while maintaining bounded per-step compute budgets with 97.33% episode-level adherence.",
+          "arxiv_id": null,
+          "authors": [
+            "Zain Chaudhary",
+            "Zohaib Chaudhary",
+            "Hammad Ahmed",
+            "Prabin Bajgai",
+            "Rabab Abdelfattah"
+          ],
+          "baseline_ids": [],
+          "best_url": "https://doi.org/10.3390/info17101030",
+          "canonical_id": "doi:10.3390/info17101030",
+          "doi": "10.3390/info17101030",
+          "label": "candidate",
+          "openalex_id": "https://openalex.org/W7222544060",
+          "publication_date": "2026-10-16",
+          "reason": "title hit x1, abstract hit x1",
+          "relation_type": "topic",
+          "score": 4.5,
+          "semanticscholar_id": null,
+          "title": "DyGRAV: Dynamic Grounding and Relational Reasoning for Vision–Language Navigation",
+          "topic_ids": [
+            "vln"
+          ],
+          "venue": "Information",
+          "year": 2026
+        },
+        {
           "abstract": "Vision-Language Navigation (VLN) requires agents to continuously ground task progress from long-horizon instructions and partial egocentric observations. Existing VLM-based navigation agents typically reason only over available observations and may remain confident even when task-relevant evidence is missing. For example, an agent may confidently proceed forward and get lost even though the landmark indicating the next turn lies outside its current field of view. We term this failure mode Progress Myopia: the agent fails to recognize unreliable progress grounding and continues acting on insufficient evidence. To address it, we propose SeekVLN, an evidence-seeking framework that couples semantic progress reasoning with active acquisition of task-relevant observations. SeekVLN is trained in two stages: First, Future-guided Reverse Generation (FRG) uses future expert actions to augment offline expert trajectories with supplementary views and evidence annotations. Supervised fine-tuning on these trajectories establishes a prior for evidence seeking and progress reasoning without additional expert interaction. However, imitation alone does not reveal whether seeking improves subsequent navigation. We therefore introduce Counterfactual Contrastive Policy Optimization (C2PO) for reinforcement fine-tuning. By comparing each evidence-seeking branch with a counterfactual direct-navigation branch from the same state, C2PO uses a contrastive reward to assign credit to seeking decisions based on subsequent navigation benefit. Experiments on simulated benchmarks show that SeekVLN achieves state-of-the-art performance, improving success rate by 12.7% and 7.5% over the base model on R2R-CE and RxR-CE, respectively. Both simulated and real-world evaluations exhibit human-like evidence-seeking behaviors for more reliable progress grounding.",
           "arxiv_id": "2609.37353",
           "authors": [
@@ -1128,8 +1156,8 @@
         "embodied navigation language grounding",
         "vln instruction following"
       ],
-      "today_count": 0,
-      "total_papers": 40
+      "today_count": 1,
+      "total_papers": 41
     }
   ]
 }

@@ -319,6 +319,14 @@
       "reason": "title hit x1, abstract hit x1",
       "relation_type": "topic",
       "score": 4.5
+    },
+    {
+      "canonical_id": "doi:10.3390/info17101030",
+      "date": "2026-10-18",
+      "label": "candidate",
+      "reason": "title hit x1, abstract hit x1",
+      "relation_type": "topic",
+      "score": 4.5
     }
   ]
 }

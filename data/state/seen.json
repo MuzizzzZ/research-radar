@@ -776,6 +776,27 @@
     ],
     "topic_ids": []
   },
+  "doi:10.3390/info17101030": {
+    "baseline_ids": [],
+    "canonical_id": "doi:10.3390/info17101030",
+    "first_seen_by_scope": {
+      "topic:vln:topic": "2026-10-18"
+    },
+    "first_seen_date": "2026-10-18",
+    "last_seen_by_scope": {
+      "topic:vln:topic": "2026-10-18"
+    },
+    "last_seen_date": "2026-10-18",
+    "relation_types": [
+      "topic"
+    ],
+    "scope_keys": [
+      "topic:vln:topic"
+    ],
+    "topic_ids": [
+      "vln"
+    ]
+  },
   "doi:10.3390/s26113469": {
     "baseline_ids": [
       "secure-uav-ris"
