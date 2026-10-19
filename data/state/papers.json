@@ -2046,7 +2046,6 @@
       "openalex"
     ],
     "source_tags": [
-      "topic:vln:query:vision language navigation",
       "topic:vln:query:embodied navigation language grounding"
     ],
     "title": "DyGRAV: Dynamic Grounding and Relational Reasoning for Vision–Language Navigation",
