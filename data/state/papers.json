@@ -1146,7 +1146,7 @@
       "Jiang-Zhou Wang"
     ],
     "canonical_id": "doi:10.1109/tccn.2025.3613521",
-    "citations_count": 5,
+    "citations_count": 6,
     "discovered_date": null,
     "doi": "10.1109/tccn.2025.3613521",
     "external_ids": {
@@ -1203,7 +1203,7 @@
       "Zan Li"
     ],
     "canonical_id": "doi:10.1109/tcomm.2026.3706477",
-    "citations_count": 0,
+    "citations_count": 1,
     "discovered_date": null,
     "doi": "10.1109/tcomm.2026.3706477",
     "external_ids": {
@@ -1573,7 +1573,7 @@
     "abstract": "Antenna arrays are the fundamental component of modern high-throughput wireless networks. The diversity of array structures and system functionalities results in strong non-convexity of the related optimization problems, making it difficult to derive optimal solutions and thereby limiting network performance. To address this issue, the order-reduction optimization plays an important role, providing a trade-off between system performance and computational complexity. In this paper, we propose a comprehensive and systematic framework on order-reduction optimization, which has a wide range of application scenarios and satisfactory performance. We first discuss the construction of order-reduction inequalities and related properties in terms of three mathematical paradigms: the log-trace-based identity, the positive definite identity, and the tangent identity. Then we propose order-reduction algorithms applied to constant-modulus (CM) constrained optimization problems. Specifically, the hybrid digital-analog system, the reconfigurable intelligent surface (RIS)-aided system, and the holographic metasurface antenna (HMA)-aided system are investigated, respectively. In addition, we consider the application of the proposed order-reduction algorithms to different functional systems, where integrated sensing and communication (ISAC) and the physical layer security (PLS) are included.",
     "arxiv_id": null,
     "authors": [
-      "Yihan Li",
+      "Yi-Han Li",
       "Cheng-Wen Xing",
       "Shi-Qi Gong",
       "Nan Zhao"
