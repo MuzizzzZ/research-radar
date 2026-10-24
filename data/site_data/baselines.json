@@ -449,7 +449,7 @@
           "arxiv_id": null,
           "authors": [
             "Jia-Jun Zhu",
-            "Haisu Wu",
+            "Hai-Su Wu",
             "Hongxiang Ren",
             "Cun-Hua Pan",
             "Rui Shi"
@@ -611,7 +611,7 @@
           "abstract": "Cooperated with simultaneously transmitting and reflecting reconfigurable intelligent surface (STAR-RIS) and autonomous aerial vehicle (AAV), a non-orthogonal multiple access (NOMA) covert communication network is conceived. However, open channels are more vulnerable to eavesdropping by Wardens, overlying that the channel state information (CSI) may be unstable with AAV’s time-varying deployments. In this paper, a deep reinforcement learning (DRL)-based and instantaneous channel-deducted framework is investigated for resolving the cutting-edge maximization problem of covert communication rate, subjected to the AAV flight, QoS requirement, and communication covertness. Given the channels instability caused by time-varying AAV flight, we design a channel deduction network by integrating complex-domain multi-layer perceptron (CMixer) and recurrence-based bidirectional long-short term memory (BiLSTM) to exploit the nonlinear correlations of channels in time, spatial location, and antenna domains. Relying on the states with deducted channels, the Twin Delayed Deep Deterministic policy gradient (TD3) as a proactive and policy-based DRL algorithm is used to iteratively train an agent responsible for adaptive adjusting AAV deployment and STAR-RIS beamforming. Simulation results demonstrate the effectiveness of the proposed channel deduction scheme, covert communication mechanism, and their synthesis.",
           "arxiv_id": null,
           "authors": [
-            "Minghao Chen",
+            "Ming-Hao Chen",
             "Feng Shu",
             "Min Zhu",
             "Xiao-Bo Zhou",
