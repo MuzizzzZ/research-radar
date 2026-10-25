@@ -1,14 +1,15 @@
 {
-  "candidates_collected": 79,
-  "deduped_count": 74,
-  "generated_at": "2026-10-24",
+  "candidates_collected": 58,
+  "deduped_count": 45,
+  "generated_at": "2026-10-25",
   "issues": [
+    "Semantic Scholar citation fetch failed for baseline secure-uav-ris: Semantic Scholar API rate limit exceeded.",
     "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
   "new_global_count": 0,
   "new_scope_count": 0,
-  "report_date": "2026-10-24",
-  "selected_count": 18,
-  "window_end": "2026-10-24",
-  "window_start": "2026-10-18"
+  "report_date": "2026-10-25",
+  "selected_count": 0,
+  "window_end": "2026-10-25",
+  "window_start": "2026-10-19"
 }
