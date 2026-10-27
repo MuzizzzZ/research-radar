@@ -3,6 +3,34 @@
     {
       "citations": [
         {
+          "abstract": "The evolution of 6G networks toward integrated air–ground–space systems has highlighted drones as a key solution for enhancing communication in complex terrains. However, their practical deployment faces multiple challenges, including non-line-of-sight (NLoS) propagation, cochannel interference, and energy constraints. To address these issues, this article proposes a graph neural network (GNN)- and multilayer perceptron (MLP)-assisted multiobjective matrix particle swarm optimization (GM-MOPSO) algorithm. We construct a 3-D optimization model that integrates signal coverage, interference suppression, and energy efficiency, aiming to overcome the shortcomings of traditional methods, such as slow convergence and susceptibility to local optima in high-dimensional nonconvex problems. By introducing a physics-informed GNN surrogate model to accelerate evaluation and an MLP-based adaptive parameter controller, the proposed algorithm effectively balances global exploration and local exploitation. Simulation results demonstrate that GM-MOPSO significantly improves Pareto frontier quality and computational efficiency in real urban scenarios. The algorithm achieves collaborative optimization of drone 3-D positioning, intelligent reflecting surface (IRS) phase shifts, and power allocation, providing a new paradigm for green and efficient wireless network deployment. The code related to this algorithm is available at https://github.com/Donglin0730/GM-MOPSO",
+          "arxiv_id": null,
+          "authors": [
+            "Jia-Ling Hu",
+            "Hong-Jie Guo",
+            "Dong-Lin Zhu",
+            "Jian-Bo Tan",
+            "Chang-Jun Zhou"
+          ],
+          "baseline_ids": [
+            "secure-uav-ris"
+          ],
+          "best_url": "https://www.semanticscholar.org/paper/f2bdc457e8494194c14471003a87440fb5d95419",
+          "canonical_id": "doi:10.1109/jiot.2026.3725384",
+          "doi": "10.1109/jiot.2026.3725384",
+          "label": "candidate",
+          "openalex_id": null,
+          "publication_date": "2026-11-01",
+          "reason": "direct citation to baseline",
+          "relation_type": "citation",
+          "score": 7.5,
+          "semanticscholar_id": "f2bdc457e8494194c14471003a87440fb5d95419",
+          "title": "A Multiobjective Matrix Particle Swarm Optimization Algorithm Integrating Graph Neural Networks and Multilayer Perceptrons for IRS-Assisted Drone Deployment",
+          "topic_ids": [],
+          "venue": "IEEE Internet of Things Journal",
+          "year": 2026
+        },
+        {
           "abstract": "Uncrewed aerial vehicle (UAV)-assisted mobile edge computing (MEC) is essential for supporting large-scale Internet of Things (IoT) connectivity; however, its performance is fundamentally constrained by fragmented optimization across the electromagnetic, network, and user behavior domains. This article proposes a holistic multidomain joint optimization framework that integrates these interdependent domains into a unified model, explicitly preserving the causal feedback chain from trajectory decisions through channel states to queue dynamics. The joint trajectory design, task offloading, and resource allocation problem is formulated as a mixed-integer nonconvex program (MINCP) to maximize long-term system utility. To solve this NP-hard problem, an iterative algorithm based on block coordinate descent (BCD) is developed, employing mixed-integer linear programming (MILP) and successive convex approximation (SCA) for tractable optimization. Extensive simulation results demonstrate that the proposed framework converges rapidly and exhibits superior robustness against environmental uncertainties via a maximin formulation. Notably, under heavy traffic loads, our method keeps task deadline violations below 2.5% while actively adapting the UAV trajectory to dynamic interference landscapes. This proactive coupling achieves up to a 23.5% reduction in total system energy consumption compared to conventional static-hovering baselines, thereby confirming the effectiveness of the cross-domain joint optimization paradigm.",
           "arxiv_id": null,
           "authors": [
@@ -584,7 +612,7 @@
           "arxiv_id": null,
           "authors": [
             "Habtamu Demeke Mihertie",
-            "Zhengqiang Wang",
+            "Zheng-Qiang Wang",
             "M. Ouamri",
             "Elhadj Moustapha Diallo",
             "Xing-Wang Li"
@@ -691,7 +719,7 @@
       "id": "secure-uav-ris",
       "related": [],
       "title": "Joint Trajectory and Passive Beamforming Design for Secure UAV-RIS Communication Systems",
-      "today_citations": 0,
+      "today_citations": 1,
       "today_related": 0,
       "topic_id": "uav-ris"
     },
