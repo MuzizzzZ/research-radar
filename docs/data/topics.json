@@ -17,6 +17,34 @@
       "name": "Vision-Language Navigation",
       "papers": [
         {
+          "abstract": "As Vision-Language Models (VLMs) increasingly enable robots to follow language instructions, understanding their navigation decisions becomes important for reliable deployment. Existing explainability methods overlook a key challenge in Vision-Language Navigation (VLN): evidence for the current action may be distributed across historical and current observations and associated with different instruction stages. We identify instruction-stage insensitivity, where existing methods produce similar explanations despite changes across different navigation stages. To address this issue, we propose a stage-aware attribution framework for VLN. We first construct action-conditioned temporal instruction--visual attributions across observations. These attributions are projected into instruction space to estimate stage associations, which guide the aggregation of relevant historical evidence for refining the current explanation. An instruction-guided spatial filter further suppresses isolated responses while preserving compact, instruction-relevant regions. Experiments across multiple VLN policies and benchmarks show improved attribution quality over existing methods. We further demonstrate that our method acts as a diagnostic tool for analyzing failure cases, and validate its applicability to real-world navigation on a Unitree G1 robot.",
+          "arxiv_id": "2610.34028",
+          "authors": [
+            "Yiyuan Yao",
+            "Xinpeng Ding",
+            "Minglei Chen",
+            "Fei Gao",
+            "Lihuo He"
+          ],
+          "baseline_ids": [],
+          "best_url": "https://arxiv.org/abs/2610.34028",
+          "canonical_id": "doi:10.48550/arxiv.2610.34028",
+          "doi": "10.48550/arxiv.2610.34028",
+          "label": "candidate",
+          "openalex_id": "https://openalex.org/W7223909711",
+          "publication_date": "2026-10-25",
+          "reason": "title hit x1, abstract hit x1",
+          "relation_type": "topic",
+          "score": 4.5,
+          "semanticscholar_id": null,
+          "title": "Explaining Navigation Decisions: Stage-Aware Visual Attribution for Vision-Language Navigation",
+          "topic_ids": [
+            "vln"
+          ],
+          "venue": "arXiv (Cornell University)",
+          "year": 2026
+        },
+        {
           "abstract": "Vision–Language Navigation (VLN) requires embodied agents to interpret natural-language instructions in 3D environments. While significant progress has been made, state-of-the-art agents often struggle with instructions that demand fine-grained visual understanding, correctly grounding specific object attributes, distinguishing between similar objects, and interpreting complex spatial relationships. Many methods rely on static visual features or on global cross-modal attention and lack mechanisms to dynamically resolve ambiguities during navigation. We propose DyGRAV (Dynamic Grounding and Relational Reasoning for VLN), which is a dynamic, uncertainty-aware framework that augments a strong VLN backbone with two adaptively triggered reasoning modules. The Contextual VLM Querying module detects grounding ambiguity for descriptive phrases (e.g., “the ceramic bowl”) and issues targeted queries to a vision–language model (e.g., CLIP) using current visual evidence, while the Incremental Relational Scene Graph (IRSG) constructs lightweight, task-relevant relational memory online to resolve complex spatial relations (e.g., “the chair next to the window”). A budget-aware gating mechanism regulates when these modules are invoked, optimizing the balance between reasoning quality and computational cost through value-per-cost selection and hard budget constraints. Comprehensive evaluations on R2R and RxR, along with a fine-grained diagnostic benchmark emphasizing attribute and relation understanding, show that DyGRAV achieves superior navigation accuracy on challenging instructions while maintaining bounded per-step compute budgets with 97.33% episode-level adherence.",
           "arxiv_id": null,
           "authors": [
@@ -1156,8 +1184,8 @@
         "embodied navigation language grounding",
         "vln instruction following"
       ],
-      "today_count": 0,
-      "total_papers": 41
+      "today_count": 1,
+      "total_papers": 42
     }
   ]
 }

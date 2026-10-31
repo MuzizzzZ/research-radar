@@ -3684,6 +3684,63 @@
     "venue": "arXiv (Cornell University)",
     "year": 2026
   },
+  "doi:10.48550/arxiv.2610.34028": {
+    "abstract": "As Vision-Language Models (VLMs) increasingly enable robots to follow language instructions, understanding their navigation decisions becomes important for reliable deployment. Existing explainability methods overlook a key challenge in Vision-Language Navigation (VLN): evidence for the current action may be distributed across historical and current observations and associated with different instruction stages. We identify instruction-stage insensitivity, where existing methods produce similar explanations despite changes across different navigation stages. To address this issue, we propose a stage-aware attribution framework for VLN. We first construct action-conditioned temporal instruction--visual attributions across observations. These attributions are projected into instruction space to estimate stage associations, which guide the aggregation of relevant historical evidence for refining the current explanation. An instruction-guided spatial filter further suppresses isolated responses while preserving compact, instruction-relevant regions. Experiments across multiple VLN policies and benchmarks show improved attribution quality over existing methods. We further demonstrate that our method acts as a diagnostic tool for analyzing failure cases, and validate its applicability to real-world navigation on a Unitree G1 robot.",
+    "arxiv_id": "2610.34028",
+    "authors": [
+      "Yiyuan Yao",
+      "Xinpeng Ding",
+      "Minglei Chen",
+      "Fei Gao",
+      "Lihuo He",
+      "Jie Yuan",
+      "Aijun Li",
+      "Nannan Wang",
+      "Xinbo Gao"
+    ],
+    "canonical_id": "doi:10.48550/arxiv.2610.34028",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": "10.48550/arxiv.2610.34028",
+    "external_ids": {
+      "doi": "https://doi.org/10.48550/arxiv.2610.34028",
+      "openalex": "https://openalex.org/W7223909711"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "explaining navigation decisions stage aware visual attribution for vision language navigation",
+    "openalex_id": "https://openalex.org/W7223909711",
+    "pdf_url": "https://arxiv.org/pdf/2610.34028",
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-10-25",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vln instruction following"
+    ],
+    "title": "Explaining Navigation Decisions: Stage-Aware Visual Attribution for Vision-Language Navigation",
+    "title_hash": "c7c9cebf1accfc939444680760651dc4a52aca92",
+    "url": "https://arxiv.org/abs/2610.34028",
+    "venue": "arXiv (Cornell University)",
+    "year": 2026
+  },
   "s2:08ba2877828708ace87d13acded59d47864d6659": {
     "abstract": null,
     "arxiv_id": null,
