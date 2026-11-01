@@ -3741,6 +3741,58 @@
     "venue": "arXiv (Cornell University)",
     "year": 2026
   },
+  "doi:10.48550/arxiv.2610.35066": {
+    "abstract": "Vision-language navigation (VLN) requires an embodied agent to follow language instructions through 3D environments. Maintaining persistent episodic memory remains a challenge for VLM-based streaming agents in long-horizon navigation. We present MEMVLN, a streaming episodic memory framework that maintains a bounded bank of compressed perceptual features annotated with timesteps and action-derived relative poses, and produces compact memory tokens via cross-attention. We pair the proposed memory with a frozen pretrained geometry encoder. To learn the memory module, we design a masking-based trajectory summarization task with multi-granularity sub-trajectory decomposition, encouraging route reconstruction exclusively from episodic memory. Under navigation training restricted to the official R2R/RxR trajectories, MEMVLN achieves state-of-the-art performance on most reported metrics on standard VLN-CE benchmarks. Long-horizon analyses further characterize when episodic memory is useful. For physical evaluation, we collect 30 instruction-conditioned episodes in one physical scene, use 24 as demonstrations for post-training, and hold out six for testing. On the held-out episodes, MEMVLN improves success over the VLM baseline from 17% to 40%, and post-training further raises it to 47%.",
+    "arxiv_id": "2610.35066",
+    "authors": [
+      "Yan Wang",
+      "Jiangyong Huang",
+      "Siyuan Huang",
+      "Baoxiong Jia"
+    ],
+    "canonical_id": "doi:10.48550/arxiv.2610.35066",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": "10.48550/arxiv.2610.35066",
+    "external_ids": {
+      "doi": "https://doi.org/10.48550/arxiv.2610.35066",
+      "openalex": "https://openalex.org/W7223892823"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "memvln streaming episodic memory for vision language navigation",
+    "openalex_id": "https://openalex.org/W7223892823",
+    "pdf_url": "https://arxiv.org/pdf/2610.35066",
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-10-26",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vln instruction following"
+    ],
+    "title": "MemVLN: Streaming Episodic Memory for Vision-Language Navigation",
+    "title_hash": "7dce2d41c9fdd3bda9edb67be86e0c5425683829",
+    "url": "https://arxiv.org/abs/2610.35066",
+    "venue": "arXiv (Cornell University)",
+    "year": 2026
+  },
   "s2:08ba2877828708ace87d13acded59d47864d6659": {
     "abstract": null,
     "arxiv_id": null,
