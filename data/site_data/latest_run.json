@@ -1,20 +1,15 @@
 {
-  "candidates_collected": 13,
-  "deduped_count": 11,
-  "generated_at": "2026-11-05",
+  "candidates_collected": 57,
+  "deduped_count": 52,
+  "generated_at": "2026-11-06",
   "issues": [
-    "OpenAlex topic fetch failed for uav-ris / 'uav reconfigurable intelligent surface': HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works?search=uav+reconfigurable+intelligent+surface&sort=publication_date%3Adesc&page=1&per-page=13&filter=from_publication_date%3A2026-10-30%2Cto_publication_date%3A2026-11-05 (Caused by ResponseError('too many 429 error responses'))",
-    "OpenAlex topic fetch failed for uav-ris / 'drone ris wireless communication': HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works?search=drone+ris+wireless+communication&sort=publication_date%3Adesc&page=1&per-page=13&filter=from_publication_date%3A2026-10-30%2Cto_publication_date%3A2026-11-05 (Caused by ResponseError('too many 429 error responses'))",
-    "OpenAlex topic fetch failed for uav-ris / 'aerial intelligent reflecting surface': HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works?search=aerial+intelligent+reflecting+surface&sort=publication_date%3Adesc&page=1&per-page=13&filter=from_publication_date%3A2026-10-30%2Cto_publication_date%3A2026-11-05 (Caused by ResponseError('too many 429 error responses'))",
-    "OpenAlex topic fetch failed for vln / 'vision language navigation': HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works?search=vision+language+navigation&sort=publication_date%3Adesc&page=1&per-page=13&filter=from_publication_date%3A2026-10-30%2Cto_publication_date%3A2026-11-05 (Caused by ResponseError('too many 429 error responses'))",
-    "OpenAlex topic fetch failed for vln / 'vln instruction following': HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works?search=vln+instruction+following&sort=publication_date%3Adesc&page=1&per-page=13&filter=from_publication_date%3A2026-10-30%2Cto_publication_date%3A2026-11-05 (Caused by ResponseError('too many 429 error responses'))",
     "Semantic Scholar citation fetch failed for baseline secure-uav-ris: Semantic Scholar API rate limit exceeded.",
     "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
   "new_global_count": 0,
   "new_scope_count": 0,
-  "report_date": "2026-11-05",
+  "report_date": "2026-11-06",
   "selected_count": 0,
-  "window_end": "2026-11-05",
-  "window_start": "2026-10-30"
+  "window_end": "2026-11-06",
+  "window_start": "2026-10-31"
 }
