@@ -734,6 +734,54 @@
     ],
     "topic_ids": []
   },
+  "doi:10.1145/3767308.3835445": {
+    "baseline_ids": [],
+    "canonical_id": "doi:10.1145/3767308.3835445",
+    "first_seen_by_scope": {
+      "topic:vln:topic": "2026-11-10"
+    },
+    "first_seen_date": "2026-11-10",
+    "last_seen_by_scope": {
+      "topic:vln:topic": "2026-11-10"
+    },
+    "last_seen_date": "2026-11-10",
+    "relation_types": [
+      "topic"
+    ],
+    "scope_keys": [
+      "topic:vln:topic"
+    ],
+    "topic_ids": [
+      "vln"
+    ]
+  },
+  "doi:10.1145/3860544": {
+    "baseline_ids": [
+      "room-to-room"
+    ],
+    "canonical_id": "doi:10.1145/3860544",
+    "first_seen_by_scope": {
+      "baseline:room-to-room:related": "2026-11-10",
+      "topic:vln:topic": "2026-11-10"
+    },
+    "first_seen_date": "2026-11-10",
+    "last_seen_by_scope": {
+      "baseline:room-to-room:related": "2026-11-10",
+      "topic:vln:topic": "2026-11-10"
+    },
+    "last_seen_date": "2026-11-10",
+    "relation_types": [
+      "topic",
+      "related"
+    ],
+    "scope_keys": [
+      "topic:vln:topic",
+      "baseline:room-to-room:related"
+    ],
+    "topic_ids": [
+      "vln"
+    ]
+  },
   "doi:10.17615/s9re-1h34": {
     "baseline_ids": [],
     "canonical_id": "doi:10.17615/s9re-1h34",

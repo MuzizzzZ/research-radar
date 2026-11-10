@@ -343,6 +343,22 @@
       "reason": "title hit x1, abstract hit x1",
       "relation_type": "topic",
       "score": 4.5
+    },
+    {
+      "canonical_id": "doi:10.1145/3767308.3835445",
+      "date": "2026-11-10",
+      "label": "candidate",
+      "reason": "title hit x1, abstract hit x1",
+      "relation_type": "topic",
+      "score": 4.5
+    },
+    {
+      "canonical_id": "doi:10.1145/3860544",
+      "date": "2026-11-10",
+      "label": "candidate",
+      "reason": "title hit x1, abstract hit x1",
+      "relation_type": "topic",
+      "score": 4.5
     }
   ]
 }

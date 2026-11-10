@@ -728,6 +728,36 @@
       "id": "room-to-room",
       "related": [
         {
+          "abstract": "Aerial vision-language navigation (VLN) requires a UAV to follow natural language instructions from visual observations. Aerial VLN is more challenging than ground-level VLN because UAV observations cover large outdoor areas, landmarks often occupy only a small part of the image, and navigation requires complex spatial reasoning. General-purpose vision-language models (VLMs) often struggle to identify instruction-relevant visual evidence from such dense aerial observations. We propose AeroGuide, a grounded aerial VLN framework built on Qwen3-VL. AeroGuide introduces Navigation-conditioned Visual Token Routing (NVTR), which selects instruction-relevant visual tokens conditioned on the current observation, UAV pose, and temporal landmark memory. AeroGuide maintains an egocentric temporal landmark memory that retains compact landmark evidence rather than full historical frames. The model is trained through multiple phases, including supervised learning, reasoning distillation, and simulator-based policy optimization, to improve grounded action prediction and closed-loop navigation. On the OpenFly benchmark, AeroGuide improves navigation success rate from 34.3% to 45.1%, a 31.5% relative improvement over the best-performing prior baseline. Ablation studies show that explicit visual grounding and compact temporal memory are key contributors to this improvement, demonstrating the effectiveness of grounded navigation for aerial VLN. Project page is available at https://aeroguide-frontend-iota.vercel.app/.",
+          "arxiv_id": null,
+          "authors": [
+            "Abhinav Upadhyay",
+            "Siddharth Singh",
+            "Satvik Srivastava",
+            "Tanya Khanna",
+            "Ashutosh Pandey"
+          ],
+          "baseline_ids": [
+            "room-to-room"
+          ],
+          "best_url": "https://doi.org/10.1145/3860544",
+          "canonical_id": "doi:10.1145/3860544",
+          "doi": "10.1145/3860544",
+          "label": "candidate",
+          "openalex_id": "https://openalex.org/W7225388166",
+          "publication_date": "2026-11-06",
+          "reason": "title similarity 86, related to baseline topic cluster",
+          "relation_type": "related",
+          "score": 5.5,
+          "semanticscholar_id": null,
+          "title": "AeroGuide: Grounded Vision-Language Navigation in Aerial Environments",
+          "topic_ids": [
+            "vln"
+          ],
+          "venue": "ACM Journal on Autonomous Transportation Systems",
+          "year": 2026
+        },
+        {
           "abstract": "We investigate whether GPT-6-Astra, a general-purpose foundation model, can navigate unfamiliar environments using its own perception, reasoning, and decision-making capabilities. Our evaluation focuses on zero-shot vision-and-language navigation in continuous environments (VLN-CE) through a minimal interface in the Codex harness, aiming to unleash GPT-6-Astra's full potential for navigation. Using monocular RGB, GPT-6-Astra decides when to observe, how to move, and when to stop, without navigation-specific fine-tuning, a trained waypoint predictor, or a pre-built scene map. Our evaluation yields four key findings and implications. First, GPT-6-Astra achieves strong zero-shot navigation performance using only monocular RGB observations. On R2R-CE-100, GPT-6-Astra (ultra reasoning) achieves a success rate of 81.3%, exceeding the strongest reported zero-shot and even train-based success rates by 15.3 and 9.2 percentage points, respectively. Second, GPT-6-Astra exhibits promising capabilities in interpreting multi-stage instructions, understanding the environment, and adjusting routes. Third, execution and goal-verification failures persist even with ultra reasoning. Fourth, these results motivate combining general-purpose model capabilities with navigation-specific expertise. Based on these findings, future VLN research should investigate which aspects of instruction interpretation, spatial understanding, and navigation decision-making general-purpose models can handle directly, and where navigation-specific learning can extend their capabilities. This includes exploring how spatial representations, navigation experience, and learned control skills can improve progress tracking, error recovery, and goal verification while preserving the flexibility to adjust routes.",
           "arxiv_id": "2609.29861",
           "authors": [
@@ -785,7 +815,7 @@
       ],
       "title": "Vision-and-Language Navigation: Interpreting visually-grounded navigation instructions in real environments",
       "today_citations": 0,
-      "today_related": 0,
+      "today_related": 1,
       "topic_id": "vln"
     }
   ]
