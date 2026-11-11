@@ -11,79 +11,20 @@
       "id": "room-to-room",
       "title": "Vision-and-Language Navigation: Interpreting visually-grounded navigation instructions in real environments",
       "today_citations": 0,
-      "today_related": 1,
+      "today_related": 0,
       "topic_id": "vln"
     }
   ],
-  "generated_at": "2026-11-10",
+  "generated_at": "2026-11-11",
   "issues": [
     "Semantic Scholar citation fetch failed for baseline secure-uav-ris: Semantic Scholar API rate limit exceeded.",
     "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
-  "latest_report_date": "2026-11-10",
+  "latest_report_date": "2026-11-11",
   "project_name": "research-radar",
-  "recent_papers": [
-    {
-      "abstract": "Training-free Vision-Language Navigation (VLN) agents powered by foundation models can follow instructions and explore 3D environments. However, existing approaches rely on greedy frontier selection and passive spatial memory, leading to inefficient behaviors such as local oscillation and redundant revisiting. We argue that this stems from a lack of metacognitive capabilities: the agent cannot monitor its exploration progress, diagnose strategy failures, or adapt accordingly. To address this, we propose MetaNav, a metacognitive navigation agent integrating spatial memory, history-aware planning, and reflective correction. Spatial memory builds a persistent 3D semantic map. History-aware planning penalizes revisiting to improve efficiency. Reflective correction detects stagnation and uses an LLM to generate corrective rules that guide future frontier selection. Experiments on GOAT-Bench, HM3D-OVON, and A-EQA show that MetaNav achieves state-of-the-art performance while reducing VLM queries by 20.7%, demonstrating that metacognitive reasoning significantly improves robustness and efficiency. The code is available at https://github.com/perfectlxy7/MetaNav.",
-      "arxiv_id": "7308.38354",
-      "authors": [
-        "Xueying Li",
-        "Feng Lyu",
-        "Hao Wu",
-        "Mingliu Liu",
-        "Jia-Nan Liu"
-      ],
-      "baseline_ids": [],
-      "best_url": "https://doi.org/10.1145/3767308.3835445",
-      "canonical_id": "doi:10.1145/3767308.3835445",
-      "doi": "10.1145/3767308.3835445",
-      "label": "candidate",
-      "openalex_id": "https://openalex.org/W7148758383",
-      "publication_date": "2026-11-06",
-      "reason": "title hit x1, abstract hit x1",
-      "relation_type": null,
-      "score": 4.5,
-      "semanticscholar_id": null,
-      "title": "MetaNav: Metacognitive Vision-Language Navigation via Reflective Exploration",
-      "topic_ids": [
-        "vln"
-      ],
-      "venue": "ACM International Conference on Multimedia (ACM MM)",
-      "year": 2026
-    },
-    {
-      "abstract": "Aerial vision-language navigation (VLN) requires a UAV to follow natural language instructions from visual observations. Aerial VLN is more challenging than ground-level VLN because UAV observations cover large outdoor areas, landmarks often occupy only a small part of the image, and navigation requires complex spatial reasoning. General-purpose vision-language models (VLMs) often struggle to identify instruction-relevant visual evidence from such dense aerial observations. We propose AeroGuide, a grounded aerial VLN framework built on Qwen3-VL. AeroGuide introduces Navigation-conditioned Visual Token Routing (NVTR), which selects instruction-relevant visual tokens conditioned on the current observation, UAV pose, and temporal landmark memory. AeroGuide maintains an egocentric temporal landmark memory that retains compact landmark evidence rather than full historical frames. The model is trained through multiple phases, including supervised learning, reasoning distillation, and simulator-based policy optimization, to improve grounded action prediction and closed-loop navigation. On the OpenFly benchmark, AeroGuide improves navigation success rate from 34.3% to 45.1%, a 31.5% relative improvement over the best-performing prior baseline. Ablation studies show that explicit visual grounding and compact temporal memory are key contributors to this improvement, demonstrating the effectiveness of grounded navigation for aerial VLN. Project page is available at https://aeroguide-frontend-iota.vercel.app/.",
-      "arxiv_id": null,
-      "authors": [
-        "Abhinav Upadhyay",
-        "Siddharth Singh",
-        "Satvik Srivastava",
-        "Tanya Khanna",
-        "Ashutosh Pandey"
-      ],
-      "baseline_ids": [
-        "room-to-room"
-      ],
-      "best_url": "https://doi.org/10.1145/3860544",
-      "canonical_id": "doi:10.1145/3860544",
-      "doi": "10.1145/3860544",
-      "label": "candidate",
-      "openalex_id": "https://openalex.org/W7225388166",
-      "publication_date": "2026-11-06",
-      "reason": "title similarity 86, related to baseline topic cluster",
-      "relation_type": null,
-      "score": 5.5,
-      "semanticscholar_id": null,
-      "title": "AeroGuide: Grounded Vision-Language Navigation in Aerial Environments",
-      "topic_ids": [
-        "vln"
-      ],
-      "venue": "ACM Journal on Autonomous Transportation Systems",
-      "year": 2026
-    }
-  ],
-  "today_new_global": 2,
-  "today_new_total": 3,
+  "recent_papers": [],
+  "today_new_global": 0,
+  "today_new_total": 0,
   "topics": [
     {
       "id": "uav-ris",
@@ -94,7 +35,7 @@
     {
       "id": "vln",
       "name": "Vision-Language Navigation",
-      "today_count": 2,
+      "today_count": 0,
       "total_papers": 45
     }
   ]

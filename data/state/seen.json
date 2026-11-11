@@ -742,9 +742,9 @@
     },
     "first_seen_date": "2026-11-10",
     "last_seen_by_scope": {
-      "topic:vln:topic": "2026-11-10"
+      "topic:vln:topic": "2026-11-11"
     },
-    "last_seen_date": "2026-11-10",
+    "last_seen_date": "2026-11-11",
     "relation_types": [
       "topic"
     ],
@@ -766,10 +766,10 @@
     },
     "first_seen_date": "2026-11-10",
     "last_seen_by_scope": {
-      "baseline:room-to-room:related": "2026-11-10",
-      "topic:vln:topic": "2026-11-10"
+      "baseline:room-to-room:related": "2026-11-11",
+      "topic:vln:topic": "2026-11-11"
     },
-    "last_seen_date": "2026-11-10",
+    "last_seen_date": "2026-11-11",
     "relation_types": [
       "topic",
       "related"
