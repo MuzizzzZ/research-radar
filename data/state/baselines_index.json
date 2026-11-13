@@ -233,6 +233,14 @@
       "reason": "direct citation to baseline",
       "relation_type": "citation",
       "score": 7.5
+    },
+    {
+      "canonical_id": "doi:10.1109/tmc.2026.3732290",
+      "date": "2026-11-13",
+      "label": "candidate",
+      "reason": "direct citation to baseline",
+      "relation_type": "citation",
+      "score": 7.5
     }
   ]
 }

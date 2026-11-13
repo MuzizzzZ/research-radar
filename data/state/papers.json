@@ -816,7 +816,7 @@
     "arxiv_id": null,
     "authors": [
       "M. Kamali",
-      "Mehdi Chehel Amirani",
+      "M. Amirani",
       "Vahid Solouk",
       "Saleh Yousefi"
     ],
@@ -874,7 +874,7 @@
       "H. Al-Hraishawi"
     ],
     "canonical_id": "doi:10.1109/access.2026.3652482",
-    "citations_count": 4,
+    "citations_count": 5,
     "discovered_date": null,
     "doi": "10.1109/access.2026.3652482",
     "external_ids": {
@@ -1151,6 +1151,7 @@
     "doi": "10.1109/ojcoms.2026.3722804",
     "external_ids": {
       "CorpusId": "291049687",
+      "DBLP": "journals/ojcs/DebTR26",
       "DOI": "10.1109/OJCOMS.2026.3722804"
     },
     "label": "candidate",
@@ -1270,7 +1271,7 @@
     "last_updated": null,
     "normalized_title": "joint trajectory and ris noma optimization for multi user uav secure communications",
     "openalex_id": null,
-    "pdf_url": "",
+    "pdf_url": "https://doi.org/10.1109/tcomm.2026.3706477",
     "primary_reason": "direct citation to baseline",
     "publication_date": null,
     "reasons": [
@@ -1516,6 +1517,57 @@
     "venue": "IEEE Transactions on Mobile Computing",
     "year": 2026
   },
+  "doi:10.1109/tmc.2026.3732290": {
+    "abstract": "The multi-uncrewed aerial vehicle (UAV)-assisted multi-access edge computing network (MU-MEC) is emerging in the industrial Internet of Things (IIoT) for assisting resource-limited mobile devices (MDs) in processing computation-intensive tasks. To further support mission-critical IIoT applications with strict latency and reliability demands, integrating ultra-reliable and low-latency communications (URLLC) into MU-MEC is essential. However, most existing URLLC-enabled MU-MEC studies lack a unified architecture that considers both UAV control and data links, despite the importance of UAV control for stable multi-UAV coordination. Moreover, achieving efficient computation offloading while fulfilling communication reliability and security remains a key challenge. This paper proposes a novel URLLC-based MU-MEC that balances reliability, security, and efficiency while considering both UAV control and data links. We further formulate a joint UAV placement, MD association, task reassignment, and resource allocation problem to maximize the data volume reliably and securely transmitted and simultaneously minimize system latency and energy consumption. To solve this, we propose HCNN-SAC, a hierarchical multi-agent solution that employs Soft Actor-Critic (SAC) within a three-layered training framework and incorporates convolutional neural networks (CNNs) for enhanced state representation. Finally, we evaluate the reliability, security, and efficiency performance of the proposed solution.",
+    "arxiv_id": null,
+    "authors": [
+      "Ming-Tao He",
+      "Ya-Li Chen",
+      "Min Liu"
+    ],
+    "canonical_id": "doi:10.1109/tmc.2026.3732290",
+    "citations_count": 0,
+    "discovered_date": null,
+    "doi": "10.1109/tmc.2026.3732290",
+    "external_ids": {
+      "CorpusId": "295632722",
+      "DOI": "10.1109/TMC.2026.3732290"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "reliability security efficiency trade offs in multi uav assisted mec for urllc",
+    "openalex_id": null,
+    "pdf_url": "https://doi.org/10.1109/tmc.2026.3732290",
+    "primary_reason": "direct citation to baseline",
+    "publication_date": "2026-12-01",
+    "reasons": [
+      "direct citation to baseline"
+    ],
+    "references_count": 51,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "direct citation to baseline",
+        "relation_type": "citation",
+        "scope_id": "secure-uav-ris",
+        "scope_type": "baseline",
+        "score": 7.5
+      }
+    ],
+    "score": 7.5,
+    "semanticscholar_id": "87e43928e1698143e7b38994d70266aceb2efd81",
+    "source_names": [
+      "semanticscholar"
+    ],
+    "source_tags": [
+      "baseline:secure-uav-ris:citation"
+    ],
+    "title": "Reliability-Security-Efficiency Trade-Offs in Multi-UAV-Assisted MEC for URLLC",
+    "title_hash": "9c47b54ce4cc43c9607ea28ea8b532893ed04937",
+    "url": "https://www.semanticscholar.org/paper/87e43928e1698143e7b38994d70266aceb2efd81",
+    "venue": "IEEE Transactions on Mobile Computing",
+    "year": 2026
+  },
   "doi:10.1109/tnse.2025.3626520": {
     "abstract": "This paper investigates a fluid antenna system (FAS)/movable antenna (MA) and active reconfigurable intelligent surface (RIS)-aided integrated sensing and communication (ISAC) system. Specifically, we maximize the radar signal-to-noise-ratio (SNR) by jointly optimizing the beamforming matrix at the base station (BS), the reflecting coefficients of active RIS and port selection of FAS, subject to the transmit power constraints and the communication requirements of users. To tackle the problem, we propose an effective algorithm to decompose the main problem into three subproblems. For each subproblem, we first utilize semidefinite relaxation (SDR), successive convex approximation (SCA) and penalty function to reformulate the subproblem, then the majorization-minimization (MM) method is applied to solve the subproblem iteratively. Numerical results validate the superiority of the proposed system. In addition, FAS can reduce the resource consumption and active RIS can overcome the severe path loss effectively.",
     "arxiv_id": null,
@@ -1646,7 +1698,7 @@
     "last_updated": null,
     "normalized_title": "a framework on order reduction optimization for array assisted communication networks",
     "openalex_id": null,
-    "pdf_url": "",
+    "pdf_url": "https://doi.org/10.1109/tnse.2026.3708972",
     "primary_reason": "direct citation to baseline",
     "publication_date": null,
     "reasons": [
@@ -1685,7 +1737,7 @@
       "Xia-Pu Luo"
     ],
     "canonical_id": "doi:10.1109/twc.2026.3651300",
-    "citations_count": 3,
+    "citations_count": 4,
     "discovered_date": null,
     "doi": "10.1109/twc.2026.3651300",
     "external_ids": {
@@ -1789,10 +1841,10 @@
     "arxiv_id": null,
     "authors": [
       "Zhong-Ming Feng",
-      "Qiling Gao",
+      "Qi-Ling Gao",
       "Haoran Zha",
       "Yun Lin",
-      "Yuan-Wei Liu",
+      "Y. Liu",
       "D. Niyato",
       "M. di Renzo"
     ],
@@ -1809,7 +1861,7 @@
     "last_updated": null,
     "normalized_title": "reinforcement learning with conformal symplectic optimization for aerial ris aided secure communication",
     "openalex_id": null,
-    "pdf_url": "",
+    "pdf_url": "https://hal.science/hal-05804354",
     "primary_reason": "direct citation to baseline",
     "publication_date": null,
     "reasons": [
@@ -1866,7 +1918,7 @@
     "last_updated": null,
     "normalized_title": "uav mounted irs enhanced secondary transmission and primary covert communication for cognitive radio networks",
     "openalex_id": null,
-    "pdf_url": "",
+    "pdf_url": "https://doi.org/10.1109/twc.2026.3721164",
     "primary_reason": "direct citation to baseline",
     "publication_date": null,
     "reasons": [
@@ -3918,7 +3970,7 @@
       "Xiaoyan Hu"
     ],
     "canonical_id": "s2:08ba2877828708ace87d13acded59d47864d6659",
-    "citations_count": 28,
+    "citations_count": 29,
     "discovered_date": null,
     "doi": null,
     "external_ids": {
@@ -3963,7 +4015,7 @@
     "abstract": null,
     "arxiv_id": null,
     "authors": [
-      "Yuanyuan Yao",
+      "Yuan-Yuan Yao",
       "Ke Lv",
       "Sai Huang",
       "Xuehua Li",

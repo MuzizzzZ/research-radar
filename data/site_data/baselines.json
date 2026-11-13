@@ -3,6 +3,32 @@
     {
       "citations": [
         {
+          "abstract": "The multi-uncrewed aerial vehicle (UAV)-assisted multi-access edge computing network (MU-MEC) is emerging in the industrial Internet of Things (IIoT) for assisting resource-limited mobile devices (MDs) in processing computation-intensive tasks. To further support mission-critical IIoT applications with strict latency and reliability demands, integrating ultra-reliable and low-latency communications (URLLC) into MU-MEC is essential. However, most existing URLLC-enabled MU-MEC studies lack a unified architecture that considers both UAV control and data links, despite the importance of UAV control for stable multi-UAV coordination. Moreover, achieving efficient computation offloading while fulfilling communication reliability and security remains a key challenge. This paper proposes a novel URLLC-based MU-MEC that balances reliability, security, and efficiency while considering both UAV control and data links. We further formulate a joint UAV placement, MD association, task reassignment, and resource allocation problem to maximize the data volume reliably and securely transmitted and simultaneously minimize system latency and energy consumption. To solve this, we propose HCNN-SAC, a hierarchical multi-agent solution that employs Soft Actor-Critic (SAC) within a three-layered training framework and incorporates convolutional neural networks (CNNs) for enhanced state representation. Finally, we evaluate the reliability, security, and efficiency performance of the proposed solution.",
+          "arxiv_id": null,
+          "authors": [
+            "Ming-Tao He",
+            "Ya-Li Chen",
+            "Min Liu"
+          ],
+          "baseline_ids": [
+            "secure-uav-ris"
+          ],
+          "best_url": "https://www.semanticscholar.org/paper/87e43928e1698143e7b38994d70266aceb2efd81",
+          "canonical_id": "doi:10.1109/tmc.2026.3732290",
+          "doi": "10.1109/tmc.2026.3732290",
+          "label": "candidate",
+          "openalex_id": null,
+          "publication_date": "2026-12-01",
+          "reason": "direct citation to baseline",
+          "relation_type": "citation",
+          "score": 7.5,
+          "semanticscholar_id": "87e43928e1698143e7b38994d70266aceb2efd81",
+          "title": "Reliability-Security-Efficiency Trade-Offs in Multi-UAV-Assisted MEC for URLLC",
+          "topic_ids": [],
+          "venue": "IEEE Transactions on Mobile Computing",
+          "year": 2026
+        },
+        {
           "abstract": "The evolution of 6G networks toward integrated air–ground–space systems has highlighted drones as a key solution for enhancing communication in complex terrains. However, their practical deployment faces multiple challenges, including non-line-of-sight (NLoS) propagation, cochannel interference, and energy constraints. To address these issues, this article proposes a graph neural network (GNN)- and multilayer perceptron (MLP)-assisted multiobjective matrix particle swarm optimization (GM-MOPSO) algorithm. We construct a 3-D optimization model that integrates signal coverage, interference suppression, and energy efficiency, aiming to overcome the shortcomings of traditional methods, such as slow convergence and susceptibility to local optima in high-dimensional nonconvex problems. By introducing a physics-informed GNN surrogate model to accelerate evaluation and an MLP-based adaptive parameter controller, the proposed algorithm effectively balances global exploration and local exploitation. Simulation results demonstrate that GM-MOPSO significantly improves Pareto frontier quality and computational efficiency in real urban scenarios. The algorithm achieves collaborative optimization of drone 3-D positioning, intelligent reflecting surface (IRS) phase shifts, and power allocation, providing a new paradigm for green and efficient wireless network deployment. The code related to this algorithm is available at https://github.com/Donglin0730/GM-MOPSO",
           "arxiv_id": null,
           "authors": [
@@ -340,10 +366,10 @@
           "arxiv_id": null,
           "authors": [
             "Zhong-Ming Feng",
-            "Qiling Gao",
+            "Qi-Ling Gao",
             "Haoran Zha",
             "Yun Lin",
-            "Yuan-Wei Liu"
+            "Y. Liu"
           ],
           "baseline_ids": [
             "secure-uav-ris"
@@ -533,7 +559,7 @@
           "arxiv_id": null,
           "authors": [
             "M. Kamali",
-            "Mehdi Chehel Amirani",
+            "M. Amirani",
             "Vahid Solouk",
             "Saleh Yousefi"
           ],
@@ -667,7 +693,7 @@
           "abstract": null,
           "arxiv_id": null,
           "authors": [
-            "Yuanyuan Yao",
+            "Yuan-Yuan Yao",
             "Ke Lv",
             "Sai Huang",
             "Xuehua Li",
@@ -719,7 +745,7 @@
       "id": "secure-uav-ris",
       "related": [],
       "title": "Joint Trajectory and Passive Beamforming Design for Secure UAV-RIS Communication Systems",
-      "today_citations": 0,
+      "today_citations": 1,
       "today_related": 0,
       "topic_id": "uav-ris"
     },

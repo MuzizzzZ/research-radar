@@ -3,7 +3,7 @@
     {
       "id": "secure-uav-ris",
       "title": "Joint Trajectory and Passive Beamforming Design for Secure UAV-RIS Communication Systems",
-      "today_citations": 0,
+      "today_citations": 1,
       "today_related": 0,
       "topic_id": "uav-ris"
     },
@@ -15,16 +15,42 @@
       "topic_id": "vln"
     }
   ],
-  "generated_at": "2026-11-12",
+  "generated_at": "2026-11-13",
   "issues": [
-    "Semantic Scholar citation fetch failed for baseline secure-uav-ris: Semantic Scholar API rate limit exceeded.",
     "Semantic Scholar citation fetch failed for baseline room-to-room: 404 Client Error: Not Found for url: https://api.semanticscholar.org/graph/v1/paper/DOI:10.1109%2Fcvpr.2018.00387/citations?fields=citingPaper.paperId%2CcitingPaper.title%2CcitingPaper.abstract%2CcitingPaper.authors%2CcitingPaper.venue%2CcitingPaper.year%2CcitingPaper.publicationDate%2CcitingPaper.externalIds%2CcitingPaper.url%2CcitingPaper.openAccessPdf%2CcitingPaper.citationCount%2CcitingPaper.referenceCount&limit=40&offset=0"
   ],
-  "latest_report_date": "2026-11-12",
+  "latest_report_date": "2026-11-13",
   "project_name": "research-radar",
-  "recent_papers": [],
-  "today_new_global": 0,
-  "today_new_total": 0,
+  "recent_papers": [
+    {
+      "abstract": "The multi-uncrewed aerial vehicle (UAV)-assisted multi-access edge computing network (MU-MEC) is emerging in the industrial Internet of Things (IIoT) for assisting resource-limited mobile devices (MDs) in processing computation-intensive tasks. To further support mission-critical IIoT applications with strict latency and reliability demands, integrating ultra-reliable and low-latency communications (URLLC) into MU-MEC is essential. However, most existing URLLC-enabled MU-MEC studies lack a unified architecture that considers both UAV control and data links, despite the importance of UAV control for stable multi-UAV coordination. Moreover, achieving efficient computation offloading while fulfilling communication reliability and security remains a key challenge. This paper proposes a novel URLLC-based MU-MEC that balances reliability, security, and efficiency while considering both UAV control and data links. We further formulate a joint UAV placement, MD association, task reassignment, and resource allocation problem to maximize the data volume reliably and securely transmitted and simultaneously minimize system latency and energy consumption. To solve this, we propose HCNN-SAC, a hierarchical multi-agent solution that employs Soft Actor-Critic (SAC) within a three-layered training framework and incorporates convolutional neural networks (CNNs) for enhanced state representation. Finally, we evaluate the reliability, security, and efficiency performance of the proposed solution.",
+      "arxiv_id": null,
+      "authors": [
+        "Ming-Tao He",
+        "Ya-Li Chen",
+        "Min Liu"
+      ],
+      "baseline_ids": [
+        "secure-uav-ris"
+      ],
+      "best_url": "https://www.semanticscholar.org/paper/87e43928e1698143e7b38994d70266aceb2efd81",
+      "canonical_id": "doi:10.1109/tmc.2026.3732290",
+      "doi": "10.1109/tmc.2026.3732290",
+      "label": "candidate",
+      "openalex_id": null,
+      "publication_date": "2026-12-01",
+      "reason": "direct citation to baseline",
+      "relation_type": null,
+      "score": 7.5,
+      "semanticscholar_id": "87e43928e1698143e7b38994d70266aceb2efd81",
+      "title": "Reliability-Security-Efficiency Trade-Offs in Multi-UAV-Assisted MEC for URLLC",
+      "topic_ids": [],
+      "venue": "IEEE Transactions on Mobile Computing",
+      "year": 2026
+    }
+  ],
+  "today_new_global": 1,
+  "today_new_total": 1,
   "topics": [
     {
       "id": "uav-ris",

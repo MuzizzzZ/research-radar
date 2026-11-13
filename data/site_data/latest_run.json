@@ -1,15 +1,14 @@
 {
-  "candidates_collected": 53,
-  "deduped_count": 43,
-  "generated_at": "2026-11-12",
+  "candidates_collected": 71,
+  "deduped_count": 67,
+  "generated_at": "2026-11-13",
   "issues": [
-    "Semantic Scholar citation fetch failed for baseline secure-uav-ris: Semantic Scholar API rate limit exceeded.",
     "Semantic Scholar citation fetch failed for baseline room-to-room: 404 Client Error: Not Found for url: https://api.semanticscholar.org/graph/v1/paper/DOI:10.1109%2Fcvpr.2018.00387/citations?fields=citingPaper.paperId%2CcitingPaper.title%2CcitingPaper.abstract%2CcitingPaper.authors%2CcitingPaper.venue%2CcitingPaper.year%2CcitingPaper.publicationDate%2CcitingPaper.externalIds%2CcitingPaper.url%2CcitingPaper.openAccessPdf%2CcitingPaper.citationCount%2CcitingPaper.referenceCount&limit=40&offset=0"
   ],
-  "new_global_count": 0,
-  "new_scope_count": 0,
-  "report_date": "2026-11-12",
-  "selected_count": 2,
-  "window_end": "2026-11-12",
-  "window_start": "2026-11-06"
+  "new_global_count": 1,
+  "new_scope_count": 1,
+  "report_date": "2026-11-13",
+  "selected_count": 19,
+  "window_end": "2026-11-13",
+  "window_start": "2026-11-07"
 }
