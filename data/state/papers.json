@@ -2004,6 +2004,57 @@
     "venue": "ACM International Conference on Multimedia (ACM MM)",
     "year": 2026
   },
+  "doi:10.1145/3767308.3836562": {
+    "abstract": "UAV vision-language navigation (UAV-VLN) focuses on enabling an aerial agent to follow natural-language instructions in open 3D environments from egocentric visual observations. Current approaches suffer from three coupled issues: weak grounding of instruction-relevant landmarks in visual observations, insufficient exploitation of long-horizon history, and unstable decisions under local traps or repeated exploration. To address these issues, we propose a unified semantic-to-decision framework. First, we present an instruction-grounded semantic enhancement module that injects object-level semantics and relative spatial cues into the current observation state. Subsequently, we develop a relevance-aware dynamic temporal aggregation strategy that reweights the full history buffer while converting a few high-relevance frames into structured landmark prompts for the decoder. Finally, we devise a topology-aware decision method that combines local-optimum cognition with group-relative policy optimization under progress, goal, semantic, and path-compliance rewards. Experiments on the widely used AerialVLN and OpenFly benchmarks clearly demonstrate that our method achieves state-of-the-art performance.",
+    "arxiv_id": "7308.38365",
+    "authors": [
+      "Zeyuan Ma",
+      "Jiaxin Chen",
+      "Di Huang"
+    ],
+    "canonical_id": "doi:10.1145/3767308.3836562",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": "10.1145/3767308.3836562",
+    "external_ids": {
+      "doi": "https://doi.org/10.1145/3767308.3836562",
+      "openalex": "https://openalex.org/W7202194400"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "from semantic grounding to decision optimization a unified framework for long horizon uav vision language navigation",
+    "openalex_id": "https://openalex.org/W7202194400",
+    "pdf_url": null,
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-11-09",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vln instruction following"
+    ],
+    "title": "From Semantic Grounding to Decision Optimization: A Unified Framework for Long-Horizon UAV Vision-Language Navigation",
+    "title_hash": "fd545fa92dfbec89cdbdf5e2373a659d6d0e3da6",
+    "url": "https://doi.org/10.1145/3767308.3836562",
+    "venue": "ACM International Conference on Multimedia (ACM MM)",
+    "year": 2026
+  },
   "doi:10.1145/3860544": {
     "abstract": "Aerial vision-language navigation (VLN) requires a UAV to follow natural language instructions from visual observations. Aerial VLN is more challenging than ground-level VLN because UAV observations cover large outdoor areas, landmarks often occupy only a small part of the image, and navigation requires complex spatial reasoning. General-purpose vision-language models (VLMs) often struggle to identify instruction-relevant visual evidence from such dense aerial observations. We propose AeroGuide, a grounded aerial VLN framework built on Qwen3-VL. AeroGuide introduces Navigation-conditioned Visual Token Routing (NVTR), which selects instruction-relevant visual tokens conditioned on the current observation, UAV pose, and temporal landmark memory. AeroGuide maintains an egocentric temporal landmark memory that retains compact landmark evidence rather than full historical frames. The model is trained through multiple phases, including supervised learning, reasoning distillation, and simulator-based policy optimization, to improve grounded action prediction and closed-loop navigation. On the OpenFly benchmark, AeroGuide improves navigation success rate from 34.3% to 45.1%, a 31.5% relative improvement over the best-performing prior baseline. Ablation studies show that explicit visual grounding and compact temporal memory are key contributors to this improvement, demonstrating the effectiveness of grounded navigation for aerial VLN. Project page is available at https://aeroguide-frontend-iota.vercel.app/.",
     "arxiv_id": null,

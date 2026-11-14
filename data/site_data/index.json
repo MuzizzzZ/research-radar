@@ -3,7 +3,7 @@
     {
       "id": "secure-uav-ris",
       "title": "Joint Trajectory and Passive Beamforming Design for Secure UAV-RIS Communication Systems",
-      "today_citations": 1,
+      "today_citations": 0,
       "today_related": 0,
       "topic_id": "uav-ris"
     },
@@ -15,37 +15,38 @@
       "topic_id": "vln"
     }
   ],
-  "generated_at": "2026-11-13",
+  "generated_at": "2026-11-14",
   "issues": [
+    "Semantic Scholar citation fetch failed for baseline secure-uav-ris: Semantic Scholar API rate limit exceeded.",
     "Semantic Scholar citation fetch failed for baseline room-to-room: 404 Client Error: Not Found for url: https://api.semanticscholar.org/graph/v1/paper/DOI:10.1109%2Fcvpr.2018.00387/citations?fields=citingPaper.paperId%2CcitingPaper.title%2CcitingPaper.abstract%2CcitingPaper.authors%2CcitingPaper.venue%2CcitingPaper.year%2CcitingPaper.publicationDate%2CcitingPaper.externalIds%2CcitingPaper.url%2CcitingPaper.openAccessPdf%2CcitingPaper.citationCount%2CcitingPaper.referenceCount&limit=40&offset=0"
   ],
-  "latest_report_date": "2026-11-13",
+  "latest_report_date": "2026-11-14",
   "project_name": "research-radar",
   "recent_papers": [
     {
-      "abstract": "The multi-uncrewed aerial vehicle (UAV)-assisted multi-access edge computing network (MU-MEC) is emerging in the industrial Internet of Things (IIoT) for assisting resource-limited mobile devices (MDs) in processing computation-intensive tasks. To further support mission-critical IIoT applications with strict latency and reliability demands, integrating ultra-reliable and low-latency communications (URLLC) into MU-MEC is essential. However, most existing URLLC-enabled MU-MEC studies lack a unified architecture that considers both UAV control and data links, despite the importance of UAV control for stable multi-UAV coordination. Moreover, achieving efficient computation offloading while fulfilling communication reliability and security remains a key challenge. This paper proposes a novel URLLC-based MU-MEC that balances reliability, security, and efficiency while considering both UAV control and data links. We further formulate a joint UAV placement, MD association, task reassignment, and resource allocation problem to maximize the data volume reliably and securely transmitted and simultaneously minimize system latency and energy consumption. To solve this, we propose HCNN-SAC, a hierarchical multi-agent solution that employs Soft Actor-Critic (SAC) within a three-layered training framework and incorporates convolutional neural networks (CNNs) for enhanced state representation. Finally, we evaluate the reliability, security, and efficiency performance of the proposed solution.",
-      "arxiv_id": null,
+      "abstract": "UAV vision-language navigation (UAV-VLN) focuses on enabling an aerial agent to follow natural-language instructions in open 3D environments from egocentric visual observations. Current approaches suffer from three coupled issues: weak grounding of instruction-relevant landmarks in visual observations, insufficient exploitation of long-horizon history, and unstable decisions under local traps or repeated exploration. To address these issues, we propose a unified semantic-to-decision framework. First, we present an instruction-grounded semantic enhancement module that injects object-level semantics and relative spatial cues into the current observation state. Subsequently, we develop a relevance-aware dynamic temporal aggregation strategy that reweights the full history buffer while converting a few high-relevance frames into structured landmark prompts for the decoder. Finally, we devise a topology-aware decision method that combines local-optimum cognition with group-relative policy optimization under progress, goal, semantic, and path-compliance rewards. Experiments on the widely used AerialVLN and OpenFly benchmarks clearly demonstrate that our method achieves state-of-the-art performance.",
+      "arxiv_id": "7308.38365",
       "authors": [
-        "Ming-Tao He",
-        "Ya-Li Chen",
-        "Min Liu"
+        "Zeyuan Ma",
+        "Jiaxin Chen",
+        "Di Huang"
       ],
-      "baseline_ids": [
-        "secure-uav-ris"
-      ],
-      "best_url": "https://www.semanticscholar.org/paper/87e43928e1698143e7b38994d70266aceb2efd81",
-      "canonical_id": "doi:10.1109/tmc.2026.3732290",
-      "doi": "10.1109/tmc.2026.3732290",
+      "baseline_ids": [],
+      "best_url": "https://doi.org/10.1145/3767308.3836562",
+      "canonical_id": "doi:10.1145/3767308.3836562",
+      "doi": "10.1145/3767308.3836562",
       "label": "candidate",
-      "openalex_id": null,
-      "publication_date": "2026-12-01",
-      "reason": "direct citation to baseline",
+      "openalex_id": "https://openalex.org/W7202194400",
+      "publication_date": "2026-11-09",
+      "reason": "title hit x1, abstract hit x1",
       "relation_type": null,
-      "score": 7.5,
-      "semanticscholar_id": "87e43928e1698143e7b38994d70266aceb2efd81",
-      "title": "Reliability-Security-Efficiency Trade-Offs in Multi-UAV-Assisted MEC for URLLC",
-      "topic_ids": [],
-      "venue": "IEEE Transactions on Mobile Computing",
+      "score": 4.5,
+      "semanticscholar_id": null,
+      "title": "From Semantic Grounding to Decision Optimization: A Unified Framework for Long-Horizon UAV Vision-Language Navigation",
+      "topic_ids": [
+        "vln"
+      ],
+      "venue": "ACM International Conference on Multimedia (ACM MM)",
       "year": 2026
     }
   ],
@@ -61,8 +62,8 @@
     {
       "id": "vln",
       "name": "Vision-Language Navigation",
-      "today_count": 0,
-      "total_papers": 45
+      "today_count": 1,
+      "total_papers": 46
     }
   ]
 }

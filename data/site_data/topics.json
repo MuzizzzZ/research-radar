@@ -17,6 +17,32 @@
       "name": "Vision-Language Navigation",
       "papers": [
         {
+          "abstract": "UAV vision-language navigation (UAV-VLN) focuses on enabling an aerial agent to follow natural-language instructions in open 3D environments from egocentric visual observations. Current approaches suffer from three coupled issues: weak grounding of instruction-relevant landmarks in visual observations, insufficient exploitation of long-horizon history, and unstable decisions under local traps or repeated exploration. To address these issues, we propose a unified semantic-to-decision framework. First, we present an instruction-grounded semantic enhancement module that injects object-level semantics and relative spatial cues into the current observation state. Subsequently, we develop a relevance-aware dynamic temporal aggregation strategy that reweights the full history buffer while converting a few high-relevance frames into structured landmark prompts for the decoder. Finally, we devise a topology-aware decision method that combines local-optimum cognition with group-relative policy optimization under progress, goal, semantic, and path-compliance rewards. Experiments on the widely used AerialVLN and OpenFly benchmarks clearly demonstrate that our method achieves state-of-the-art performance.",
+          "arxiv_id": "7308.38365",
+          "authors": [
+            "Zeyuan Ma",
+            "Jiaxin Chen",
+            "Di Huang"
+          ],
+          "baseline_ids": [],
+          "best_url": "https://doi.org/10.1145/3767308.3836562",
+          "canonical_id": "doi:10.1145/3767308.3836562",
+          "doi": "10.1145/3767308.3836562",
+          "label": "candidate",
+          "openalex_id": "https://openalex.org/W7202194400",
+          "publication_date": "2026-11-09",
+          "reason": "title hit x1, abstract hit x1",
+          "relation_type": "topic",
+          "score": 4.5,
+          "semanticscholar_id": null,
+          "title": "From Semantic Grounding to Decision Optimization: A Unified Framework for Long-Horizon UAV Vision-Language Navigation",
+          "topic_ids": [
+            "vln"
+          ],
+          "venue": "ACM International Conference on Multimedia (ACM MM)",
+          "year": 2026
+        },
+        {
           "abstract": "Training-free Vision-Language Navigation (VLN) agents powered by foundation models can follow instructions and explore 3D environments. However, existing approaches rely on greedy frontier selection and passive spatial memory, leading to inefficient behaviors such as local oscillation and redundant revisiting. We argue that this stems from a lack of metacognitive capabilities: the agent cannot monitor its exploration progress, diagnose strategy failures, or adapt accordingly. To address this, we propose MetaNav, a metacognitive navigation agent integrating spatial memory, history-aware planning, and reflective correction. Spatial memory builds a persistent 3D semantic map. History-aware planning penalizes revisiting to improve efficiency. Reflective correction detects stagnation and uses an LLM to generate corrective rules that guide future frontier selection. Experiments on GOAT-Bench, HM3D-OVON, and A-EQA show that MetaNav achieves state-of-the-art performance while reducing VLM queries by 20.7%, demonstrating that metacognitive reasoning significantly improves robustness and efficiency. The code is available at https://github.com/perfectlxy7/MetaNav.",
           "arxiv_id": "7308.38354",
           "authors": [
@@ -1269,8 +1295,8 @@
         "embodied navigation language grounding",
         "vln instruction following"
       ],
-      "today_count": 0,
-      "total_papers": 45
+      "today_count": 1,
+      "total_papers": 46
     }
   ]
 }
