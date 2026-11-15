@@ -15,43 +15,16 @@
       "topic_id": "vln"
     }
   ],
-  "generated_at": "2026-11-14",
+  "generated_at": "2026-11-15",
   "issues": [
     "Semantic Scholar citation fetch failed for baseline secure-uav-ris: Semantic Scholar API rate limit exceeded.",
     "Semantic Scholar citation fetch failed for baseline room-to-room: 404 Client Error: Not Found for url: https://api.semanticscholar.org/graph/v1/paper/DOI:10.1109%2Fcvpr.2018.00387/citations?fields=citingPaper.paperId%2CcitingPaper.title%2CcitingPaper.abstract%2CcitingPaper.authors%2CcitingPaper.venue%2CcitingPaper.year%2CcitingPaper.publicationDate%2CcitingPaper.externalIds%2CcitingPaper.url%2CcitingPaper.openAccessPdf%2CcitingPaper.citationCount%2CcitingPaper.referenceCount&limit=40&offset=0"
   ],
-  "latest_report_date": "2026-11-14",
+  "latest_report_date": "2026-11-15",
   "project_name": "research-radar",
-  "recent_papers": [
-    {
-      "abstract": "UAV vision-language navigation (UAV-VLN) focuses on enabling an aerial agent to follow natural-language instructions in open 3D environments from egocentric visual observations. Current approaches suffer from three coupled issues: weak grounding of instruction-relevant landmarks in visual observations, insufficient exploitation of long-horizon history, and unstable decisions under local traps or repeated exploration. To address these issues, we propose a unified semantic-to-decision framework. First, we present an instruction-grounded semantic enhancement module that injects object-level semantics and relative spatial cues into the current observation state. Subsequently, we develop a relevance-aware dynamic temporal aggregation strategy that reweights the full history buffer while converting a few high-relevance frames into structured landmark prompts for the decoder. Finally, we devise a topology-aware decision method that combines local-optimum cognition with group-relative policy optimization under progress, goal, semantic, and path-compliance rewards. Experiments on the widely used AerialVLN and OpenFly benchmarks clearly demonstrate that our method achieves state-of-the-art performance.",
-      "arxiv_id": "7308.38365",
-      "authors": [
-        "Zeyuan Ma",
-        "Jiaxin Chen",
-        "Di Huang"
-      ],
-      "baseline_ids": [],
-      "best_url": "https://doi.org/10.1145/3767308.3836562",
-      "canonical_id": "doi:10.1145/3767308.3836562",
-      "doi": "10.1145/3767308.3836562",
-      "label": "candidate",
-      "openalex_id": "https://openalex.org/W7202194400",
-      "publication_date": "2026-11-09",
-      "reason": "title hit x1, abstract hit x1",
-      "relation_type": null,
-      "score": 4.5,
-      "semanticscholar_id": null,
-      "title": "From Semantic Grounding to Decision Optimization: A Unified Framework for Long-Horizon UAV Vision-Language Navigation",
-      "topic_ids": [
-        "vln"
-      ],
-      "venue": "ACM International Conference on Multimedia (ACM MM)",
-      "year": 2026
-    }
-  ],
-  "today_new_global": 1,
-  "today_new_total": 1,
+  "recent_papers": [],
+  "today_new_global": 0,
+  "today_new_total": 0,
   "topics": [
     {
       "id": "uav-ris",
@@ -62,7 +35,7 @@
     {
       "id": "vln",
       "name": "Vision-Language Navigation",
-      "today_count": 1,
+      "today_count": 0,
       "total_papers": 46
     }
   ]
