@@ -1,16 +1,15 @@
 {
-  "candidates_collected": 48,
-  "deduped_count": 43,
-  "generated_at": "2026-11-18",
+  "candidates_collected": 49,
+  "deduped_count": 34,
+  "generated_at": "2026-11-19",
   "issues": [
-    "OpenAlex topic fetch failed for uav-ris / 'aerial intelligent reflecting surface': HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works?search=aerial+intelligent+reflecting+surface&sort=publication_date%3Adesc&page=1&per-page=13&filter=from_publication_date%3A2026-11-12%2Cto_publication_date%3A2026-11-18 (Caused by ResponseError('too many 429 error responses'))",
     "Semantic Scholar citation fetch failed for baseline secure-uav-ris: Semantic Scholar API rate limit exceeded.",
     "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
   "new_global_count": 0,
   "new_scope_count": 0,
-  "report_date": "2026-11-18",
+  "report_date": "2026-11-19",
   "selected_count": 0,
-  "window_end": "2026-11-18",
-  "window_start": "2026-11-12"
+  "window_end": "2026-11-19",
+  "window_start": "2026-11-13"
 }
