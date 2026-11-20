@@ -117,7 +117,7 @@
           "arxiv_id": null,
           "authors": [
             "Souradeep Deb",
-            "Nishith D. Tripathi",
+            "N. Tripathi",
             "Jeffrey H. Reed"
           ],
           "baseline_ids": [
@@ -477,7 +477,7 @@
             "Wei Zhang",
             "Xiaopeng Liang",
             "Qian Deng",
-            "Feng Shu",
+            "F. Shu",
             "Zhi Zhang"
           ],
           "baseline_ids": [
@@ -534,7 +534,7 @@
             "Guang-Chen Yu",
             "Xiaopeng Liang",
             "Zhuang Zhang",
-            "Feng Shu"
+            "F. Shu"
           ],
           "baseline_ids": [
             "secure-uav-ris"
@@ -666,7 +666,7 @@
           "arxiv_id": null,
           "authors": [
             "Ming-Hao Chen",
-            "Feng Shu",
+            "F. Shu",
             "Min Zhu",
             "Xiao-Bo Zhou",
             "Jia-Jia Liu"
