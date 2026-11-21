@@ -15,15 +15,45 @@
       "topic_id": "vln"
     }
   ],
-  "generated_at": "2026-11-20",
+  "generated_at": "2026-11-21",
   "issues": [
-    "Semantic Scholar citation fetch failed for baseline room-to-room: 404 Client Error: Not Found for url: https://api.semanticscholar.org/graph/v1/paper/DOI:10.1109%2Fcvpr.2018.00387/citations?fields=citingPaper.paperId%2CcitingPaper.title%2CcitingPaper.abstract%2CcitingPaper.authors%2CcitingPaper.venue%2CcitingPaper.year%2CcitingPaper.publicationDate%2CcitingPaper.externalIds%2CcitingPaper.url%2CcitingPaper.openAccessPdf%2CcitingPaper.citationCount%2CcitingPaper.referenceCount&limit=40&offset=0"
+    "Semantic Scholar citation fetch failed for baseline secure-uav-ris: Semantic Scholar API rate limit exceeded.",
+    "Semantic Scholar citation fetch failed for baseline room-to-room: Semantic Scholar API rate limit exceeded."
   ],
-  "latest_report_date": "2026-11-20",
+  "latest_report_date": "2026-11-21",
   "project_name": "research-radar",
-  "recent_papers": [],
-  "today_new_global": 0,
-  "today_new_total": 0,
+  "recent_papers": [
+    {
+      "abstract": "Long-horizon vision-language navigation (VLN) requires agents to track instruction progress and recover from local errors before they propagate across subtasks. However, executors trained on expert trajectories encounter policy-induced state shifts during deployment, and their stop signals do not reliably indicate subtask completion. We introduce Learning and Verifying Progress for VLN (LeaP-VLN), an agentic VLN system that couples progress-aware execution with independent progress verification through plan--execute--verify--recover cycles. LeaP-VLN leverages progress both explicitly, through a progress verifier that verifies subtask completion before the agent advances and triggers dual-phase recovery upon route deviation, and implicitly, by co-training the executor on progress reasoning and action prediction to enhance the executor's progress awareness and corrective control. To adapt the executor to this closed-loop interface, we propose a two-stage progress-enhanced curriculum: behavior cloning on expert demonstrations, followed by joint training on demonstrations, expert action corrections, and progress-reasoning supervision. Policy-generated trajectories expose the executor to both intra-subtask drift and inter-subtask state shifts, aligning training with the deviations encountered during closed-loop execution. Extensive experiments on R2R-CE and RxR-CE demonstrate state-of-the-art success rates among monocular methods trained without additional navigation datasets, while real-world experiments further validate the effectiveness of LeaP-VLN in long-horizon navigation.",
+      "arxiv_id": "2611.20676",
+      "authors": [
+        "Kangjie Zhou",
+        "Sukai Wang",
+        "Yuhan Xiao",
+        "Qinghang Liu",
+        "Zhejia Wen"
+      ],
+      "baseline_ids": [],
+      "best_url": "https://arxiv.org/abs/2611.20676",
+      "canonical_id": "doi:10.48550/arxiv.2611.20676",
+      "doi": "10.48550/arxiv.2611.20676",
+      "label": "candidate",
+      "openalex_id": "https://openalex.org/W7235485184",
+      "publication_date": "2026-11-16",
+      "reason": "title hit x1, abstract hit x1",
+      "relation_type": null,
+      "score": 4.5,
+      "semanticscholar_id": null,
+      "title": "Learning and Verifying Progress: Closed-Loop Agentic Planning with Progress-Enhanced Execution for Long-Horizon Vision-Language Navigation",
+      "topic_ids": [
+        "vln"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "year": 2026
+    }
+  ],
+  "today_new_global": 1,
+  "today_new_total": 1,
   "topics": [
     {
       "id": "uav-ris",
@@ -34,8 +64,8 @@
     {
       "id": "vln",
       "name": "Vision-Language Navigation",
-      "today_count": 0,
-      "total_papers": 46
+      "today_count": 1,
+      "total_papers": 47
     }
   ]
 }
