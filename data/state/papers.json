@@ -4083,6 +4083,63 @@
     "venue": "arXiv (Cornell University)",
     "year": 2026
   },
+  "doi:10.48550/arxiv.2611.32218": {
+    "abstract": "Vision-Language Navigation (VLN) requires an embodied agent to relate past experience, current spatial state, and future motion while following natural-language instructions. Recent approaches improve these capabilities through long-horizon memory, state-aware reasoning, and future prediction, yet these components are often modeled separately, leaving navigation state evolution insufficiently connected across time. We argue that camera pose provides a natural geometric representation for bridging past, present, and future states. Based on this insight, we propose PoseVLN, a pose-aware VLN framework that jointly learns navigation decisions and geometric state evolution. PoseVLN organizes visual memory and the current observation in an episode-relative coordinate frame, and jointly predicts the next K navigation actions together with a local $Δ$Pose over the same horizon. The predicted $Δ$Pose is composed with the current trajectory-level pose to obtain the future pose state, which is recursively propagated throughout navigation, forming a continuous geometric state evolution from past memory to future motion. Experiments on the R2R-CE and RxR-CE Val-Unseen splits demonstrate the effectiveness of explicitly modeling geometric state evolution, with PoseVLN outperforming the strongest compared baselines by 2.6 and 2.9 percentage points in success rate, respectively, using only single RGB observations.",
+    "arxiv_id": "2611.32218",
+    "authors": [
+      "Pengyu Hou",
+      "Mingfei Han",
+      "Haihong Hao",
+      "Xiaolong Wu",
+      "Bo Dong",
+      "Xiaojun Chang",
+      "Salman Khan",
+      "Bin Shi"
+    ],
+    "canonical_id": "doi:10.48550/arxiv.2611.32218",
+    "citations_count": null,
+    "discovered_date": null,
+    "doi": "10.48550/arxiv.2611.32218",
+    "external_ids": {
+      "arxiv": "https://arxiv.org/abs/2611.32218",
+      "doi": "https://doi.org/10.48550/arxiv.2611.32218",
+      "openalex": "https://openalex.org/W7239743646"
+    },
+    "label": "candidate",
+    "last_updated": null,
+    "normalized_title": "posevln learning geometric state evolution for vision language navigation",
+    "openalex_id": "https://openalex.org/W7239743646",
+    "pdf_url": null,
+    "primary_reason": "title hit x1, abstract hit x1",
+    "publication_date": "2026-11-24",
+    "reasons": [
+      "title hit x1, abstract hit x1"
+    ],
+    "references_count": null,
+    "scopes": [
+      {
+        "label": "candidate",
+        "reason": "title hit x1, abstract hit x1",
+        "relation_type": "topic",
+        "scope_id": "vln",
+        "scope_type": "topic",
+        "score": 4.5
+      }
+    ],
+    "score": 4.5,
+    "semanticscholar_id": null,
+    "source_names": [
+      "openalex"
+    ],
+    "source_tags": [
+      "topic:vln:query:vln instruction following"
+    ],
+    "title": "PoseVLN: Learning Geometric State Evolution for Vision-Language Navigation",
+    "title_hash": "48b5bde4ed0a69d1b827d6ff7efbeb94f4686400",
+    "url": "https://doi.org/10.48550/arxiv.2611.32218",
+    "venue": "arXiv",
+    "year": 2026
+  },
   "s2:08ba2877828708ace87d13acded59d47864d6659": {
     "abstract": null,
     "arxiv_id": null,
