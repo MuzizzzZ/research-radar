@@ -4109,7 +4109,7 @@
     "last_updated": null,
     "normalized_title": "posevln learning geometric state evolution for vision language navigation",
     "openalex_id": "https://openalex.org/W7239743646",
-    "pdf_url": null,
+    "pdf_url": "https://arxiv.org/pdf/2611.32218",
     "primary_reason": "title hit x1, abstract hit x1",
     "publication_date": "2026-11-24",
     "reasons": [
@@ -4136,7 +4136,7 @@
     ],
     "title": "PoseVLN: Learning Geometric State Evolution for Vision-Language Navigation",
     "title_hash": "48b5bde4ed0a69d1b827d6ff7efbeb94f4686400",
-    "url": "https://doi.org/10.48550/arxiv.2611.32218",
+    "url": "https://arxiv.org/abs/2611.32218",
     "venue": "arXiv",
     "year": 2026
   },

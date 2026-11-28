@@ -27,7 +27,7 @@
             "Bo Dong"
           ],
           "baseline_ids": [],
-          "best_url": "https://doi.org/10.48550/arxiv.2611.32218",
+          "best_url": "https://arxiv.org/abs/2611.32218",
           "canonical_id": "doi:10.48550/arxiv.2611.32218",
           "doi": "10.48550/arxiv.2611.32218",
           "label": "candidate",
@@ -1353,7 +1353,7 @@
         "embodied navigation language grounding",
         "vln instruction following"
       ],
-      "today_count": 1,
+      "today_count": 0,
       "total_papers": 48
     }
   ]
